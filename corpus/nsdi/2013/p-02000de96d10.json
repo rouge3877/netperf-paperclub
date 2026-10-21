@@ -1,0 +1,13 @@
+{
+  "id": "p-02000de96d10",
+  "title": "Embassies: Radically Refactoring the Web",
+  "abstract": "Web browsers ostensibly provide strong isolation for the client-side components of web applications. Unfortunately, this isolation is weak in practice; as browsers add increasingly rich APIs to please developers, these complex interfaces bloat the trusted computing base and erode cross-app isolation boundaries. We reenvision the web interface based on the notion of a pico-datacenter, the client-side version of a shared server datacenter. Mutually untrusting vendors run their code on the user’s computer in low-level native code containers that communicate with the outside world only via IP. Just as in the cloud datacenter, the simple semantics makes isolation tractable, yet native code gives vendors the freedom to run any software stack. Since the datacenter model is designed to be robust to malicious tenants, it is never dangerous for the user to click a link and invite a possibly-hostile party onto the client.",
+  "authors": [
+    "Jon Howell",
+    "Bryan Parno",
+    "John R. Douceur"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/howell"
+}

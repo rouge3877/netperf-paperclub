@@ -1,0 +1,14 @@
+{
+  "id": "p-3f4a9f65f682",
+  "title": "Bridging the Data Charging Gap in the Cellular Edge",
+  "abstract": "The 4G/5G cellular edge promises low-latency experiences anywhere, anytime. However, data charging gaps can arise between the cellular operators and edge application vendors, and cause over-/under-billing. We find that such gap can come from data loss, selfish charging, or both. It can be amplified in the edge, due to its low-latency requirements. We devise TLC, a Trusted, Loss-tolerant Charging scheme for the cellular edge. In its core, TLC enables lossselfishness cancellation to bridge the gap, and constructs publicly verifiable, cryptographic proof-of-charging for mutual trust. We implement TLC with commodity edge nodes, OpenEPC and small cells. Our experiments in various edge scenarios validate TLC’s viability of reducing the gap with marginal latency and other overhead.",
+  "authors": [
+    "Yuanjie Li",
+    "Kyu-Han Kim",
+    "Christina Vlachou",
+    "Junqing Xie"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2019,
+  "url": "https://dl.acm.org/doi/10.1145/3341302.3342074"
+}

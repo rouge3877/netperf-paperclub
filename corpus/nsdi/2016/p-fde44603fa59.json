@@ -1,0 +1,12 @@
+{
+  "id": "p-fde44603fa59",
+  "title": "Mind the Gap: Towards a Backpressure-Based Transport Protocol for the Tor Network",
+  "abstract": "Tor has become the prime example for anonymous communication systems. With increasing popularity, though, Tor is also faced with increasing load. In this paper, we tackle one of the fundamental problems in today’s anonymity networks: network congestion. We show that the current Tor design is not able to adjust the load appropriately, and we argue that finding good solutions to this problem is hard for anonymity overlays in general. This is due to the long end-to-end delay in such networks, combined with limitations on the allowable feedback due to anonymity requirements. We introduce a design for a tailored transport protocol. It combines latency-based congestion control per overlay hop with a backpressurebased flow control mechanism for inter-hop signalling. The resulting overlay is able to react locally and thus rapidly to varying network conditions. It allocates available resources more evenly than the current Tor design; this is beneficial in terms of both fairness and anonymity. We show that it yields superior performance and improved fairness—between circuits, and also between the anonymity overlay and concurrent applications.",
+  "authors": [
+    "Florian Tschorsch",
+    "Björn Scheuermann"
+  ],
+  "conference": "NSDI",
+  "year": 2016,
+  "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/tschorsch"
+}

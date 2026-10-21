@@ -1,0 +1,13 @@
+{
+  "id": "p-823c2b59b681",
+  "title": "Skip-Correlation for Multi-Power Wireless Carrier Sensing",
+  "abstract": "Carrier sensing is a key mechanism that enables decentralized sharing of unlicensed spectrum. However, carrier sensing in its current form is fundamentally unsuitable when devices transmit at different power levels, a scenario increasingly common given the diversity of Wi-Fi APs in the market and the need for Wi- Fi’s co-existence with new upcoming standards such as LAA/LWA. The primary contribution of this paper is a novel carrier sensing mechanism – skip correlation – that extends carrier sensing to accommodate multiple transmit power levels. Through an FPGA based implementation on the WARP platform, we demonstrate the effectiveness of our technique in a variety of scenarios including support for backward compatibility.",
+  "authors": [
+    "Romil Bhardwaj",
+    "Krishna Chintalapudi",
+    "Ramachandran Ramjee"
+  ],
+  "conference": "NSDI",
+  "year": 2017,
+  "url": "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/bhardwaj"
+}

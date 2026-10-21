@@ -1,0 +1,19 @@
+{
+  "id": "p-8b994f7910df",
+  "title": "Open educational resources for computer networking",
+  "abstract": "To reflect the importance of network technologies, networking courses are now part of the core materials of Computer Science degrees. We report our experience in jointly developing an opensource ebook for the introductory course, and a series of open educational resources for both the introductory and advanced networking courses. These ensure students actively engage with the course materials, through a hands-on approach; and scale to the larger classrooms and limited teaching staff, by leveraging opensource resources and an automated grading platform to provide feedback. We evaluate the impact of these pedagogical innovations by surveying the students, who indicated that these were helpful for them to master the course materials.",
+  "authors": [
+    "O. Bonaventure",
+    "Q. De Coninck",
+    "F. Duchêne",
+    "A. Gégo",
+    "M. Jadin",
+    "F. Michel",
+    "M. Piraux",
+    "C. Poncin",
+    "O. Tilmans"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2021,
+  "url": "https://dl.acm.org/doi/10.1145/3411740.3411746"
+}

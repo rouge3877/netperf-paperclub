@@ -1,0 +1,12 @@
+{
+  "id": "p-2b4746d9b293",
+  "title": "Values and Networks: Steps Toward Exploring their Relationships",
+  "abstract": "Many technical systems of the Information and Communication Technology (ICT) sector enable, structure and/or constrain social interactions. Thereby, they influence or implement certain values, including human rights, and affect or raise conflicts among values. The ongoing developments toward an “Internet of everything” is likely to lead to further value conflicts. This trend illustrates that a better understanding of the relationships between social values and networks is urgently needed because it is largely unknown what values lie behind protocols, design principles, or technical and organizational options of the Internet. This paper focuses on the complex steps of realizing human rights in Internet architectures and protocols as well as in Internetbased products and services. Besides direct implementation of values in Internet protocols, there are several other options that can indirectly contribute to realizing human rights via political processes and market choices. Eventually, a better understanding of what values can be realized by networks in general, what technical measures may affect certain values, and where complementary institutional developments are needed may lead toward a methodology for considering technical and institutional systems together.",
+  "authors": [
+    "Carsten Orwat",
+    "Roland Bless"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2016,
+  "url": "https://dl.acm.org/doi/10.1145/2935634.2935640"
+}

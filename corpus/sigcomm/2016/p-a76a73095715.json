@@ -1,0 +1,15 @@
+{
+  "id": "p-a76a73095715",
+  "title": "The Good, the Bad, and the Differences: Better Network Diagnostics with Differential Provenance",
+  "abstract": "In this paper, we propose a new approach to diagnosing problems in distributed systems. Our approach is based on the insight that many of the trickiest problems are anomalies. For instance, in a network, problems often affect only a small fraction of the traffic (perhaps a certain subnet), or they only manifest infrequently. Thus, it is quite common for the operator to have “examples” of both working and non-working traffic readily available – perhaps a packet that was misrouted, and a similar packet that was routed correctly. In this case, the cause of the problem is likely to be wherever the two packets were treated differently by the network. We present the design of a debugger that can leverage this information using a novel concept that we call differential provenance. Differential provenance tracks the causal connections between network states and state changes, just like classical provenance, but it can additionally perform rootcause analysis by reasoning about the differences between two provenance trees. We have built a diagnostic tool that is based on differential provenance, and we have used our tool to debug a number of complex, realistic problems in two scenarios: software-defined networks and MapReduce jobs. Our results show that differential provenance can deliver very concise diagnostic information; in many cases, it can even identify the precise root cause of the problem.",
+  "authors": [
+    "Ang Chen",
+    "Yang Wu",
+    "Andreas Haeberlen",
+    "Wenchao Zhou",
+    "Boon Thau Loo"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2016,
+  "url": "https://dl.acm.org/doi/10.1145/2934872.2934910"
+}

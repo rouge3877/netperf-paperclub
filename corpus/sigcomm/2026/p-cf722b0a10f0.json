@@ -1,0 +1,24 @@
+{
+  "id": "p-cf722b0a10f0",
+  "title": "Balancing and Beyond-Communication-Centric Optimizations in Expert Parallelism",
+  "abstract": "The Mixture-of-Experts (MoE) architecture scales large language models (LLMs) to trillions of parameters by activating only a small subset of experts per token. In practice, MoE inference is commonly deployed with Expert Parallelism (EP), which places whole experts on different GPUs to preserve kernel efficiency. However, production EP deployments often suffer from two bottlenecks: (1) expert workload imbalance, which creates computation and communication stragglers, and (2) communication inefficiency, where inter-GPU transfers dominate latency even after balancing. We present EPIC, an experience-driven EP inference system that addresses these issues progressively for real deployments. EPIC mitigates imbalance via performance-aware expert migration and runtime expert activation, and then improves communication with topology-adaptive transport kernels and fine-grained computation–communication overlap. EPIC has been deployed at scale across O(10K) GPUs in our online inference service for both open-source models (e.g., Qwen3-Coder and DeepSeek-R1) and internal models, reducing communication time and per-token latency by up to 40% and 21%, respectively.",
+  "authors": [
+    "Jiamin Cao",
+    "Qingxu Li",
+    "Yaozhong Liu",
+    "Jiaqi Gao",
+    "Yan Zhang",
+    "Shangfeng Shi",
+    "Zian Chen",
+    "Yizhi Wang",
+    "Jun Zhang",
+    "Kunling He",
+    "Ennan Zhai",
+    "Jianbo Dong",
+    "Binzhang Fu",
+    "Dennis Cai"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2026,
+  "url": "https://dl.acm.org/doi/10.1145/3789240.3829201"
+}

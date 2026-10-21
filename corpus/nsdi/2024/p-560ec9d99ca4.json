@@ -1,0 +1,13 @@
+{
+  "id": "p-560ec9d99ca4",
+  "title": "Multitenant In-Network Acceleration with SwitchVM",
+  "abstract": "We propose a practical approach to implementing multitenancy on programmable network switches to make in-network acceleration accessible to cloud users. We introduce a Switch Virtual Machine (SwitchVM), that is deployed on the switches and offers an expressive instruction set and program state abstractions. Tenant programs, called Data-Plane Filters ( DPF s), are executed on top of SwitchVM in a sandbox with memory, network and state isolation policies controlled by network operators. The packets that trigger DPF execution include the code to execute or a reference to the DPF s deployed in the switch. DPF s are Turing-complete, may maintain state in the packet and in switch virtual memory, may form a dynamic chain, and may steer packets to desired destinations, all while enforcing the operator’s policies. We demonstrate that this idea is practical by prototyping SwitchVM in P4 on Intel Tofino switches. We describe a variety of use cases that SwitchVM supports, and implement three complex applications from prior works – key-value store cache, load balancer and Paxos accelerator. We also show that SwitchVM provides strong performance isolation, zerooverhead runtime programmability, may hold two orders of magnitude more in-switch programs than existing techniques, and may support thousands of concurrent tenants each with its private state.",
+  "authors": [
+    "Sajy Khashab",
+    "Alon Rashelbach",
+    "Mark Silberstein"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/khashab"
+}

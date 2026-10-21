@@ -1,0 +1,14 @@
+{
+  "id": "p-f8fc357c1e21",
+  "title": "RPT: Re-architecting Loss Protection for Content-Aware Networks",
+  "abstract": "We revisit the design of redundancy-based loss protection schemes in light of recent advances in content-aware networking. Content-aware networks minimizes the overhead of redundancy, if the redundancy is introduced in a way that the network can understand. With this insight, we propose a new loss protection scheme called redundant packet transmission (RPT). Using redundant video streaming as an example, we show that our approach, unlike FEC in traditional networks, provides low latency with high robustness and is insensitive to parameter selection. We tackle practical issues such as minimizing the impact on other traffic and the network. We show that RPT provides a simple and general mechanism for application-specific control and flow prioritization.",
+  "authors": [
+    "Dongsu Han",
+    "Ashok Anand",
+    "Aditya Akella",
+    "Srinivasan Seshan"
+  ],
+  "conference": "NSDI",
+  "year": 2012,
+  "url": "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/han"
+}

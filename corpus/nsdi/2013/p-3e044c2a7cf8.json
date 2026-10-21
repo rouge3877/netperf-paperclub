@@ -1,0 +1,17 @@
+{
+  "id": "p-3e044c2a7cf8",
+  "title": "BOSS: Building Operating System Services",
+  "abstract": "Commercial buildings are attractive targets for introducing innovative cyber-physical control systems, because they are already highly instrumented distributed systems which consume large quantities of energy. However, they are not currently programmable in a meaningful sense because each building is constructed with vertically integrated, closed subsystems and without uniform abstractions to write applications against. We develop a set of operating system services called BOSS, which supports multiple portable, fault-tolerant applications on top of the distributed physical resources present in large commercial buildings. We evaluate our system based on lessons learned from deployments of many novel applications in our test building, a four-year-old, 140,000sf building with modern digital controls, as well as partial deployments at other sites.",
+  "authors": [
+    "Stephen Dawson-Haggerty",
+    "Andrew Krioukov",
+    "Jay Taneja",
+    "Sagar Karandikar",
+    "Gabe Fierro",
+    "Nikita Kitaev",
+    "David Culler"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/dawson-haggerty"
+}

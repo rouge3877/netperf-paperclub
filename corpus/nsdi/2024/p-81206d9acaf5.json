@@ -1,0 +1,16 @@
+{
+  "id": "p-81206d9acaf5",
+  "title": "MuCache-A General Framework for Caching in Microservice Graphs",
+  "abstract": "This paper introduces MuCache, a framework for extending arbitrary microservice applications with inter-service caches. MuCache significantly improves the performance of microservice graphs (commonly found in large applications like Uber or Twitter) by eliminating the need for one microservice to call another when the relevant state has not changed. MuCache is enabled by a novel non-blocking cache coherence and invalidation protocol for graph topologies that minimizes critical-path overhead. For this protocol, we prove a strong correctness result: any execution observed by the cache-enabled microservice application could have been observed by the original application without caches. Our evaluation on well-known microservice benchmarks shows that MuCache reduces the median request latency by up to 2.5×, and increases throughput by up to 60%.",
+  "authors": [
+    "Haoran Zhang",
+    "Konstantinos Kallas",
+    "Spyros Pavlatos",
+    "Rajeev Alur",
+    "Sebastian Angel",
+    "Vincent Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/zhang-haoran"
+}

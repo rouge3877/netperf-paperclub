@@ -1,0 +1,13 @@
+{
+  "id": "p-b2a5f1e10ca0",
+  "title": "Juggling the Jigsaw: Towards Automated Problem Inference from Network Trouble Tickets",
+  "abstract": "This paper presents NetSieve, a system that aims to do automated problem inference from network trouble tickets. Network trouble tickets are diaries comprising fixed fields and free-form text written by operators to document the steps while troubleshooting a problem. Unfortunately, while tickets carry valuable information for network management, analyzing them to do problem inference is extremely difficult—fixed fields are often inaccurate or incomplete, and the free-form text is mostly written in natural language. This paper takes a practical step towards automatically analyzing natural language text in network tickets to infer the problem symptoms, troubleshooting activities and resolution actions. Our system, NetSieve, combines statistical natural language processing (NLP), knowledge representation, and ontology modeling to achieve these goals. To cope with ambiguity in free-form text, NetSieve leverages learning from human guidance to improve its inference accuracy. We evaluate NetSieve on 10K+ tickets from a large cloud provider, and compare its accuracy using (a) an expert review, (b) a study with operators, and (c) vendor data that tracks device replacement and repairs. Our results show that NetSieve achieves 89%-100% accuracy and its inference output is useful to learn global problem trends. We have used NetSieve in several key network operations: analyzing device failure trends, understanding why network redundancy fails, and identifying device problem symptoms.",
+  "authors": [
+    "Rahul Potharaju",
+    "Navendu Jain",
+    "Cristina Nita-Rotaru"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/potharaju"
+}

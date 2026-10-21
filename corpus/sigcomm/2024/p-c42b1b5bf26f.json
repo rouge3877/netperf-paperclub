@@ -1,0 +1,16 @@
+{
+  "id": "p-c42b1b5bf26f",
+  "title": "Understanding the Host Network",
+  "abstract": "The host network integrates processor, memory, and peripheral interconnects to enable data transfer within the host. Several recent studies from production datacenters show that contention within the host network can have significant impact on end-to-end application performance. The goal of this paper is to build an in-depth understanding of such contention within the host network. We present domain-by-domain credit-based flow control, a conceptual abstraction to study the host network. We show that the host network performs flow control over different domains (subnetworks within the host network). Different applications may traverse different domains, and may thus observe different performance degradation upon contention within the host network. Exploring the host network from this lens allows us to (1) near-precisely explain contention within the host network and its impact on networked applications observed in previous studies; and (2) discover new, previously unreported, regimes of contention within the host network. More broadly, our study establishes that contention within the host network is not merely due to limited host network resources but rather due to the poor interplay between processor, memory, and peripheral interconnects within the host network. Moreover, contention within the host network has implications that are more far-reaching than the context of networked applications considered in previous studies: all our observations hold even when all applications are contained within a single host.",
+  "authors": [
+    "Midhul Vuppalapati",
+    "Saksham Agarwal",
+    "Henry Schuh",
+    "Baris Kasikci",
+    "Arvind Krishnamurthy",
+    "Rachit Agarwal"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672271"
+}

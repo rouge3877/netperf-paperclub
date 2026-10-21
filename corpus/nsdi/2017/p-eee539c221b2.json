@@ -1,0 +1,22 @@
+{
+  "id": "p-eee539c221b2",
+  "title": "vCorfu: A Cloud-Scale Object Store on a Shared Log",
+  "abstract": "This paper presents vCorfu, a strongly consistent cloudscale object store built over a shared log. vCorfu augments the traditional replication scheme of a shared log to provide fast reads and leverages a new technique, composable state machine replication, to compose large state machines from smaller ones, enabling the use of state machine replication to be used to efficiently in huge data stores. We show that vCorfu outperforms Cassandra, a popular state-of-the art N O SQL stores while providing strong consistency (opacity, read-own-writes), efficient transactions, and global snapshots at cloud scale.",
+  "authors": [
+    "Michael Wei",
+    "Amy Tai",
+    "Christopher J. Rossbach",
+    "Ittai Abraham",
+    "Maithem Munshed",
+    "Medhavi Dhawan",
+    "Jim Stabile",
+    "Udi Wieder",
+    "Scott Fritchie",
+    "Steven Swanson",
+    "Michael J. Freedman",
+    "Dahlia Malkhi"
+  ],
+  "conference": "NSDI",
+  "year": 2017,
+  "url": "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/wei-michael"
+}

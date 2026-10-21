@@ -1,0 +1,18 @@
+{
+  "id": "p-7c9fc30aa3a3",
+  "title": "UpFuzz-Detecting Data Format Incompatibility Bugs during Distributed Storage System Upgrade",
+  "abstract": "Data format incompatibility is a significant cause of cloud incidents during distributed system upgrades, often resulting in severe consequences such as data corruption and service unavailability. A majority of such bugs are only discovered post-release, largely due to the lack of automated testing techniques tailored specifically for the upgrade process. Traditional automated test generation methods face a unique challenge when applied to upgrade testing: the high cost associated with upgrading distributed storage systems due to system initialization. Therefore, the accurate selection of potential failure-inducing tests from the extensive pool of automatically generated tests becomes critical. In this work, we address this problem by proposing a novel approach to prioritize upgrade tests through analyzing data format properties over transitively persisted states: program states that are persisted to disk, directly or indirectly, through chains of memory copies by the old version, and eventually read by the new version after upgrade. Because data format incompatibility bugs happen due to translation errors of such states across versions, transitively persisted states satisfying unique data format properties related to changed data formats are particularly essential for testing. We build a likely invariant analysis engine that captures such properties as feedback for seed test selection in U P F UZZ , the automated testing engine for the distributed storage system upgrade procedure. U P F UZZ has detected 15 previously unknown upgrade failures caused by data format incompatibilities in the latest stable versions of Cassandra, HBase, and HDFS; developers have confirmed 8 of them. 7 are triggered exclusively with U P F UZZ ’s data format analysis. The detected bugs have severe consequences, with 6 crashing the cluster and 4 causing data loss or corruption.",
+  "authors": [
+    "Ke Han",
+    "Sruthi P C",
+    "Yayu Wang",
+    "Yaoxu Song",
+    "Bishal Basak Papan",
+    "Junwen Yang",
+    "Pedro Fonseca",
+    "Yongle Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/han"
+}

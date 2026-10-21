@@ -1,0 +1,16 @@
+{
+  "id": "p-5e10be5993f8",
+  "title": "PreAcher-Secure and Practical Password Pre-Authentication by Content Delivery Networks",
+  "abstract": "In today’s Internet, websites widely rely on password authentication for user logins. However, the intensive computation required for password authentication exposes web servers to Application-layer DoS (ADoS) attacks that exploit the login interfaces. Existing solutions fail to simultaneously prevent such ADoS attacks, preserve password secrecy, and maintain good usability. In this paper, we present PreAcher, a system architecture that incorporates third-party Content Delivery Networks (CDNs) into the password authentication process and offloads the authentication workload to CDNs without divulging the passwords to them. At the core of PreAcher is a novel three-party authentication protocol that combines Oblivious Pseudorandom Function (OPRF) and Locality- Sensitive Hashing (LSH). This protocol allows CDNs to preauthenticate users and thus filter out ADoS traffic without compromising password security. Our evaluations demonstrate that PreAcher significantly enhances the resilience of web servers against both ADoS attacks and preserves password security while introducing acceptable overheads. Notably, PreAcher can be deployed immediately by websites alone today, without modifications to client software or CDN infrastructure. We release the source code 1 of PreAcher to facilitate its deployment and future research.",
+  "authors": [
+    "Shihan Lin",
+    "Suting Chen",
+    "Yunming Xiao",
+    "Yanqi Gu",
+    "Aleksandar Kuzmanovic",
+    "Xiaowei Yang"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/lin-shihan"
+}

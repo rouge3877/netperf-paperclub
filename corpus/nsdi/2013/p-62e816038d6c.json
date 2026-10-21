@@ -1,0 +1,14 @@
+{
+  "id": "p-62e816038d6c",
+  "title": "Effective Straggler Mitigation: Attack of the Clones",
+  "abstract": "Small jobs, that are typically run for interactive data analyses in datacenters, continue to be plagued by disproportionately long-running tasks called stragglers. In the production clusters at Facebook and Microsoft Bing, even after applying state-of-the-art straggler mitigation techniques, these latency sensitive jobs have stragglers that are on average 8 times slower than the median task in that job. Such stragglers increase the average job duration by 47%. This is because current mitigation techniques all involve an element of waiting and speculation. We instead propose full cloning of small jobs, avoiding waiting and speculation altogether. Cloning of small jobs only marginally increases utilization because workloads show that while the majority of jobs are small, they only consume a small fraction of the resources. The main challenge of cloning is, however, that extra clones can cause contention for intermediate data. We use a technique, delay assignment, which efficiently avoids such contention. Evaluation of our system, Dolly , using production workloads shows that the small jobs speedup by 34% to 46% after state-of-the-art mitigation techniques have been applied, using just 5% extra resources for cloning.",
+  "authors": [
+    "Ganesh Ananthanarayanan",
+    "Ali Ghodsi",
+    "Scott Shenker",
+    "Ion Stoica"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/ananthanarayanan"
+}

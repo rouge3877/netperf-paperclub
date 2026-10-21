@@ -1,0 +1,16 @@
+{
+  "id": "p-142a6b46986c",
+  "title": "Surviving Failures in Bandwidth-Constrained Datacenters",
+  "abstract": "Datacenter networks have been designed to tolerate failures of network equipment and provide sufficient bandwidth. In practice, however, failures and maintenance of networking and power equipment often make tens to thousands of servers unavailable, and network congestion can increase service latency. Unfortunately, there exists an inherent tradeoff between achieving high fault tolerance and reducing bandwidth usage in network core; spreading servers across fault domains improves fault tolerance, but requires additional bandwidth, while deploying servers together reduces bandwidth usage, but also decreases fault tolerance. We present a detailed analysis of a large-scale Web application and its communication patterns. Based on that, we propose and evaluate a novel optimization framework that achieves both high fault tolerance and significantly reduces bandwidth usage in the network core by exploiting the skewness in the observed communication patterns.",
+  "authors": [
+    "Peter Bodík",
+    "Ishai Menache",
+    "Mosharaf Chowdhury",
+    "Pradeepkumar Mani",
+    "David A. Maltz",
+    "Ion Stoica"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2012,
+  "url": "https://dl.acm.org/doi/10.1145/2377677.2377760"
+}

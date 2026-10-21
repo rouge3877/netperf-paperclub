@@ -1,0 +1,21 @@
+{
+  "id": "p-592a6b1a522d",
+  "title": "Fine-Grained Replicated State Machines for a Cluster Storage System",
+  "abstract": "We describe the design and implementation of a consistent and fault-tolerant metadata index for a scalable block storage system. The block storage system supports the virtualized execution of legacy applications inside enterprise clusters by automatically distributing the stored blocks across the cluster’s storage resources. To support the availability and scalability needs of the block storage system, we develop a distributed index that provides a replicated and consistent keyvalue storage abstraction. The key idea underlying our design is the use of finegrained replicated state machines, wherein every key-value pair in the index is treated as a separate replicated state machine. This approach has many advantages over a traditional coarse-grained approach that represents an entire shard of data as a state machine: it enables effective use of multiple storage devices and cores, it is more robust to both short- and longterm skews in key access rates, and it can tolerate variations in key-value access latencies. The use of fine-grained replicated state machines, however, raises new challenges, which we address by co-designing the consensus protocol with the data store and streamlining the operation of the per-key replicated state machines. We demonstrate that fine-grained replicated state machines can provide significant performance benefits, characterize the performance of the system in the wild, and report on our experiences in building and deploying the system.",
+  "authors": [
+    "Ming Liu",
+    "Arvind Krishnamurthy",
+    "Harsha V. Madhyastha",
+    "Rishi Bhardwaj",
+    "Karan Gupta",
+    "Chinmay Kamat",
+    "Huapeng Yuan",
+    "Aditya Jaltade",
+    "Roger Liao",
+    "Pavan Konka",
+    "Anoop Jawahar"
+  ],
+  "conference": "NSDI",
+  "year": 2020,
+  "url": "https://www.usenix.org/conference/nsdi20/presentation/liu-ming"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "p-be0fd7cb6593",
+  "title": "A Computational Approach to Packet Classification",
+  "abstract": "Multi-field packet classification is a crucial component in modern software-defined data center networks. To achieve high throughput and low latency, state-of-the-art algorithms strive to fit the rule lookup data structures into on-die caches; however, they do not scale well with the number of rules. We present a novel approach, NuevoMatch, which improves the memory scaling of existing methods. A new data structure, Range Query Recursive Model Index (RQ-RMI), is the key component that enables NuevoMatch to replace most of the accesses to main memory with model inference computations. We describe an efficient training algorithm that guarantees the correctness of the RQ-RMIbased classification. The use of RQ-RMI allows the rules to be compressed into model weights that fit into the hardware cache. Further, it takes advantage of the growing support for fast neural network processing in modern CPUs, such as wide vector instructions, achieving a rate of tens of nanoseconds per lookup. Our evaluation using 500K multi-field rules from the standard ClassBench benchmark shows a geometric mean compression factor of 4.9×, 8×, and 82×, and average performance improvement of 2.4×, 2.6×, and 1.6× in throughput compared to CutSplit, NeuroCuts, and TupleMerge, all state-of-the-art algorithms.",
+  "authors": [
+    "Alon Rashelbach",
+    "Ori Rottenstreich",
+    "Mark Silberstein"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2020,
+  "url": "https://dl.acm.org/doi/10.1145/3387514.3405886"
+}

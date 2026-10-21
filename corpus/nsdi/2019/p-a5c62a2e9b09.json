@@ -1,0 +1,16 @@
+{
+  "id": "p-a5c62a2e9b09",
+  "title": "Blink- Fast Connectivity Recovery Entirely in the Data Plane",
+  "abstract": "We present B link, a data-driven system that leverages TCPinduced signals to detect failures directly in the data plane. The key intuition behind B link is that a TCP flow exhibits a predictable behavior upon disruption: retransmitting the same packet over and over, at epochs exponentially spaced in time. When compounded over multiple flows, this behavior creates a strong and characteristic failure signal. B link efficiently analyzes TCP flows to: (i) select which ones to track; (ii) reliably and quickly detect major traffic disruptions; and (iii) recover connectivity—all this, completely in the data plane. We present an implementation of B link in P4 together with an extensive evaluation on real and synthetic traffic traces. Our results indicate that B link: (i) achieves sub-second rerouting for large fractions of Internet traffic; and (ii) prevents unnecessary traffic shifts even in the presence of noise. We further show the feasibility of B link by running it on an actual Tofino switch.",
+  "authors": [
+    "Thomas Holterbach",
+    "Edgar Costa Molero",
+    "Maria Apostolaki",
+    "Alberto Dainotti",
+    "Stefano Vissicchio",
+    "Laurent Vanbever"
+  ],
+  "conference": "NSDI",
+  "year": 2019,
+  "url": "https://www.usenix.org/conference/nsdi19/presentation/holterbach"
+}

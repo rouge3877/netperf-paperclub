@@ -1,0 +1,22 @@
+{
+  "id": "p-3da47fd6b3ac",
+  "title": "Express Lane to Efficiency and Reliability-Multi-Dimensional Control in Meta’s Express Backbone Network",
+  "abstract": "Meta’s Express Backbone (EBB) network interconnects data centers across the globe. As such, it is one of the largest WANs in terms of capacity, traffic and global reach. EBB’s unique multi-plane Software Defined Network (SDN) architecture has passed the test of time with its flexibility, reliability and performance. Nonetheless, in parallel to its success, it has also seen an unprecedented growth in traffic demand and capacity footprint. Along with the rapid rise of AI workloads, challenges in resource utilization and failure recovery started to emerge, driving us to enhance and evolve EBB’s control design to increase its efficiency and resiliency. From our operational experiences, we realize that while foundational perplane Traffic Engineering (TE) control offers simplicity, there still exists a gap to support the above two goals. We propose to introduce control in two additional dimensions: globally across planes and locally at individual device. Specifically, Unequal Cost Multi-Path (UCMP) enables control across planes for efficient load balancing, and Fast Re-Route (FRR) provides control across time slices for facilitating rapid detection and recovery from failures. We present the design, implementation, and production results of UCMP and FRR, demonstrating how EBB can adapt to AI-era demands rapidly without fundamental architectural changes.",
+  "authors": [
+    "Faisal Iqbal",
+    "Vitaly Neganov",
+    "Brian Chang",
+    "Rong Rong",
+    "Yuanjun Yao",
+    "Marek Denis",
+    "Qin Zhang",
+    "Alexandru Manea",
+    "Anton Marchenko",
+    "Ulas Kozat",
+    "Aditya Akella",
+    "Ying Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/iqbal"
+}

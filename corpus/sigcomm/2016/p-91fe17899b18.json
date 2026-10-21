@@ -1,0 +1,15 @@
+{
+  "id": "p-91fe17899b18",
+  "title": "Inter-Technology Backscatter: Towards Internet Connectivity for Implanted Devices",
+  "abstract": "We introduce inter-technology backscatter, a novel approach that transforms wireless transmissions from one technology to another, on the air. Specifically, we show for the first time that Bluetooth transmissions can be used to create Wi-Fi and ZigBee-compatible signals using backscatter communication. Since Bluetooth, Wi-Fi and ZigBee radios are widely available, this approach enables a backscatter design that works using only commodity devices. We build prototype backscatter hardware using an FPGA and experiment with various Wi-Fi, Bluetooth and ZigBee devices. Our experiments show we can create 2–11 Mbps Wi-Fi standards-compliant signals by backscattering Bluetooth transmissions. To show the generality of our approach, we also demonstrate generation of standards-complaint Zig- Bee signals by backscattering Bluetooth transmissions. Finally, we build proof-of-concepts for previously infeasible applications including the first contact lens form-factor antenna prototype and an implantable neural recording interface that communicate directly with commodity devices such as smartphones and watches, thus enabling the vision of Internet connected implanted devices.",
+  "authors": [
+    "Vikram Iyer",
+    "Vamsi Talla",
+    "Bryce Kellogg",
+    "Shyamnath Gollakota",
+    "Joshua Smith"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2016,
+  "url": "https://dl.acm.org/doi/10.1145/2934872.2934894"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "p-0f1c2df67128",
+  "title": "FAst In-Network GraY Failure Detection for ISPs",
+  "abstract": "Avoiding packet loss is crucial for ISPs. Unfortunately, malfunctioning hardware at ISPs can cause long-lasting packet drops, also known as gray failures, which are undetectable by existing monitoring tools. In this paper, we describe the design and implementation of FANcY, an ISP-targeted system that detects and localizes gray failures quickly and accurately. FANcY complements previous monitoring approaches, which are mainly tailored for low-delay networks such as data center networks and do not work at ISP scale. We experimentally confirm FANcY’s capability to accurately detect gray failures in seconds, as long as only tiny fractions of traffic experience losses. We also implement FANcY in an Intel Tofino switch, demonstrating how it enables fine-grained fast rerouting.",
+  "authors": [
+    "Edgar Costa Molero",
+    "Stefano Vissicchio",
+    "Laurent Vanbever"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2022,
+  "url": "https://dl.acm.org/doi/10.1145/3544216.3544242"
+}

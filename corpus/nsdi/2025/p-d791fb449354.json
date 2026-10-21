@@ -1,0 +1,14 @@
+{
+  "id": "p-d791fb449354",
+  "title": "White-Boxing RDMA with Packet-Granular Software Control",
+  "abstract": "Driven by diverse workloads and deployments, numerous innovations emerge to customize RDMA transport, spanning congestion control, multi-tenant isolation, routing, and more. However, RDMA’s hardware-offloading nature poses significant rigidity when landing these innovations. Prior workflows to deliver customizations have either waited for lengthy hardware iterations, developed bespoke hardware, or applied coarse-grained control over the black-box RDMA NIC. Despite considerable efforts, current customization workflows still lack flexibility, raw performance, and broad availability. In this work, we advocate for White-Boxing RDMA, which provides control of the hardware transport to general-purpose software while preserving raw data path performance. To facilitate the white-boxing methodology, we design and implement Software-Controlled RDMA (SCR), a framework enabling packet-granular software control over the hardware transport. To address challenges stemming from granular control over high-speed line rates, SCR employs effective control models, boosts the efficiency of subsystems within the framework, and leverages emerging hardware capabilities. We implement SCR on the latest Nvidia BlueField-3 equipped with Datapath Accelerators, delivering a spectrum of new customizations not present in legacy RDMA transport, such as Multi-Tenant Fair Scheduler, User-Defined Congestion Control, Receiver-Driven Flow Control, and Multi-Path Routing Selection. Furthermore, we demonstrate SCR’s applicability for GPU-Direct and NVMe-oF RDMA with zero modifications to machine learning or storage code.",
+  "authors": [
+    "Chenxingyu Zhao",
+    "Jaehong Min",
+    "Ming Liu",
+    "Arvind Krishnamurthy"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/zhao-chenxingyu"
+}

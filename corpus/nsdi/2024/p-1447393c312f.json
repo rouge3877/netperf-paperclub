@@ -1,0 +1,19 @@
+{
+  "id": "p-1447393c312f",
+  "title": "NetVigil-Robust and Low-Cost Anomaly Detection for East-West Data Center Security",
+  "abstract": "The growing number of breaches in data centers underscores an urgent need for more effective security. Traditional perimeter defense measures and static zero-trust approaches are unable to address the unique challenges that arise from the scale, complexity, and evolving nature of today’s data center networks. To tackle these issues, we introduce NetVigil , a robust and cost-efficient anomaly detection system specifically designed for east-west traffic within data center networks. NetVigil adeptly extracts security-focused, graphbased features from network flow logs and employs domainspecific graph neural networks (GNNs) and contrastive learning techniques to strengthen its resilience against normal traffic variations and adversarial evasion strategies. Our evaluation, over various attack scenarios and traces from real-world production clusters, shows that NetVigil delivers significant improvements in accuracy, cost, and detection latency compared to state-of-the-art anomaly detection systems, providing a practical, supplementary security mechanism to protect the east-west traffic within data center networks.",
+  "authors": [
+    "Kevin Hsieh",
+    "Mike Wong",
+    "Santiago Segarra",
+    "Sathiya Kumaran Mani",
+    "Trevor Eberl",
+    "Anatoliy Panasyuk",
+    "Ravi Netravali",
+    "Ranveer Chandra",
+    "Srikanth Kandula"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/hsieh"
+}

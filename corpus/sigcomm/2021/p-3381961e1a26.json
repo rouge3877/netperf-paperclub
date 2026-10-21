@@ -1,0 +1,16 @@
+{
+  "id": "p-3381961e1a26",
+  "title": "MimicNet- Fast Performance Estimates for Data Center Networks with Machine Learning",
+  "abstract": "At-scale evaluation of new data center network innovations is becoming increasingly intractable. This is true for testbeds, where few, if any, can afford a dedicated, full-scale replica of a data center. It is also true for simulations, which while originally designed for precisely this purpose, have struggled to cope with the size of today’s networks. This paper presents an approach for quickly obtaining accurate performance estimates for large data center networks. Our system, MimicNet, provides users with the familiar abstraction of a packetlevel simulation for a portion of the network while leveraging redundancy and recent advances in machine learning to quickly and accurately approximate portions of the network that are not directly visible. MimicNet can provide over two orders of magnitude speedup compared to regular simulation for a data center with thousands of servers. Even at this scale, MimicNet estimates of the tail FCT, throughput, and RTT are within 5% of the true results.",
+  "authors": [
+    "Qizhen Zhang",
+    "Kelvin K. W. Ng",
+    "Charles Kazer",
+    "Shen Yan",
+    "João Sedoc",
+    "Vincent Liu"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2021,
+  "url": "https://dl.acm.org/doi/10.1145/3452296.3472926"
+}

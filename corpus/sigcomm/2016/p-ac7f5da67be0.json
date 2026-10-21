@@ -1,0 +1,18 @@
+{
+  "id": "p-ac7f5da67be0",
+  "title": "An Internet-Wide Analysis of Traffic Policing",
+  "abstract": "Large flows like video streams consume significant bandwidth. Some ISPs actively manage these high volume flows with techniques like policing, which enforces a flow rate by dropping excess traffic. While the existence of policing is well known, our contribution is an Internet-wide study quantifying its prevalence and impact on transportlevel and video-quality metrics. We developed a heuristic to identify policing from server-side traces and built a pipeline to process traces at scale collected from hundreds of Google servers worldwide. Using a dataset of 270 billion packets served to 28,400 client ASes, we find that, depending on region, up to 7% of connections are identified to be policed. Loss rates are on average 6× higher when a trace is policed, and it impacts video playback quality. We show that alternatives to policing, like pacing and shaping, can achieve traffic management goals while avoiding the deleterious effects of policing.",
+  "authors": [
+    "Tobias Flach",
+    "Pavlos Papageorge",
+    "Andreas Terzis",
+    "Luis Pedrosa",
+    "Yuchung Cheng",
+    "Tayeb Karim",
+    "Ethan Katz-Bassett",
+    "Ramesh Govindan"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2016,
+  "url": "https://dl.acm.org/doi/10.1145/2934872.2934873"
+}

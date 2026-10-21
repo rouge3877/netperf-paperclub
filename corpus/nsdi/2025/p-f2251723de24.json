@@ -1,0 +1,24 @@
+{
+  "id": "p-f2251723de24",
+  "title": "Preventing Network Bottlenecks-Accelerating Datacenter Services with Hotspot-Aware Placement for Compute and Storage",
+  "abstract": "Datacenter network hotspots, defined as links with persistently high utilization, can lead to performance bottlenecks. In this work, we study hotspots in Google’s datacenter networks. We find that these hotspots occur most frequently at ToR switches and can persist for hours. They are caused mainly by bandwidth demand-supply imbalance, largely due to high demand from network-intensive services, or demand exceeding available bandwidth when compute/storage upgrades outpace ToR bandwidth upgrades. Compounding this issue is bandwidth-independent task/data placement by datacenter compute and storage schedulers. We quantify the performance impact of hotspots, and find that they can degrade the end-to-end latency of some distributed applications by over 2× relative to low utilization levels. Finally, we describe simple improvements we deployed. In our cluster scheduler, adding hotspot-aware task placement reduced the number of hot ToRs by 90%; in our distributed file system, adding hotspot-aware data placement reduced p95 network latency by more than 50%. While congestion control, load balancing, and traffic engineering can efficiently utilize paths for a fixed placement, we find hotspot-aware placement – placing tasks and data under ToRs with higher available bandwidth – is crucial for achieving consistently good performance.",
+  "authors": [
+    "Hamid Hajabdolali Bazzaz",
+    "Yingjie Bi",
+    "Weiwu Pang",
+    "Minlan Yu",
+    "Ramesh Govindan",
+    "Neal Cardwell",
+    "Nandita Dukkipati",
+    "Meng-Jung Tsai",
+    "Chris DeForeest",
+    "Yuxue Jin",
+    "Charles Carver",
+    "Jan Kopanski",
+    "Liqun Cheng",
+    "Amin Vahdat"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/bazzaz"
+}

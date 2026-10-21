@@ -1,0 +1,15 @@
+{
+  "id": "p-89d797d36720",
+  "title": "Compressing IP Forwarding Tables: Towards Entropy Bounds and Beyond",
+  "abstract": "Lately, there has been an upsurge of interest in compressed data structures, aiming to pack ever larger quantities of information into constrained memory without sacrificing the efficiency of standard operations, like random access, search, or update. The main goal of this paper is to demonstrate how data compression can benefit the networking community, by showing how to squeeze the IP Forwarding Information Base (FIB), the giant table consulted by IP routers to make forwarding decisions, into information-theoretical entropy bounds, with essentially zero cost on longest prefix match and FIB update. First, we adopt the state-of-theart in compressed data structures, yielding a static entropycompressed FIB representation with asymptotically optimal lookup. Then, we re-design the venerable prefix tree, used commonly for IP lookup for at least 20 years in IP routers, to also admit entropy bounds and support lookup in optimal time and update in nearly optimal time. Evaluations on a Linux kernel prototype indicate that our compressors encode a FIB comprising more than 440K prefixes to just about 100–400 KBytes of memory, with a threefold increase in lookup throughput and no penalty on FIB updates.",
+  "authors": [
+    "Gábor Rétvári",
+    "János Tapolcai",
+    "Attila Kőrösi",
+    "András Majdán",
+    "Zalán Heszberger"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2013,
+  "url": "https://dl.acm.org/doi/10.1145/2486001.2486009"
+}

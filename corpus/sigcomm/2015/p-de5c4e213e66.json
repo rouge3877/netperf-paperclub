@@ -1,0 +1,21 @@
+{
+  "id": "p-de5c4e213e66",
+  "title": "Programming Protocol-Independent Packet Processors",
+  "abstract": "P4 is a high-level language for programming protocol-independent packet processors. P4 works in conjunction with SDN control protocols like OpenFlow. In its current form, OpenFlow explicitly specifies protocol headers on which it operates. This set has grown from 12 to 41 fields in a few years, increasing the complexity of the specification while still not providing the flexibility to add new headers. In this paper we propose P4 as a strawman proposal for how Open- Flow should evolve in the future. We have three goals: (1) Reconfigurability in the field: Programmers should be able to change the way switches process packets once they are deployed. (2) Protocol independence: Switches should not be tied to any specific network protocols. (3) Target independence: Programmers should be able to describe packetprocessing functionality independently of the specifics of the underlying hardware. As an example, we describe how to use P4 to configure a switch to add a new hierarchical label.",
+  "authors": [
+    "Pat Bosshart",
+    "Dan Daly",
+    "Glen Gibb",
+    "Martin Izzard",
+    "Nick McKeown",
+    "Jennifer Rexford",
+    "Cole Schlesinger",
+    "Dan Talayco",
+    "Amin Vahdat",
+    "George Varghese",
+    "David Walker"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2015,
+  "url": "https://dl.acm.org/doi/10.1145/2656877.2656890"
+}

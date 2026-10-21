@@ -1,0 +1,14 @@
+{
+  "id": "p-4a43370d1841",
+  "title": "Syntra-Synthesizing Cross-Layer Controllers for Low-Latency Video Streaming",
+  "abstract": "Modern applications such as low-latency video streaming demand tight coordination across multiple control dimensions, including bitrate selection, congestion control, frame skipping, and forward error correction (FEC). These dimensions interact in complex ways, making existing heuristic approaches difficult to design, tune, and generalize. This paper presents Syntra, an automated tool that synthesizes joint controllers from a symbolic model of the system and a declarative performance objective. Syntra formulates control as a partially observable game, performs bounded-horizon minimax search (similar to Chess engines) to synthesize strategies, and distills them into an efficient, interpretable policy via imitation learning. Synthesized controllers incorporate novel strategies that exploit the synergy between control dimensions to consistently outperform existing designs in our evaluation.",
+  "authors": [
+    "Jia Pan",
+    "Anup Agarwal",
+    "Işıl Dillig",
+    "Venkat Arun"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/pan"
+}

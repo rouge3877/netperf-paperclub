@@ -1,0 +1,14 @@
+{
+  "id": "p-c58053bcc169",
+  "title": "CellReplay-Towards accurate record-and-replay for cellular networks",
+  "abstract": "The inherent variability of real-world cellular networks makes it hard to evaluate, reproduce, and debug the performance of networked applications running on these networks. A common approach is to record and replay a trace of observed cellular network performance. However, we show that the state-of-the-art record-and-replay technique produces empirically inaccurate results that can cause evaluation bias. This paper presents the design and implementation of CellReplay, a tool that records the time-varying performance of a live cellular network into traces using preset workloads and faithfully replays the observed performance for other workloads through an emulated network interface. The key challenge in achieving high accuracy is to replay varying network behavior in a way that captures its sensitivity to the workload. CellReplay records network behavior under two predefined workloads simultaneously and interpolates upon replay for other workloads. Across various challenging network conditions, our evaluation shows that real-world networked applications (e.g., web browsing or video streaming) running on CellReplay achieve similar performance (e.g., page load time or bitrate selection) to their live network counterparts, with significantly reduced error compared to the prior method.",
+  "authors": [
+    "William Sentosa",
+    "Balakrishnan Chandrasekaran",
+    "P. Brighten Godfrey",
+    "Haitham Hassanieh"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/sentosa"
+}

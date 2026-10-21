@@ -1,0 +1,13 @@
+{
+  "id": "p-82a1479efada",
+  "title": "HeteroSketch- Coordinating Network-wide Monitoring in Heterogeneous and Dynamic Networks",
+  "abstract": "Network monitoring and measurement have always been critical components of network management. Recent developments in sketch-based monitoring techniques and the deployment opportunities arising from the increasing programmability of network elements (e.g., programmable switches, Smart- NICs, and software switches) have made the possibility of accurate, detailed, network-wide telemetry tantalizingly within reach. However, the wide heterogeneity of the programmable hardware and dynamic changes in both resources available and resources needed for monitoring over time make existing approaches to network-wide monitoring impractical. We present HeteroSketch, a framework that consists of two main components: (1) a profiling tool that automatically quantifies the capabilities of arbitrary hardware by predicting their performance for sketching algorithms, and (2) an optimization framework that decides placement of measurement tasks and resource allocation for devices to meet monitoring goals while considering heterogeneous device capabilities. HeteroSketch enables optimized deployments for large networks (> 40,000 nodes) using a novel clustering approach and enables prompt responses to network topology, traffic, query, and resource dynamics. Our evaluation shows that HeteroSketch reduces resource overheads by 20 − 60% compared to prior art, while maintaining monitoring performance, coverage, and accuracy.",
+  "authors": [
+    "Anup Agarwal",
+    "Zaoxing Liu",
+    "Srinivasan Seshan"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/agarwal"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p-f81984965a91",
+  "title": "Multi-Resource Packing for Cluster Schedulers",
+  "abstract": "Tasks in modern data-parallel clusters have highly diverse resource requirements along CPU, memory, disk and network. We present Tetris , a multi-resource cluster scheduler that packs tasks to machines based on their requirements of all resource types. Doing so avoids resource fragmentation as well as over-allocation of the resources that are not explicitly allocated, both of which are drawbacks of current schedulers. Tetris adapts heuristics for the multidimensional bin packing problem to the context of cluster schedulers wherein task arrivals and machine availability change in an online manner and wherein task’s resource needs change with time and with the machine that the task is placed at. In addition, Tetris improves average job completion time by preferentially serving jobs that have less remaining work. We observe that fair allocations do not offer the best performance and the above heuristics are compatible with a large class of fairness policies; hence, we show how to simultaneously achieve good performance and fairness. Tracedriven simulations and deployment of our Apache YARN prototype on a 250 node cluster show gains of over 30% in makespan and job completion time while achieving nearly perfect fairness.",
+  "authors": [
+    "Robert Grandl",
+    "Ganesh Ananthanarayanan",
+    "Srikanth Kandula",
+    "Sriram Rao",
+    "Aditya Akella"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2014,
+  "url": "https://dl.acm.org/doi/10.1145/2619239.2626334"
+}

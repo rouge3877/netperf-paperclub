@@ -1,0 +1,20 @@
+{
+  "id": "p-2568c2da8228",
+  "title": "Defending against Traffic Analysis Attacks with Flexible In-Network Obfuscation",
+  "abstract": "Traffic analysis attacks can exploit side channels in encrypted traffic (e.g., packet sizes) to infer user activities. Existing defenses provide weak protection, impose excessive bandwidth overhead, or require hard-to-deploy coordination. We present Securitas, a novel network traffic obfuscation framework that protects from side-channel attacks using a learning-guided mix of packet fragmentation and insertion. We implemented Securitas on a number of different data planes: Tofino switch, AMD/Xilinx FPGA, eBPF, and BMv2. Experiments show that Securitas reduces attack accuracy by up to 95.89%, while consuming 42.69× less bandwidth than prior defenses. Realworld Internet tests confirm minimal performance impact, e.g., adding 0.15s to the web page load.",
+  "authors": [
+    "Guorui Xie",
+    "Qing Li",
+    "Zhenning Shi",
+    "Gianni Antichi",
+    "Yijia Zhu",
+    "Kejun Li",
+    "Changxing Weng",
+    "Sebastiano Miano",
+    "Yong Jiang",
+    "Mingwei Xu"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/xie-guorui"
+}

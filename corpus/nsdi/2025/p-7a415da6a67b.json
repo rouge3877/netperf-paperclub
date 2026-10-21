@@ -1,0 +1,13 @@
+{
+  "id": "p-7a415da6a67b",
+  "title": "On Temporal Verification of Stateful P4 Programs",
+  "abstract": "Stateful P4 programs offload network states from the control plane to the data plane, enabling unprecedented network programmability. However, existing P4 verifiers overapproximate the stateful nature of P4 programs and are inherently inadequate for verifying network functions that require stateful decision-making. To overcome this limitation, this paper introduces an innovative approach to verify P4 programs while accounting for their stateful feature. We propose a specification language named P4LTL, tailored for describing temporal properties of stateful P4 programs at the packet processing level. Additionally, we introduce a novel concept called the Büchi transaction, representing the product of the P4 program and the P4LTL specification. The P4 program verification problem can be reduced to determining the existence of any fair and feasible trace within the Büchi transaction. To the best of our knowledge, our approach represents the first endeavor in temporal verification of stateful P4 programs at the packet processing level. We implemented a prototype tool called p4tv. Evaluation results demonstrate p4tv’s effectiveness and efficiency in temporal verification of stateful P4 programs.",
+  "authors": [
+    "Delong Zhang",
+    "Chong Ye",
+    "Fei He"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/zhang-delong"
+}

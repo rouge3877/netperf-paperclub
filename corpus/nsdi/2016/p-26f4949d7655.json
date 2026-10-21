@@ -1,0 +1,17 @@
+{
+  "id": "p-26f4949d7655",
+  "title": "StreamScope: Continuous Reliable Distributed Processing of Big Data Streams",
+  "abstract": "S TREAM S COPE (or S TREAM S) is a reliable distributed stream computation engine that has been deployed in shared 20,000-server production clusters at Microsoft. S TREAM S provides a continuous temporal stream model that allows users to express complex stream processing logic naturally and declaratively. S TREAM S supports business-critical streaming applications that can process tens of billions (or tens of terabytes) of input events per day continuously with complex logic involving tens of temporal joins, aggregations, and sophisticated userdefined functions, while maintaining tens of terabytes inmemory computation states on thousands of machines. S TREAM S introduces two abstractions, rVertex and rStream, to manage the complexity in distributed stream computation systems. The abstractions allow efficient and flexible distributed execution and failure recovery, make it easy to reason about correctness even with failures, and facilitate the development, debugging, and deployment of complex multi-stage streaming applications.",
+  "authors": [
+    "Wei Lin",
+    "Haochuan Fan",
+    "Zhengping Qian",
+    "Junwei Xu",
+    "Sen Yang",
+    "Jingren Zhou",
+    "Lidong Zhou"
+  ],
+  "conference": "NSDI",
+  "year": 2016,
+  "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/lin"
+}

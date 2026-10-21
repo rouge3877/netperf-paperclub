@@ -1,0 +1,17 @@
+{
+  "id": "p-0769279f0b66",
+  "title": "NetPilot: Automating Datacenter Network Failure Mitigation",
+  "abstract": "The soaring demands for always-on and fast-response online services have driven modern datacenter networks to undergo tremendous growth. These networks often rely on scale-out designs with large numbers of commodity switches to reach immense capacity while keeping capital expenses under check. The downside is more devices means more failures, raising a formidable challenge for network operators to promptly handle these failures with minimal disruptions to the hosted services. Recent research efforts have focused on automatic failure localization. Yet, resolving failures still requires significant human interventions, resulting in prolonged failure recovery time. Unlike previous work, NetPilot aims to quickly mitigate rather than resolve failures. NetPilot mitigates failures in much the same way operators do – by deactivating or restarting suspected offending components. NetPilot circumvents the need for knowing the exact root cause of a failure by taking an intelligent trial-and-error approach. The core of NetPilot is comprised of an Impact Estimator that helps guard against overly disruptive mitigation actions and a failure-specific mitigation planner that minimizes the number of trials. We demonstrate that NetPilot can effectively mitigate several types of critical failures commonly encountered in production datacenter networks.",
+  "authors": [
+    "Xin Wu",
+    "Daniel Turner",
+    "Chao-Chih Chen",
+    "David A. Maltz",
+    "Xiaowei Yang",
+    "Lihua Yuan",
+    "Ming Zhang"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2012,
+  "url": "https://dl.acm.org/doi/10.1145/2377677.2377759"
+}

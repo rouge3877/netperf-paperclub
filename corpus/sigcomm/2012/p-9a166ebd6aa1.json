@@ -1,0 +1,13 @@
+{
+  "id": "p-9a166ebd6aa1",
+  "title": "Picasso: Flexible RF and Spectrum Slicing",
+  "abstract": "This paper presents the design, implementation and evaluation of Picasso, a novel radio design that allows simultaneous transmission and reception on separate and arbitrary spectrum fragments using a single RF front end and antenna. Picasso leverages this capability to flexibly partition fragmented spectrum into multiple slices that share the RF front end and antenna, yet operate concurrent and independent PHY/MAC protocols. We show how this capability provides a general and clean abstraction to exploit fragmented spectrum in WiFi networks and handle coexistence in dense deployments. We prototype Picasso, and demonstrate experimentally that a Picasso radio partitioned into four slices, each concurrently operating four standard WiFi OFDM PHY and CSMA MAC stacks, can achieve the same sum throughput as four physically separate radios individually configured to operate on the spectrum fragments. We also demonstrate experimentally how Picasso’s slicing abstraction provides a clean mechanism to enable multiple diverse networks to coexist and achieve higher throughput, better video quality and latency than the best known state of the art approaches.",
+  "authors": [
+    "Steven S. Hong",
+    "Jeffrey Mehlman",
+    "Sachin Katti"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2012,
+  "url": "https://dl.acm.org/doi/10.1145/2377677.2377683"
+}

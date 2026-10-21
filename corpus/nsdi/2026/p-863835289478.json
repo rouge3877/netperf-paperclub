@@ -1,0 +1,14 @@
+{
+  "id": "p-863835289478",
+  "title": "KRAKENGUARD-Towards Fine-Grained eBPF Isolation",
+  "abstract": "eBPF is a powerful in-kernel virtual machine that enables dynamic, safe extensions to operating system kernels. Despite the guarantees provided by its in-kernel verifier, eBPF’s access control model remains coarse-grained, relying on broad Linux capabilities, such as CAP_BPF. Once granted, these allow unrestricted loading of eBPF programs to different kernel hooks. This poses serious security risks in multi-tenant or untrusted environments, where a compromised or malicious process can misuse eBPF to trace sensitive activity, access kernel memory, or disrupt system behavior. While existing verification ensures safety properties, it cannot enforce finegrained constraints on what programs can do. We present KRAKENGUARD , a trusted user-space manager that enforces fine-grained, policy-driven constraints on eBPF bytecode at load time. Using symbolic execution, it checks all program paths for compliance with policies on helper usage, memory accesses, and return values. It enables safe delegation of program loading by unprivileged processes and detects cross-program interference to ensure safe co-location of eBPF programs on the same host. We show that KRAKENGUARD can block the misuse of restricted helpers, unauthorized memory and map access, and unsafe packet modifications in real-world eBPF programs, while also being able to detect existing CVEs. As a use case, we implement an XDP-as-a-Service application that securely runs XDP programs belonging to different tenants directly on the host interface after guaranteeing they cannot do anything malicious and that they do not interfere with each other.",
+  "authors": [
+    "Jainil Patel",
+    "Lucas Graeff Buhl-Nielsen",
+    "Adrien Ghosn",
+    "Marios Kogias"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/patel"
+}

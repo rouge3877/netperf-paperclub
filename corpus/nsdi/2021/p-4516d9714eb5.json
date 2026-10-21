@@ -1,0 +1,18 @@
+{
+  "id": "p-4516d9714eb5",
+  "title": "Fast and Light Bandwidth Testing for Internet Users",
+  "abstract": "Bandwidth testing measures the access bandwidth of end hosts, which is crucial to emerging Internet applications for network-aware content delivery. However, today’s bandwidth testing services (BTSes) are slow and costly—the tests take a long time to run, consume excessive data usage at the client side, and/or require large-scale test server deployments. The inefficiency and high cost of BTSes root in their methodologies that use excessive temporal and spatial redundancies for combating noises in Internet measurement. This paper presents FastBTS to make BTS fast and cheap while maintaining high accuracy. The key idea of FastBTS is to accommodate and exploit the noise rather than repetitively and exhaustively suppress the impact of noise. This is achieved by a novel statistical sampling framework (termed fuzzy rejection sampling). We build FastBTS as an end-to-end BTS that implements fuzzy rejection sampling based on elastic bandwidth probing and denoised sampling from highfidelity windows, together with server selection and multihoming support. Our evaluation shows that with only 30 test servers, FastBTS achieves the same level of accuracy compared to the state-of-the-art BTS (SpeedTest.net) that deploys ∼12,000 servers. Most importantly, FastBTS makes bandwidth tests 5.6× faster and 10.7× more data-efficient.",
+  "authors": [
+    "Xinlei Yang",
+    "Xianlong Wang",
+    "Zhenhua Li",
+    "Yunhao Liu",
+    "Feng Qian",
+    "Liangyi Gong",
+    "Rui Miao",
+    "Tianyin Xu"
+  ],
+  "conference": "NSDI",
+  "year": 2021,
+  "url": "https://www.usenix.org/conference/nsdi21/presentation/yang-xinlei"
+}

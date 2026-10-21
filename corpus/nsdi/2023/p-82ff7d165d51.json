@@ -1,0 +1,18 @@
+{
+  "id": "p-82ff7d165d51",
+  "title": "μMote- Enabling Passive Chirp De-spreading and μW-level Long-Range Downlink for Backscatter Devices",
+  "abstract": "The downlink range of backscatter devices is commonly considered to be very limited, compared to tremendous longrange and low-power backscatter uplink designs that leverage the chirp spread spectrum (CSS) principle. Recently, some efforts are devoted to enhancing the downlink, but they are unable to achieve long-range receiving and low power consumption simultaneously. In this paper, we propose μMote, a μW -level long-range receiver for backscatter devices. μMote achieves the first passive chirp de-spreading scheme for negative SINR in long-range receiving scenarios. Further, without consuming external energy, μMote magnifies the demodulated signal by accumulating temporal energy of the signal itself in a resonator container, and meanwhile it preserves signal information during this signal accumulation. μMote then leverages a μW -level sampling-less decoding scheme to discriminate symbols, avoiding the high-power ADC-sampling. We prototype μMote with COTS components, and conduct extensive experiments. The result shows that μMote spends an overall power consumption of 62.07μW to achieve a 400m receiving range at a 2kbps data rate with 1% BER, under −2dB SINR.",
+  "authors": [
+    "Yihang Song",
+    "Li Lu",
+    "Jiliang Wang",
+    "Chong Zhang",
+    "Hui Zheng",
+    "Shen Yang",
+    "Jinsong Han",
+    "Jian Li"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/song-yihang"
+}

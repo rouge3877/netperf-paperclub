@@ -1,0 +1,16 @@
+{
+  "id": "p-e5efdd5c42ee",
+  "title": "cc-pipe-Breaking Systemic Bottlenecks in RPKI Data Supply Chain with Concurrent and Conflict-Free Pipelines",
+  "abstract": "While the Resource Public Key Infrastructure (RPKI) is essential for securing BGP, the high latency, limited scalability, and vulnerabilities in the data supply chain severely undermine its security guarantees and impede network operations. Within this supply chain, existing research identifies the Relying Party (RP) validation process as the primary performance bottleneck. This bottleneck originates from the standard monolithic architecture, which enforces strong consistency but incurs high latency. Previous work has pursued incremental optimizations within this architecture, yet achieving substantial gains remains difficult. Based on extensive measurements, we identify inherent blocking within the paradigm as the root cause. To address this, we propose cc-pipe, a novel pipeline architecture that breaks the fundamental consistency–latency trade-off. By leveraging a predictive conflict graph, cc-pipe enables low-latency incremental data dissemination while preserving strong consistency guarantees. Evaluation with real-world deployment demonstrates that cc-pipe reduces average latency by up to 73.3% across all data with negligible router overhead. It also delivers significant scalability under projected future workloads, as well as robust resilience to misbehaving publication points.",
+  "authors": [
+    "Chenhui Yu",
+    "Yanbiao Li",
+    "Hui Zou",
+    "Yuxuan Chen",
+    "Shiyi Liu",
+    "Gaogang Xie"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/yu"
+}

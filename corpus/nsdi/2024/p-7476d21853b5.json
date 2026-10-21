@@ -1,0 +1,14 @@
+{
+  "id": "p-7476d21853b5",
+  "title": "UFO-The Ultimate QoS-Aware Core Management for Virtualized and Oversubscribed Public Clouds",
+  "abstract": "Public clouds typically adopt (1) multi-tenancy to increase server utilization; (2) virtualization to provide isolation between different tenants; (3) oversubscription of resources to further increase resource efficiency. However, prior work all focuses on optimizing one or two elements, and fails to considerately bring QoS-aware multi-tenancy, virtualization and resource oversubscription together. We find three challenges when the three elements coexist. First, the double scheduling symptoms are 10× worse with latency-critical (LC) workloads which are comprised of numerous sub-millisecond tasks and are significantly different from conventional batch applications. Second, inner-VM resource contention also exists between threads of the same VM when running LC applications, calling for inner-VM core isolation. Third, no application-level performance metrics can be obtained by the host to guide resource management in realistic public clouds. To address these challenges, we propose a QoS-aware core manager dubbed UFO to specifically support co-location of multiple LC workloads in virtualized and oversubscribed public cloud environments. UFO solves the three abovementioned challenges, by (1) coordinating the guest and host CPU cores (vCPU-pCPU coordination), and (2) doing finegrained inner-VM resource isolation, to push core management in realistic public clouds to the extreme. Compared with the state-of-the-art core manager, it saves up to 50% (average of 22%) of physical cores under the same co-location scenario.",
+  "authors": [
+    "Yajuan Peng",
+    "Shuang Chen",
+    "Yi Zhao",
+    "Zhibin Yu"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/peng"
+}

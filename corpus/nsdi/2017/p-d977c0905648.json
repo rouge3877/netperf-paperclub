@@ -1,0 +1,15 @@
+{
+  "id": "p-d977c0905648",
+  "title": "Efficient Memory Disaggregation with Infiniswap",
+  "abstract": "Memory-intensive applications suffer large performance loss when their working sets do not fully fit in memory. Yet, they cannot leverage otherwise unused remote memory when paging out to disks even in the presence of large imbalance in memory utilizations across a cluster. Existing proposals for memory disaggregation call for new architectures, new hardware designs, and/or new programming models, making them infeasible. This paper describes the design and implementation of I NFINISWAP , a remote memory paging system designed specifically for an RDMA network. I NFINISWAP opportunistically harvests and transparently exposes unused memory to unmodified applications by dividing the swap space of each machine into many slabs and distributing them across many machines’ remote memory. Because one-sided RDMA operations bypass remote CPUs, I N - FINISWAP leverages the power of many choices to perform decentralized slab placements and evictions. We have implemented and deployed I NFINISWAP on an RDMA cluster without any modifications to user applications or the OS and evaluated its effectiveness using multiple workloads running on unmodified VoltDB, Memcached, PowerGraph, GraphX, and Apache Spark. Using I NFINISWAP , throughputs of these applications improve between 4× (0.94×) to 15.4× (7.8×) over disk (Mellanox nbdX), and median and tail latencies between 5.4× (2×) and 61× (2.3×). I NFINISWAP achieves these with negligible remote CPU usage, whereas nbdX becomes CPU-bound. I NFINISWAP increases the overall memory utilization of a cluster and works well at scale.",
+  "authors": [
+    "Juncheng Gu",
+    "Youngmoon Lee",
+    "Yiwen Zhang",
+    "Mosharaf Chowdhury",
+    "Kang G. Shin"
+  ],
+  "conference": "NSDI",
+  "year": 2017,
+  "url": "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/gu"
+}

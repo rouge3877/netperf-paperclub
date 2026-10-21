@@ -1,0 +1,14 @@
+{
+  "id": "p-a48ab975faef",
+  "title": "Stronger Semantics for Low-Latency Geo-Replicated Storage",
+  "abstract": "We present the first scalable, geo-replicated storage system that guarantees low latency, offers a rich data model, and provides “stronger” semantics. Namely, all client requests are satisfied in the local datacenter in which they arise; the system efficiently supports useful data model abstractions such as column families and counter columns; and clients can access data in a causallyconsistent fashion with read-only and write-only transactional support, even for keys spread across many servers. The primary contributions of this work are enabling scalable causal consistency for the complex columnfamily data model, as well as novel, non-blocking algorithms for both read-only and write-only transactions. Our evaluation shows that our system, Eiger, achieves low latency (single-ms), has throughput competitive with eventually-consistent and non-transactional Cassandra (less than 7% overhead for one of Facebook’s real-world workloads), and scales out to large clusters almost linearly (averaging 96% increases up to 128 server clusters).",
+  "authors": [
+    "Wyatt Lloyd",
+    "Michael J. Freedman",
+    "Michael Kaminsky",
+    "David G. Andersen"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/lloyd"
+}

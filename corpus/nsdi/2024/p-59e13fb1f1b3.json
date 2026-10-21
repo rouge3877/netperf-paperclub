@@ -1,0 +1,15 @@
+{
+  "id": "p-59e13fb1f1b3",
+  "title": "SIEVE is Simpler than LRU-an Efficient Turn-Key Eviction Algorithm for Web Caches",
+  "abstract": "Caching is an indispensable technique for low-cost and fast data serving. The eviction algorithm, at the heart of a cache, has been primarily designed to maximize efficiency— reducing the cache miss ratio. Many eviction algorithms have been designed in the past decades. However, they all trade off throughput, simplicity, or both for higher efficiency. Such a compromise often hinders adoption in production systems. This work presents SIEVE , an algorithm that is simpler than LRU and provides better than state-of-the-art efficiency and scalability for web cache workloads. We implemented SIEVE in five production cache libraries, requiring fewer than 20 lines of code changes on average. Our evaluation on 1559 cache traces from 7 sources shows that SIEVE achieves up to 63.2% lower miss ratio than ARC. Moreover, SIEVE has a lower miss ratio than 9 state-of-the-art algorithms on more than 45% of the 1559 traces, while the next best algorithm only has a lower miss ratio on 15%. SIEVE ’s simplicity comes with superior scalability as cache hits require no locking. Our prototype achieves twice the throughput of an optimized 16- thread LRU implementation. SIEVE is more than an eviction algorithm; it can be used as a cache primitive to build advanced eviction algorithms just like FIFO and LRU.",
+  "authors": [
+    "Yazhuo Zhang",
+    "Juncheng Yang",
+    "Yao Yue",
+    "Ymir Vigfusson",
+    "K.V. Rashmi"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/zhang-yazhuo"
+}

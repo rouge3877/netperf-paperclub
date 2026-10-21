@@ -1,0 +1,15 @@
+{
+  "id": "p-8b389b615d96",
+  "title": "RFID+-Spatially Controllable Identification of UHF RFIDs via Controlled Magnetic Fields",
+  "abstract": "In the fast-paced landscape of UHF RFID technology, achieving precise spatial-selective identification is of critical importance in the logistics and retail domain. This work introduces RFID+, a magnetically-driven UHF RFID system that leverages the matching loops of commercial-off-the-shelf UHF RFID tags for efficient energy harvesting from tailored magnetic fields. The RFID+ delivers a level of spatial precision comparable to that of HF NFC systems, effectively mitigating issues of miss-reading and cross-reading. Our primary contributions reside in the development of a specialized multi-turn, capacitor-segmented coil antenna and an innovative fast inventory algorithm. The RFID+ seamlessly integrates traditional radiative coupling with the innovative magnetic coupling in UHF RFID systems, bolstering their overall performance and efficiency. Real-world pilot studies in warehouses and logistics settings reveal that RFID+ significantly diminishes the miss-reading rate from 22.9% down to a remarkable 1.06%, while entirely eliminating cross-reading challenges. Moreover, our RFID+ variant demonstrates better resilience against materials traditionally challenging for UHF RFID, such as water bottles and containers. These advancements make RFID+ exceedingly relevant for practical applications in logistical networks.",
+  "authors": [
+    "Donghui Dai",
+    "Zhenlin An",
+    "Zheng Gong",
+    "Qingrui Pan",
+    "Lei Yang"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/dai"
+}

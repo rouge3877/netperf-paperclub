@@ -1,0 +1,17 @@
+{
+  "id": "p-1efb9fdd0c4c",
+  "title": "Queues Don’t Matter When You Can JUMP Them!",
+  "abstract": "Q J UMP is a simple and immediately deployable approach to controlling network interference in datacenter networks. Network interference occurs when congestion from throughput-intensive applications causes queueing that delays traffic from latency-sensitive applications. To mitigate network interference, Q J UMP applies Internet QoS-inspired techniques to datacenter applications. Each application is assigned to a latency sensitivity level (or class). Packets from higher levels are rate-limited in the end host, but once allowed into the network can “jump-the-queue” over packets from lower levels. In settings with known node counts and link speeds, Q J UMP can support service levels ranging from strictly bounded latency (but with low rate) through to line-rate throughput (but with high latency variance). We have implemented Q J UMP as a Linux Traffic Control module. We show that Q J UMP achieves bounded latency and reduces in-network interference by up to 300×, outperforming Ethernet Flow Control (802.3x), ECN (WRED) and DCTCP. We also show that Q J UMP improves average flow completion times, performing close to or better than DCTCP and pFabric.",
+  "authors": [
+    "Matthew P. Grosvenor",
+    "Malte Schwarzkopf",
+    "Ionel Gog",
+    "Robert N. M. Watson",
+    "Andrew W. Moore",
+    "Steven Hand",
+    "Jon Crowcroft"
+  ],
+  "conference": "NSDI",
+  "year": 2015,
+  "url": "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/grosvenor"
+}

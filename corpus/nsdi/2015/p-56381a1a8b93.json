@@ -1,0 +1,16 @@
+{
+  "id": "p-56381a1a8b93",
+  "title": "Kinetic: Verifiable Dynamic Network Control",
+  "abstract": "Network conditions are dynamic; unfortunately, current approaches to configuring networks are not. Network operators need tools to express how a network’s data-plane behavior should respond to a wide range of events and changing conditions, ranging from unexpected failures to shifting traffic patterns to planned maintenance. Yet, to update the network configuration today, operators typically rely on a combination of manual intervention and ad hoc scripts. In this paper, we present Kinetic, a domain specific language and network control system that enables operators to control their networks dynamically in a concise, intuitive way. Kinetic also automatically verifies the correctness of these control programs with respect to user-specified temporal properties. Our user study of Kinetic with several hundred network operators demonstrates that Kinetic is intuitive and usable, and our performance evaluation shows that realistic Kinetic programs scale well with the number of policies and the size of the network.",
+  "authors": [
+    "Hyojoon Kim",
+    "Joshua Reich",
+    "Arpit Gupta",
+    "Muhammad Shahbaz",
+    "Nick Feamster",
+    "Russ Clark"
+  ],
+  "conference": "NSDI",
+  "year": 2015,
+  "url": "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/kim"
+}

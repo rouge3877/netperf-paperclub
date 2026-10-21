@@ -1,0 +1,14 @@
+{
+  "id": "p-089919491f86",
+  "title": "Crom: Faster Web Browsing Using Speculative Execution",
+  "abstract": "Early web content was expressed statically, making it amenable to straightforward prefetching to reduce userperceived network delay. In contrast, today’s rich web applications often hide content behind JavaScript event handlers, confounding static prefetching techniques. Sophisticated applications use custom code to prefetch data and do other anticipatory processing, but these custom solutions are costly to develop and application-specific. This paper introduces Crom, a generic JavaScript speculation engine that greatly simplifies the task of writing low-latency, rich web applications. Crom takes preexisting, non-speculative event handlers and creates speculative versions, running them in a cloned browser context. If the user generates a speculated-upon event, Crom commits the precomputed result to the real browser context. Since Crom is written in JavaScript, it runs on unmodified client browsers. Using experiments with speculative versions of real applications, we show that pre-commit speculation overhead easily fits within user think time. We also show that speculatively fetching page data and precomputing its layout can make subsequent page loads an order of magnitude faster.",
+  "authors": [
+    "James Mickens",
+    "Jeremy Elson",
+    "Jon Howell",
+    "Jay Lorch"
+  ],
+  "conference": "NSDI",
+  "year": 2010,
+  "url": "https://www.usenix.org/legacy/event/nsdi10/tech/full_papers/mickens-crom.pdf"
+}

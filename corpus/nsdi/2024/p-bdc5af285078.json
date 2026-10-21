@@ -1,0 +1,16 @@
+{
+  "id": "p-bdc5af285078",
+  "title": "EdgeRIC-Empowering Real-time Intelligent Optimization and Control in NextG Cellular Networks",
+  "abstract": "Radio Access Networks (RAN) are increasingly softwarized and accessible via data-collection and control interfaces. RAN intelligent control (RIC) is an approach to manage these interfaces at different timescales. In this paper, we introduce EdgeRIC, a real-time RIC co-located with the Distributed Unit (DU). It is decoupled from the RAN stack, and operates at the RAN timescale. EdgeRIC serves as the seat of real-time AI-in-the-loop for decision and control. It can access RAN and application-level information to execute AIoptimized and other policies in real-time (sub-millisecond). We demonstrate that EdgeRIC operates as if embedded within the RAN stack. We showcase RT applications called μApps over EdgeRIC that significantly outperforms a cloud-based near real-time RIC (> 15 ms latency) in terms of attained system throughput. Further, our over-the-air experiments with AI-based policies showcase their resilience to channel dynamics. Remarkable, these AI policies outperform model-based strategies by 5% to 25% in both system throughput and end user application-level benchmarks across diverse mobile scenarios.",
+  "authors": [
+    "Woo-Hyun Ko",
+    "Ushasi Ghosh",
+    "Ujwal Dinesha",
+    "Raini Wu",
+    "Srinivas Shakkottai",
+    "Dinesh Bharadia"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/ko"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "p-c21b355987c0",
+  "title": "F10: A Fault-Tolerant Engineered Network",
+  "abstract": "The data center network is increasingly a cost, reliability and performance bottleneck for cloud computing. Although multi-tree topologies can provide scalable bandwidth and traditional routing algorithms can provide eventual fault tolerance, we argue that recovery speed can be dramatically improved through the co-design of the network topology, routing algorithm and failure detector. We create an engineered network and routing protocol that directly address the failure characteristics observed in data centers. At the core of our proposal is a novel network topology that has many of the same desirable properties as FatTrees, but with much better fault recovery properties. We then create a series of failover protocols that benefit from this topology and are designed to cascade and complement each other. The resulting system, F10, can almost instantaneously reestablish connectivity and load balance, even in the presence of multiple failures. Our results show that following network link and switch failures, F10 has less than 1/7th the packet loss of current schemes. A trace-driven evaluation of MapReduce performance shows that F10’s lower packet loss yields a median application-level 30% speedup.",
+  "authors": [
+    "Vincent Liu",
+    "Daniel Halperin",
+    "Arvind Krishnamurthy",
+    "Thomas Anderson"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/liu_vincent"
+}

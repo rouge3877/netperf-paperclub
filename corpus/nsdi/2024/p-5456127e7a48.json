@@ -1,0 +1,33 @@
+{
+  "id": "p-5456127e7a48",
+  "title": "POSEIDON-A Consolidated Virtual Network Controller that Manages Millions of Tenants via Config Tree",
+  "abstract": "As the cloud rapidly expands in scale, the virtual network controller must manage an increasing number of devices with higher update frequencies. Furthermore, the emergence of cloud-native services has substantially intensified programtriggered updates, leading to more frequent API invocations. To enhance performance and extensibility, we propose P OSEI - DON , a novel virtual network control framework. Specifically, to reduce operational expenses (OpEx), we have consolidated the common functions of multiple service controllers into a single controller. To manage heterogeneous devices and eliminate the multi-table lookup complexity due to config dependencies, we introduce Trident, a tree-based service- and device-independent abstraction, so that config dependency calculation can be replaced by more efficient tree traversal. After deploying POSEIDON on Alibaba Cloud, we observed a 21x increase in the throughput of virtual network configuration tasks, along with a 4.4x decrease in the P99 API processing latency. POSEIDON completes the task of enabling hundreds of Elastic IP addresses (EIPs) 1.8 to 55 times faster than Vendors A and B, both of which are among the top 5 providers [6], for identical network configuration jobs.",
+  "authors": [
+    "Biao Lyu",
+    "Enge Song",
+    "Tian Pan",
+    "Jianyuan Lu",
+    "Shize Zhang",
+    "Xiaoqing Sun",
+    "Lei Gao",
+    "Chenxiao Wang",
+    "Han Xiao",
+    "Yong Pan",
+    "Xiuheng Chen",
+    "Yandong Duan",
+    "Weisheng Wang",
+    "Jinpeng Long",
+    "Yanfeng Wang",
+    "Kunpeng Zhou",
+    "Zhigang Zong",
+    "Xing Li",
+    "Guangwang Li",
+    "Pengyu Zhang",
+    "Peng Cheng",
+    "Jiming Chen",
+    "Shunmin Zhu"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/lyu"
+}

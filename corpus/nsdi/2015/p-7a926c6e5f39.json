@@ -1,0 +1,15 @@
+{
+  "id": "p-7a926c6e5f39",
+  "title": "Klotski: Reprioritizing Web Content to Improve User Experience on Mobile Devices",
+  "abstract": "Despite web access on mobile devices becoming commonplace, users continue to experience poor web performance on these devices. Traditional approaches for improving web performance (e.g., compression, SPDY, faster browsers) face an uphill battle due to the fundamentally conflicting trends in user expectations of lower load times and richer web content. Embracing the reality that page load times will continue to be higher than user tolerance limits for the foreseeable future, we ask: How can we deliver the best possible user experience? To this end, we present K LOTSKI , a system that prioritizes the content most relevant to a user’s preferences. In designing K LOTSKI , we address several challenges in: (1) accounting for inter-resource dependencies on a page; (2) enabling fast selection and load time estimation for the subset of resources to be prioritized; and (3) developing a practical implementation that requires no changes to websites. Across a range of user preference criteria, K LOTSKI can significantly improve the user experience relative to native websites.",
+  "authors": [
+    "Michael Butkiewicz",
+    "Daimeng Wang",
+    "Zhe Wu",
+    "Harsha V. Madhyastha",
+    "Vyas Sekar"
+  ],
+  "conference": "NSDI",
+  "year": 2015,
+  "url": "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/butkiewicz"
+}

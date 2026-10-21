@@ -1,0 +1,28 @@
+{
+  "id": "p-002b22c77109",
+  "title": "Hermes-Enhancing Layer-7 Cloud Load Balancers with Userspace-Directed I-O Event Notification",
+  "abstract": "Layer-7 load balancers (L7 LBs) improve service performance, availability, and scalability in public clouds. They rely on I/O event notification mechanisms such as epoll to dispatch connections from the kernel to userspace workers. However, early epoll versions suffered from the thundering herd problem. Epoll exclusive (available since Linux 4.5) mitigates this but introduces LIFO wakeups, causing connection concentration on a few workers. Reuseport (Linux 3.9) hashes connections across workers but suffers from hash collisions and lacks awareness of worker load. Since each worker serves multi-tenant traffic, inter-worker load balancing is critical to avoid worker overload and preserve tenant performance isolation. In this work, we present Hermes, a userspace-directed I/O event notification framework to enhance L7 LBs. Hermes uses userspace worker status to direct kernel-space connection dispatch. It implements lock-free concurrency management for inter-process worker status updates and retrievals, as well as scheduling decision synchronization from userspace to the kernel. In the kernel, Hermes leverages eBPF to non-intrusively override the reuseport socket selection for custom worker scheduling. Hermes has been deployed on O(100K) CPU cores in Alibaba Cloud, handling O(10M) RPS of traffic. It reduces daily worker hangs by 99.8% and lowers the unit cost of L7 LB infrastructure by 18.9%.",
+  "authors": [
+    "Tian Pan",
+    "Enge Song",
+    "Yueshang Zuo",
+    "Shaokai Zhang",
+    "Yang Song",
+    "Jiangu Zhao",
+    "Wengang Hou",
+    "Jianyuan Lu",
+    "Xiaoqing Sun",
+    "Shize Zhang",
+    "Ye Yang",
+    "Jiao Zhang",
+    "Tao Huang",
+    "Biao Lyu",
+    "Xing Li",
+    "Rong Wen",
+    "Zhigang Zong",
+    "Shunmin Zhu"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3750469"
+}

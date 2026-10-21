@@ -1,0 +1,14 @@
+{
+  "id": "p-f487f6d403b4",
+  "title": "Flashback: Decoupled Lightweight Wireless Control",
+  "abstract": "Unlike their cellular counterparts, Wi-Fi networks do not have the luxury of a dedicated control plane that is decoupled from the data plane. Consequently, Wi-Fi struggles to provide many of the capabilities that are taken for granted in cellular networks, including efficient and fair resource allocation, QoS and handoffs. The reason for the lack of a control plane with designated spectrum is that it would impose significant overhead. This is at odds with Wi-Fi’s goal of providing a simple, plug-and-play network. In this paper we present Flashback, a novel technique that provides a decoupled low overhead control plane for wireless networks that retains the simplicity of Wi-Fi’s distributed asynchronous operation. Flashback allows nodes to reliably send short control messages concurrently with data transmissions, while ensuring that data packets are decoded correctly without harming throughput. We utilize Flashback’s novel messaging capability to design, implement and experimentally evaluate a reliable control plane for Wi- Fi with rates from 175Kbps to 400Kbps depending on the environment. Moreover, to demonstrate its broad applicability, we design and implement a novel resource allocation mechanism that utilizes Flashback to provide efficient, QoS-aware and fair medium access, while eliminating control overheads including data plane contention, RTS/CTS and random back offs.",
+  "authors": [
+    "Asaf Cidon",
+    "Kanthi Nagaraj",
+    "Sachin Katti",
+    "Pramod Viswanath"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2012,
+  "url": "https://dl.acm.org/doi/10.1145/2377677.2377721"
+}

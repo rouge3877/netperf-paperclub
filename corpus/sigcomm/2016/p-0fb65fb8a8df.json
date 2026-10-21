@@ -1,0 +1,14 @@
+{
+  "id": "p-0fb65fb8a8df",
+  "title": "WebPerf: Evaluating What-If Scenarios for Cloud-hosted Web Applications",
+  "abstract": "Developers deploying web applications in the cloud often need to determine how changes to service tiers or runtime load may affect user-perceived page load time. We devise and evaluate a systematic methodology for exploring such “what-if” questions when a web application is deployed. Given a website, a web request, and “whatif” scenario, with a hypothetical configuration and runtime conditions, our methodology, embedded in a system called WebPerf, can estimate a distribution of cloud latency of the request under the “what-if” scenario. In achieving this goal, WebPerf makes three contributions: (1) automated instrumentation of websites written in an increasingly popular task asynchronous paradigm, to capture causal dependencies of various computation and asynchronous I/O calls; (2) an algorithm to use the call dependencies, together with onlineand offline-profiled models of various I/O calls to estimate a distribution of end-to-end latency of the request; and (3) an algorithm to find the optimal measurements to take within a limited time to minimize modeling errors. We have implemented WebPerf for Microsoft Azure. In experiments with six real websites and six scenarios, the WebPerf’s median estimation error is within 7% in all experiments.",
+  "authors": [
+    "Yurong Jiang",
+    "Lenin Ravindranath Sivalingam",
+    "Suman Nath",
+    "Ramesh Govindan"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2016,
+  "url": "https://dl.acm.org/doi/10.1145/2934872.2934882"
+}

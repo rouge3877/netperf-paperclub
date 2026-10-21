@@ -1,0 +1,19 @@
+{
+  "id": "p-58f57f7b5420",
+  "title": "FastServe-Iteration-Level Preemptive Scheduling for Large Language Model Inference",
+  "abstract": "Large language models (LLMs) power a new generation of interactive AI applications exemplified by ChatGPT. The interactive nature of these applications demands low latency for LLM inference. Existing LLM serving systems use run-tocompletion processing for inference jobs, which suffers from head-of-line blocking and long latency. We present FastServe, a distributed LLM serving system which exploits the autoregressive pattern of LLM inference to enable preemption at the granularity of each output token. FastServe uses preemptive scheduling to minimize latency with a novel skip-join Multi-Level Feedback Queue scheduler. Based on the new semi information-agnostic setting of LLM inference, the scheduler leverages the input length information to assign an appropriate initial queue for each arrival job to join. Queues with higher priority than the one the job joins are skipped to reduce demotions. We design an efficient GPU memory management mechanism that proactively offloads and uploads intermediate state between GPU memory and host memory for LLM inference. Evaluation shows that compared to the state-of-the-art solution vLLM, FastServe improves the throughput by up to 6.1×.",
+  "authors": [
+    "Bingyang Wu",
+    "Yinmin Zhong",
+    "Zili Zhang",
+    "Shengyu Liu",
+    "Fangyue Liu",
+    "Yuanhang Sun",
+    "Gang Huang",
+    "Xuanzhe Liu",
+    "Xin Jin"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/wu-bingyang"
+}

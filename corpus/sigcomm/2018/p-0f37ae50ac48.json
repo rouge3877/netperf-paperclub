@@ -1,0 +1,16 @@
+{
+  "id": "p-0f37ae50ac48",
+  "title": "Towards a Rigorous Methodology for Measuring Adoption of RPKI Route Validation and Filtering",
+  "abstract": "A proposal to improve routing security—Route Origin Authorization (ROA)—has been standardized. A ROA specifies which network is allowed to announce a set of Internet destinations. While some networks now specify ROAs, little is known about whether other networks check routes they receive against these ROAs, a process known as Route Origin Validation (ROV). Which networks blindly accept invalid routes? Which reject them outright? Which de-preference them if alternatives exist? Recent analysis attempts to use uncontrolled experiments to characterize ROV adoption by comparing valid routes and invalid routes [5]. However, we argue that gaining a solid understanding of ROV adoption is impossible using currently available data sets and techniques. Instead, we devise a verifiable methodology of controlled experiments for measuring ROV. Our measurements suggest that, although some ISPs are not observed using invalid routes in uncontrolled experiments, they are actually using different routes for (non-security) traffic engineering purposes, without performing ROV. We conclude with presenting three AS that do implement ROV as confirmed by the operators.",
+  "authors": [
+    "Andreas Reuter",
+    "Randy Bush",
+    "Italo Cunha",
+    "Ethan Katz-Bassett",
+    "Thomas C. Schmidt",
+    "Matthias Wählisch"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2018,
+  "url": "https://dl.acm.org/doi/10.1145/3211852.3211856"
+}

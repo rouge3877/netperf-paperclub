@@ -1,0 +1,15 @@
+{
+  "id": "p-ee399ec682c0",
+  "title": "CurvingLoRa to Boost LoRa Network Throughput via Concurrent Transmission",
+  "abstract": "LoRaWAN has emerged as an appealing technology to connect IoT devices but it functions without explicit coordination among transmitters, which can lead to many packet collisions as the network scales. State-of-the-art work proposes various approaches to deal with these collisions, but most functions only in high signal-to-interference ratio (SIR) conditions and thus does not scale to real scenarios where weak receptions are easily buried by stronger receptions from nearby transmitters. In this paper, we take a fresh look at LoRa’s physical layer, revealing that its underlying linear chirp modulation fundamentally limits the capacity and scalability of concurrent LoRa transmissions. We show that by replacing linear chirps with their non-linear counterparts, we can boost the throughput of concurrent LoRa transmissions and empower the LoRa receiver to successfully receive weak transmissions in the presence of strong colliding signals. Such a non-linear chirp design further enables the receiver to demodulate fully aligned collision symbols — a case where none of the existing approaches can deal with. We implement these ideas in a holistic LoRaWAN stack based on the USRP N210 software-defined radio platform. Our head-to-head comparison with two state-of-the-art research systems and a standard LoRaWAN baseline demonstrates that CurvingLoRa improves the network throughput by 1.6–7.6× while simultaneously sacrificing neither power efficiency nor noise resilience.",
+  "authors": [
+    "Chenning Li",
+    "Xiuzhen Guo",
+    "Longfei Shangguan",
+    "Zhichao Cao",
+    "Kyle Jamieson"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/li-chenning"
+}

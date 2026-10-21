@@ -1,0 +1,15 @@
+{
+  "id": "p-9337f9419c1b",
+  "title": "MAE-More Adaptive Video Encoder for Consistent Low Latency in High-Quality Real-Time Communication",
+  "abstract": "Real-time communication (RTC) is integral to modern digital life. However, high-quality RTC services still experience tail latency spikes. A primary cause of this issue is the sender’s slow adaptation to network fluctuations – when network bandwidth drops, the sender needs to quickly reduce the sending rate to avoid bufferbloat. Existing solutions focus on accelerating reactions in the network, transport layer, or sender-side buffer management, but often overlook a critical component: the reaction of the video encoder. The encoder serves as the content source, where slow convergence to new bitrates can still result in bufferbloat after the encoder. With the increasing video bitrate in high-quality RTC, our measurement shows that the encoder’s reaction is critical. To address this limitation, we propose More Adaptive Encoder(MAE), a framework that enables encoders to dynamically adapt to network changes with finer-grained network information. On the encoder side, MAE adaptively adjusts the internal encoding parameters to quickly converge to the target bitrate without affecting the video quality. On the network side, MAE probes the internal state of current congestion control algorithms to preemptively react to potential bandwidth drops, without waiting for the late, backpressured bitrate updates. Trace-driven emulation and real-world experiments demonstrate that our solution, MAE, reduces stall rates by 86.2% while maintaining superior visual quality compared to the state of the art.",
+  "authors": [
+    "Hua Meng",
+    "Yufan Zhuang",
+    "Yasna Noushirvani",
+    "Xiangjie Huang",
+    "Zili Meng"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/meng"
+}

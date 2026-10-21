@@ -1,0 +1,15 @@
+{
+  "id": "p-7be9b7ab6ab5",
+  "title": "Retrofitting post-quantum cryptography in internet protocols- a case study of DNSSEC",
+  "abstract": "Quantum computing is threatening current cryptography, especially the asymmetric algorithms used in many Internet protocols. More secure algorithms, colloquially referred to as Post-Quantum Cryptography (PQC), are under active development. These new algorithms differ significantly from current ones. They can have larger signatures or keys, and often require more computational power. This means we cannot just replace existing algorithms by PQC alternatives, but need to evaluate if they meet the requirements of the Internet protocols that rely on them. In this paper we provide a case study, analyzing the impact of PQC on the Domain Name System (DNS) and its Security Extensions (DNSSEC). In its main role, DNS translates human-readable domain names to IP addresses and DNSSEC guarantees message integrity and authenticity. DNSSEC is particularly challenging to transition to PQC, since DNSSEC and its underlying transport protocols require small signatures and keys and efficient validation. We evaluate current candidate PQC signature algorithms in the third round of the NIST competition on their suitability for use in DNSSEC. We show that three algorithms, partially, meet DNSSEC’s requirements but also show where and how we would still need to adapt DNSSEC. Thus, our research lays the foundation for making DNSSEC, and protocols with similar constraints ready for PQC.",
+  "authors": [
+    "Moritz Müller",
+    "Jins de Jong",
+    "Maran van Heesch",
+    "Benno Overeinder",
+    "Roland van Rijswijk-Deij"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2021,
+  "url": "https://dl.acm.org/doi/10.1145/3431832.3431838"
+}

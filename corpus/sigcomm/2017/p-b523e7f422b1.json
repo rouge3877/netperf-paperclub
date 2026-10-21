@@ -1,0 +1,15 @@
+{
+  "id": "p-b523e7f422b1",
+  "title": "DRILL: Micro Load Balancing for Low-latency Data Center Networks",
+  "abstract": "The trend towards simple datacenter network fabric strips most network functionality, including load balancing, out of the network core and pushes it to the edge. This slows reaction to microbursts, the main culprit of packet loss in datacenters. We investigate the opposite direction: could slightly smarter fabric significantly improve load balancing? This paper presents DRILL, a datacenter fabric for Clos networks which performs micro load balancing to distribute load as evenly as possible on microsecond timescales. DRILL employs perpacket decisions at each switch based on local queue occupancies and randomized algorithms to distribute load. Our design addresses the resulting key challenges of packet reordering and topological asymmetry. In simulations with a detailed switch hardware model and realistic workloads, DRILL outperforms recent edge-based load balancers, particularly under heavy load. Under 80% load, for example, it achieves 1.3-1.4× lower mean flow completion time than recent proposals, primarily due to shorter upstream queues. To test hardware feasibility, we implement DRILL in Verilog and estimate its area overhead to be less than 1%. Finally, we analyze DRILL’s stability and throughput-efficiency.",
+  "authors": [
+    "Soudeh Ghorbani",
+    "Zibin Yang",
+    "P. Brighten Godfrey",
+    "Yashar Ganjali",
+    "Amin Firoozshahian"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2017,
+  "url": "https://dl.acm.org/doi/10.1145/3098822.3098839"
+}

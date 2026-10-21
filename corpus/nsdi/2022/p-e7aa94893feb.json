@@ -1,0 +1,12 @@
+{
+  "id": "p-e7aa94893feb",
+  "title": "Katra- Realtime Verification for Multilayer Networks",
+  "abstract": "We present a new verification algorithm to efficiently and incrementally verify arbitrarily layered network data planes that are implemented using packet encapsulation. Inspired by work on model checking of pushdown systems for recursive programs, we develop a verification algorithm for networks with packets consisting of stacks of headers. Our algorithm is based on a new technique that lazily “repairs” a decomposed stack of header sets on demand to account for cross-layer dependencies. We demonstrate how to integrate our approach with existing fast incremental data plane verifiers and have implemented our ideas in a tool called Katra . Evaluating Katra against an alternative approach based on equipping existing incremental verifiers to emulate finite header stacks, we show that Katra is between 5x-32x faster for packets with just 2 headers (layers), and that its performance advantage grows with both network size and layering.",
+  "authors": [
+    "Ryan Beckett",
+    "Aarti Gupta"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/beckett"
+}

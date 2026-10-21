@@ -1,0 +1,17 @@
+{
+  "id": "p-1f93f75f45c2",
+  "title": "Towards Performance Robustness for Microservices",
+  "abstract": "Microservices are foundational to modern distributed applications, enabling modular design and scalability. However, they face performance variability due to environmental factors like workload burstiness, resource contention, and shared dependencies. Existing microservice controllers, such as autoscalers and admission controllers, struggle to ensure good performance, often causing several Service Level Objective (SLO) violations. We argue that this is because controller decision-making is uninformed, lacking guidance about robustness to environmental factors. We propose the concept of run-time “performance robustness certificates” (P ERC s) to address this limitation. A P ERC provides statistical bounds on tail latencies of specific request types under a range of environmental perturbations. We show how to leverage a queueing-theoretic model of microservice performance to quickly derive actionable P ERC s. We introduce Galileo, a framework that integrates P ERC s with two state-of-the-art learned controllers to guide robust actions toward meeting SLOs. Experimental results with real-world benchmarks validate the effectiveness of P ERC s in ensuring robust microservice performance.",
+  "authors": [
+    "Divyanshu Saxena",
+    "Gaurav Vipat",
+    "Jiaxin Lin",
+    "Jingbo Wang",
+    "Isil Dillig",
+    "Sanjay Shakkottai",
+    "Aditya Akella"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/saxena"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "p-fbb49df0e0af",
+  "title": "SmartNIC-Enabled Live Migration for Storage-Optimized VMs with PYROCUMULUS",
+  "abstract": "Cloud providers offer storage-optimized VMs equipped with locally attached storage to meet the high performance requirements of cloud users. Live migration (LM) is crucial for such VMs to improve availability and manageability. However, providers do not enable LM for storage-optimized VMs. Host-managed LM suffers from high resource overheads and varied user performance, while offloading LM to SoC SmartNICs or disks cannot reliably accomplish LM in a reasonable time. The fundamental challenges are (1) consistency, demanding a high resource budget, and (2) network contention, preventing LM from converging. We propose Pyrocumulus, an LM approach on FPGA SmartNICs, enabling SLA-aware, fast, and low-overhead LM for storage-optimized VMs. We exploit hardware customizability and efficient network accessibility of the FPGA SmartNIC with LM protocol, architecture, and algorithm designs. Results from our FPGA SmartNIC prototype show that Pyrocumulus reduces user latency variances during LM up to 12.4×, lowers LM time by up to 19.6×, and saves cost up to 3×, while only taking 0.9%/3.8% compute/memory overhead of a mid-end FPGA SmartNIC.",
+  "authors": [
+    "Jiechen Zhao",
+    "Ran Shu",
+    "Lei Qu",
+    "Ziyue Yang",
+    "Rui Ma",
+    "Derek Chiou",
+    "Natalie Enright Jerger",
+    "Peng Cheng",
+    "Yongqiang Xiong"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/zhao-jiechen"
+}

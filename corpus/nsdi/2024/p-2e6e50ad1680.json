@@ -1,0 +1,17 @@
+{
+  "id": "p-2e6e50ad1680",
+  "title": "Sirius-Composing Network Function Chains into P4-Capable Edge Gateways",
+  "abstract": "Alibaba Cloud designs and deploys P4-capable gateway to accelerate the processing of the diverse business traffics in the edge cloud. Since the programmable ASIC in the gateway only accepts a monolithic, pipelined P4 program, the dozens network function chains for different business traffics have to be composed into one. This is non-trivial due to the contention between the complexity of network function chains and the limited resource in the programmable ASIC. In this paper, we present Sirius, a system that automates network function chain composition process. Sirius synthesizes tables to identify which business traffic the input packet belongs to, pipelines loops in the merged network function graph via recirculations, and partitions the graph between programmable ASIC and CPU when the required memory consumption exceeds the ASIC’s capability. So far, Sirius has automated network function arrangement in hundreds of gateways, and has effectively decreased our programmers’ workload by three orders of magnitude, from weeks to minutes.",
+  "authors": [
+    "Jiaqi Gao",
+    "Jiamin Cao",
+    "Yifan Li",
+    "Mengqi Liu",
+    "Ming Tang",
+    "Dennis Cai",
+    "Ennan Zhai"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/gao-jiaqi"
+}

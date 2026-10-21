@@ -1,0 +1,28 @@
+{
+  "id": "p-699f06b8ec71",
+  "title": "Nezha-SmartNIC-based Virtual Switch Load Sharing",
+  "abstract": "Cloud providers use SmartNIC-accelerated virtual switches (vSwitches) to o!er rich network functions (NFs) for tenant VMs. Constrained by limited SmartNIC resources, it is a challenge to provide su\"- cient network performance for high-demand VMs. Meanwhile, we observed a signi#cant number of idle vSwitches in the data center, which led us to consider leveraging them to build a remote resource pool for high-demand virtual NICs (vNICs). In this work, we propose Nezha, a distributed vSwitch load sharing system. Nezha reuses the existing idle SmartNICs to handle the excess load from the local SmartNIC without adding new devices. Nezha o$oads stateless rule/%ow tables to the remote, while keeping states locally. This eliminates the need for state synchronization, facilitating load sharing and failover. The deployment cost of Nezha is only a small fraction of that required to deploy new devices. Data collected from production show that our CPS capability bottleneck has shifted from the vSwitch to the VM kernel stack, with #concurrent %ows and #vNICs increased by up to 50.4x and 40x, respectively.",
+  "authors": [
+    "Xing Li",
+    "Enge Song",
+    "Bowen Yang",
+    "Tian Pan",
+    "Ye Yang",
+    "Qiang Fu",
+    "Yang Song",
+    "Yilong Lv",
+    "Zikang Chen",
+    "Jianyuan Lu",
+    "Shize Zhang",
+    "Xiaoqing Sun",
+    "Rong Wen",
+    "Xionglie Wei",
+    "Biao Lyu",
+    "Zhigang Zong",
+    "Qinming He",
+    "Shunmin Zhu"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3750466"
+}

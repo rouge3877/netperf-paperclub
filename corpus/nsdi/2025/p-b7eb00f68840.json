@@ -1,0 +1,16 @@
+{
+  "id": "p-b7eb00f68840",
+  "title": "Resolving Packets from Counters-Enabling Multi-scale Network Traffic Super Resolution via Composable Large Traffic Model",
+  "abstract": "Realistic fine-grained traffic traces are valuable to numerous applications in both academia and industry. However, obtaining them directly from devices is significantly challenging, while coarse-grained counters are readily available on almost all network devices. None of existing work can restore fine-grained traffic traces from counters, which we call network traffic super-resolution (TSR). To this end, we propose Z OOM S YNTH , the first TSR system that can achieve packetlevel trace synthesis with counter traces as input. Following the basic structure of the TSR task, we design the Granular Traffic Transformer (GTT) model and the Composable Large Traffic Model (CLTM). CLTM is a tree of GTT models, and the GTT models in each layer perform upscaling on a particular granularity, which allows each GTT model to capture the traffic characteristics at this resolution. Using CLTM, we synthesize fine-grained traces from counters. We also leverage a rule-following model to comprehend counter rules (e.g. ACLs) when available, guiding the generations of fine-grained traces. We implement Z OOM S YNTH and perform extensive evaluations. Results show that, with only second-level counter traces, Z OOM S YNTH achieves synthesis quality comparable to existing solutions that takes packet-level traces as input. CLTM can also be fine-tuned to support downstream tasks. For example, Z OOM S YNTH with fine-tuned CLTM outperforms the existing solution by 27.5% and 9.8% in anomaly detection and service recognition tasks, respectively. To promote future research, we release the pre-trained CLTM-1.8B model weights along with its source code.",
+  "authors": [
+    "Xizheng Wang",
+    "Libin Liu",
+    "Li Chen",
+    "Dan Li",
+    "Yukai Miao",
+    "Yu Bai"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/wang-xizheng-resolving"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "p-86943530d23a",
+  "title": "Understanding Misunderstandings- Evaluating LLMs on Networking Questions",
+  "abstract": "Large Language Models (LLMs) have demonstrated impressive abilities in tackling tasks across numerous domains. The capabilities of LLMs could potentially be applied to various computer networking tasks, including network synthesis, management, debugging, security, and education. However, LLMs can be unreliable: they are prone to reasoning errors and may hallucinate incorrect information. Their effectiveness and limitations in computer networking tasks remain unclear. In this paper, we attempt to understand the capabilities and limitations of LLMs in network applications. We evaluate misunderstandings regarding networking related concepts across 3 LLMs over 500 questions. We assess the reliability, explainability, and stability of LLM responses to networking questions. Furthermore, we investigate errors made, analyzing their cause, detectability, effects, and potential mitigation strategies.",
+  "authors": [
+    "Mubashir Anwar",
+    "Matthew Caesar"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3717512.3717515"
+}

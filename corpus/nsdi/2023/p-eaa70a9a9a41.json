@@ -1,0 +1,16 @@
+{
+  "id": "p-eaa70a9a9a41",
+  "title": "LemonNFV- Consolidating Heterogeneous Network Functions at Line Speed",
+  "abstract": "NFV has entered into a new era that heterogeneous frameworks coexist. NFs built upon those frameworks are thus not interoperable, obstructing operators from getting the best of breed. Traditional interoperation solutions either incur large overhead, e.g., virtualizing NFs into containers, or require huge code modification, e.g., rewriting NFs with specific abstractions. We present LemonNFV, a novel NFV framework that can consolidate heterogeneous NFs without code modifi- cation. LemonNFV loads NFs into a single process down to the binary level, schedules them using an intercepted I/O, and isolates them with the help of a restricted memory allocator. Experiments show that LemonNFV can consolidate 5 complex NFs without modifying the native code while achieving comparable performance to the ideal and state-of-the-art pure consolidation approaches with only 0.7–4.3% overhead.",
+  "authors": [
+    "Hao Li",
+    "Yihan Dang",
+    "Guangda Sun",
+    "Guyue Liu",
+    "Danfeng Shan",
+    "Peng Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/li-hao"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "p-bc8500a111b1",
+  "title": "Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads",
+  "abstract": "We describe ExCamera, a system that can edit, transform, and encode a video, including 4K and VR material, with low latency. The system makes two major contributions. First, we designed a framework to run general-purpose parallel computations on a commercial “cloud function” service. The system starts up thousands of threads in seconds and manages inter-thread communication. Second, we implemented a video encoder intended for fine-grained parallelism, using a functional-programming style that allows computation to be split into thousands of tiny tasks without harming compression efficiency. Our design reflects a key insight: the work of video encoding can be divided into fast and slow parts, with the “slow” work done in parallel, and only “fast” work done serially.",
+  "authors": [
+    "Sadjad Fouladi",
+    "Riad S. Wahby",
+    "Brennan Shacklett",
+    "Karthikeyan Vasuki Balasubramaniam",
+    "William Zeng",
+    "Rahul Bhalerao",
+    "Anirudh Sivaraman",
+    "George Porter",
+    "Keith Winstein"
+  ],
+  "conference": "NSDI",
+  "year": 2017,
+  "url": "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/fouladi"
+}

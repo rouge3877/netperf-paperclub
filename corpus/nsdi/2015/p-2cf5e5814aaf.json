@@ -1,0 +1,18 @@
+{
+  "id": "p-2cf5e5814aaf",
+  "title": "Explicit Path Control in Commodity Data Centers: Design and Applications",
+  "abstract": "Many data center network (DCN) applications require explicit routing path control over the underlying topologies. This paper introduces XPath, a simple, practical and readily-deployable way to implement explicit path control, using existing commodity switches. At its core, XPath explicitly identifies an end-to-end path with a path ID and leverages a two-step compression algorithm to pre-install all the desired paths into IP TCAM tables of commodity switches. Our evaluation and implementation show that XPath scales to large DCNs and is readilydeployable. Furthermore, on our testbed, we integrate XPath into four applications to showcase its utility.",
+  "authors": [
+    "Shuihai Hu",
+    "Kai Chen",
+    "Haitao Wu",
+    "Wei Bai",
+    "Chang Lan",
+    "Hao Wang",
+    "Hongze Zhao",
+    "Chuanxiong Guo"
+  ],
+  "conference": "NSDI",
+  "year": 2015,
+  "url": "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/hu"
+}

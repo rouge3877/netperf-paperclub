@@ -1,0 +1,15 @@
+{
+  "id": "p-983d4c6c0c17",
+  "title": "AsTree-An Audio Subscription Architecture Enabling Massive-Scale Multi-Party Conferencing",
+  "abstract": "While operating a multi-party video conferencing system (Lark) globally, we find that audio subscription alone may pose considerable challenges to the network, especially when scaling towards massive scales. Traditional strategy of subscribing to all remote participants suffers from issues such as signaling storm, excessive bandwidth and resource consumption on both server and client sides. Aimed at enhanced scalability, we share our design of AsTree, an audio subscription architecture. By a cascading tree topology and media plane-based audio selection, AsTree dramatically reduces the number of signaling messages and audio streams to forward. Practical deployment in Lark reduces audio and video stall ratios by more than 30% and 50%. We also receive 40% less negative client reviews, strongly proving the value of AsTree.",
+  "authors": [
+    "Tong Meng",
+    "Wenfeng Li",
+    "Chao Yuan",
+    "Changqing Yan",
+    "Le Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/meng"
+}

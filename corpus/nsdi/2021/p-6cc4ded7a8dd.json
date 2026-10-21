@@ -1,0 +1,13 @@
+{
+  "id": "p-6cc4ded7a8dd",
+  "title": "EPaxos Revisited",
+  "abstract": "This paper re-evaluates the performance of the EPaxos consensus protocol for geo-replication and proposes an enhancement that uses synchronized clocks to reduce operation latency. The benchmarking approach used for the original EPaxos evaluation does not trigger or measure the full impact of conflict behavior on system performance. Our re-evaluation confirms the original claim that EPaxos provides optimal median commit latency in a WAN, but it shows much worse tail latency than previously reported (more than 4x worse than Multi-Paxos). Furthermore, performance is highly sensitive to application workloads, particularly at the tail. In addition, we show how synchronized clocks can be used to reduce conflicts in geo-replication. By imposing intentional delays on message processing, we can achieve roughly in-order deliveries to multiple replicas. When applied to EPaxos, this technique reduced conflicts by at least 50% without introducing additional overhead, decreasing mean latency by up to 7.5%.",
+  "authors": [
+    "Sarah Tollman",
+    "Seo Jin Park",
+    "John Ousterhout"
+  ],
+  "conference": "NSDI",
+  "year": 2021,
+  "url": "https://www.usenix.org/conference/nsdi21/presentation/tollman"
+}

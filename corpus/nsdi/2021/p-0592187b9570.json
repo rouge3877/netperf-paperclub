@@ -1,0 +1,20 @@
+{
+  "id": "p-0592187b9570",
+  "title": "Scaling Distributed Machine Learning with In-Network Aggregation",
+  "abstract": "Training machine learning models in parallel is an increasingly important workload. We accelerate distributed parallel training by designing a communication primitive that uses a programmable switch dataplane to execute a key step of the training process. Our approach, SwitchML, reduces the volume of exchanged data by aggregating the model updates from multiple workers in the network. We co-design the switch processing with the end-host protocols and ML frameworks to provide an efficient solution that speeds up training by up to 5.5× for a number of real-world benchmark models.",
+  "authors": [
+    "Amedeo Sapio",
+    "Marco Canini",
+    "Chen-Yu Ho",
+    "Jacob Nelson",
+    "Panos Kalnis",
+    "Changhoon Kim",
+    "Arvind Krishnamurthy",
+    "Masoud Moshref",
+    "Dan Ports",
+    "Peter Richtarik"
+  ],
+  "conference": "NSDI",
+  "year": 2021,
+  "url": "https://www.usenix.org/conference/nsdi21/presentation/sapio"
+}

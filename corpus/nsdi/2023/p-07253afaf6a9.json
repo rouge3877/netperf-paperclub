@@ -1,0 +1,14 @@
+{
+  "id": "p-07253afaf6a9",
+  "title": "SHEPHERD- Serving DNNs in the Wild",
+  "abstract": "Model serving systems observe massive volumes of inference requests for many emerging interactive web services. These systems need to be scalable, guarantee high system goodput and maximize resource utilization across compute units. However, achieving all three goals simultaneously is challenging since inference requests have very tight latency constraints (10–500ms), and production workloads can be extremely unpredictable at such small time granularities. We present SHEPHERD , a model serving system that achieves all three goals in the face of workload unpredictability. SHEPHERD uses a two-level design that decouples model serving into planning and serving modules. For planning, SHEPHERD exploits the insight that while individual request streams can be highly unpredictable, aggregating request streams into moderately-sized groups greatly improves predictability, permitting high resource utilization as well as scalability. For serving, SHEPHERD employs a novel online algorithm that provides guaranteed goodput under workload unpredictability by carefully leveraging preemptions and modelspecific batching properties. Evaluation results over production workloads show that SHEPHERD achieves up to 18.1× higher goodput and 1.8× better utilization compared to prior state-of-the-art, while scaling to hundreds of workers.",
+  "authors": [
+    "Hong Zhang",
+    "Yupeng Tang",
+    "Anurag Khandelwal",
+    "Ion Stoica"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/zhang-hong"
+}

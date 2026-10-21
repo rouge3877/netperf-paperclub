@@ -1,0 +1,15 @@
+{
+  "id": "p-13ea4ce7e3dc",
+  "title": "VeriFlow: Verifying Network-Wide Invariants in Real Time",
+  "abstract": "Networks are complex and prone to bugs. Existing tools that check network configuration files and the data-plane state operate offline at timescales of seconds to hours, and cannot detect or prevent bugs as they arise. Is it possible to check network-wide invariants in real time, as the network state evolves? The key challenge here is to achieve extremely low latency during the checks so that network performance is not affected. In this paper, we present a design, VeriFlow, which achieves this goal. VeriFlow is a layer between a softwaredefined networking controller and network devices that checks for network-wide invariant violations dynamically as each forwarding rule is inserted, modified or deleted. VeriFlow supports analysis over multiple header fields, and an API for checking custom invariants. Based on a prototype implementation integrated with the NOX OpenFlow controller, and driven by a Mininet OpenFlow network and Route Views trace data, we find that Veri- Flow can perform rigorous checking within hundreds of microseconds per rule insertion or deletion.",
+  "authors": [
+    "Ahmed Khurshid",
+    "Xuan Zou",
+    "Wenxuan Zhou",
+    "Matthew Caesar",
+    "P. Brighten Godfrey"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/khurshid"
+}

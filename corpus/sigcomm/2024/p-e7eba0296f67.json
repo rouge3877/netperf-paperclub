@@ -1,0 +1,21 @@
+{
+  "id": "p-e7eba0296f67",
+  "title": "Principles for Internet Congestion Management",
+  "abstract": "Given the technical flaws with—and the increasing non-observance of—the TCP-friendliness paradigm, we must rethink how the Internet should manage bandwidth allocation. We explore this question from first principles, but remain within the constraints of the Internet’s current architecture and commercial arrangements. We propose a new framework, Recursive Congestion Shares (RCS), that provides bandwidth allocations independent of which congestion control algorithms flows use but consistent with the Internet’s economics. We show that RCS achieves this goal using game-theoretic calculations and simulations as well as network emulation.",
+  "authors": [
+    "Lloyd Brown",
+    "Albert Gran Alcoz",
+    "Frank Cangialosi",
+    "Akshay Narayan",
+    "Mohammad Alizadeh",
+    "Hari Balakrishnan",
+    "Eric Friedman",
+    "Ethan Katz-Bassett",
+    "Arvind Krishnamurthy",
+    "Michael Schapira",
+    "Scott Shenker"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672247"
+}

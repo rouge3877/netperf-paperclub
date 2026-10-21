@@ -1,0 +1,13 @@
+{
+  "id": "p-78f472955e69",
+  "title": "Bringing Gesture Recognition to All Devices",
+  "abstract": "Existing gesture-recognition systems consume significant power and computational resources that limit how they may be used in low-end devices. We introduce AllSee, the first gesture-recognition system that can operate on a range of computing devices including those with no batteries. AllSee consumes three to four orders of magnitude lower power than state-of-the-art systems and can enable always-on gesture recognition for smartphones and tablets. It extracts gesture information from existing wireless signals (e.g., TV transmissions), but does not incur the power and computational overheads of prior wireless approaches. We build AllSee prototypes that can recognize gestures on RFID tags and power-harvesting sensors. We also integrate our hardware with an off-the-shelf Nexus S phone and demonstrate gesture recognition in through-the-pocket scenarios. Our results show that AllSee achieves classification accuracies as high as 97% over a set of eight gestures.",
+  "authors": [
+    "Bryce Kellogg",
+    "Vamsi Talla",
+    "Shyamnath Gollakota"
+  ],
+  "conference": "NSDI",
+  "year": 2014,
+  "url": "https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/kellogg"
+}

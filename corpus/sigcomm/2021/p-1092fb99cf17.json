@@ -1,0 +1,15 @@
+{
+  "id": "p-1092fb99cf17",
+  "title": "RedPlane- Enabling Fault-Tolerant Stateful In-Switch Applications",
+  "abstract": "Many recent efforts have demonstrated the performance benefits of running datacenter functions (e.g., NATs, load balancers, monitoring) on programmable switches. However, a key missing piece remains: fault tolerance. This is especially critical as the network is no longer stateless and pure endpoint recovery does not suffice. In this paper, we design and implement RedPlane, a fault-tolerant state store for stateful in-switch applications. This provides in-switch applications consistent access to their state, even if the switch they run on fails or traffic is rerouted to an alternative switch. We address key challenges in devising a practical, provably correct replication protocol and implementing it in the switch data plane. Our evaluations show that RedPlane incurs negligible overhead and enables end-to-end applications to rapidly recover from switch failures.",
+  "authors": [
+    "Daehyeok Kim",
+    "Jacob Nelson",
+    "Dan R. K. Ports",
+    "Vyas Sekar",
+    "Srinivasan Seshan"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2021,
+  "url": "https://dl.acm.org/doi/10.1145/3452296.3472905"
+}

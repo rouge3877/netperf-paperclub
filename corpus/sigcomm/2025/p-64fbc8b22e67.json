@@ -1,0 +1,23 @@
+{
+  "id": "p-64fbc8b22e67",
+  "title": "SkeletonHunter-Diagnosing and Localizing Network Failures in Containerized Large Model Training",
+  "abstract": "The flexibility and portability characteristics have made containers a popular serverless environment for large model training in recent years. Unfortunately, these advantages render the network support for containerized large model training extremely challenging, due to the high dynamics of containers, the complex interplay between underlay and overlay networks, and the stringent requirements on failure detection and localization. Existing data center network debugging tools, which rely on comprehensive or opportunistic monitoring, are either inefficient or inaccurate in this setting. This paper presents SkeletonHunter, a container network monitoring and diagnosis system that leverages the intrinsic and regular sparsity of the network traffic incurred by large model training. Its key idea is to reason about the traffic skeleton, which comprises a crucial set of network paths consistently traversed by the training traffic, so as to reliably detect and localize network failures in short time. We deployed it in production for six months, uncovering 4,816 network failures with 98.2% precision and 99.3% recall, and localizing them with a high accuracy of 95.7%. After fixing 98% problematic network components, the monthly network failure rate has significantly dropped by 99.1%.",
+  "authors": [
+    "Wei Liu",
+    "Kun Qian",
+    "Zhenhua Li",
+    "Tianyin Xu",
+    "Yunhao Liu",
+    "Weicheng Wang",
+    "Yun Zhang",
+    "Jiakang Li",
+    "Shuhong Zhu",
+    "Xue Li",
+    "Hongfei Xu",
+    "Fei Feng",
+    "Ennan Zhai"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3750513"
+}

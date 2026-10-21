@@ -1,0 +1,15 @@
+{
+  "id": "p-b61b4aa08528",
+  "title": "How to Bid the Cloud",
+  "abstract": "Amazon’s Elastic Compute Cloud (EC2) uses auctionbased spot pricing to sell spare capacity, allowing users to bid for cloud resources at a highly reduced rate. Amazon sets the spot price dynamically and accepts user bids above this price. Jobs with lower bids (including those already running) are interrupted and must wait for a lower spot price before resuming. Spot pricing thus raises two basic questions: how might the provider set the price, and what prices should users bid? Computing users’ bidding strategies is particularly challenging: higher bid prices reduce the probability of, and thus extra time to recover from, interruptions, but may increase users’ cost. We address these questions in three steps: (1) modeling the cloud provider’s setting of the spot price and matching the model to historically offered prices, (2) deriving optimal bidding strategies for different job requirements and interruption overheads, and (3) adapting these strategies to MapReduce jobs with master and slave nodes having different interruption overheads. We run our strategies on EC2 for a variety of job sizes and instance types, showing that spot pricing reduces user cost by 90% with a modest increase in completion time compared to on-demand pricing.",
+  "authors": [
+    "Liang Zheng",
+    "Carlee Joe-Wong",
+    "Chee Wei Tan",
+    "Mung Chiang",
+    "Xinyu Wang"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2015,
+  "url": "https://dl.acm.org/doi/10.1145/2829988.2787473"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "p-4a60f7b168ad",
+  "title": "Decentralized cloud wide-area network traffic engineering with BLASTSHIELD",
+  "abstract": "Cloud networks are increasingly managed by centralized software defined controllers. Centralized traffic engineering controllers achieve higher network throughput than decentralized implementations, but are a single point of failure in the network. Large scale networks require controllers with isolated fault domains to contain the blast radius of faults. In this work, we present BLASTSHIELD , Microsoft’s software-defined decentralized WAN traffic engineering system. BLASTSHIELD slices the WAN into smaller fault domains, each managed by its own slice controller. Slice controllers independently engineer traffic in their slices to maximize global network throughput without relying on hierarchical or central coordination. BLASTSHIELD is fully deployed in Microsoft’s WAN and carries a majority of the backbone traffic. BLASTSHIELD achieves similar network throughput as the previous generation centralized controller and reduces traffic loss from controller failures by 60%.",
+  "authors": [
+    "Umesh Krishnaswamy",
+    "Rachee Singh",
+    "Nikolaj Bjørner",
+    "Himanshu Raj"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/krishnaswamy"
+}

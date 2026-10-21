@@ -1,0 +1,14 @@
+{
+  "id": "p-07ec86803b9f",
+  "title": "FIGRET-Fine-Grained Robustness-Enhanced Traffic Engineering",
+  "abstract": "Traffic Engineering (TE) is critical for improving network performance and reliability. A key challenge in TE is the management of sudden traffic bursts. Existing TE schemes either do not handle traffic bursts or uniformly guard against traffic bursts, thereby facing difficulties in achieving a balance between normal-case performance and burst-case performance. To address this issue, we introduce FIGRET, a Fine-Grained Robustness-Enhanced TE scheme. FIGRET offers a novel approach to TE by providing varying levels of robustness enhancements, customized according to the distinct traffic characteristics of various source-destination pairs. By leveraging a burst-aware loss function and deep learning techniques, FIGRET is capable of generating high-quality TE solutions efficiently. Our evaluations of real-world production networks, including Wide Area Networks and data centers, demonstrate that FIGRET significantly outperforms existing TE schemes. Compared to the TE scheme currently deployed in Google’s Jupiter data center networks, FIGRET achieves a 9%-34% reduction in average Maximum Link Utilization and improves solution speed by 35×-1800×. Against DOTE, a state-of-the-art deep learning-based TE method, FIGRET substantially lowers the occurrence of significant congestion events triggered by traffic bursts by 41%-53.9% in topologies with high traffic dynamics.",
+  "authors": [
+    "Ximeng Liu",
+    "Shizhen Zhao",
+    "Yong Cui",
+    "Xinbing Wang"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672258"
+}

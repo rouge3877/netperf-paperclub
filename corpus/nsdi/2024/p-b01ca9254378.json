@@ -1,0 +1,13 @@
+{
+  "id": "p-b01ca9254378",
+  "title": "Efficient Exposure of Partial Failure Bugs in Distributed Systems with Inferred Abstract States",
+  "abstract": "Many distributed system failures, especially the notorious partial service failures, are caused by bugs that are only triggered by subtle faults at rare timing. Existing testing is inefficient in exposing such bugs. This paper presents Legolas , a fault injection testing framework designed to address this gap. To precisely simulate subtle faults, Legolas statically analyzes the system code and instruments hooks within a system. To efficiently explore numerous faults, Legolas introduces a novel notion of abstract states and automatically infers abstract states from code. During testing, Legolas designs an algorithm that leverages the inferred abstract states to make careful fault injection decisions. We applied Legolas on the latest releases of six popular, extensively tested distributed systems. Legolas found 20 new bugs that result in partial service failures.",
+  "authors": [
+    "Haoze Wu",
+    "Jia Pan",
+    "Peng Huang"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/wu-haoze"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p-25da0be3a23c",
+  "title": "Differential Network Analysis",
+  "abstract": "Networks are constantly changing. To avoid outages, operators need to know whether prospective changes in a network’s control plane will cause undesired changes in end-to-end forwarding behavior. For example, which pairs of end hosts are reachable before a configuration change but unreachable after the change? Control plane verifiers are ill-suited for answering such questions because they operate on a single snapshot to check its “compliance” with “explicitly specified” properties, instead of quantifying the “differences” in “affected” end-to-end forwarding behaviors. We argue for a new control plane analysis paradigm that makes differences first class citizens. Differential Network Analysis (DNA) takes control plane changes, incrementally computes control and data plane state, and outputs consequent differences in end-to-end behavior. We break the computation into three stages—control plane simulation, data plane modeling, and property checking—and leverage differential dataflow programming frameworks, incremental data plane verification, and customized graph algorithms, respectively, to make each stage incremental. Evaluations using both real and synthetic control plane changes demonstrate that DNA can compute the resulting differences in reachability in a few seconds—up to 3 orders of magnitude faster than state-of-the-art control plane verifiers.",
+  "authors": [
+    "Peng Zhang",
+    "Aaron Gember-Jacobson",
+    "Yueshang Zuo",
+    "Yuhao Huang",
+    "Xu Liu",
+    "Hao Li"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/zhang-peng"
+}

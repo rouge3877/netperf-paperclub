@@ -1,0 +1,30 @@
+{
+  "id": "p-ba2e8012d69f",
+  "title": "GGN-Experiences in Designing and Deploying the Next-Generation Google Global Network",
+  "abstract": "Cloud and AI/ML workloads are posing unprecedented new requirements on the wide-area network: it must combine strict availability, massive growth, and feature agility. It became increasingly clear that traditional WAN designs were ill-equipped to adapt to these requirements. We present Google’s Global Network (GGN), a major architectural redesign of our WAN that evolves B2 and B4 into a single, modular, and highly available software-defined network. The architecture is designed around three pillars: (1) A modular design of functional domains with well-defined APIs; (2) a physically sharded and regionalized core for fault isolation and horizontal scaling; (3) a vendor-agnostic hardware strategy based on open standards. We share the multi-year deployment journey of GGN, including a safe, host-steered migration strategy, and demonstrate its ability to improve network availability and reaction time to failures, setting a foundation for a planet-scale modern WAN.",
+  "authors": [
+    "Mohammad Al-Fares",
+    "Richard Alimi",
+    "Arda Balkanay",
+    "Dennis Fetterly",
+    "Chi-Yao Hong",
+    "Nachikethas A. Jagadeesan",
+    "Bikash Koley",
+    "Priya Mahadevan",
+    "Subhasree Mandal",
+    "Warren Martins",
+    "Arjun Muralidharan",
+    "Namrata Pralhad Kadam",
+    "Aman Shaikh",
+    "Anees Shaikh",
+    "Rob Shakir",
+    "Arjun Singh",
+    "Sankalp Singh",
+    "Charith Wickramaarachchi",
+    "Min Zhu",
+    "Jonathan Zolla"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2026,
+  "url": "https://dl.acm.org/doi/10.1145/3789240.3829114"
+}

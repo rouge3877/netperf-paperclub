@@ -1,0 +1,16 @@
+{
+  "id": "p-79b3360fdc43",
+  "title": "TraceWeaver-Distributed Request Tracing for Microservices Without Application Modification",
+  "abstract": "Monitoring and debugging modern cloud-based applications is challenging since even a single API call can involve many interdependent distributed microservices. To provide observability for such complex systems, distributed tracing frameworks track request flow across the microservice call tree. However, such solutions require instrumenting every component of the distributed application to add and propagate tracing headers, which has slowed adoption. This paper explores whether we can trace requests without any application instrumentation, which we refer to as request trace reconstruction. To that end, we develop TraceWeaver, a system that incorporates readily available information from production settings (e.g., timestamps) and test environments (e.g., call graphs) to reconstruct request traces with usefully high accuracy. At the heart of TraceWeaver is a reconstruction algorithm that uses request-response timestamps to effectively prune the search space for mapping requests and applies statistical timing analysis techniques to reconstruct traces. Evaluation with (1) benchmark microservice applications and (2) a production microservice dataset demonstrates that TraceWeaver can achieve a high accuracy of ~90% and can be meaningfully applied towards multiple use cases (e.g., finding slow services and A/B testing).",
+  "authors": [
+    "Sachin Ashok",
+    "Vipul Harsh",
+    "Brighten Godfrey",
+    "Radhika Mittal",
+    "Srinivasan Parthasarathy",
+    "Larisa Shwartz"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672254"
+}

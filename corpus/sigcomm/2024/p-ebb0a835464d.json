@@ -1,0 +1,13 @@
+{
+  "id": "p-ebb0a835464d",
+  "title": "Practical Rateless Set Reconciliation",
+  "abstract": "Set reconciliation, where two parties hold fixed-length bit strings and run a protocol to learn the strings they are missing from each other, is a fundamental task in many distributed systems. We present Rateless Invertible Bloom Lookup Tables (Rateless IBLTs), the first set reconciliation protocol, to the best of our knowledge, that achieves low computation cost and near-optimal communication cost across a wide range of scenarios: set differences of one to millions, bit strings of a few bytes to megabytes, and workloads injected by potential adversaries. Rateless IBLT is based on a novel encoder that incrementally encodes the set difference into an infinite stream of coded symbols, resembling rateless error-correcting codes. We compare Rateless IBLT with state-of-the-art set reconciliation schemes and demonstrate significant improvements. Rateless IBLT achieves 3–4× lower communication cost than non-rateless schemes with similar computation cost, and 2–2000× lower computation cost than schemes with similar communication cost. We show the real-world benefits of Rateless IBLT by applying it to synchronize the state of the Ethereum blockchain, and demonstrate 5.6× lower end-to-end completion time and 4.4× lower communication cost compared to the system used in production.",
+  "authors": [
+    "Lei Yang",
+    "Yossi Gilad",
+    "Mohammad Alizadeh"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672219"
+}

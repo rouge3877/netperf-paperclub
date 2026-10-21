@@ -1,0 +1,14 @@
+{
+  "id": "p-5ab26605f758",
+  "title": "PacketGame- Multi-Stream Packet Gating for Concurrent Video Inference at Scale",
+  "abstract": "The resource efficiency of video analytics workloads is critical for large-scale deployments on edge nodes and cloud clusters. Recent advanced systems have benefited from techniques including video compression, frame filtering, and deep model acceleration. However, based on our year-long experience of operating a real-time video analytics system on more than 1000 cameras, we identified a previously overlooked bottleneck of end-to-end concurrency: video decoding. To support concurrent video inference at scale, in this work, we investigate a new task, named video packet gating, which selectively filters packets before running a decoder. We propose a novel multi-view embedding approach for video packets and present PacketGame that has both theoretical performance guarantee and practical system designs. Experiments on both public datasets and a real system show PacketGame saves 52.0-79.3% decoding costs and achieves 2.1-4.8× concurrency compared to original workloads. Comparisons with four state-of-the-art complementary methods show the superiority of PacketGame in end-to-end concurrency.",
+  "authors": [
+    "Mu Yuan",
+    "Lan Zhang",
+    "Xuanke You",
+    "Xiang-Yang Li"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2023,
+  "url": "https://dl.acm.org/doi/10.1145/3603269.3604825"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "p-c3a92a3638ee",
+  "title": "Recursively Cautious Congestion Control",
+  "abstract": "TCP’s congestion control is deliberately cautious, avoiding network overloads by starting with a small initial window and then iteratively ramping up. As a result, it often takes flows several round-trip times to fully utilize the available bandwidth. In this paper we propose RC3, a technique to quickly take advantage of available capacity from the very first RTT. RC3 uses several levels of lower priority service and a modified TCP behavior to achieve near-optimal throughputs while preserving TCP-friendliness and fairness. We implement RC3 in the Linux kernel and in NS-3. In common wide-area scenarios, RC3 results in over 40% reduction in average flow completion times, with strongest improvements – more than 70% reduction in flow completion time – seen in medium to large sized (100KB - 3MB) flows.",
+  "authors": [
+    "Radhika Mittal",
+    "Justine Sherry",
+    "Sylvia Ratnasamy",
+    "Scott Shenker"
+  ],
+  "conference": "NSDI",
+  "year": 2014,
+  "url": "https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/mittal"
+}

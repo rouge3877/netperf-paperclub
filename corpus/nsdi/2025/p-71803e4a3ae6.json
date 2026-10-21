@@ -1,0 +1,18 @@
+{
+  "id": "p-71803e4a3ae6",
+  "title": "Eden-Developer-Friendly Application-Integrated Far Memory",
+  "abstract": "Far memory systems are a promising way to address the resource stranding problem in datacenters. Far memory systems broadly fall into two categories. On one hand, paging-based systems use hardware guards at the granularity of pages to intercept remote accesses, which require no application changes but incur significant faulting overhead. On the other hand, app-integrated systems use software guards on data objects and apply application-specific optimizations to avoid faulting overheads, but these systems require significant application redesign and/or suffer from overhead on local accesses. We propose Eden, a new approach to far memory that combines hardware guards with a small number of software guards in the form of programmer annotations, to achieve performance similar to app-integrated systems with minimal developer effort. Eden is based on the insight that applications generate most of their page faults at a small number of code locations, and those locations are easy to find programmatically. By adding hints to such locations, Eden can notify the pager about upcoming memory accesses to customize readahead and memory reclamation. We show that Eden achieves 19.4–178% higher performance than Fastswap for memoryintensive applications including DataFrame and memcached. Eden achieves performance comparable to AIFM with almost 100× fewer code changes.",
+  "authors": [
+    "Anil Yelam",
+    "Stewart Grant",
+    "Saarth Deshpande",
+    "Nadav Amit",
+    "Radhika Niranjan Mysore",
+    "Amy Ousterhout",
+    "Marcos K. Aguilera",
+    "Alex C. Snoeren"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/yelam"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p-68da9b405c3c",
+  "title": "SlimWiFi- Ultra-Low-Power IoT Radio Architecture Enabled by Asymmetric Communication",
+  "abstract": "To communicate with existing wireless infrastructures such as Wi-Fi, an Internet of Things (IoT) radio device needs to adopt a compatible PHY layer which entails sophisticated hardware and high power consumption. This paper breaks the tension for the first time through a system called SlimWiFi. A SlimWiFi radio actively transmits on-off keying (OOK) modulated signals. But through a novel asymmetric communication scheme, it can be directly decoded by off-the-shelf Wi-Fi devices. With this measure, SlimWiFi radically simpli- fies the radio architecture, evading power hungry components such as data converters and high-stability carrier generators. In addition, it can cut the transmit power by around 18 dB, while keeping a similar link budget as standard Wi-Fi. We have implemented SlimWiFi through PCB prototype and IC tape-out. Our experiments demonstrate that SlimWiFi can reach around 100 kbps goodput at up to 60 m, while reducing power consumption by around 3 orders of magnitude compared to a standard Wi-Fi transmitter.",
+  "authors": [
+    "Renjie Zhao",
+    "Kejia Wang",
+    "Kai Zheng",
+    "Xinyu Zhang",
+    "Vincent Leung"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/zhao-renjie"
+}

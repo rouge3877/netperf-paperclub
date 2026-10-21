@@ -1,0 +1,18 @@
+{
+  "id": "p-1c46a1f66ebc",
+  "title": "Passive DSSS- Empowering the Downlink Communication for Backscatter Systems",
+  "abstract": "The uplink and downlink transmissions in most backscatter communication systems are highly asymmetric. The downlink transmission often suffers from its short range and vulnerability to interference, which limits the practical application and deployment of backscatter communication systems. In this paper, we propose passive DSSS to improve the downlink communication for practical backscatter systems. Passive DSSS is able to increase the downlink signal-to-interference-plusnoise ratio (SINR) by using direct sequence spread-spectrum (DSSS) techniques to suppress interference and noise. The key challenge lies in the demodulation of DSSS signals, where the conventional solutions require power-hungry computations to synchronize a locally generated spreading code with the received DSSS signal, which is infeasible on energy-constrained backscatter devices. Passive DSSS addresses such a challenge by shifting the generation and synchronization of the spreading code from the receiver to the gateway side, and therefore achieves ultra-low power DSSS demodulation. We prototype passive DSSS for proof of concept. The experimental results show that passive DSSS improves the downlink SINR by 16.5 dB, which translates to a longer effective downlink range for backscatter communication systems.",
+  "authors": [
+    "Songfan Li",
+    "Hui Zheng",
+    "Chong Zhang",
+    "Yihang Song",
+    "Shen Yang",
+    "Minghua Chen",
+    "Li Lu",
+    "Mo Li"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/li-songfan"
+}

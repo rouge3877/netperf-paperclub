@@ -1,0 +1,15 @@
+{
+  "id": "p-5c14accb7eaa",
+  "title": "Caerus- NIMBLE Task Scheduling for Serverless Analytics",
+  "abstract": "Serverless platforms facilitate transparent resource elasticity and fine-grained billing, making them an attractive choice for data analytics. We find that while server-centric analytics frameworks typically optimize for job completion time (JCT), resource utilization and isolation via inter-job scheduling policies, serverless analytics requires optimizing for JCT and cost of execution instead, introducing a new scheduling problem. We present Caerus, a task scheduler for serverless analytics frameworks that employs a fine-grained NIMBLE scheduling algorithm to solve this problem. NIMBLE efficiently pipelines task executions within a job, minimizing execution cost while being Pareto-optimal between cost and JCT for arbitrary analytics jobs. To this end, NIMBLE models a wide range of execution parameters — pipelineable and non-piplineable data dependencies, data generation, consumption and processing rates, etc. — to determine the ideal task launch times. Our evaluation results show that in practice, Caerus is able to achieve both optimal cost and JCT for queries across a wide range of analytics workloads.",
+  "authors": [
+    "Hong Zhang",
+    "Yupeng Tang",
+    "Anurag Khandelwal",
+    "Jingrong Chen",
+    "Ion Stoica"
+  ],
+  "conference": "NSDI",
+  "year": 2021,
+  "url": "https://www.usenix.org/conference/nsdi21/presentation/zhang-hong"
+}

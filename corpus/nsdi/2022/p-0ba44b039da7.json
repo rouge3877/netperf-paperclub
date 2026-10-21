@@ -1,0 +1,19 @@
+{
+  "id": "p-0ba44b039da7",
+  "title": "Enabling In-situ Programmability in Network Data Plane- From Architecture to Language",
+  "abstract": "In-situ programmability refers to the capability for network devices to update data plane functions and protocol processing logic at runtime without interrupting the services, driven by dynamic and interactive network operations towards autonomous networks. The existing programmable switch architecture (e.g., PISA) and programming language (e.g., P4) were designed for monolithic and static implementation, which requires a complete programming and deployment cycle for functional update, incurring long delay and service interruption. Addressing the fundamental reasons for such inflexibility, we design a new In-situ Programmable Switch Architecture (IPSA) and the corresponding design flow using rP4, a P4 language extension, as a fix. The compiler contains algorithms to support efficient resource mapping for both base design and incremental updates. To manifest the in-situ programming feasibility, we demonstrate several practical use cases on both a software switch, ipbm, and an FPGA-based prototype. Our experiments and analysis show that IPSA incurs moderate hardware cost which can be justified by its benefits and compensated by newer chip technologies. The in-situ programmability enabled by IPSA and rP4 advances the state of the art of programmable networks and opens a promising new design space.",
+  "authors": [
+    "Yong Feng",
+    "Zhikang Chen",
+    "Haoyu Song",
+    "Wenquan Xu",
+    "Jiahao Li",
+    "Zijian Zhang",
+    "Tong Yun",
+    "Ying Wan",
+    "Bin Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/feng"
+}

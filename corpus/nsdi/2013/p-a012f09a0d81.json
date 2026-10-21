@@ -1,0 +1,16 @@
+{
+  "id": "p-a012f09a0d81",
+  "title": "Ensuring Connectivity via Data Plane Mechanisms",
+  "abstract": "We typically think of network architectures as having two basic components: a data plane responsible for forwarding packets at line-speed, and a control plane that instantiates the forwarding state the data plane needs. With this separation of concerns, ensuring connectivity is the responsibility of the control plane. However, the control plane typically operates at timescales several orders of magnitude slower than the data plane, which means that failure recovery will always be slow compared to data plane forwarding rates. In this paper we propose moving the responsibility for connectivity to the data plane. Our design, called Data- Driven Connectivity (DDC) ensures routing connectivity via data plane mechanisms. We believe this new separation of concerns — basic connectivity on the data plane, optimal paths on the control plane — will allow networks to provide a much higher degree of availability, while still providing flexible routing control.",
+  "authors": [
+    "Junda Liu",
+    "Aurojit Panda",
+    "Ankit Singla",
+    "Brighten Godfrey",
+    "Michael Schapira",
+    "Scott Shenker"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/liu_junda"
+}

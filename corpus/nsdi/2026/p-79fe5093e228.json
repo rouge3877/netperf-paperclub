@@ -1,0 +1,24 @@
+{
+  "id": "p-79fe5093e228",
+  "title": "OSCAR-O(1)-Step Convergence and Readily-deployable Congestion Control",
+  "abstract": "Datacenter CCs typically target full bandwidth utilization and minimal queueing delay and strive to converge to these targets as quickly as possible. State-of-the-art CCs exhibit different convergence speeds, with the fastest ones converging in O(1) steps, which means reaching the target in constant time regardless of network conditions. However, their reliance on network features makes them not readily deployable. For instance, precise-INT-based CCs, such as HPCC and PowerTCP, achieve O(1)-step convergence through MIMD operations based on precise congestion information from the lengthy INT header, which is challenging to support for high-speed commodity hardware. Our key insight is that delay and delay gradient can exhibit precision comparable to INT, enabling O(1)-step convergence without specialized network features. Based on this insight, we propose OSCAR , the first O(1)-Step Convergence And Readily-deployable CC. OSCAR introduces novel techniques to accurately estimate the delay gradient with minimal overhead, eliminate overreaction in MIMD updates, and coordinate independent control loops to converge to one target. Testbed evaluations demonstrate OSCAR can rapidly converge to the fair share under real-world noise. In large-scale simulations with realistic workloads, OSCAR consistently outperforms precise-INT-based CCs by 12%-48% on average FCT and 40%-74% on tail FCT.",
+  "authors": [
+    "Zhaochen Zhang",
+    "Feiyang Xue",
+    "Rui Ning",
+    "Keqiang He",
+    "Gianni Antichi",
+    "Jiaqi Gao",
+    "Zhimeng Yin",
+    "Kexin Liu",
+    "Rui Li",
+    "Zhengqi Cui",
+    "Zhehao Lin",
+    "Peirui Cao",
+    "Guihai Chen",
+    "Chen Tian"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/zhang-zhaochen"
+}

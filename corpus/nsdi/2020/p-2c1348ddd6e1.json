@@ -1,0 +1,14 @@
+{
+  "id": "p-2c1348ddd6e1",
+  "title": "TCP ≈ RDMA- CPU-efficient Remote Storage Access with i10",
+  "abstract": "This paper presents design, implementation and evaluation of i10, a new remote storage stack implemented entirely in the kernel. i10 runs on commodity hardware, allows unmodified applications to operate directly on kernel’s TCP/IP network stack, and yet, saturates a 100Gbps link for remote accesses using CPU utilization similar to state-of-the-art user-space and RDMA-based solutions.",
+  "authors": [
+    "Jaehyun Hwang",
+    "Qizhe Cai",
+    "Ao Tang",
+    "Rachit Agarwal"
+  ],
+  "conference": "NSDI",
+  "year": 2020,
+  "url": "https://www.usenix.org/conference/nsdi20/presentation/hwang"
+}

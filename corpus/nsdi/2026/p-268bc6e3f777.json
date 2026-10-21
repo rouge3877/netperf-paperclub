@@ -1,0 +1,16 @@
+{
+  "id": "p-268bc6e3f777",
+  "title": "Slowpoke-End-to-end Throughput Optimization Modeling for Microservice Applications",
+  "abstract": "Slowpoke is a new system to accurately quantify the effects of hypothetical optimizations on end-to-end throughput for microservice applications, without relying on tracing or a priori knowledge of the call graph. Microservice operators can use Slowpoke to ask what-if performance analysis questions of the form \"What throughput could my retail application sustain if I optimized the shopping cart service from 10K req/s to 20K req/s?\". Given a target service and its hypothetical optimization, Slowpoke employs a performance model that determines how to selectively slow down non-target services to preserve the relative effect of the optimization. It then performs profiling experiments to predict the end-to-end throughput, as if the optimization had been implemented. Applied to four real-world microservice applications, Slowpoke accurately quantifies optimization effects with a root mean squared error of only 2.07%. It is also effective in more complex scenarios, e.g., predicting throughput after scaling optimizations or when bottlenecks arise from mutex contention. Evaluated in large-scale deployments of 45 nodes and 108 synthetic benchmarks, Slowpoke further demonstrates its scalability and coverage of a wide range of microservice characteristics.",
+  "authors": [
+    "Yizheng Xie",
+    "Di Jin",
+    "Oğuzhan Çölkesen",
+    "Vasiliki Kalavri",
+    "John Liagouris",
+    "Nikos Vasilakis"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/xie"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "p-743799a167c0",
+  "title": "OrbWeaver- Using IDLE Cycles in Programmable Networks for Opportunistic Coordination",
+  "abstract": "Network architects are frequently presented with a tradeoff: either (a) introduce a new or improved control-/managementplane application that boosts overall performance, or (b) use the bandwidth it would have occupied to deliver user traffic. In this paper, we present OrbWeaver, a framework that can exploit unused network bandwidth for in-network coordination. Using real hardware, we demonstrate that OrbWeaver can harvest this bandwidth (1) with little-to-no impact on the bandwidth/latency of user packets and (2) while providing guarantees on the interarrival time of the injected traffic. Through an exploration of three example use cases, we show that this opportunistic coordination abstraction is sufficient to approximate recently proposed systems without any of their associated bandwidth overheads.",
+  "authors": [
+    "Liangcheng Yu",
+    "John Sonchack",
+    "Vincent Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/yu"
+}

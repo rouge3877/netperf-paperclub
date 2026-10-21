@@ -1,0 +1,14 @@
+{
+  "id": "p-b1a1b7c11f69",
+  "title": "Passive Wi-Fi: Bringing Low Power to Wi-Fi Transmissions",
+  "abstract": "Wi-Fi has traditionally been considered a power-consuming communication system and has not been widely adopting in the sensor network and IoT space. We introduce Passive Wi-Fi that demonstrates for the first time that one can generate 802.11b transmissions using backscatter communication, while consuming 3– 4 orders of magnitude lower power than existing Wi-Fi chipsets. Passive Wi-Fi transmissions can be decoded on any Wi-Fi device including routers, mobile phones and tablets. Building on this, we also present a network stack design that enables passive Wi-Fi transmitters to coexist with other devices in the ISM band, without incurring the power consumption of carrier sense and medium access control operations. We build prototype hardware and implement all four 802.11b bit rates on an FPGA platform. Our experimental evaluation shows that passive Wi-Fi transmissions can be decoded on offthe-shelf smartphones and Wi-Fi chipsets over distances of 30–100 feet in various line-of- sight and throughthe-wall scenarios. Finally, we design a passive Wi-Fi IC that shows that 1 and 11 Mbps transmissions consume 14.5 and 59.2 μW respectively. This translates to 10000x lower power than existing Wi-Fi chipsets and 1000x lower power than Bluetooth LTE and ZigBee.",
+  "authors": [
+    "Bryce Kellogg",
+    "Vamsi Talla",
+    "Shyamnath Gollakota",
+    "Joshua R. Smith"
+  ],
+  "conference": "NSDI",
+  "year": 2016,
+  "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/kellogg"
+}

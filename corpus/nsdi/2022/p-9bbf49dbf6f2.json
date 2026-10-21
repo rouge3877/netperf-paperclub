@@ -1,0 +1,16 @@
+{
+  "id": "p-9bbf49dbf6f2",
+  "title": "PLatter- On the Feasibility of Building-scale Power Line Backscatter",
+  "abstract": "This paper explores the feasibility of reusing power lines in a large industrial space to enable long-range backscatter communication between a single reader and ultralow-power backscatter sensors on the walls that are physically not connected to these power lines, but merely in their vicinity. Such a system could significantly improve the data rate and range of backscatter communication with only a single reader installed, by using pre-existing power lines as communication media. We present PLatter, a building-scale backscatter system that allows ultralow-power backscatter sensors or tags attached to walls with power lines right behind them to communicate with a reader several hundred feet away. PLatter achieves this by inducing and modulating parasitic impedance on power lines with the tag toggling between two loads in specialized patterns. We present a detailed evaluation of both the strengths and weaknesses of PLatter on a large industrial testbed with power lines up to 300 feet long, demonstrating a maximum data rate of 4 Mbps.",
+  "authors": [
+    "Junbo Zhang",
+    "Elahe Soltanaghai",
+    "Artur Balanuta",
+    "Reese Grimsley",
+    "Swarun Kumar",
+    "Anthony Rowe"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/zhang-junbo"
+}

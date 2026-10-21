@@ -1,0 +1,14 @@
+{
+  "id": "p-41de2b607dc7",
+  "title": "Bobtail: Avoiding Long Tails in the Cloud",
+  "abstract": "Highly modular data center applications such as Bing, Facebook, and Amazon’s retail platform are known to be susceptible to long tails in response times. Services such as Amazon’s EC2 have proven attractive platforms for building similar applications. Unfortunately, virtualization used in such platforms exacerbates the long tail problem by factors of two to four. Surprisingly, we find that poor response times in EC2 are a property of nodes rather than the network, and that this property of nodes is both pervasive throughout EC2 and persistent over time. The root cause of this problem is co-scheduling of CPUbound and latency-sensitive tasks. We leverage these observations in Bobtail, a system that proactively detects and avoids these bad neighboring VMs without significantly penalizing node instantiation. With Bobtail, common communication patterns benefit from reductions of up to 40% in 99.9th percentile response times.",
+  "authors": [
+    "Yunjing Xu",
+    "Zachary Musgrave",
+    "Brian Noble",
+    "Michael Bailey"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/xu_yunjing"
+}

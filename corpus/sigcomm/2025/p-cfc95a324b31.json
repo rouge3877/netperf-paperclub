@@ -1,0 +1,16 @@
+{
+  "id": "p-cfc95a324b31",
+  "title": "Designing Transport-Level Encryption for Datacenter Networks",
+  "abstract": "This paper presents SDP, a protocol design for emerging datacenter transports, such as NDP and Homa, to integrate data encryption. It supports NIC offloading designed for TLS over TCP, native protocol number alongside TCP and UDP, and message-based abstraction that enables low latency RPCs with fine-grained parallelism.",
+  "authors": [
+    "Tianyi Gao",
+    "Xinshu Ma",
+    "Suhas Narreddy",
+    "Eugenio Luo",
+    "Steven Chien",
+    "Michio Honda"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3750482"
+}

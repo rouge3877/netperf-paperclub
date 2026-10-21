@@ -1,0 +1,15 @@
+{
+  "id": "p-f53e48e36947",
+  "title": "Mitigating CPU Frontend for Complex Data Plane Applications",
+  "abstract": "The functionality and requirement of modern networks are becoming increasingly complex, giving rise to Complex Data Plane Applications (CDPA) with rich semantics but often limited performance. However, many existing optimizations fail to improve the performance of CDPAs. This is because CDPAs usually come with excessively large code size, which is often two orders of magnitude larger than today’s L1 instruction cache (I-cache) size, causing the CPU to frequently stall on accessing instructions, thus presenting a distinct performance profile that bounds on CPU frontend. This paper proposes NanoPL, an I-cache-friendly new execution model that shuffles the packet processing logic to efficiently mitigate CPU frontend for CDPAs. Stemming from the common execution pattern of CDPAs, NanoPL analyzes its code to ensure semantic consistency after shuffling. By collecting performance profile of CDPAs over underlying traffic, NanoPL partitions CDPAs into execution stages and conducts I-cachefriendly shuffling policy. Experiments show that NanoPL can achieve 17.2%~30.2% higher throughput over real world CD- PAs due to the reduction of I-cache misses by up to 86.4%.",
+  "authors": [
+    "Yihan Dang",
+    "Hao Li",
+    "Ze Xia",
+    "Jiajun Luan",
+    "Peng Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/dang"
+}

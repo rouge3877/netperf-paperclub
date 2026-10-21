@@ -1,0 +1,20 @@
+{
+  "id": "p-9b8b597453b7",
+  "title": "Maglev: A Fast and Reliable Software Network Load Balancer",
+  "abstract": "Maglev is Google’s network load balancer. It is a large distributed software system that runs on commodity Linux servers. Unlike traditional hardware network load balancers, it does not require a specialized physical rack deployment, and its capacity can be easily adjusted by adding or removing servers. Network routers distribute packets evenly to the Maglev machines via Equal Cost Multipath (ECMP); each Maglev machine then matches the packets to their corresponding services and spreads them evenly to the service endpoints. To accommodate high and ever-increasing traffic, Maglev is specifically optimized for packet processing performance. A single Maglev machine is able to saturate a 10Gbps link with small packets. Maglev is also equipped with consistent hashing and connection tracking features, to minimize the negative impact of unexpected faults and failures on connection-oriented protocols. Maglev has been serving Google’s traffic since 2008. It has sustained the rapid global growth of Google services, and it also provides network load balancing for Google Cloud Platform.",
+  "authors": [
+    "Danielle E. Eisenbud",
+    "Cheng Yi",
+    "Carlo Contavalli",
+    "Cody Smith",
+    "Roman Kononov",
+    "Eric Mann-Hielscher",
+    "Ardas Cilingiroglu",
+    "Bin Cheyney",
+    "Wentao Shang",
+    "Jinnah Dylan Hosein"
+  ],
+  "conference": "NSDI",
+  "year": 2016,
+  "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/eisenbud"
+}

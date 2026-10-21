@@ -1,0 +1,32 @@
+{
+  "id": "p-1198229543bb",
+  "title": "Netcastle-Network Infrastructure Testing At Scale",
+  "abstract": "Network operators have long struggled to achieve reliability. Increased complexity risks surprising interactions, increased downtime, and lost person-hours trying to debug correctness and performance problems in large systems. For these reasons, network operators have also long pushed back on deploying promising network research, fearing the unexpected consequences of increased network complexity. Despite the changes’ potential benefits, the corresponding increase in complexity may result in a net loss. The method to build reliability despite complexity in Software Engineering is testing. In this paper, we use statistics from a large-scale network to identify unique challenges in network testing. To tackle the challenges, we develop Netcastle: a system that provides continuous integration/continuous deployment (CI/CD) network testing as a service for 11 different networking teams, across 68 different use-cases, and O(1k) of test devices. Netcastle supports comprehensive network testing, including device-level firmware, datacenter distributed control planes, and backbone centralized controllers, and runs 500K+ network tests per day, a scale and depth of test coverage previously unpublished. We share five years of experiences in building and running Netcastle at Meta.",
+  "authors": [
+    "Rob Sherwood",
+    "Jinghao Shi",
+    "Ying Zhang",
+    "Neil Spring",
+    "Srikanth Sundaresan",
+    "Jasmeet Bagga",
+    "Prathyusha Peddi",
+    "Vineela Kukkadapu",
+    "Rashmi Shrivastava",
+    "Manikantan KR",
+    "Pavan Patil",
+    "Srikrishna Gopu",
+    "Varun Varadan",
+    "Ethan Shi",
+    "Hany Morsy",
+    "Yuting Bu",
+    "Renjie Yang",
+    "Rasmus Jönsson",
+    "Wei Zhang",
+    "Jesus Jussepen Arredondo",
+    "Diana Saha",
+    "Sean Choi"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/sherwood"
+}

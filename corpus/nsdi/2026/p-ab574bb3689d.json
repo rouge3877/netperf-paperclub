@@ -1,0 +1,19 @@
+{
+  "id": "p-ab574bb3689d",
+  "title": "MORP4-A Dynamic Network Telescope",
+  "abstract": "A network telescope passively monitors traffic reaching Internet address space that is not assigned to any hosts but is advertised to the global routing system. This traffic is by definition unsolicited. For more than two decades, network telescopes have enabled research breakthroughs by allowing global visibility into a wide range of Internet phenomena. However, telescopes are afflicted by two main issues: progressive erosion, due to the increasing scarcity and commercial value of address space, and blacklisting. To overcome these issues, we propose MORP4 , a programmable data-plane framework implementing a “dynamic” network telescope. MORP4 accurately and adaptively tracks unused space of an organization’s network with configurable time and space granularity and captures only traffic directed towards unused addresses at line rate. We provide an implementation in P4 and Python/C++, and deploy it on a Tofino switch. We show that it can detect unused IPv4 address space at the finest granularity (/32) while operating at line rate as well as providing an effective approach for operating a telescope in the IPv6 domain.",
+  "authors": [
+    "Iliana Xygkou",
+    "Jithin K. Sojan",
+    "Dhruv Rauthan",
+    "Feng Zhu",
+    "Thomas Holterbach",
+    "Shane Alcock",
+    "Brian Flanagan",
+    "Ahmed Saeed",
+    "Alberto Dainotti"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/xygkou"
+}

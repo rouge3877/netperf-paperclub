@@ -1,0 +1,15 @@
+{
+  "id": "p-feafe50babe1",
+  "title": "Pineapple-Unifying Multi-Paxos and Atomic Shared Registers",
+  "abstract": "Linearizable storage systems reduce the complexity of developing correct large-scale customer-facing applications, in the presence of concurrent operations and failures. A common approach for providing linearizability is to use consensus to order operations invoked by applications. This paper explores designs that offload operations (from the consensus component) to improve overall performance. This paper presents Pineapple, which uses logical timestamps to unify Multi-Paxos and atomic shared registers so that any node in the system can serve read and write operations. Compared to Multi-Paxos (or leader-based consensus), Pineapple reduces bottlenecks at the leader. Compared to Gryff, which unifies EPaxos and atomic shared registers, Pineapple has better performance because Pineapple has “nonblocking operation execution.” Our evaluation shows that Pineapple improves both throughput and tail latency, compared to state-of-the-art systems (e.g., Gryff, Multi-Paxos, EPaxos), in both wide-area networks and local-area networks. We also integrate Pineapple with etcd. In a balanced workload, Pineapple reduces median latency by more than 50%, compared to the original system that uses an optimized version of Raft.",
+  "authors": [
+    "Tigran Bantikyan",
+    "Jonathan Zarnstorff",
+    "Te-Yen Chou",
+    "Lewis Tseng",
+    "Roberto Palmieri"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/bantikyan"
+}

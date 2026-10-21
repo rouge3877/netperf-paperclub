@@ -1,0 +1,16 @@
+{
+  "id": "p-750b839ac7c3",
+  "title": "Graphene- Efficient Interactive Set Reconciliation Applied to Blockchain Propagation",
+  "abstract": "We introduce Graphene, a method and protocol for interactive set reconciliation among peers in blockchains and related distributed systems. Through the novel combination of a Bloom filter and an Invertible Bloom Lookup Table (IBLT), Graphene uses a fraction of the network bandwidth used by deployed work for one- and two-way synchronization. We show that, for this specific problem, Graphene is more efficient at reconciling n items than using a Bloom filter at the information theoretic bound. We contribute a fast and implementation-independent algorithm for parameterizing an IBLT so that it is optimally small in size and meets a desired decode rate with arbitrarily high probability. We characterize our performance improvements through analysis, detailed simulation, and deployment results for Bitcoin Cash, a prominent cryptocurrency. Our implementations of Graphene, IBLTs, and our IBLT optimization algorithm are all open-source code.",
+  "authors": [
+    "A. Pinar Ozisik",
+    "Gavin Andresen",
+    "Brian N. Levine",
+    "Darren Tapp",
+    "George Bissias",
+    "Sunny Katkuri"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2019,
+  "url": "https://dl.acm.org/doi/10.1145/3341302.3342082"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "p-a228be6e457f",
+  "title": "iip- an integratable TCP-IP stack",
+  "abstract": "This paper presents iip, an integratable TCP/IP stack, which aims to become a handy option for developers and researchers who wish to have a high-performance TCP/IP stack implementation for their projects. The problem that motivated us to newly develop iip is that existing performance-optimized TCP/IP stacks often incur tremendous integration complexity and existing portability-aware TCP/IP stacks have significant performance limitations. In this paper, we overhaul the responsibility boundary between a TCP/IP stack implementation and the code provided by developers, and introduce an API that enables iip to allow for easy integration and good performance simultaneously, then report performance numbers of iip along with insights on performance-critical factors.",
+  "authors": [
+    "Kenichi Yasukata"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3687230.3687233"
+}

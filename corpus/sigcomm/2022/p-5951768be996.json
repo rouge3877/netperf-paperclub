@@ -1,0 +1,13 @@
+{
+  "id": "p-5951768be996",
+  "title": "Cebinae- Scalable In-network Fairness Augmentation",
+  "abstract": "For public networks like the Internet and those of many clouds, end-host applications can use any congestion control protocol they wish. This protocol diversity and application autonomy are only increasing over time. While in-network support for fairness is an attractive solution for reigning in the inequity, existing solutions still have difficulty scaling to today’s networks using today’s devices. In this paper, we present Cebinae, a mechanism for augmenting existing networks of legacy hosts with penalties for flows that exceed their max-min fair share. Cebinae is compatible with all of the congestion control protocols in today’s Internet, is deployable on commodity programmable switches, and scales orders of magnitude beyond existing alternatives.",
+  "authors": [
+    "Liangcheng Yu",
+    "John Sonchack",
+    "Vincent Liu"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2022,
+  "url": "https://dl.acm.org/doi/10.1145/3544216.3544240"
+}

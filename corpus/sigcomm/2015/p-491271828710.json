@@ -1,0 +1,13 @@
+{
+  "id": "p-491271828710",
+  "title": "ASwatch: An AS Reputation System to Expose Bulletproof Hosting ASes",
+  "abstract": "Bulletproof hosting Autonomous Systems (ASes)—malicious ASes fully dedicated to supporting cybercrime—provide freedom and resources for a cyber-criminal to operate. Their services include hosting a wide range of illegal content, botnet C&C servers, and other malicious resources. Thousands of new ASes are registered every year, many of which are often used exclusively to facilitate cybercrime. A natural approach to squelching bulletproof hosting ASes is to develop a reputation system that can identify them for takedown by law enforcement and as input to other attack detection systems (e.g., spam filters, botnet detection systems). Unfortunately, current AS reputation systems rely primarily on data-plane monitoring of malicious activity from IP addresses (and thus can only detect malicious ASes after attacks are underway), and are not able to distinguish between malicious and legitimate but abused ASes. As a complement to these systems, in this paper, we explore a fundamentally different approach to establishing AS reputation. We present ASwatch, a system that identifies malicious ASes using exclusively the control-plane (i.e., routing) behavior of ASes. ASwatch’s design is based on the intuition that, in an attempt to evade possible detection and remediation efforts, malicious ASes exhibit “agile” control plane behavior (e.g., short-lived routes, aggressive re-wiring). We evaluate our system on known malicious ASes; our results show that ASwatch detects up to 93% of malicious ASes with a 5% false positive rate, which is reasonable to effectively complement existing defense systems.",
+  "authors": [
+    "Maria Konte",
+    "Roberto Perdisci",
+    "Nick Feamster"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2015,
+  "url": "https://dl.acm.org/doi/10.1145/2829988.2787494"
+}

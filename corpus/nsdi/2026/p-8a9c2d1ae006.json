@@ -1,0 +1,16 @@
+{
+  "id": "p-8a9c2d1ae006",
+  "title": "From Bits to Tokens-Knowledge-Driven Generative Communication of Multimodal Data",
+  "abstract": "Classical communication systems strive for bit-by-bit reconstruction, yet this objective often misaligns with downstream application tasks, such as perception and decision-making with sensor data. This mismatch is amplified in wireless settings, where packet losses and channel dynamics make strict bit-fidelity both costly and fragile. In this paper, we introduce Knowledge-Driven Communication ( KDC ), a framework that transmits semantic knowledge rather than raw bits by leveraging pretrained knowledge bases. KDC features a task-aware transmitter, which uses multimodal foundation models to abstract source data into tokenized embeddings and prioritize semantically critical content, enabling zero-shot adaptation without task-specific retraining. On the receiver side, KDC employs pretrained knowledge bases and incrementally updated context to reconstruct task-relevant information, enabling graceful degradation even under data loss. We implement a full KDC prototype and evaluate it over diverse data modalities and wireless networks. KDC operates as an application-layer codec wrapper and receiver-side restoration module, fully compatible with existing wireless communication protocols and source/channel coding mechanisms. Experiments show that KDC consistently outperforms state-of-the-art codecs and learned baselines, achieving high task accuracy with a fraction of the transmitted data, while maintaining robustness under challenging wireless conditions.",
+  "authors": [
+    "Xingyu Chen",
+    "Zihao Feng",
+    "Wuqiong Zhao",
+    "Jianrong Ding",
+    "Ke Sun",
+    "Xinyu Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/chen-xingyu"
+}

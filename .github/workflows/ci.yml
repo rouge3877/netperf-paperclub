@@ -1,0 +1,41 @@
+name: Validate application
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run audit
+      - run: npm run format:check
+      - run: npm run build
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - name: Verify container startup and initialization
+        run: |
+          umask 077
+          docker compose up -d --build --wait --wait-timeout 90
+          docker compose exec -T paperclub npm run init > "$RUNNER_TEMP/paperclub-init.txt"
+          case "$(docker compose exec -T paperclub npm run init)" in
+            *"Already initialized."*) ;;
+            *) exit 1 ;;
+          esac
+          curl --fail http://127.0.0.1:3000/healthz
+      - name: Stop containers
+        if: always()
+        run: docker compose down

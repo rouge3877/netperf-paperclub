@@ -1,0 +1,15 @@
+{
+  "id": "p-1f71d592c352",
+  "title": "Learning to Tune Optical WANs-A Field Deployment of Noise Models in Optical Networks",
+  "abstract": "Accurately modeling optical signal transmission is critical for optimizing network performance, particularly in large-scale fiber optic networks operated by Internet Service Providers. In this work, we develop a Gaussian Noise model for a New York state ISP’s optical backbone. Our model accounts for all major network components, including amplifiers, fiber spans, reconfigurable optical add-drop multiplexers, and transceivers. By accurately predicting end-to-end signal-to-noise ratio, our model provides a foundation for network performance analysis and optimization. Then, we leverage hyperparameter search techniques—commonly used in machine learning—to identify amplifier gain settings that improve signal quality. By treating the model as an opaque box, we systematically search for amplifier configurations that maximize the predicted end-to-end SNR while maintaining practical network constraints. We validate our approach through a field deployment by applying optimized amplifier gain settings in a live ISP network. Our results show a significant improvement in optical signal quality, achieving a 2 dB increase in SNR on a single wavelength.",
+  "authors": [
+    "Bhaskar Kataria",
+    "Howard Hua",
+    "Andrea D Amico",
+    "Bill Owens",
+    "Rachee Singh"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/kataria"
+}

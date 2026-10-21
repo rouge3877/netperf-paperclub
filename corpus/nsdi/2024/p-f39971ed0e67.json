@@ -1,0 +1,16 @@
+{
+  "id": "p-f39971ed0e67",
+  "title": "SMUFF-Towards Line Rate Wi-Fi Direct Transport with Orchestrated On-device Buffer Management",
+  "abstract": "Wi-Fi direct transport provides versatile connectivity that enables convenient data sharing and improves the productivity of mobile end users. However, as today’s smartphones are capable of near-Gbps wireless data rates, current solutions do not efficiently utilize the available bandwidth in this single-hop environment. We show that existing transport schemes suffer from resource-intensive reliable delivery mechanisms, inadequate congestion control, and inefficient flow control for achieving line-rate transmission in peer-topeer Wi-Fi direct links. In this paper, we present SMUFF , a reliable file transfer service that achieves nearly the practical line rate of the underlying wireless bandwidth. We note a unique feature of direct transport – the sender can monitor each buffer along the data path and determine an optimal sending rate accordingly. Therefore, SMUFF can maximize throughput by strategically backlogging the appropriate amount of data in the bottleneck buffer. We have deployed SMUFF on four different phone models, and our evaluations with other transport schemes show that SMUFF achieves up to 94.7% of the practical line rate and 22.6% throughput improvement with a 37% reduction in CPU usage and a 15% reduction in power consumption, compared to state-of-the-art solutions.",
+  "authors": [
+    "Chengke Wang",
+    "Hao Wang",
+    "Yuhan Zhou",
+    "Yunzhe Ni",
+    "Feng Qian",
+    "Chenren Xu"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/wang-chengke"
+}

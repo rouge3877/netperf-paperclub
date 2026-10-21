@@ -1,0 +1,24 @@
+{
+  "id": "p-7eebb9c5a2d6",
+  "title": "Cost-effective and Reliable Global Internet Peering with Programmable Switches",
+  "abstract": "Large-scale cloud providers always deploy peering routing system at the Internet’s peering edge to route traffic between the cloud and the Internet. Traditional router-based peering systems fail to pace up to the fast-changing application requirements, while the recent host-based approach is not costeffective and struggles to address malicious traffic from the Internet. In this paper, we advocate for a radical new peering architecture to introduce programmable switches at the peering edge. We propose and implement a first-of-its-kind system, called Janus, to simultaneously handle inbound and outbound network traffic and significantly reduce network hardware cost. The core of Janus’s approach is to leverage a traffic dispatch module to offload most of the outbound traffic to switches to enhance system’s scalability. Janus offloads all inbound traffic to switches and redirects potential malicious traffic to the anti-DDoS service to enhance system reliability. Furthermore, Janus introduces a fast route convergence mechanism to effectively handle Internet-scale route updates. We have gradually deployed Janus at the edge of our production network over the past years. Evaluation results show that Janus can reduce the average hardware cost by 78%, as compared to existing systems while gracefully handling DDoS issues. Meanwhile, Janus can reduce the route convergence within seconds under failure scenarios, which is orders of magnitude faster than existing approaches.",
+  "authors": [
+    "Congcong Miao",
+    "Zhiyi Yao",
+    "Jianchao Lv",
+    "Jinglin Wang",
+    "Shihan Lin",
+    "Xinyi Zhang",
+    "Yunming Xiao",
+    "Wei Guo",
+    "Jiwu Bu",
+    "Yachen Wang",
+    "Xianneng Zou",
+    "Yong Jiang",
+    "Marco Canini",
+    "Gaogang Xie"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/miao-peering"
+}

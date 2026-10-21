@@ -1,0 +1,14 @@
+{
+  "id": "p-89f2dccd4cce",
+  "title": "Remembrall-Leaning into Memory for Accurate Video Analytics on System-on-Chip GPUs",
+  "abstract": "Continually retraining models has emerged as a primary technique to enable high-accuracy video analytics on edge devices. Yet, existing systems employ such adaptation by relying on the spare compute resources that traditional (memoryconstrained) edge servers afford. In contrast, mobile edge devices such as drones and dashcams offer a fundamentally different resource profile: weak(er) compute with abundant unified memory pools. We present Remembrall, a continuous learning system for the mobile edge’s System-on-Chip GPUs. Our driving insight is that visually distinct scenes that require retraining exhibit substantial overlap in model embeddings; if captured into a base model on device memory, specializing to each new scene can become lightweight, requiring very few samples. To practically realize this approach, Remembrall presents new, compute-efficient techniques to (1) select high-utility data samples for retraining specialized models, (2) update the base model without complete retraining, and (3) time-share compute resources between retraining and live inference for maximal accuracy. Across diverse workloads, Remembrall lowers retraining costs by 2.8-10× compared to existing systems, resulting in 18-45% higher accuracies.",
+  "authors": [
+    "Murali Ramanujam",
+    "Yinwei Dai",
+    "Kyle Jamieson",
+    "Ravi Netravali"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/ramanujam"
+}

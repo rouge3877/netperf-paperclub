@@ -1,0 +1,14 @@
+{
+  "id": "p-7e3aa398be39",
+  "title": "Better Never than Late: Meeting Deadlines in Datacenter Networks",
+  "abstract": "The soft real-time nature of large scale web applications in today’s datacenters, combined with their distributed workflow, leads to deadlines being associated with the datacenter application traffic. A network flow is useful, and contributes to application throughput and operator revenue if, and only if, it completes within its deadline. Today’s transport protocols (TCP included), given their Internet origins, are agnostic to such flow deadlines. Instead, they strive to share network resources fairly. We show that this can hurt application performance. Motivated by these observations, and other (previously known) deficiencies of TCP in the datacenter environment, this paper presents the design and implementation of D 3 , a deadline-aware control protocol that is customized for the datacenter environment. D 3 uses explicit rate control to apportion bandwidth according to flow deadlines. Evaluation from a 19-node, two-tier datacenter testbed shows that D 3 , even without any deadline information, easily outperforms TCP in terms of short flow latency and burst tolerance. Further, by utilizing deadline information, D 3 effectively doubles the peak load that the datacenter network can support.",
+  "authors": [
+    "Christo Wilson",
+    "Hitesh Ballani",
+    "Thomas Karagiannis",
+    "Ant Rowtron"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2011,
+  "url": "https://dl.acm.org/doi/10.1145/2018436.2018443"
+}

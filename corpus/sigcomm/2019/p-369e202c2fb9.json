@@ -1,0 +1,13 @@
+{
+  "id": "p-369e202c2fb9",
+  "title": "Looking for Hypergiants in PeeringDB",
+  "abstract": "Hypergiants, such as Google or Netflix, are important organisations in the Internet ecosystem, due to their sheer impact in terms of traffic volume exchanged. However, beyond naming specific instances, the research community still lacks a sufficiently crisp understanding of them. In this paper we analyse PeeringDB data and identify features that differentiate hypergiants from the other organisations. To this end, we first characterise the organisations present in PeeringDB, allowing us to identify discriminating properties of these organisations. We then use these properties to separate the data in two clusters, differentiating hypergiants from other organisations. We conclude this paper by investigating how hypergiants and other organisations exploit the IXP ecosystem to reach the global IPv4 space.",
+  "authors": [
+    "Timm Böttger",
+    "Felix Cuadrado",
+    "Steve Uhlig"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2019,
+  "url": "https://dl.acm.org/doi/10.1145/3276799.3276801"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "p-aea30e355660",
+  "title": "Automatic Parallelization of Software Network Functions",
+  "abstract": "Software network functions (NFs) trade-off flexibility and ease of deployment for an increased challenge of performance. The traditional way to increase NF performance is by distributing traffic to multiple CPU cores, but this poses a significant challenge: how to parallelize an NF without breaking its semantics? We propose Maestro, a tool that analyzes a sequential implementation of an NF and automatically generates an enhanced parallel version that carefully configures the NIC’s Receive Side Scaling mechanism to distribute traffic across cores, while preserving semantics. When possible, Maestro orchestrates a shared-nothing architecture, with each core operating independently without shared memory coordination, maximizing performance. Otherwise, Maestro choreographs a fine-grained read-write locking mechanism that optimizes operation for typical Internet traffic. We parallelized 8 software NFs and show that they generally scale-up linearly until bottlenecked by PCIe when using small packets or by 100 Gbps line-rate with typical Internet traffic. Maestro further outperforms modern hardware-based transactional memory mechanisms, even for challenging parallel-unfriendly workloads.",
+  "authors": [
+    "Francisco Pereira",
+    "Fernando M.V. Ramos",
+    "Luis Pedrosa"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/pereira"
+}

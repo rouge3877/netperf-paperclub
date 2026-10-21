@@ -1,0 +1,17 @@
+{
+  "id": "p-94d088bf8bee",
+  "title": "Enabling Portable and High-Performance SmartNIC Programs with Alkali",
+  "abstract": "Trends indicate that emerging SmartNICs, either from different vendors or generations from the same vendor, exhibit substantial differences in hardware parallelism and memory interconnects. These variations make porting programs across NICs highly complex and time-consuming, requiring programmers to significantly refactor code for performance based on each target NIC’s hardware characteristics. We argue that an ideal SmartNIC compilation framework should allow developers to write target-independent programs, with the compiler automatically managing cross-NIC porting and performance optimization. We present such a framework, Alkali, that achieves this by (1) proposing a new intermediate representation for building flexible compiler infrastructure for multiple NIC targets and (2) developing a new iterative parallelism optimization algorithm that automatically ports and parallelizes the input programs based on the target NIC’s hardware characteristics. Experiments across a wide range of NIC applications demonstrate that Alkali enables developers to easily write portable, high-performance NIC programs. Our compiler optimization passes can automatically port these programs and make them run efficiently across all targets, achieving performance within 9.8% of hand-tuned expert implementations.",
+  "authors": [
+    "Jiaxin Lin",
+    "Zhiyuan Guo",
+    "Mihir Shah",
+    "Tao Ji",
+    "Yiying Zhang",
+    "Daehyeok Kim",
+    "Aditya Akella"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/lin-jiaxin"
+}

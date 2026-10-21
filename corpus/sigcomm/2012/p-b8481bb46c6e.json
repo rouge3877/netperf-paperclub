@@ -1,0 +1,14 @@
+{
+  "id": "p-b8481bb46c6e",
+  "title": "ShadowStream: Performance Evaluation as a Capability in Production Internet Live Streaming Networks",
+  "abstract": "As live streaming networks grow in scale and complexity, they are becoming increasingly difficult to evaluate. Existing evaluation methods including lab/testbed testing, simulation, and theoretical modeling, lack either scale or realism. The industrial practice of gradually-rolling-out in a testing channel is lacking in controllability and protection when experimental algorithms fail, due to its passive approach. In this paper, we design a novel system called ShadowStream that introduces evaluation as a built-in capability in production Internet live streaming networks. ShadowStream introduces a simple, novel, transparent embedding of experimental live streaming algorithms to achieve safe evaluations of the algorithms during large-scale, real production live streaming, despite the possibility of large performance failures of the tested algorithms. ShadowStream also introduces transparent, scalable, distributed experiment orchestration to resolve the mismatch between desired viewer behaviors and actual production viewer behaviors, achieving experimental scenario controllability. We implement ShadowStream based on a major Internet live streaming network, build additional evaluation tools such as deterministic replay, and demonstrate the benefits of ShadowStream through extensive evaluations.",
+  "authors": [
+    "Chen Tian",
+    "Richard Alimi",
+    "Yang Richard Yang",
+    "David Zhang"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2012,
+  "url": "https://dl.acm.org/doi/10.1145/2377677.2377751"
+}

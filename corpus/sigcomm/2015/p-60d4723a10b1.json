@@ -1,0 +1,14 @@
+{
+  "id": "p-60d4723a10b1",
+  "title": "A Control-Theoretic Approach for Dynamic Adaptive Video Streaming over HTTP",
+  "abstract": "User-perceived quality-of-experience (QoE) is critical in Internet video applications as it impacts revenues for content providers and delivery systems. Given that there is little support in the network for optimizing such measures, bottlenecks could occur anywhere in the delivery system. Consequently, a robust bitrate adaptation algorithm in client-side players is critical to ensure good user experience. Previous studies have shown key limitations of state-of-art commercial solutions and proposed a range of heuristic fixes. Despite the emergence of several proposals, there is still a distinct lack of consensus on: (1) How best to design this client-side bitrate adaptation logic (e.g., use rate estimates vs. buffer occupancy); (2) How well specific classes of approaches will perform under diverse operating regimes (e.g., high throughput variability); or (3) How do they actually balance different QoE objectives (e.g., startup delay vs. rebuffering). To this end, this paper makes three key technical contributions. First, to bring some rigor to this space, we develop a principled control-theoretic model to reason about a broad spectrum of strategies. Second, we propose a novel model predictive control algorithm that can optimally combine throughput and buffer occupancy information to outperform traditional approaches. Third, we present a practical implementation in a reference video player to validate our approach using realistic trace-driven emulations.",
+  "authors": [
+    "Xiaoqi Yin",
+    "Abhishek Jindal",
+    "Vyas Sekar",
+    "Bruno Sinopoli"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2015,
+  "url": "https://dl.acm.org/doi/10.1145/2829988.2787486"
+}

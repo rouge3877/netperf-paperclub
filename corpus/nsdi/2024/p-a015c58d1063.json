@@ -1,0 +1,15 @@
+{
+  "id": "p-a015c58d1063",
+  "title": "Harmony-A Congestion-free Datacenter Architecture",
+  "abstract": "Datacenter networks today provide best-effort delivery— messages may experience unpredictable queueing, delays, and drops due to switch buffer overflows within the network. Such weak guarantees reduce the set of assumptions that system designers can rely upon from the network, thus introducing inefficiency and complexity in host hardware and software. We present Harmony, a datacenter network architecture that provides “congestion-free” message delivery guarantees— each message, once transmitted by the sender, experiences bounded queueing at each switch in the network. Thus, by design, Harmony ensures that network delays are bounded in failure-free scenarios, and that congestion-related drops are eliminated. We establish, both theoretically and empirically, that Harmony provides these powerful properties with nearzero overheads compared to best-effort delivery networks: it incurs a tiny additive latency overhead that diminishes with message sizes, and achieves near-optimal network utilization.",
+  "authors": [
+    "Saksham Agarwal",
+    "Qizhe Cai",
+    "Rachit Agarwal",
+    "David Shmoys",
+    "Amin Vahdat"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/agarwal-saksham"
+}

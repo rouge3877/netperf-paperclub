@@ -1,0 +1,29 @@
+{
+  "id": "p-cfe9c3cc06ff",
+  "title": "UBEP-Re-architecting Expert Parallelism Communication Library for Production Superpods",
+  "abstract": "The deployment of Mixture-of-Experts (MoE) models on production high-bandwidth superpods, such as NVIDIA’s NVL72/576 and Huawei’s CloudMatrix384, introduces critical challenges beyond raw interconnect bandwidth. While these systems provide unified global address spaces and high-bandwidth fabrics, their full potential for sparse MoE communication is hindered by three fundamental bottlenecks: (1) Strict execution serialization imposed by coarse-grained Bulk Synchronous Parallel (BSP) orchestration of interdependent communication phases; (2) Prohibitive synchronization overhead that fails to scale alongside high interconnect bandwidth; and (3) Severe load imbalance resulting from distanceagnostic scheduling of irregular token traffic. To eliminate these bottlenecks, we introduce UBEP (Unified-Bus Expert Parallelism), a production-ready communication library that rethinks MoE’s All-to-All primitives for modern superpod architectures. Through large-scale experiments, UBEP reduces All-to-All latency by up to 52.4% and MoE inference Time Per Output Token (TPOT) by up to 11.1%.",
+  "authors": [
+    "Yipeng Liu",
+    "Chang Liu",
+    "Si Shen",
+    "Jiaqi Zheng",
+    "Mingfan Li",
+    "Yuyang Yang",
+    "Guanhua Li",
+    "Yuquan Zhang",
+    "Yimeng Xu",
+    "Zhongzhe Hu",
+    "Zhiyuan Huang",
+    "Qihang Duan",
+    "Junsong Wang",
+    "Wenkai Ling",
+    "Baochuan Yang",
+    "Xianzhi Yu",
+    "Han Bao",
+    "Yijie Chen",
+    "Guihai Chen"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2026,
+  "url": "https://dl.acm.org/doi/10.1145/3789240.3829183"
+}

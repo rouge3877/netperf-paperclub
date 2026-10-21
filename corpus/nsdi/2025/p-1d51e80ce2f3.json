@@ -1,0 +1,17 @@
+{
+  "id": "p-1d51e80ce2f3",
+  "title": "Quicksand-Harnessing Stranded Datacenter Resources with Granular Computing",
+  "abstract": "Datacenters today waste CPU and memory, as resources demanded by applications often fail to match the resources available on machines. This leads to stranded resources because one resource that runs out prevents placing additional applications that could consume the other resources. Unusable stranded resources result in reduced utilization of servers, and wasted money and energy. Quicksand is a new framework and runtime system that unstrands resources by providing developers with familiar, high-level abstractions (e.g., data structures, batch computing). Internally Quicksand decomposes them into resource proclets, granular units that each primarily consume resources of one type. Inspired by recent granular programming models, Quicksand decouples consumption of resources as much as possible. It splits, merges, and migrates resource proclets in milliseconds, so it can use resources on any machine, even if available only briefly. Evaluation of our prototype with four applications shows that Quicksand uses stranded resources effectively; that Quicksand reacts to changing resource availability and demand within milliseconds, increasing utilization; and that porting applications to Quicksand requires moderate effort.",
+  "authors": [
+    "Zhenyuan Ruan",
+    "Shihang Li",
+    "Kaiyan Fan",
+    "Seo Jin Park",
+    "Marcos K. Aguilera",
+    "Adam Belay",
+    "Malte Schwarzkopf"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/ruan"
+}

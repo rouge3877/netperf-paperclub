@@ -1,0 +1,15 @@
+{
+  "id": "p-46a1e0de62d3",
+  "title": "Hierarchical Integration of WebAssembly in Serverless for Efficiency and Interoperability",
+  "abstract": "Modern serverless systems suffer from low resource efficiency, which maps to high per-unit costs. This comes from the high isolation overhead (e.g., low resource sharing, slow startup, etc.), as well as resource wastage incurred by conservative resource scaling (e.g., keep-alive). Language runtimes such as WebAssembly (Wasm) can reduce isolation overhead without compromising security. Existing Wasm-based serverless approaches fall into one of these categories: supporting only Wasm workloads, failing to leverage existing capabilities of modern serverless and cloud platforms, or falling short of leveraging Wasm’s true potential. This work introduces a dense hierarchical architecture to securely co-locate Wasmbased applications from different customers within the same container sandbox. We show how this design preserves the container-based serving model, which allows leveraging existing platform capabilities and supporting non-Wasm-based workloads. Our system, Wasabi, leverages this architecture alongside resource-aware scaling, queuing, and overbooking to offer much higher density than state-of-the-art serverless systems with similar or better performance.",
+  "authors": [
+    "Mohammadamin Baqershahi",
+    "Changyuan Lin",
+    "Visal Saosuo",
+    "Paul Chen",
+    "Mohammad Shahrad"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/baqershahi"
+}

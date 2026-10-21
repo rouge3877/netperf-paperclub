@@ -1,0 +1,21 @@
+{
+  "id": "p-32637b6fd37b",
+  "title": "SkyPilot- An Intercloud Broker for Sky Computing",
+  "abstract": "To comply with the increasing number of government regulations about data placement and processing, and to protect themselves against major cloud outages, many users want the ability to easily migrate their workloads between clouds. In this paper we propose doing so not by imposing uniform and comprehensive standards, but by creating a fine-grained two-sided market via an intercloud broker. These brokers will allow users to view the cloud ecosystem not just as a collection of individual and largely incompatible clouds but as a more integrated Sky of Computing. We describe the design and implementation of an intercloud broker, named SkyPilot, evaluate its benefits, and report on its real-world usage.",
+  "authors": [
+    "Zongheng Yang",
+    "Zhanghao Wu",
+    "Michael Luo",
+    "Wei-Lin Chiang",
+    "Romil Bhardwaj",
+    "Woosuk Kwon",
+    "Siyuan Zhuang",
+    "Frank Sifei Luan",
+    "Gautam Mittal",
+    "Scott Shenker",
+    "Ion Stoica"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/yang-zongheng"
+}

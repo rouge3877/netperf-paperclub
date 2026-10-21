@@ -1,0 +1,16 @@
+{
+  "id": "p-688ff6a8e1ac",
+  "title": "C IEL : A Universal Execution Engine for Distributed Data-Flow Computing",
+  "abstract": "This paper introduces C IEL , a universal execution engine for distributed data-flow programs. Like previous execution engines, C IEL masks the complexity of distributed programming. Unlike those systems, a C IEL job can make data-dependent control-flow decisions, which enables it to compute iterative and recursive algorithms. We have also developed Skywriting, a Turingcomplete scripting language that runs directly on C IEL . The execution engine provides transparent fault tolerance and distribution to Skywriting scripts and highperformance code written in other programming languages. We have deployed C IEL on a cloud computing platform, and demonstrate that it achieves scalable performance for both iterative and non-iterative algorithms.",
+  "authors": [
+    "Derek G. Murray",
+    "Malte Schwarzkopf",
+    "Christopher Smowton",
+    "Steven Smith",
+    "Anil Madhavapeddy",
+    "Steven Hand"
+  ],
+  "conference": "NSDI",
+  "year": 2011,
+  "url": "https://www.usenix.org/legacy/event/nsdi11/tech/full_papers/Murray.pdf"
+}

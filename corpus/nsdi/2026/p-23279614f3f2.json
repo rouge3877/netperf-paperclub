@@ -1,0 +1,14 @@
+{
+  "id": "p-23279614f3f2",
+  "title": "OneSidedMW-Managing Disaggregated Memory Efficiently, Flexibly, and Securely with RNIC Offloading",
+  "abstract": "RDMA-based memory disaggregation is gaining popularity in modern datacenters to improve memory efficiency. However, existing memory management approaches for the disaggregated memory (DM) architecture face a critical tradeoff: they either suffer from poor memory utilization due to coarse-grained allocation, or encounter significant challenges in terms of performance, memory node CPU overhead, security vulnerabilities, and limited flexibility. In this paper, we present OneSidedMW, a novel system that combines two advanced RDMA features—RDMA NIC (RNIC) offloading and memory windows—to provide finegrained and highly efficient one-sided memory management primitives for DM. Specifically, it leverages RNIC offloading to perform MW binding and unbinding operations, achieving remote memory allocation and deallocation without involving the memory node’s CPU. To demonstrate the efficiency of OneSidedMW, we evaluate it over two representative DM systems: swap-based systems and disaggregated key-value stores. OneSidedMW achieves up to 10.6× better performance in disaggregated key-value stores and up to 32.3% performance improvement in swap-based systems, compared with the state-of-the-art approaches.",
+  "authors": [
+    "Zixuan Wang",
+    "Jinyu Gu",
+    "Xingda Wei",
+    "Yubin Xia"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-zixuan"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "p-f8c482c1fe89",
+  "title": "RF-Chord- Towards Deployable RFID Localization System for Logistics Network",
+  "abstract": "RFID localization is considered the key enabler of automating the process of inventory tracking and management for the high-performance logistic network. A practical and deployable RFID localization system needs to meet reliability, throughput, and range requirements. This paper presents RF-Chord , the first RFID localization system that simultaneously meets all three requirements. RF-Chord features a multisine-constructed wideband design that can process RF signals with a 200 MHz bandwidth in real-time to facilitate one-shot localization at scale. In addition, multiple SINR enhancement techniques are designed for range extension. On top of that, a kernel-layer near-field localization framework and a multipath-suppression algorithm are proposed to reduce the 99th long-tail errors. Our empirical results show that RF-Chord can localize up to 180 tags 6 m away from a reader within 1 second and with 99th longtail error of 0.786 m, achieving a 0% miss reading rate and ~0.01% cross-reading rate in the warehouse and fresh food delivery store deployment.",
+  "authors": [
+    "Bo Liang",
+    "Purui Wang",
+    "Renjie Zhao",
+    "Heyu Guo",
+    "Pengyu Zhang",
+    "Junchen Guo",
+    "Shunmin Zhu",
+    "Hongqiang Harry Liu",
+    "Xinyu Zhang",
+    "Chenren Xu"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/liang-bo"
+}

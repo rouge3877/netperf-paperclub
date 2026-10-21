@@ -1,0 +1,18 @@
+{
+  "id": "p-5b0d36d95497",
+  "title": "Habitus-Boosting Mobile Immersive Content Delivery through Full-body Pose Tracking and Multipath Networking",
+  "abstract": "Delivering immersive content such as volumetric videos and virtual/mixed reality requires tremendous network bandwidth. Millimeter Wave (mmWave) radios such as 802.11ad/ay and mmWave 5G can provide multi-Gbps peak bandwidth, making them good candidates. However, mmWave is vulnerable to blockage/mobility and its signal attenuates very fast, posing a major challenge to mobile immersive content delivery systems where viewers are in constant motion and the human body may easily block the line-of-sight. To overcome this challenge, in this paper, we investigate two under-explored dimensions. First, we use the combination of a viewer’s full-body pose and the network information to predict mmWave performance as the viewer exercises sixdegree-of-freedom (6-DoF) motion. We apply both offline and online transfer learning to enable the prediction models to react to unseen changes. Second, we jointly use the omnidirectional radio and mmWave radio available on commodity mobile devices to deliver immersive data. We integrate the above two features into a user-space software framework called Habitus , and demonstrate how it can be easily integrated into existing immersive content delivery systems to boost their network performance, which leads to up to 72% of quality-of-experience (QoE) improvement.",
+  "authors": [
+    "Anlan Zhang",
+    "Chendong Wang",
+    "Yuming Hu",
+    "Ahmad Hassan",
+    "Zejun Zhang",
+    "Bo Han",
+    "Feng Qian",
+    "Shichang Xu"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/zhang-anlan"
+}

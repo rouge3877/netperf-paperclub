@@ -1,0 +1,22 @@
+{
+  "id": "p-410308c5f011",
+  "title": "Swift- Delay is Simple and Effective for Congestion Control in the Datacenter",
+  "abstract": "We report on experiences with Swift congestion control in Google datacenters. Swift targets an end-to-end delay by using AIMD control, with pacing under extreme congestion. With accurate RTT measurement and care in reasoning about delay targets, we find this design is a foundation for excellent performance when network distances are well-known. Importantly, its simplicity helps us to meet operational challenges. Delay is easy to decompose into fabric and host components to separate concerns, and effortless to deploy and maintain as a congestion signal while the datacenter evolves. In large-scale testbed experiments, Swift delivers a tail latency of <50μs for short RPCs, with near-zero packet drops, while sustaining ∼100Gbps throughput per server. This is a tail of <3× the minimal latency at a load close to 100%. In production use in many different clusters, Swift achieves consistently low tail completion times for short RPCs, while providing high throughput for long RPCs. It has loss rates that are at least 10× lower than a DCTCP protocol, and handles O(10k) incasts that sharply degrade with DCTCP.",
+  "authors": [
+    "Gautam Kumar",
+    "Nandita Dukkipati",
+    "Keon Jang",
+    "Hassan M. G. Wassel",
+    "Xian Wu",
+    "Behnam Montazeri",
+    "Yaogong Wang",
+    "Kevin Springborn",
+    "Christopher Alfeld",
+    "Michael Ryan",
+    "David Wetherall",
+    "Amin Vahdat"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2020,
+  "url": "https://dl.acm.org/doi/10.1145/3387514.3406591"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p-1892182065d5",
+  "title": "Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage",
+  "abstract": "By replicating data across sites in multiple geographic regions, web services can maximize availability and minimize latency for their users. However, when sacrificing data consistency is not an option, we show that service providers have to today incur significantly higher cost to meet desired latency goals than the lowest cost theoretically feasible. We show that the key to addressing this sub-optimality is to 1) allow for erasure coding, not just replication, of data across data centers, and 2) mitigate the resultant increase in read and write latencies by rethinking how to enable consensus across the widearea network. Our extensive evaluation mimicking web service deployments on the Azure cloud service shows that we enable near-optimal latency versus cost tradeoffs.",
+  "authors": [
+    "Muhammed Uluyol",
+    "Anthony Huang",
+    "Ayush Goel",
+    "Mosharaf Chowdhury",
+    "Harsha V. Madhyastha"
+  ],
+  "conference": "NSDI",
+  "year": 2020,
+  "url": "https://www.usenix.org/conference/nsdi20/presentation/uluyol"
+}

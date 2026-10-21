@@ -1,0 +1,18 @@
+{
+  "id": "p-0ee311fcbf9d",
+  "title": "Finding Adversarial Inputs for Heuristics using Multi-level Optimization",
+  "abstract": "Production systems use heuristics because they are faster or scale better than their optimal counterparts. Yet, practitioners are often unaware of the performance gap between a heuristic and the optimum or between two heuristics in realistic scenarios. MetaOpt is a system that helps analyze these heuristics. Users specify the heuristic and the optimal (or another heuristic) as input, and MetaOpt encodes these efficiently for a solver to find performance gaps and their corresponding adversarial inputs. Its suite of built-in optimizations helps it scale to practical problem sizes. We used MetaOpt to analyze heuristics from three domains (traffic engineering, vector bin packing, and packet scheduling). We found a production traffic engineering heuristic can require 30% more capacity than the optimal in realistic cases. We modified the heuristic based on the patterns in the adversarial inputs MetaOpt discovered and reduced the performance gap by 12.5×. We examined adversarial inputs to a vector bin packing heuristic and proved a new lower bound on its performance.",
+  "authors": [
+    "Pooria Namyar",
+    "Behnaz Arzani",
+    "Ryan Beckett",
+    "Santiago Segarra",
+    "Himanshu Raj",
+    "Umesh Krishnaswamy",
+    "Ramesh Govindan",
+    "Srikanth Kandula"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/namyar-finding"
+}

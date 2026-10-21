@@ -1,0 +1,15 @@
+{
+  "id": "p-2a2fc9a9fc59",
+  "title": "Shockwave- Fair and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning",
+  "abstract": "Dynamic adaptation has become an essential technique in accelerating distributed machine learning (ML) training. Recent studies have shown that dynamically adjusting model structure (e.g., lottery ticket hypothesis [16]) or hyperparameters (e.g., batch size [1]) can significantly accelerate training without sacrificing accuracy. However, existing ML cluster schedulers are not designed to handle dynamic adaptation. We show that existing schemes fail to provide fairness and degrade system efficiency when the training throughput changes over time under dynamic adaptation. We design Shockwave, a scheduler with future planning that builds on two key ideas. First, Shockwave extends classic market theory from static settings to dynamic settings to co-optimize efficiency and fairness. Second, Shockwave utilizes stochastic dynamic programming to handle dynamic changes. We build a system for Shockwave and validate its performance with both tracedriven simulation and cluster experiments. Results show that for traces of ML jobs with dynamic adaptation, Shockwave improves makespan by 1.3× and fairness by 2× when compared with existing fair scheduling schemes.",
+  "authors": [
+    "Pengfei Zheng",
+    "Rui Pan",
+    "Tarannum Khan",
+    "Shivaram Venkataraman",
+    "Aditya Akella"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/zheng"
+}

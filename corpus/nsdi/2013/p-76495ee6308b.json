@@ -1,0 +1,16 @@
+{
+  "id": "p-76495ee6308b",
+  "title": "Real Time Network Policy Checking Using Header Space Analysis",
+  "abstract": "Network state may change rapidly in response to customer demands, load conditions or configuration changes. But the network must also ensure correctness conditions such as isolating tenants from each other and from critical services. Existing policy checkers cannot verify compliance in real time because of the need to collect “state” from the entire network and the time it takes to analyze this state. SDNs provide an opportunity in this respect as they provide a logically centralized view from which every proposed change can be checked for compliance with policy. But there remains the need for a fast compliance checker. Our paper introduces a real time policy checking tool called NetPlumber based on Header Space Analysis (HSA) [8]. Unlike HSA, however, NetPlumber incrementally checks for compliance of state changes, using a novel set of conceptual tools that maintain a dependency graph between rules. While NetPlumber is a natural fit for SDNs, its abstract intermediate form is conceptually applicable to conventional networks as well. We have tested NetPlumber on Google’s SDN, the Stanford backbone and Internet 2. With NetPlumber, checking the compliance of a typical rule update against a single policy on these networks takes 50-500μs on average.",
+  "authors": [
+    "Peyman Kazemian",
+    "Michael Chang",
+    "Hongyi Zeng",
+    "George Varghese",
+    "Nick McKeown",
+    "Scott Whyte"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/kazemian"
+}

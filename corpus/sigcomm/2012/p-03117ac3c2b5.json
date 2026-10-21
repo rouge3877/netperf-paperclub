@@ -1,0 +1,15 @@
+{
+  "id": "p-03117ac3c2b5",
+  "title": "DeTail: Reducing the Flow Completion Time Tail in Datacenter Networks",
+  "abstract": "Web applications have now become so sophisticated that rendering a typical page may require hundreds of intra-datacenter flows. At the same time, web sites must meet strict page creation deadlines of 200-300ms to satisfy user demands for interactivity. Long-tailed flow completion times make it challenging for web sites to meet these constraints. They are forced to choose between rendering a subset of the complex page, or delay its rendering, thus missing deadlines and sacrificing either quality or responsiveness. Either option leads to potential financial loss. In this paper, we present a new cross-layer network stack aimed at reducing the long tail of flow completion times. The approach exploits cross-layer information to reduce packet drops, prioritize latency-sensitive flows, and evenly distribute network load, effectively reducing the long tail of flow completion times. We evaluate our approach through NS-3 based simulation and Click-based implementation demonstrating our ability to consistently reduce the tail across a wide range of workloads. We often achieve reductions of over 50% in 99.9 th percentile flow completion times.",
+  "authors": [
+    "David Zats",
+    "Tathagata Das",
+    "Prashanth Mohan",
+    "Dhruba Borthakur",
+    "Randy Katz"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2012,
+  "url": "https://dl.acm.org/doi/10.1145/2377677.2377711"
+}

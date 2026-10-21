@@ -1,0 +1,15 @@
+{
+  "id": "p-62b1e6785332",
+  "title": "Exploring Practical Vulnerabilities of Machine Learning-based Wireless Systems",
+  "abstract": "Machine Learning (ML) is an increasingly popular tool for designing wireless systems, both for communication and sensing applications. We design and evaluate the impact of practically feasible adversarial attacks against such ML-based wireless systems. In doing so, we solve challenges that are unique to the wireless domain: lack of synchronization between a benign device and the adversarial device, and the effects of the wireless channel on adversarial noise. We build, RAFA (RAdio Frequency Attack), the first hardware-implemented adversarial attack platform against ML-based wireless systems and evaluate it against two state-of-the-art communication and sensing approaches at the physical layer. Our results show that both these systems experience a significant performance drop in response to the adversarial attack.",
+  "authors": [
+    "Zikun Liu",
+    "Changming Xu",
+    "Emerson Sie",
+    "Gagandeep Singh",
+    "Deepak Vasisht"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/liu-zikun"
+}

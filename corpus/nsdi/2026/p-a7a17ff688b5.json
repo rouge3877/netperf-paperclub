@@ -1,0 +1,20 @@
+{
+  "id": "p-a7a17ff688b5",
+  "title": "BLADE-Adaptive Wi-Fi Contention Control for Next-Generation Real-Time Communication",
+  "abstract": "Next-generation real-time communication (NGRTC) applications, such as cloud gaming and XR, demand consistently ultra-low latency. However, through our first large-scale measurement, we find that despite the deployment of edge servers, dedicated congestion control, and loss recovery mechanisms, cloud gaming users still experience long-tail latency in Wi- Fi networks. We further identify that Wi-Fi last-mile access points (APs) serve as the primary latency bottleneck. Specifically, short-term packet delivery droughts, caused by fundamental limitations in Wi-Fi contention control standards, are the root cause. To address this issue, we propose BLADE , an adaptive contention control algorithm that dynamically adjusts the contention windows (CW) of all Wi-Fi transmitters based on the channel contention level in a fully distributed manner. Our ns3 simulations and real-world evaluations with commercial Wi-Fi APs demonstrate that, compared to standard contention control, BLADE reduces Wi-Fi packet transmission tail latency by over 5× under heavy channel contention and significantly stabilizes MAC throughput while ensuring fast and fair convergence. Consequently, BLADE reduces the video stall rate in cloud gaming by over 90%.",
+  "authors": [
+    "Fengqian Guo",
+    "Yuhan Zhou",
+    "Longwei Jiang",
+    "Congcong Miao",
+    "Yuxin Liu",
+    "Chenren Xu",
+    "Hancheng Lu",
+    "Chang Wen Chen",
+    "Yaxiong Xie",
+    "Honghao Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/guo-fengqian"
+}

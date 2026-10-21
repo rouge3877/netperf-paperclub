@@ -1,0 +1,26 @@
+{
+  "id": "p-595fab1cf97d",
+  "title": "Enabling AI Network Cross-Layer Design and Operations with Arcadia-A Simulation Platform at Scale",
+  "abstract": "The rapid evolution of Artificial Intelligence (AI) technology is fueling significant investments by hyperscalers, making AI networks crucial for large-scale training. Understanding the design impacts on AI training requires systematic, cross-layer evaluation. Production experience highlights the need for a robust simulation platform to guide network design and operations. This paper defines the platform requirements, addresses complex design challenges, and shares our experience building Arcadia, a scalable, high-fidelity simulation platform for AI Networks. It operates at the cluster level, focusing on overall cluster performance rather than individual job performance. By using our fast-forwarding, lock-free, and synchronizationcost reduction mechanisms, Arcadia achieves scalability and speed, allowing us to faithfully simulate real-world-scale training clusters and plays a key role in guiding Meta’s AI network evolution.",
+  "authors": [
+    "Zhaodong Wang",
+    "Satyajeet Singh Ahuja",
+    "Xu Zhang",
+    "Yuhui Zhang",
+    "Max Noormohammadpour",
+    "Gregory R. Steinbrecher",
+    "Thomas Fuller",
+    "Xin Liu",
+    "Kevin Quirk",
+    "Mikel Jimenez Fernandez",
+    "Abhinav Triguna",
+    "Yan Cai",
+    "Steve Politis",
+    "Petr Lapukhov",
+    "Naader Hasani",
+    "Ying Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-zhaodong"
+}

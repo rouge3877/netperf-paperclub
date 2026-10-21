@@ -1,0 +1,20 @@
+{
+  "id": "p-f3e2c7ee9eec",
+  "title": "Towards Domain-Specific Network Transport for Distributed DNN Training",
+  "abstract": "Machine learning (ML) applications present rich characteristics to underlying network transport, yet little work has been done so far to systematically exploit these properties in transport design. This paper takes the initiative to pursue a domain-specific network transport, called MLT 1 , for distributed DNN training that fully embraces several unique characteristics of machine learning. At its heart, MLT employs three simple-yet-effective techniques to form a 3-step progressive scheme against long tail latency caused by transient packet drops and queueing. First, it leverages the independencies among gradient updates to enable per-packet load balancing to minimize network hotspots without worrying about packet re-ordering. Then, if hotspot arises, it performs priority queueing/dropping based on the layers and magnitudes of gradients to optimize the model convergence. Lastly, if drop occurs, it enables bounded-loss tolerance—a certain amount of gradient losses tolerated by the DNN training without affecting the model accuracy. MLT is readily deployable with commodity switches and imposes minimal modifications on various DNN training libraries (e.g., TensorFlow, MXNet and PyTorch) and communication routines (e.g., PS and Ring All-reduce). We show, via both testbed experiments and simulations, that MLT effectively optimizes network tail latency and delivers up to 62.2% better end-to-end training performance over prior work.",
+  "authors": [
+    "Hao Wang",
+    "Han Tian",
+    "Jingrong Chen",
+    "Xinchen Wan",
+    "Jiacheng Xia",
+    "Gaoxiong Zeng",
+    "Wei Bai",
+    "Junchen Jiang",
+    "Yong Wang",
+    "Kai Chen"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/wang-hao"
+}

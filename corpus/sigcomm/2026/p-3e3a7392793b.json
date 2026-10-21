@@ -1,0 +1,15 @@
+{
+  "id": "p-3e3a7392793b",
+  "title": "Understanding Host Network Stack Latency",
+  "abstract": "One of the most frequently cited !aws of Linux host network stacks is their high latency—recent studies show that the Linux network stack su\"ers from millisecond-scale tail latency. This has motivated clean-slate solutions such as userspace stacks and specialized host networking hardware, but without understanding the true root causes of Linux tail latency, these e\"orts risk repeating the same pitfalls. This paper studies the root causes of tail latency in the Linux network stack and reaches a surprising conclusion: the dominant bottlenecks lie not in packet processing itself, but in how the host manages CPU resources for networking. Through extensive measurements, we identify three key factors: misattribution of processing time by CPU schedulers, limitations of CPU runtime as a fairness abstraction, and the ine#ciency of interrupt tuning under unpredictable packet arrivals. We show that addressing these factors improves performance by up to 5.3× while maintaining similar throughput. Together, these results suggest that achieving low-latency networking requires rethinking host CPU scheduling and host–NIC interaction, providing new design directions for operating systems, network stacks, and future host networking hardware.",
+  "authors": [
+    "Tianyu Zuo",
+    "Jaehyun Hwang",
+    "Ao Tang",
+    "Rachit Agarwal",
+    "Qizhe Cai"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2026,
+  "url": "https://dl.acm.org/doi/10.1145/3789240.3829115"
+}

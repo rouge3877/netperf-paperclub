@@ -1,0 +1,21 @@
+{
+  "id": "p-ab8879118fca",
+  "title": "High-level Programming for Application Networks",
+  "abstract": "Application networks facilitate RPC communication between the microservices of cloud applications. They are built today using service meshes which employ low-level specifications and have high overhead—it is difficult to express even simple application-specific functionality (e.g., access control based on RPC fields) and RPC latency can more than double. We develop AppNet, a framework for building expressive and high-performance application networks. Developers specify rich application network functions (ANFs) in a high-level language with generalized match-action rules. We compile the specifications to high-performance code after optimizing where (e.g., client, server) and how (e.g., RPC library, proxy) each function runs. The optimization uses symbolic abstraction and execution to judge if different runtime configurations of possibly stateful functions are semantically equivalent for arbitrary RPC streams. Our experiments show that AppNet can express common ANFs in only 7-28 lines of code. Its optimizations lower RPC processing latency by up to 82%.",
+  "authors": [
+    "Xiangfeng Zhu",
+    "Yuyao Wang",
+    "Banruo Liu",
+    "Yongtong Wu",
+    "Nikola Bojanic",
+    "Jingrong Chen",
+    "Gilbert Louis Bernstein",
+    "Arvind Krishnamurthy",
+    "Sam Kumar",
+    "Ratul Mahajan",
+    "Danyang Zhuo"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/zhu"
+}

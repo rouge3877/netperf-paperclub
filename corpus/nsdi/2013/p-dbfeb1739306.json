@@ -1,0 +1,19 @@
+{
+  "id": "p-dbfeb1739306",
+  "title": "eDoctor: Automatically Diagnosing Abnormal Battery Drain Issues on Smartphones",
+  "abstract": "The past few years have witnessed an evolutionary change in the smartphone ecosystem. Smartphones have gone from closed platforms containing only pre-installed applications to open platforms hosting a variety of thirdparty applications. Unfortunately, this change has also led to a rapid increase in Abnormal Battery Drain (ABD) problems that can be caused by software defects or misconfiguration. Such issues can drain a fully-charged battery within a couple of hours, and can potentially affect a significant number of users. This paper presents eDoctor, a practical tool that helps regular users troubleshoot abnormal battery drain issues on smartphones. eDoctor leverages the concept of execution phases to capture an app’s time-varying behavior, which can then be used to identify an abnormal app. Based on the result of a diagnosis, eDoctor suggests the most appropriate repair solution to users. To evaluate eDoctor’s effectiveness, we conducted both in-lab experiments and a controlled user study with 31 participants and 17 realworld ABD issues together with 4 injected issues in 19 apps. The experimental results show that eDoctor can successfully diagnose 47 out of the 50 use cases while imposing no more than 1.5% of power overhead.",
+  "authors": [
+    "Xiao Ma",
+    "Peng Huang",
+    "Xinxin Jin",
+    "Pei Wang",
+    "Soyeon Park",
+    "Dongcai Shen",
+    "Yuanyuan Zhou",
+    "Lawrence K. Saul",
+    "Geoffrey M. Voelker"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/ma"
+}

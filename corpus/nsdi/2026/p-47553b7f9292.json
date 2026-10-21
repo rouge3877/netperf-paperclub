@@ -1,0 +1,15 @@
+{
+  "id": "p-47553b7f9292",
+  "title": "Lemonshark-Asynchronous DAG-BFT With Early Finality",
+  "abstract": "DAG-Rider popularized a new paradigm of DAG-BFT protocols, separating dissemination from consensus: all nodes disseminate transactions as blocks that reference previously known blocks, while consensus is reached by electing certain blocks as leaders. This design yields high throughput but confers optimal latency only to leader blocks; non-leader blocks cannot be committed independently. We present Lemonshark, an asynchronous DAG-BFT protocol that reinterprets the DAG at a transactional level and identifies conditions where commitment is sufficient—but not necessary—for safe results, enabling nodes to finalize transactions before official commitment, without compromising correctness. Compared to the state-of-the-art asynchronous BFT protocol, Lemonshark reduces latency by up to 65%.",
+  "authors": [
+    "Michael Yiqing Hu",
+    "Alvin Hong Yao Yan",
+    "Yihan Yang",
+    "Xiang Liu",
+    "Jialin Li"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/hu-michael"
+}

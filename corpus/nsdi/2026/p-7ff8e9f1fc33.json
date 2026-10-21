@@ -1,0 +1,14 @@
+{
+  "id": "p-7ff8e9f1fc33",
+  "title": "Remote TCP Connection Offload and Applications",
+  "abstract": "Layer 7 load balancers (L7LBs) play an important role in perrequest server selection within long-lived connections and transport- or application-layer protocol translation. However, L7LBs introduce substantial CPU and network overhead. We present XO, which enables an L7LB to offload transport-layer and application request processing to backend servers at request granularity. XO outperforms conventional L7LBs by 27–365 % in throughput through efficient utilization of server CPU and network resources. We apply XO to two real-world applications, Ceph and nginx, improving throughput by up to 135 % and 300 %, respectively.",
+  "authors": [
+    "Shuo Li",
+    "Steven Chien",
+    "Tianyi Gao",
+    "Michio Honda"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/li-shuo"
+}

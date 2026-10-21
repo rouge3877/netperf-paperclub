@@ -1,0 +1,24 @@
+{
+  "id": "p-3760f2b7960e",
+  "title": "AnyPro-Preference-Preserving Anycast Optimization based on Strategic AS-Path Prepending",
+  "abstract": "Operating large-scale anycast networks is challenging because client-to-site mappings often misalign with operator’s expectation due to opaque inter-domain routing. We present AnyPro, the first system to unlock the full potential of ASpath prepending (ASPP), efficiently deriving globally optimal configurations to steer clients toward performance-optimal sites at scale. AnyPro first employs an efficient polling mechanism to identify all clients sensitive to ASPP. By analyzing the routing changes during the process, the system derives a set of ASPP constraints that guide client traffic toward the desired sites. We then formulate the anycast optimization problem as a constraint-based program and compute optimal ASPP configurations. Extensive evaluation on a global testbed with 20 PoPs demonstrates the effectiveness of AnyPro: it reduces the 90th percentile latency by 37.7% compared to baseline configurations without ASPP. Furthermore, we show that AnyPro can be integrated with PoP-level anycast optimization techniques to achieve additional performance gains.",
+  "authors": [
+    "Minyuan Zhou",
+    "Yuning Chen",
+    "Jiaqi Zheng",
+    "Yifei Xu",
+    "Pan Hu",
+    "Yongping Tang",
+    "Wendong Yin",
+    "Jie Lin",
+    "Qingyan Yu",
+    "Yuanchao Su",
+    "Guihai Chen",
+    "Wanchun Dou",
+    "Songwu Lu",
+    "Wan Du"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/zhou-minyuan"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "p-8a1b2418d8c3",
+  "title": "Practical Intent-driven Routing Configuration Synthesis",
+  "abstract": "Configuration of production datacenters is challenging due to their scale (many switches), complexity (specific policy requirements), and dynamism (need for many configuration changes). This paper introduces Aura, a production-level synthesis system for datacenter routing policies. It consists of a high-level language, called RPL, that expresses the desired behavior and a compiler that automatically generates switch configurations. Unlike existing approaches, which generate full network configuration for a static policy, Aura is built to support frequent policy and network changes. It generates and deploys multiple parallel policy collections, in a way that supports smooth transitions between them without disrupting live production traffic. Aura has been deployed for over two years in Meta datacenters and has greatly improved our management efficiency. We also share our operational requirements and experiences, which can potentially inspire future research.",
+  "authors": [
+    "Sivaramakrishnan Ramanathan",
+    "Ying Zhang",
+    "Mohab Gawish",
+    "Yogesh Mundada",
+    "Zhaodong Wang",
+    "Sangki Yun",
+    "Eric Lippert",
+    "Walid Taha",
+    "Minlan Yu",
+    "Jelena Mirkovic"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/ramanathan"
+}

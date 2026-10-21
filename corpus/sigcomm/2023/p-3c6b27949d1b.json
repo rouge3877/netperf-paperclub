@@ -1,0 +1,21 @@
+{
+  "id": "p-3c6b27949d1b",
+  "title": "Switchboard- Efficient Resource Management for Conferencing Services",
+  "abstract": "Resource management is important for conferencing services (such as Microsoft Teams, Zoom) to ensure good user experience while keeping the costs low. Key to this is the efficient provisioning and assignment of media processing (MP) servers, which do the heavy lifting of mixing and redistributing the media streams from and to the call participants. We introduce Switchboard – a controller for efficient resource management for conferencing services. Switchboard is peakaware, recognizing that cost depends on the peak resource usage and that there is a temporal shift in peak demand across time zones. This allows a server in a region to serve calls at peak time, and double up as backup for other regions during non-peak times. Furthermore, it improves efficiency by performing joint network and compute provisioning and application aware provisioning. We evaluate Switchboard using 1+ year of records from Microsoft Teams. Switchboard achieves upto 51% lower provisioning cost while achieving similar or better latency over state-of-the-art baselines.",
+  "authors": [
+    "Rahul Bothra",
+    "Rohan Gandhi",
+    "Ranjita Bhagwan",
+    "Venkata N. Padmanabhan",
+    "Rui Liang",
+    "Steve Carlson",
+    "Vinayaka Kamath",
+    "Sreangsu Acharyya",
+    "Ken Sueda",
+    "Somesh Chaturmohta",
+    "Harsha Sharma"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2023,
+  "url": "https://dl.acm.org/doi/10.1145/3603269.3604879"
+}

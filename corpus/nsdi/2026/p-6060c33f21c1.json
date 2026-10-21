@@ -1,0 +1,17 @@
+{
+  "id": "p-6060c33f21c1",
+  "title": "UNUM-A New Framework for Network Control",
+  "abstract": "Modern network control tasks, such as congestion control and adaptive bitrate streaming, require accurate state estimation to adapt to heterogeneous and dynamic network conditions. Current approaches, whether manually engineered or machine learning (ML)-based, often rely on instantaneous or running-average metrics, resulting in imprecise approximations of the true network state. This hinders their ability to capture latent factors, such as application workloads or path dynamics, and adapt to non-stationary environments. We present UNUM , a new framework powered by a unified network state embedder leveraging Transformers’ selfattention mechanism and diverse training datasets to learn rich, latent state representations. UNUM processes historical RTT-timescale network statistics, models complete current state, and predicts future states using pre-trained embeddings from diverse network scenarios. We develop techniques to augment state-of-the-art controllers with UNUM embeddings. Through experiments over real and synthetic settings, we show that using UNUM state embeddings improves control performance across tasks, including congestion control and adaptive bitrate streaming.",
+  "authors": [
+    "Jiayi Chen",
+    "Nihal Sharma",
+    "Debajit Chakraborty",
+    "Saurabh Agarwal",
+    "Jeffrey Zhou",
+    "Aditya Akella",
+    "Sanjay Shakkottai"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/chen-jiayi"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p-9099ec583c9e",
+  "title": "Minimizing Faulty Executions of Distributed Systems",
+  "abstract": "When troubleshooting buggy executions of distributed systems, developers typically start by manually separating out events that are responsible for triggering the bug (signal) from those that are extraneous (noise). We present DEMi, a tool for automatically performing this minimization. We apply DEMi to buggy executions of two very different distributed systems, Raft and Spark, and find that it produces minimized executions that are between 1X and 4.6X the size of optimal executions.",
+  "authors": [
+    "Colin Scott",
+    "Aurojit Panda",
+    "Vjekoslav Brajkovic",
+    "George Necula",
+    "Arvind Krishnamurthy",
+    "Scott Shenker"
+  ],
+  "conference": "NSDI",
+  "year": 2016,
+  "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/scott"
+}

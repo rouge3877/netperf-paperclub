@@ -1,0 +1,23 @@
+{
+  "id": "p-cf0be451371a",
+  "title": "Troubleshooting SDN Control Software with Minimal Causal Sequences",
+  "abstract": "Software bugs are inevitable in software-defined networking control software, and troubleshooting is a tedious, time-consuming task. In this paper we discuss how to improve control software troubleshooting by presenting a technique for automatically identifying a minimal sequence of inputs responsible for triggering a given bug, without making assumptions about the language or instrumentation of the software under test. We apply our technique to five open source SDN control platforms—Floodlight, NOX, POX, Pyretic, ONOS—and illustrate how the minimal causal sequences our system found aided the troubleshooting process.",
+  "authors": [
+    "Colin Scott",
+    "Andreas Wundsam",
+    "Barath Raghavan",
+    "Aurojit Panda",
+    "Andrew Or",
+    "Jefferson Lai",
+    "Eugene Huang",
+    "Zhi Liu",
+    "Ahmed El-Hassany",
+    "Sam Whitlock",
+    "H.B. Acharya",
+    "Kyriakos Zarifis",
+    "Scott Shenker"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2014,
+  "url": "https://dl.acm.org/doi/10.1145/2619239.2626304"
+}

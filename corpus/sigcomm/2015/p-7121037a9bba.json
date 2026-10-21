@@ -1,0 +1,24 @@
+{
+  "id": "p-7121037a9bba",
+  "title": "BwE: Flexible, Hierarchical Bandwidth Allocation for WAN Distributed Computing",
+  "abstract": "WAN bandwidth remains a constrained resource that is economically infeasible to substantially overprovision. Hence, it is important to allocate capacity according to service priority and based on the incremental value of additional allocation. For example, it may be the highest priority for one service to receive 10Gb/s of bandwidth but upon reaching such an allocation, incremental priority may drop sharply favoring allocation to other services. Motivated by the observation that individual flows with fixed priority may not be the ideal basis for bandwidth allocation, we present the design and implementation of Bandwidth Enforcer (BwE), a global, hierarchical bandwidth allocation infrastructure. BwE supports: i) service-level bandwidth allocation following prioritized bandwidth functions where a service can represent an arbitrary collection of flows, ii) independent allocation and delegation policies according to user-defined hierarchy, all accounting for a global view of bandwidth and failure conditions, iii) multi-path forwarding common in trafficengineered networks, and iv) a central administrative point to override (perhaps faulty) policy during exceptional conditions. BwE has delivered more service-efficient bandwidth utilization and simpler management in production for multiple years.",
+  "authors": [
+    "Alok Kumar",
+    "Sushant Jain",
+    "Uday Naik",
+    "Anand Raghuraman",
+    "Nikhil Kasinadhuni",
+    "Enrique Cauich Zermeno",
+    "C. Stephen Gunn",
+    "Jing Ai",
+    "Björn Carlin",
+    "Mihai Amarandei-Stavila",
+    "Mathieu Robin",
+    "Aspi Siganporia",
+    "Stephen Stuart",
+    "Amin Vahdat"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2015,
+  "url": "https://dl.acm.org/doi/10.1145/2829988.2787478"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p-5e7829bda037",
+  "title": "Debugging the Data Plane with Anteater",
+  "abstract": "Diagnosing problems in networks is a time-consuming and error-prone process. Existing tools to assist operators primarily focus on analyzing control plane configuration. Configuration analysis is limited in that it cannot find bugs in router software, and is harder to generalize across protocols since it must model complex configuration languages and dynamic protocol behavior. This paper studies an alternate approach: diagnosing problems through static analysis of the data plane. This approach can catch bugs that are invisible at the level of configuration files, and simplifies unified analysis of a network across many protocols and implementations. We present Anteater, a tool for checking invariants in the data plane. Anteater translates high-level network invariants into instances of boolean satisfiability problems (SAT), checks them against network state using a SAT solver, and reports counterexamples if violations have been found. Applied to a large university network, Anteater revealed 23 bugs, including forwarding loops and stale ACL rules, with only five false positives. Nine of these faults are being fixed by campus network operators.",
+  "authors": [
+    "Haohui Mai",
+    "Ahmed Khurshid",
+    "Rachit Agarwal",
+    "Matthew Caesar",
+    "P. Brighten Godfrey",
+    "Samuel Talmadge King"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2011,
+  "url": "https://dl.acm.org/doi/10.1145/2018436.2018470"
+}

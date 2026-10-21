@@ -1,0 +1,16 @@
+{
+  "id": "p-7228092b9759",
+  "title": "OmniMon- Re-architecting Network Telemetry with Resource Efficiency and Full Accuracy",
+  "abstract": "Network telemetry is essential for administrators to monitor massive data traffic in a network-wide manner. Existing telemetry solutions often face the dilemma between resource efficiency (i.e., low CPU, memory, and bandwidth overhead) and full accuracy (i.e., error-free and holistic measurement). We break this dilemma via a network-wide architectural design OmniMon, which simultaneously achieves resource efficiency and full accuracy in flow-level telemetry for large-scale data centers. OmniMon carefully coordinates the collaboration among different types of entities in the whole network to execute telemetry operations, such that the resource constraints of each entity are satisfied without compromising full accuracy. It further addresses consistency in network-wide epoch synchronization and accountability in error-free packet loss inference. We prototype OmniMon in DPDK and P4. Testbed experiments on commodity servers and Tofino switches demonstrate the effectiveness of OmniMon over state-of-the-art telemetry designs.",
+  "authors": [
+    "Qun Huang",
+    "Haifeng Sun",
+    "Patrick P. C. Lee",
+    "Wei Bai",
+    "Feng Zhu",
+    "Yungang Bao"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2020,
+  "url": "https://dl.acm.org/doi/10.1145/3387514.3405877"
+}

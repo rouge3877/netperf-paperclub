@@ -1,0 +1,14 @@
+{
+  "id": "p-6c1bccfd7412",
+  "title": "SECRECY- Secure collaborative analytics in untrusted clouds",
+  "abstract": "We present SECRECY , a system for privacy-preserving collaborative analytics as a service. SECRECY allows multiple data holders to contribute their data towards a joint analysis in the cloud, while keeping the data siloed even from the cloud providers. At the same time, it enables cloud providers to offer their services to clients who would have otherwise refused to perform a computation altogether or insisted that it be done on private infrastructure. SECRECY ensures no information leakage and provides provable security guarantees by employing cryptographically secure Multi-Party Computation (MPC). In SECRECY we take a novel approach to optimizing MPC execution by co-designing multiple layers of the system stack and exposing the MPC costs to the query engine. To achieve practical performance, SECRECY applies physical optimizations that amortize the inherent MPC overheads along with logical optimizations that dramatically reduce the computation, communication, and space requirements during query execution. Our multi-cloud experiments demonstrate that S E - CRECY improves query performance by over 1000× compared to existing approaches and computes complex analytics on millions of data records with modest use of resources.",
+  "authors": [
+    "John Liagouris",
+    "Vasiliki Kalavri",
+    "Muhammad Faisal",
+    "Mayank Varia"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/liagouris"
+}

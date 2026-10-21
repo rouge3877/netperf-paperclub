@@ -1,0 +1,15 @@
+{
+  "id": "p-096d469ed6a4",
+  "title": "LoLKV-The Logless, Linearizable, RDMA-based Key-Value Storage System",
+  "abstract": "We present LoLKV, a novel logless replicated key-value storage system. LoLKV follows a fundamentally different approach for designing a linearizable key-value storage system compared to state-of-the-art systems. LoLKV forgoes the classical log-based design and uses lock-free approach to allow multiple threads to concurrently update objects. It presents a novel leader election and consolidation approach to handle complex failure scenarios. LoLKV’s followers are passive, reducing their overall CPU usage. Our evaluation shows that LoLKV achieves 1.7–10× higher throughput and 20–92% lower tail latency than other state-of-the-art low-latency keyvalue stores.",
+  "authors": [
+    "Ahmed Alquraan",
+    "Sreeharsha Udayashankar",
+    "Virendra Marathe",
+    "Bernard Wong",
+    "Samer Al-Kiswany"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/alquraan"
+}

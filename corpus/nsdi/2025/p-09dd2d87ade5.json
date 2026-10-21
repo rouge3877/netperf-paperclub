@@ -1,0 +1,14 @@
+{
+  "id": "p-09dd2d87ade5",
+  "title": "The Benefits and Limitations of User Interrupts for Preemptive Userspace Scheduling",
+  "abstract": "Preemptive scheduling promises to mitigate head-of-line blocking and enable flexible scheduling while retaining a simple programming model. Despite this, preemption is underutilized in server-side software today. Instead, high-performance datacenter systems and language runtimes often rely on cooperative concurrency, or else use preemption only at very coarse timescales, limiting its effectiveness. A key reason that preemption is underutilized today is that existing preemption mechanisms have high and unpredictable overheads. Intel recently introduced support for user interrupts, a new feature that offers an opportunity to change this. By enabling interrupts to be sent and received entirely in user space, user interrupts can significantly lower the overhead of preemption. In this paper, we shed light on how user interrupts impact the landscape of preemption mechanisms. We build two userlevel schedulers that leverage user interrupts for low-overhead preemption. We find that user interrupts are not a panacea. For example, they provide limited benefits when other software layers constrain the kinds of scheduling policies that can be used. Still, user interrupts can match or exceed the performance of existing mechanisms for all but the highest preemption rates, while achieving much more consistent overheads and retaining a user-friendly programming model.",
+  "authors": [
+    "Linsong Guo",
+    "Danial Zuberi",
+    "Tal Garfinkel",
+    "Amy Ousterhout"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/guo"
+}

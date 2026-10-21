@@ -1,0 +1,15 @@
+{
+  "id": "p-6bc990b0c0e9",
+  "title": "πBox: A Platform for Privacy-Preserving Apps",
+  "abstract": "We present πBox, a new application platform that prevents apps from misusing information about their users. To strike a useful balance between users’ privacy and apps’ functional needs, πBox shifts much of the responsibility for protecting privacy from the app and its users to the platform itself. To achieve this, πBox deploys (1) a sandbox that spans the user’s device and the cloud, (2) specialized storage and communication channels that enable common app functionalities, and (3) an adaptation of recent theoretical algorithms for differential privacy under continual observation. We describe a prototype implementation of πBox and show how it enables a wide range of useful apps with minimal performance overhead and without sacrificing user privacy.",
+  "authors": [
+    "Sangmin Lee",
+    "Edmund L. Wong",
+    "Deepak Goel",
+    "Mike Dahlin",
+    "Vitaly Shmatikov"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/lee_sangmin"
+}

@@ -1,0 +1,9 @@
+License scope
+
+The root MIT license applies to original application code and project documentation.
+It does not relicense academic abstracts, author metadata or third-party software.
+
+Academic content in corpus/ retains its original rights. No blanket redistribution
+license for that content is asserted by this project. Dependencies retain their
+respective package licenses. Original source archives and historical evidence,
+when kept locally under ignored var/, retain their respective rights.

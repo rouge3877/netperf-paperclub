@@ -1,0 +1,22 @@
+{
+  "id": "p-44390849a9bb",
+  "title": "cISP- A Speed-of-Light Internet Service Provider",
+  "abstract": "Low latency is a requirement for a variety of interactive network applications. The Internet, however, is not optimized for latency. We thus explore the design of wide-area networks that move data at nearly the speed of light in vacuum. Our cISP design augments the Internet’s fiber with free-space microwave wireless connectivity over paths very close to great-circle paths. cISP addresses the fundamental challenge of simultaneously providing ultra-low latency while accounting for numerous practical factors ranging from transmission tower availability to packet queuing. We show that instantiations of cISP across the United States and Europe would achieve mean latencies within 5% of that achievable using great-circle paths at the speed of light, over medium and long distances. Further, using experiments conducted on a nearly-speed-of-light algorithmic trading network, together with an analysis of trading data at its end points, we show that microwave networks are reliably faster than fiber networks even in inclement weather. Finally, we estimate that the economic value of such networks would substantially exceed their expense.",
+  "authors": [
+    "Debopam Bhattacherjee",
+    "Waqar Aqeel",
+    "Sangeetha Abdu Jyothi",
+    "Ilker Nadi Bozkurt",
+    "William Sentosa",
+    "Muhammad Tirmazi",
+    "Anthony Aguirre",
+    "Balakrishnan Chandrasekaran",
+    "P. Brighten Godfrey",
+    "Gregory Laughlin",
+    "Bruce Maggs",
+    "Ankit Singla"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/bhattacherjee"
+}

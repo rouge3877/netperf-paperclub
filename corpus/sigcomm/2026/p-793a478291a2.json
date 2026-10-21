@@ -1,0 +1,15 @@
+{
+  "id": "p-793a478291a2",
+  "title": "When the Lights Go Out-Internet Resilience During the 2025 Iberian Power Outage",
+  "abstract": "On April 28th, 2025, a major power outage caused a disruption of electric service across Spain and Portugal, lasting about ten hours in most regions and even longer in some areas. We analyze the impact of the power outage, showing how it led to a nearinstantaneous 33-70% drop in traffic at 4 major Iberian IXPs, while core infrastructure remained largely functional. We show that the Internet was impacted by a second event: a partial outage in a data center that resulted in a second drop of traffic and BGP sessions.",
+  "authors": [
+    "Oliver Hohlfeld",
+    "Yasin Alhamwy",
+    "Tobias Striffler",
+    "Daniel Wagner",
+    "Matthias Wichtlhuber"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2026,
+  "url": "https://dl.acm.org/doi/10.1145/3806097.3806099"
+}

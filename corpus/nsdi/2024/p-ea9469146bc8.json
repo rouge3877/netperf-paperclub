@@ -1,0 +1,17 @@
+{
+  "id": "p-ea9469146bc8",
+  "title": "Cloudcast-High-Throughput, Cost-Aware Overlay Multicast in the Cloud",
+  "abstract": "Bulk data replication across multiple cloud regions and providers is essential for large organizations to support data analytics, disaster recovery, and geo-distributed model serving. However, data multicast in the cloud can be expensive due to network egress costs and slow due to cloud network constraints. In this paper, we study the design of high-throughput, cost-optimized overlay multicast for bulk cloud data replication that exploits trends in modern provider pricing models along with techniques like ephemeral waypoints to minimize cloud networking costs. To that end, we design an optimization algorithm that uses information about cloud network throughput and pricing to identify cost-minimizing multicast replication trees under user-given runtime budgets. Our open-source implementation, Cloudcast, is used for cloud overlay multicast that supports pluggable algorithms for determining the multicast tree structure. Our evaluations show that Cloudcast achieves 61.5% cost reduction and 2.3× replication speedup compared to both academic and commercial baselines (e.g., AWS multiregion bucket) for multi-region replication.",
+  "authors": [
+    "Sarah Wooders",
+    "Shu Liu",
+    "Paras Jain",
+    "Xiangxi Mo",
+    "Joseph E. Gonzalez",
+    "Vincent Liu",
+    "Ion Stoica"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/wooders"
+}

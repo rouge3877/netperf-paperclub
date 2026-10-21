@@ -1,0 +1,24 @@
+{
+  "id": "p-9fedad2901c0",
+  "title": "RollPacker-Taming Long-Tail Rollouts for RL Post-Training with Tail Batching",
+  "abstract": "Reinforcement Learning (RL) is a pivotal post-training technique for enhancing the reasoning capabilities of Large Language Models (LLMs). However, synchronous RL post-training frequently suffers from significant GPU underutilization—often referred to as pipeline “bubbles”— caused by imbalanced response lengths within rollout steps. Many RL systems attempt to alleviate this problem by relaxing synchronization, but this can compromise training accuracy. In this paper, we introduce tail batching, a novel rollout scheduling strategy for synchronous RL. Tail batching systematically consolidates prompts leading to long-tail responses into a few designated “long rounds”, ensuring that the majority of rollout steps (“short rounds”) contain only balanced, short responses. By strategically reordering execution, this approach dramatically reduces GPU idle time and accelerates RL training without sacrificing on-policy accuracy. We present RollPacker, a system that fully harnesses the benefits of tail batching through holistic optimizations across all three RL stages: elastic parallelism adaptation for rollout, dynamic resource allocation and scheduling for reward, and stream-based training. Cluster deployment on up to 128 H800 GPUs demonstrates that RollPacker achieves an end-to-end training speedup of 2.03× to 2.56× over veRL [34], and up to 2.24× speedup compared to RLH- Fuse [55] across the Qwen2.5 family of LLMs. The code is available at https://github.com/Farrrrland/RollPacker.",
+  "authors": [
+    "Wei Gao",
+    "Yuheng Zhao",
+    "Dakai An",
+    "Tianyuan Wu",
+    "Lunxi Cao",
+    "Shaopan Xiong",
+    "Ju Huang",
+    "Weixun Wang",
+    "Siran Yang",
+    "Wenbo Su",
+    "Jiamang Wang",
+    "Lin Qu",
+    "Bo Zheng",
+    "Wei Wang"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/gao-wei"
+}

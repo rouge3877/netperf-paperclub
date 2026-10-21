@@ -1,0 +1,13 @@
+{
+  "id": "p-739bb9cec4ee",
+  "title": "Splash: Fast Data Dissemination with Constructive Interference in Wireless Sensor Networks",
+  "abstract": "It is well-known that the time taken for disseminating a large data object over a wireless sensor network is dominated by the overhead of resolving the contention for the underlying wireless channel. In this paper, we propose a new dissemination protocol called Splash, that eliminates the need for contention resolution by exploiting constructive interference and channel diversity to effectively create fast and parallel pipelines over multiple paths that cover all the nodes in a network. We call this tree pipelining. In order to ensure high reliability, Splash also incorporates several techniques, including exploiting transmission density diversity, opportunistic overhearing, channel-cycling and XOR coding. Our evaluation results on two large-scale testbeds show that Splash is more than an order of magnitude faster than state-ofthe-art dissemination protocols and achieves a reduction in data dissemination time by a factor of more than 20 compared to DelugeT2.",
+  "authors": [
+    "Manjunath Doddavenkatappa",
+    "Mun Choon Chan",
+    "Ben Leong"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/doddavenkatappa"
+}

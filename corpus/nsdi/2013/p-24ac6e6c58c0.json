@@ -1,0 +1,15 @@
+{
+  "id": "p-24ac6e6c58c0",
+  "title": "Expanding Rural Cellular Networks with Virtual Coverage",
+  "abstract": "The cellular system is the world’s largest network, providing service to over five billion people. Operators of these networks face fundamental trade-offs in coverage, capacity and operating power. These trade-offs, when coupled with the reality of infrastructure in poorer areas, mean that upwards of a billion people lack access to this fundamental service. Limited power infrastructure, in particular, hampers the economic viability of wide-area rural coverage. In this work, we present an alternative system for implementing large-scale rural cellular networks. Rather than providing constant coverage, we instead provide virtual coverage: coverage that is only present when requested. Virtual coverage powers the network ondemand, which reduces overall power draw, lowers the cost of rural connectivity, and enables new markets. We built a prototype cellular system utilizing virtual coverage by modifying a GSM base station and a set of Motorola phones to support making and receiving calls under virtual coverage. To support the billions of already-deployed devices, we also implemented a small radio capable of adding backwards-compatible support for virtual coverage to existing GSM handsets. We demonstrate a maximum of 84% power and cost savings from using virtual coverage. We also evaluated virtual coverage by simulating the potential power savings on real-world cellular networks in two representative developing counties: one in sub-Saharan Africa and one in South Asia. Simulating power use based on realworld call records obtained from local mobile operators, we find our system saves 21-34% of power draw at night, and 7-21% during the day. We expect even more savings in areas currently off the grid. These results demonstrate the feasibility of implementing such a system, particularly in areas with solar or otherwiseintermittent power sources.",
+  "authors": [
+    "Kurtis Heimerl",
+    "Kashif Ali",
+    "Joshua Blumenstock",
+    "Brian Gawalt",
+    "Eric Brewer"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/heimurl"
+}

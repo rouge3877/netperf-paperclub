@@ -1,0 +1,12 @@
+{
+  "id": "p-74f6548eca4d",
+  "title": "Vidyut: Exploiting Power Line Infrastructure for Enterprise Wireless Networks",
+  "abstract": "Global synchronization across time and frequency domains significantly benefits wireless communications. Multi-Cell (Network) MIMO, interference alignment solutions, opportunistic routing techniques in ad-hoc networks, OFDMA etc. all necessitate synchronization in either time or frequency domain or both. This paper presents Vidyut, a system that exploits the easily accessible and ubiquitous power line infrastructure to achieve synchronization in time and frequency domains across nodes distributed beyond a singlecollision domain. Vidyut uses the power lines to transmit a reference frequency tone to which each node locks its frequency. Vidyut exploits the steady periodicity of delivered power signal itself to synchronize distributed nodes in time. We validate the extent of Vidyut’s synchronization and evaluate its effectiveness. We verify Vidyut’s suitability for wireless applications such as OFDMA and multi-cell MIMO by validating the benefits of global synchronization in an enterprise wireless network. Our experiments show a throughput gain of 8.2x over MegaMIMO, 7x over NEMOx and 2.5x over OFDMA systems.",
+  "authors": [
+    "Vivek Yenamandra",
+    "Kannan Srinivasan"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2014,
+  "url": "https://dl.acm.org/doi/10.1145/2619239.2626329"
+}

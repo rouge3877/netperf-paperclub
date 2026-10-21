@@ -1,0 +1,22 @@
+{
+  "id": "p-3c40643e7c33",
+  "title": "Norma- Towards Practical Network Load Testing",
+  "abstract": "Network load tester is important to daily network operation. Motivated by our experience with a major cloud provider, a practical load tester should satisfy two important requirements: (R1) stateful protocol customization, and (R2) real network traffic emulation (including high-throughput traffic generation and precise rate control). Despite the success of recent load testers, we found they fail to meet both above requirements. This paper presents Norma, a practical network load tester built upon programmable switch ASICs. To achieve the above requirements, Norma addresses three challenges: (1) modeling stateful protocols on the pipelined architecture of the ASIC, (2) generating replying packets with customized payload for stateful protocols, and (3) controlling mimicked traffic in a precise way. Specifically, first, Norma introduces a stateful protocol abstraction that allows us to program the logic of the state machine (e.g., control flow and memory access) on the programmable switch ASIC. Second, Norma proposes a novel multi-queue structure to generate replying packets and customize the payload of packets. Third and finally, Norma coordinates meters and registers to construct a multi-stage rate control mechanism capable of offering precise rate and burst control. Norma has been used to test the performance of our production network devices for over two years and detected tens of performance issues. Norma can generate up to 3 Tbps TCP traffic and 1 Tbps HTTP traffic.",
+  "authors": [
+    "Yanqing Chen",
+    "Bingchuan Tian",
+    "Chen Tian",
+    "Li Dai",
+    "Yu Zhou",
+    "Mengjing Ma",
+    "Ming Tang",
+    "Hao Zheng",
+    "Zhewen Yang",
+    "Guihai Chen",
+    "Dennis Cai",
+    "Ennan Zhai"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/chen-yanqing"
+}

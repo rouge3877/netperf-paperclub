@@ -1,0 +1,15 @@
+{
+  "id": "p-ffcd78447c9e",
+  "title": "DeepSpace-Super Resolution Powered Efficient and Reliable Satellite Image Data Acquistion",
+  "abstract": "Large constellations of low-earth orbit satellites enable frequent high-resolution earth imaging for numerous geospatial applications. They generate large volumes of data in space, hundreds of Terabytes per day, which much be transported to Earth through constrained intermittent connections to ground stations. The large volumes lead to large day-level delay in data download and exorbitant cloud storage costs. We propose DeepSpace, a new deep learning-based super-resolution approach that compresses satellite imagery by over two orders of magnitude, while preserving image quality using a tailored mixture of experts (MoE) superresolution framework. DeepSpace reduces the network bandwidth requirements for space-Earth transfer, and can compress images for cloud storage. DeepSpace achieves such gains with the limited computational power available on small LEO satellites. We extensively evaluate DeepSpace against a wide range of state-of-the-art baselines considering multiple satellite image datasets and demonstrate the above mentioned benefits. We further demonstrate the effectiveness of DeepSpace through several distinct downstream applications (wildfire detection, land use and cropland classification, and fine-grained plastic detection in oceans).",
+  "authors": [
+    "Chuanhao Sun",
+    "Yu Zhang",
+    "Bill Tao",
+    "Deepak Vasisht",
+    "Mahesh Marina"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3750523"
+}

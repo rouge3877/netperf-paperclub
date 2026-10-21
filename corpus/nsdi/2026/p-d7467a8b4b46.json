@@ -1,0 +1,15 @@
+{
+  "id": "p-d7467a8b4b46",
+  "title": "Checkmate-Zero Performance Overhead Model Checkpointing via Network Gradient Replication",
+  "abstract": "This paper presents Checkmate, a system that enables per-iteration checkpointing in DNN training without any training slowdown. The traditional approach to checkpointing requires a pause in training to copy model states to a separate location, allowing the state to be restored in the event of failure. This approach fundamentally has a tradeoff between the frequency of checkpoints and the cost of a failure. We avoid this tradeoff; our key insight is that in data-parallel training, all information necessary to create a checkpoint already exists in the network as gradients. Our core contribution is a new multicast abstraction that simultaneously delivers gradients to a separate CPU-based shadow cluster. The shadow maintains a checkpoint by applying those gradients to a copy of the model. Our evaluation shows that Checkmate performs per-iteration checkpointing with training throughput comparable to an ideal no-checkpoint baseline. Checkmate achieves 5 to 34.5× more frequent checkpointing compared to state-of-the-art checkpointing systems, resulting in 80% to 97.1% reduction in repeated work per failure. At the same checkpointing frequency, Checkmate delivers 1.3× to 6.5× throughput compared to other systems.",
+  "authors": [
+    "Ankit Bhardwaj",
+    "Weiyang Wang",
+    "Jeremy Carin",
+    "Adam Belay",
+    "Manya Ghobadi"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/bhardwaj"
+}

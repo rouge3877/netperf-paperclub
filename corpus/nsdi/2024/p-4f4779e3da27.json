@@ -1,0 +1,19 @@
+{
+  "id": "p-4f4779e3da27",
+  "title": "EPVerifier-Accelerating Update Storms Verification with Edge-Predicate",
+  "abstract": "Data plane verification is designed to automatically verify network correctness by directly analyzing the data plane. Recent data plane verifiers have achieved sub-millisecond verification for per rule update by partitioning packets into equivalence classes (ECs). A large number of data plane updates can be generated in a short interval, known as update storms, due to network events such as end-to-end establishments, disruption or recovery. When it comes to update storms, however, the verification speed of current EC-based methods is often slowed down by the maintenance of their EC-based network model (EC-model). This paper presents EPVerifier, a fast, partitioned data plane verification for update storms to further accelerate update storms verification. EPVerifier uses a novel edge-predicatebased (EP-based) local modeling approach to avoid drastic oscillations of the EC-model caused by changes in the set of equivalence classes. In addition, with local EPs, EPVerifier can achieve a partition of verification tasks by switches that EC-based methods cannot to get better parallel performance. We implement EPVerifier as an easy-to-use tool, allowing users to quickly get the appropriate verification results at any moment by providing necessary input. Both dataset tracedriven simulations and deployments in the wild show that EPVerifier achieves robustly fast update storm verification and superior parallel performance and these advantages expand with the data plane’s complexity and storm size growth. The verification time of EPVerifier for an update storm of size 1M is around 10s on average, a 2-10× improvement over the state-of-the-art.",
+  "authors": [
+    "Chenyang Zhao",
+    "Yuebin Guo",
+    "Jingyu Wang",
+    "Qi Qi",
+    "Zirui Zhuang",
+    "Haifeng Sun",
+    "Lingqi Guo",
+    "Yuming Xie",
+    "Jianxin Liao"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/zhao"
+}

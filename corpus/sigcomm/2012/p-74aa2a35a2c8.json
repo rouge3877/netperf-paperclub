@@ -1,0 +1,11 @@
+{
+  "id": "p-74aa2a35a2c8",
+  "title": "Forty Data Communications Research Questions",
+  "abstract": "About ten years ago, Bob Lucky asked me for a list of open research questions in networking. I didn’t have a ready list and reacted it would be good to have one. This essay is my (long-belated) reply.",
+  "authors": [
+    "Craig Partridge"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2012,
+  "url": "https://dl.acm.org/doi/10.1145/2043165.2043170"
+}

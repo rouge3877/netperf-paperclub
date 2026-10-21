@@ -1,0 +1,16 @@
+{
+  "id": "p-b0c0fd66ecd3",
+  "title": "Cetus- Releasing P4 Programmers from the Chore of Trial and Error Compiling",
+  "abstract": "Programmable switches are widely deployed in Alibaba’s edge networks. To enable the processing of packets at line rate, our programmers use P4 language to offload network functions onto these switches. As we were developing increasingly more complex offloaded network functions, we realized that our development needs to follow a certain set of constraints in order to fit the P4 programs into available hardware resources. Not adhering to these constraints results in fitting issues, making the program uncompilable. Therefore, we decide to build a system (called Cetus) that automatically converts an uncompilable P4 program into a functionally identical but compilable P4 program. In this paper, we share our experience in the building and using of Cetus at Alibaba. Our design insights for this system come from our investigation of the past fitting issues of our production P4 programs. We found that the long dependency chains between actions in our production P4 programs are creating difficulties for the programs to comply with the hardware resources of programmable switching ASICs, resulting in the majority of our fitting issues. Guided by this finding, we designed the core approach of Cetus to efficiently synthesize a compilable program by shortening the lengthy dependency chains. We have been using Cetus in our production P4 program development for one year, and it has effectively decreased our P4 development workload by two orders of magnitude (from O(day) to O(min)). In this paper we share several real cases addressed by Cetus, along with its performance evaluation.",
+  "authors": [
+    "Yifan Li",
+    "Jiaqi Gao",
+    "Ennan Zhai",
+    "Mengqi Liu",
+    "Kun Liu",
+    "Hongqiang Harry Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/li-yifan"
+}

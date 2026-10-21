@@ -1,0 +1,14 @@
+{
+  "id": "p-9e2820472e63",
+  "title": "Unleashing The Potential of Datacenter SSDs by Taming Performance Variability",
+  "abstract": "Storage disaggregation is widely adopted in today’s datacenters to improve disk utilization. However, efficiently disaggregating SSDs remains a challenge because of their high performance variability. This is due to differences in flash characteristics, such as wear and model version; read/write interference; and SSD-internal operations like garbage collection. Existing systems can only manage these types of variability in isolation. We propose Sandook, a rack-scale block storage system that instead holistically manages them together to unlock higher performance. Sandook achieves this through a logically centralized architecture that can integrate multiple scheduling policies and respond effectively at both short and long timescales. It adaptively steers I/O to the best available SSDs, using techniques that enable greater routing flexibility for both reads and writes. Sandook does not require any special storage or network hardware. Our evaluation demonstrates that Sandook is capable of delivering the full performance potential of SSDs. It achieves a 30%–82% raw I/O throughput improvement over existing systems that tackle a single source of performance variability while maintaining sub-millisecond tail latency. For unmodified applications sharing a pool of SSDs, Sandook achieves a 12–94% improvement in end-to-end performance.",
+  "authors": [
+    "Gohar Irfan Chaudhry",
+    "Ankit Bhardwaj",
+    "Zhenyuan (Zain) Ruan",
+    "Adam Belay"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/chaudhry"
+}

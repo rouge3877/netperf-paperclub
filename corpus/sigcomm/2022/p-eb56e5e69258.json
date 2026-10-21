@@ -1,0 +1,15 @@
+{
+  "id": "p-eb56e5e69258",
+  "title": "SPRIGHT- Extracting the Server from Serverless Computing! High-performance eBPF-based Event-driven, Shared-memory Processing",
+  "abstract": "Serverless computing promises an efficient, low-cost compute capability in cloud environments. However, existing solutions, epitomized by open-source platforms such as Knative, include heavyweight components that undermine this goal of serverless computing. Additionally, such serverless platforms lack dataplane optimizations to achieve efficient, high-performance function chains that facilitate the popular microservices development paradigm. Their use of unnecessarily complex and duplicate capabilities for building function chains severely degrades performance. ‘Cold-start’ latency is another deterrent. We describe SPRIGHT, a lightweight, high-performance, responsive serverless framework. SPRIGHT exploits shared memory processing and dramatically improves the scalability of the dataplane by avoiding unnecessary protocol processing and serializationdeserialization overheads. SPRIGHT extensively leverages eventdriven processing with the extended Berkeley Packet Filter (eBPF). We creatively use eBPF’s socket message mechanism to support shared memory processing, with overheads being strictly loadproportional. Compared to constantly-running, polling-based DPDK, SPRIGHT achieves the same dataplane performance with 10× less CPU usage under realistic workloads. Additionally, eBPF benefits SPRIGHT, by replacing heavyweight serverless components, allowing us to keep functions ‘warm’ with negligible penalty. Our preliminary experimental results show that SPRIGHT achieves an order of magnitude improvement in throughput and latency compared to Knative, while substantially reducing CPU usage, and obviates the need for ‘cold-start’.",
+  "authors": [
+    "Shixiong Qi",
+    "Leslie Monis",
+    "Ziteng Zeng",
+    "Ian-chin Wang",
+    "K. K. Ramakrishnan"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2022,
+  "url": "https://dl.acm.org/doi/10.1145/3544216.3544259"
+}

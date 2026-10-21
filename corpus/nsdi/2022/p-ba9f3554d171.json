@@ -1,0 +1,14 @@
+{
+  "id": "p-ba9f3554d171",
+  "title": "Efficient Scheduling Policies for Microsecond-Scale Tasks",
+  "abstract": "Datacenter operators today strive to support microsecondlatency applications while also using their limited CPU resources as efficiently as possible. To achieve this, several recent systems allow multiple applications to run on the same server, granting each a dedicated set of cores and reallocating cores across applications over time as load varies. Unfortunately, many of these systems do a poor job of navigating the tradeoff between latency and efficiency, sacrificing one or both, especially when handling tasks as short as 1 μs. While the implementations of these systems (threading libraries, network stacks, etc.) have been heavily optimized, the policy choices that they make have received less scrutiny. Most systems implement a single choice of policy for allocating cores across applications and for load-balancing tasks across cores within an application. In this paper, we use simulations to compare these different policy options and explore which yield the best combination of latency and efficiency. We conclude that work stealing performs best among loadbalancing policies, multiple policies can perform well for core allocations, and, surprisingly, static core allocations often outperform reallocation with small tasks. We implement the best-performing policy choices by building on Caladan, an existing core-allocating system, and demonstrate that they can yield efficiency improvements of up to 13-22% without degrading (median or tail) latency.",
+  "authors": [
+    "Sarah McClure",
+    "Amy Ousterhout",
+    "Scott Shenker",
+    "Sylvia Ratnasamy"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/mcclure"
+}

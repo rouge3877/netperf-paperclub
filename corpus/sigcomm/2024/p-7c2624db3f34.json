@@ -1,0 +1,24 @@
+{
+  "id": "p-7c2624db3f34",
+  "title": "RDMA over Ethernet for Distributed Training at Meta Scale",
+  "abstract": "The rapid growth in both computational density and scale in AI models in recent years motivates the construction of an efficient and reliable dedicated network infrastructure. This paper presents the design, implementation, and operation of Meta’s Remote Direct Memory Access over Converged Ethernet (RoCE) networks for distributed AI training. Our design principles involve a deep understanding of the workloads, and we translated these insights into the design of various network components: Network Topology - To support the rapid evolution of generations of AI hardware platforms, we separated GPU-based training into its own “backend” network. Routing - Training workloads inherently impose load imbalance and burstiness, so we deployed several iterations of routing schemes to achieve near-optimal traffic distribution. Transport - We outline how we initially attempted to use DCQCN for congestion management but then pivoted away from DCQCN to instead leverage the collective library itself to manage congestion. Operations - We share our experience operating large-scale AI networks, including toolings we developed and troubleshooting examples.",
+  "authors": [
+    "Adithya Gangidi",
+    "Rui Miao",
+    "Shengbao Zheng",
+    "Sai Jayesh Bondu",
+    "Guilherme Goes",
+    "Hany Morsy",
+    "Rohit Puri",
+    "Mohammad Riftadi",
+    "Ashmitha Jeevaraj Shetty",
+    "Jingyi Yang",
+    "Shuqiang Zhang",
+    "Mikel Jimenez Fernandez",
+    "Shashidhar Gandham",
+    "Hongyi Zeng"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672233"
+}

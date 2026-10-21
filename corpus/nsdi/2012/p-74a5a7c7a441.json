@@ -1,0 +1,20 @@
+{
+  "id": "p-74a5a7c7a441",
+  "title": "Optimizing Data Shuffling in Data-Parallel Computation by Understanding User-Defined Functions",
+  "abstract": "Map/Reduce style data-parallel computation is characterized by the extensive use of user-defined functions for data processing and relies on data-shuffling stages to prepare data partitions for parallel computation. Instead of treating user-defined functions as “black boxes”, we propose to analyze those functions to turn them into “gray boxes” that expose opportunities to optimize data shuffling. We identify useful functional properties for userdefined functions, and propose S UDO , an optimization framework that reasons about data-partition properties, functional properties, and data shuffling. We have assessed this optimization opportunity on over 10,000 dataparallel programs used in production SCOPE clusters, and designed a framework that is incorporated it into the production system. Experiments with real SCOPE programs on real production data have shown that this optimization can save up to 47% in terms of disk and network I/O for shuffling, and up to 48% in terms of cross-pod network traffic.",
+  "authors": [
+    "Jiaxing Zhang",
+    "Hucheng Zhou",
+    "Rishan Chen",
+    "Xuepeng Fan",
+    "Zhenyu Guo",
+    "Haoxiang Lin",
+    "Jack Y. Li",
+    "Wei Lin",
+    "Jingren Zhou",
+    "Lidong Zhou"
+  ],
+  "conference": "NSDI",
+  "year": 2012,
+  "url": "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zhang"
+}

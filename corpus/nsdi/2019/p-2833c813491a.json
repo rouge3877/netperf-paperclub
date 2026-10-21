@@ -1,0 +1,12 @@
+{
+  "id": "p-2833c813491a",
+  "title": "Exploiting Commutativity For Practical Fast Replication",
+  "abstract": "Traditional approaches to replication require client requests to be ordered before making them durable by copying them to replicas. As a result, clients must wait for two round-trip times (RTTs) before updates complete. In this paper, we show that this entanglement of ordering and durability is unnecessary for strong consistency. The Consistent Unordered Replication Protocol (CURP) allows clients to replicate requests that have not yet been ordered, as long as they are commutative. This strategy allows most operations to complete in 1 RTT (the same as an unreplicated system). We implemented CURP in the Redis and RAMCloud storage systems. In RAMCloud, CURP improved write latency by ∼2x (14 μs → 7.1 μs) and write throughput by 4x. Compared to unreplicated RAMCloud, CURP’s latency overhead for 3-way replication is just 1 μs (6.1 μs vs 7.1 μs). CURP transformed a non-durable Redis cache into a consistent and durable storage system with only a small performance overhead.",
+  "authors": [
+    "Seo Jin Park",
+    "John Ousterhout"
+  ],
+  "conference": "NSDI",
+  "year": 2019,
+  "url": "https://www.usenix.org/conference/nsdi19/presentation/park"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p-e4d06487101e",
+  "title": "SYMPHONY-Enabling Compute-Memory Disaggregation in LLM Serving Systems",
+  "abstract": "Large Language Models (LLMs) power AI applications such as chatbots and agents, which maintain conversational state across multiple turns. Serving these workloads is inherently stateful: each request generates a KV cache storing token-level state. Existing systems either recompute caches or offload them to host memory—both approaches incur high latency, cause load imbalance, and limit scalability. We present SYMPHONY , a disaggregated memory management layer that decouples compute from KV cache storage while meeting strict latency requirements. To enable disaggregation, SYMPHONY employs advisory requests—prefetching hints derived from user interactions or workload structure—to move caches off the critical path and enable fine-grained, request-level load balancing. Since these predictive signals are often unreliable, SYMPHONY introduces two key techniques: priority-based KV cache management, which allocates memory based on neural network structure and request priority, and cooperative memory management, which dynamically coordinates GPU memory with the serving framework. Evaluations on LLaMA models with ShareGPT and Burst- GPT workloads show that SYMPHONY reduces end-to-end latency by 2.4× over vLLM and serves 4× more requests with minimal latency increase.",
+  "authors": [
+    "Saurabh Agarwal",
+    "Bodun Hu",
+    "Anyong Mao",
+    "Aditya Akella",
+    "Shivaram Venkataraman"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/agarwal"
+}

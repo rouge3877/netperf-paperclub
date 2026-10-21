@@ -1,0 +1,18 @@
+{
+  "id": "p-73ad9d7c983f",
+  "title": "OptiReduce-Resilient and Tail-Optimal AllReduce for Distributed Deep Learning in the Cloud",
+  "abstract": "We present OptiReduce , a new collective-communication system for the cloud with bounded, predictable completion times for deep-learning jobs in the presence of varying computation (stragglers) and communication (congestion and gradient drops) variabilities. OptiReduce exploits the inherent resiliency and the stochastic nature of distributed deep-learning (DDL) training and fine-tuning to work with approximated (or lost) gradients—providing an efficient balance between tail performance and the resulting accuracy of the trained models. Exploiting this domain-specific characteristic of DDL, OptiReduce introduces (1) mechanisms (e.g., unreliable bounded transport with adaptive timeout) to improve the DDL jobs’ tail execution time, and (2) strategies (e.g., Transpose AllReduce and Hadamard Transform) to mitigate the impact of dropped gradient entries on model accuracy. Our evaluation shows that OptiReduce achieves 70% and 30% faster timeto-accuracy (TTA), on average, when operating in shared, cloud environments (e.g., CloudLab) compared to Gloo and NCCL, respectively.",
+  "authors": [
+    "Ertza Warraich",
+    "Omer Shabtai",
+    "Khalid Manaa",
+    "Shay Vargaftik",
+    "Yonatan Piasetzky",
+    "Matty Kadosh",
+    "Lalith Suresh",
+    "Muhammad Shahbaz"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/warraich"
+}

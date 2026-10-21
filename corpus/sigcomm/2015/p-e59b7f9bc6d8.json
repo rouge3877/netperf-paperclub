@@ -1,0 +1,21 @@
+{
+  "id": "p-e59b7f9bc6d8",
+  "title": "Rollback Recovery for Middleboxes",
+  "abstract": "Network middleboxes must offer high availability, with automatic failover when a device fails. Achieving high availability is challenging because failover must correctly restore lost state (e.g., activity logs, port mappings) but must do so quickly (e.g., in less than typical transport timeout values to minimize disruption to applications) and with little overhead to failure-free operation (e.g., additional per-packet latencies of 10-100s of μs). No existing middlebox design provides failover that is correct, fast to recover, and imposes little increased latency on failure-free operations. We present a new design for fault-tolerance in middleboxes that achieves these three goals. Our system, FTMB (for Fault-Tolerant MiddleBox), adopts the classical approach of “rollback recovery” in which a system uses information logged during normal operation to correctly reconstruct state after a failure. However, traditional rollback recovery cannot maintain high throughput given the frequent output rate of middleboxes. Hence, we design a novel solution to record middlebox state which relies on two mechanisms: (1) ‘ordered logging’, which provides lightweight logging of the information needed after recovery, and (2) a ‘parallel release’ algorithm which, when coupled with ordered logging, ensures that recovery is always correct. We implement ordered logging and parallel release in Click and show that for our test applications our design adds only 30μs of latency to median per packet latencies. Our system introduces moderate throughput overheads (5-30%) and can reconstruct lost state in 40-275ms for practical systems.",
+  "authors": [
+    "Justine Sherry",
+    "Peter Xiang Gao",
+    "Soumya Basu",
+    "Aurojit Panda",
+    "Arvind Krishnamurthy",
+    "Christian Maciocco",
+    "Maziar Manesh",
+    "João Martins",
+    "Sylvia Ratnasamy",
+    "Luigi Rizzo",
+    "Scott Shenker"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2015,
+  "url": "https://dl.acm.org/doi/10.1145/2829988.2787501"
+}

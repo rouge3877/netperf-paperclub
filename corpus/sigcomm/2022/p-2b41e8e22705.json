@@ -1,0 +1,15 @@
+{
+  "id": "p-2b41e8e22705",
+  "title": "Programming Socket-Independent Network Functions with Nethuns",
+  "abstract": "Software data planes running on commodity servers are very popular in real deployments. However, to attain top class performance, the software approach requires the adoption of accelerated network I/O frameworks, each of them characterized by its own programming model and API. As a result, network applications are often closely tied to the underlying technology, with obvious issues of portability over different systems. This is especially true in cloud scenarios where different I/O frameworks could be installed depending on the configuration of the physical servers in the infrastructure. The nethuns library proposes a unified programming abstraction to access and manage network operations over different I/O frameworks. The library is freely available to the community under the BSD license and currently supports AF_XDP and netmap for fast packet handling along with the classic AF_PACKET and the pcap library. Network applications based on nethuns need only to be re-compiled to run over a different network API. The experiments prove that the overhead introduced by nethuns is negligible, hence making it a convenient programming platform that eases the coding process while guaranteeing high performance and portability. As proofs of concept, a handy traffic generator as well as the popular Open vSwitch application have been successfully ported and tested over nethuns.",
+  "authors": [
+    "Nicola Bonelli",
+    "Fabio Del Vigna",
+    "Alessandra Fais",
+    "Giuseppe Lettieri",
+    "Gregorio Procissi"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2022,
+  "url": "https://dl.acm.org/doi/10.1145/3544912.3544917"
+}

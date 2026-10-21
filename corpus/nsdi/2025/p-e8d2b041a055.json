@@ -1,0 +1,17 @@
+{
+  "id": "p-e8d2b041a055",
+  "title": "GRANNY-Granular Management of Compute-Intensive Applications in the Cloud",
+  "abstract": "Parallel applications are typically implemented using multithreading (with shared memory, e.g., OpenMP) or multiprocessing (with message passing, e.g., MPI). While it seems attractive to deploy such applications in cloud virtual machines (VMs), existing cloud schedulers fail to manage such applications efficiently: they cannot scale multi-threaded applications dynamically when more CPU cores in a VM become available, and they cause fragmentation over time due to the static allocation of multi-process applications to VMs. We describe GRANNY , a new distributed runtime that enables the fine-granular management of multi-threaded/process applications in cloud environments. GRANNY supports the vertical scaling of multi-threaded applications within a VM and the horizontal migration of multi-process applications between VMs. GRANNY achieves both through a single WebAssembly-based execution abstraction: Granules can execute application code with thread or process semantics and allow for efficient snapshotting. GRANNY scales up applications by adding more Granules, and de-fragments applications by migrating Granules between VMs. In both cases, it launches new Granules from snapshots efficiently. We evaluate GRANNY with dynamic scheduling policies and show that, compared to current schedulers, it reduces the makespan for OpenMP workloads by up to 60% and the fragmentation for MPI workloads by up to 25%.",
+  "authors": [
+    "Carlos Segarra",
+    "Simon Shillaker",
+    "Guo Li",
+    "Eleftheria Mappoura",
+    "Rodrigo Bruno",
+    "Lluís Vilanova",
+    "Peter Pietzuch"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/segarra"
+}

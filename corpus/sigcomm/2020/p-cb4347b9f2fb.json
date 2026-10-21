@@ -1,0 +1,14 @@
+{
+  "id": "p-cb4347b9f2fb",
+  "title": "An Open Platform to Teach How the Internet Practically Works",
+  "abstract": "Each year at ETH Zurich, around 100 students collectively build and operate their very own Internet infrastructure composed of hundreds of routers and dozens of Autonomous Systems (ASes). Their goal? Enabling Internet-wide connectivity. We find this class-wide project to be invaluable in teaching our students how the Internet infrastructure practically works. Among others, our students have a much deeper understanding of Internet operations alongside their pitfalls. Besides students tend to love the project: clearly the fact that all of them need to cooperate for the entire Internet to work is empowering. In this paper, we describe the overall design of our teaching platform, how we use it, and interesting lessons we have learnt over the years. We also make our platform openly available [2].",
+  "authors": [
+    "Thomas Holterbach",
+    "Tobias Bü",
+    "Tino Rellstab",
+    "Laurent Vanbever"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2020,
+  "url": "https://dl.acm.org/doi/10.1145/3402413.3402420"
+}

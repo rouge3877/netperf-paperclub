@@ -1,0 +1,16 @@
+{
+  "id": "p-30efa2815a82",
+  "title": "Chatty Tenants and the Cloud Network Sharing Problem",
+  "abstract": "The emerging ecosystem of cloud applications leads to significant inter-tenant communication across a datacenter’s internal network. This poses new challenges for cloud network sharing. Richer inter-tenant traffic patterns make it hard to offer minimum bandwidth guarantees to tenants. Further, for communication between economically distinct entities, it is not clear whose payment should dictate the network allocation. Motivated by this, we study how a cloud network that carries both intra- and inter-tenant traffic should be shared. We argue for network allocations to be dictated by the least-paying of communication partners. This, when combined with careful VM placement, achieves the complementary goals of providing tenants with minimum bandwidth guarantees while bounding their maximum network impact. Through a prototype deployment and large-scale simulations, we show that minimum bandwidth guarantees, apart from helping tenants achieve predictable performance, also improve overall datacenter throughput. Further, bounding a tenant’s maximum impact mitigates malicious behavior.",
+  "authors": [
+    "Hitesh Ballani",
+    "Keon Jang",
+    "Thomas Karagiannis",
+    "Changhoon Kim",
+    "Dinan Gunawardena",
+    "Greg O’Shea"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/ballani"
+}

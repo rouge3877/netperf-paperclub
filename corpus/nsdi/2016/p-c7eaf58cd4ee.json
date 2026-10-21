@@ -1,0 +1,18 @@
+{
+  "id": "p-c7eaf58cd4ee",
+  "title": "Diamond: Nesting the Data Center Network with Wireless Rings in 3D Space",
+  "abstract": "The introduction of wireless transmissions into the data center has been shown to be promising in improving the performance of data center networks (DCN) cost effectively. For high transmission flexibility and performance, a fundamental challenge is to increase the wireless availability and enable fully hybrid and seamless transmissions over both wired and wireless DCN components. Rather than limiting the number of wireless radios by the size of top-of-rack (ToR) switches, we propose a novel DCN architecture, Diamond, which nests the wired DCN with radios equipped on all servers. To harvest the gain allowed by the rich reconfigurable wireless resources, we propose the low-cost deployment of scalable 3D Ring Reflection Spaces (RRSs) which are interconnected with streamlined wired herringbone to enable large number of concurrent wireless transmissions through high-performance multi-reflection of radio signals over metal. To increase the number of concurrent wireless transmissions within each RRS, we propose a precise reflection method to reduce the wireless interference. We build a 60GHz-based testbed to demonstrate the function and transmission ability of our proposed architecture. We further perform extensive simulations to show the significant performance gain of Diamond, in supporting up to five times higher server-to-server capacity, enabling network-wide load balancing, and ensuring high fault tolerance.",
+  "authors": [
+    "Yong Cui",
+    "Shihan Xiao",
+    "Xin Wang",
+    "Zhenjie Yang",
+    "Chao Zhu",
+    "Xiangyang Li",
+    "Liu Yang",
+    "Ning Ge"
+  ],
+  "conference": "NSDI",
+  "year": 2016,
+  "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/cui"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p-84d5dbbf3791",
+  "title": "Peeking into the Invitation-based Adoption Process of OSN-based Applications",
+  "abstract": "Online social network (OSN) based applications often rely on user interactions to propagate information or to recruit more users, producing a sequence of user actions called adoption process or cascades. This paper presents the first attempt to quantitatively study the adoption process or cascade of such OSN-based applications by analyzing detailed user activity data from a popular Facebook gifting application. In particular, due to the challenge of monitoring user interactions over all possible channels on OSN platforms, we focus on characterizing the adoption process that relies only on user-based invitation (which is applicable to most gifting applications). We characterize the adoptions by tracking the invitations sent by the existing users to their friends through the Facebook gifting application and the events when their friends install the application for the first time. We found that a small number of big cascades carry the adoption of most of the application users. Contrary to common beliefs, we did not observe special influential nodes that are responsible for the viral adoption of the application.",
+  "authors": [
+    "Mohammad Rezaur Rahman",
+    "Pierre-André Noël",
+    "Chen-Nee Chuah",
+    "Balachander Krishnamurthy",
+    "Raissa M. D'Souza",
+    "S. Felix Wu"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2014,
+  "url": "https://dl.acm.org/doi/10.1145/2567561.2567565"
+}

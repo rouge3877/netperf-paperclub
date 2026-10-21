@@ -1,0 +1,17 @@
+{
+  "id": "p-1cb8e2c80acd",
+  "title": "Enabling IoT Self-Localization Using Ambient 5G Signals",
+  "abstract": "This paper presents ISLA, a system that enables low power IoT nodes to self-localize using ambient 5G signals without any coordination with the base stations. ISLA operates by simply overhearing transmitted 5G packets and leverages the large bandwidth used in 5G to compute high-resolution time of flight of the signals. Capturing large 5G bandwidth consumes a lot of power. To address this, ISLA leverages recent advances in MEMS acoustic resonators to design a RF filter that can stretch the effective localization bandwidth to 100 MHz while using 6.25 MHz receivers, improving ranging resolution by 16×. We implement and evaluate ISLA in three large outdoors testbeds and show high localization accuracy that is comparable with having the full 100 MHz bandwidth.",
+  "authors": [
+    "Suraj Jog",
+    "Junfeng Guan",
+    "Sohrab Madani",
+    "Ruochen Lu",
+    "Songbin Gong",
+    "Deepak Vasisht",
+    "Haitham Hassanieh"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/jog"
+}

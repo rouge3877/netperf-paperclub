@@ -1,0 +1,19 @@
+{
+  "id": "p-ce2bd46f4e45",
+  "title": "FarmBeats: An IoT Platform for Data-Driven Agriculture",
+  "abstract": "Data-driven techniques help boost agricultural productivity by increasing yields, reducing losses and cutting down input costs. However, these techniques have seen sparse adoption owing to high costs of manual data collection and limited connectivity solutions. In this paper, we present FarmBeats, an end-to-end IoT platform for agriculture that enables seamless data collection from various sensors, cameras and drones. FarmBeats’s system design that explicitly accounts for weather-related power and Internet outages has enabled six month long deployments in two US farms.",
+  "authors": [
+    "Deepak Vasisht",
+    "Zerina Kapetanovic",
+    "Jong-ho Won",
+    "Xinxin Jin",
+    "Ranveer Chandra",
+    "Ashish Kapoor",
+    "Sudipta N. Sinha",
+    "Madhusudhan Sudarshan",
+    "Sean Stratman"
+  ],
+  "conference": "NSDI",
+  "year": 2017,
+  "url": "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/vasisht"
+}

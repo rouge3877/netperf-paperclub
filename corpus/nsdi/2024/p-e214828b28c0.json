@@ -1,0 +1,18 @@
+{
+  "id": "p-e214828b28c0",
+  "title": "Making Kernel Bypass Practical for the Cloud with Junction",
+  "abstract": "Kernel bypass systems have demonstrated order of magnitude improvements in throughput and tail latency for network-intensive applications relative to traditional operating systems (OSes). To achieve such excellent performance, however, they rely on dedicated resources (e.g., spinning cores, pinned memory) and require application rewriting. This is unattractive to cloud operators because they aim to densely pack applications, and rewriting cloud software requires a massive investment of valuable developer time. For both reasons, kernel bypass, as it exists, is impractical for the cloud. In this paper, we show these compromises are not necessary to unlock the full benefits of kernel bypass. We present Junction, the first kernel bypass system that can pack thousands of instances on a machine while providing compatibility with unmodified Linux applications. Junction achieves high density through several advanced NIC features that reduce pinned memory and the overhead of monitoring large numbers of queues. It maintains compatibility with minimal overhead through optimizations that exploit a shared address space with the application. Junction scales to 19–62× more instances than existing kernel bypass systems and can achieve similar or better performance without code changes. Furthermore, Junction delivers significant performance benefits to applications previously unsupported by kernel bypass, including those that depend on runtime systems like Go, Java, Node, and Python. In a comparison to native Linux, Junction increases throughput by 1.6–7.0× while using 1.2–3.8× less cores across seven applications.",
+  "authors": [
+    "Joshua Fried",
+    "Gohar Irfan Chaudhry",
+    "Enrique Saurez",
+    "Esha Choukse",
+    "Íñigo Goiri",
+    "Sameh Elnikety",
+    "Rodrigo Fonseca",
+    "Adam Belay"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/fried"
+}

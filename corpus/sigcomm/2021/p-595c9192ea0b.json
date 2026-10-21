@@ -1,0 +1,16 @@
+{
+  "id": "p-595c9192ea0b",
+  "title": "Cost-effective capacity provisioning in wide area networks with Shoofly",
+  "abstract": "In this work we propose Shoofly, a network design tool that minimizes hardware costs of provisioning long-haul capacity by optically bypassing network hops where conversion of signals from optical to electrical domain is unnecessary and uneconomical. Shoofly leverages optical signal quality and traffic demand telemetry from a large commercial cloud provider to identify optical bypasses in the cloud WAN that reduce the hardware cost of long-haul capacity by 40%. A key challenge is that optical bypasses cause signals to travel longer distances on fiber before re-generation, potentially reducing link capacities and resilience to optical link failures. Despite these challenges, Shoofly provisions bypass-enabled topologies that can meet 8X the present-day demands using existing network hardware. These topologies save 32% of the cost of long-haul capacity while incorporating resilience to aggressive stochastic and deterministic link failure scenarios.",
+  "authors": [
+    "Rachee Singh",
+    "Nikolaj Bjorner",
+    "Sharon Shoham",
+    "Yawei Yin",
+    "John Arnold",
+    "Jamie Gaudette"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2021,
+  "url": "https://dl.acm.org/doi/10.1145/3452296.3472895"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "p-e2a14519facf",
+  "title": "BayWatch-Practical Internet-Scale Topology Monitoring with Dynamic Bayesian Estimation",
+  "abstract": "Internet topology monitoring is important for understanding topology dynamics. While a few commercial services have been provided to monitor the specified topology, academic research on Internet-scale topology monitoring still lags behind with two key limitations: 1) topology incompleteness caused by simplified assumption of uniform loadbalancing responses (LBR) distribution; 2) low probing efficiency due to the lack of temporal awareness. In this paper, we introduce BayWatch, a practical Internetscale topology monitoring system that overcomes these limitations based on a Dynamic Bayesian Network (DBN). Leveraging the Markov property of packet forwarding, BayWatch models it as a sequence of state transitions over time within the DBN, so as to estimate the true LBR distribution and predict its temporal evolution. Internet-wide measurement results demonstrate that benefiting from the estimated LBR distribution, BayWatch can discover 2.4×/2.8× more nodes/links than the state-of-the-art algorithm, D-Miner, while the temporal awareness reduces the number of probes by 6.3× with negligible topology completeness loss. Moreover, we demonstrate that BayWatch can help detect anomalies using a realworld network outage event.",
+  "authors": [
+    "Zhongxu Guan",
+    "Shuai Wang",
+    "Li Chen",
+    "Zhaoteng Yan",
+    "Jiaye Lin",
+    "Dan Li",
+    "Yong Jiang",
+    "Yingxin Wang",
+    "Ziqian Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/guan-zhongxu"
+}

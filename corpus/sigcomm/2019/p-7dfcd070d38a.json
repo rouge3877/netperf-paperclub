@@ -1,0 +1,19 @@
+{
+  "id": "p-7dfcd070d38a",
+  "title": "The Dagstuhl Beginners Guide to Reproducibility for Experimental Networking Research",
+  "abstract": "Reproducibility is one of the key characteristics of good science, but hard to achieve for experimental disciplines like Internet measurements and networked systems. This guide provides advice to researchers, particularly those new to the field, on designing experiments so that their work is more likely to be reproducible and to serve as a foundation for follow-on work by others.",
+  "authors": [
+    "Vaibhav Bajpai",
+    "Anna Brunstrom",
+    "Anja Feldmann",
+    "Wolfgang Kellerer",
+    "Aiko Pras",
+    "Henning Schulzrinne",
+    "Georgios Smaragdakis",
+    "Matthias Wählisch",
+    "Klaus Wehrle"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2019,
+  "url": "https://dl.acm.org/doi/10.1145/3314212.3314217"
+}

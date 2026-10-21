@@ -1,0 +1,14 @@
+{
+  "id": "p-6df3c3019e2f",
+  "title": "Scalable Rule Management for Data Centers",
+  "abstract": "Cloud operators increasingly need more and more finegrained rules to better control individual network flows for various traffic management policies. In this paper, we explore automated rule management in the context of a system called vCRIB (a virtual Cloud Rule Information Base), which provides the abstraction of a centralized rule repository. The challenge in our approach is the design of algorithms that automatically off-load rule processing to overcome resource constraints on hypervisors and/or switches, while minimizing redirection traffic overhead and responding to system dynamics. vCRIB contains novel algorithms for finding feasible rule placements and adapting traffic overhead induced by rule placement in the face of traffic changes and VM migration. We demonstrate that vCRIB can find feasible rule placements with less than 10% traffic overhead even in cases where the traffic-optimal rule placement may be infeasible with respect to hypervisor CPU or memory constraints.",
+  "authors": [
+    "Masoud Moshref",
+    "Minlan Yu",
+    "Abhishek Sharma",
+    "Ramesh Govindan"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/moshref"
+}

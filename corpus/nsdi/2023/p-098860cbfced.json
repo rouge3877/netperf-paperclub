@@ -1,0 +1,20 @@
+{
+  "id": "p-098860cbfced",
+  "title": "StarryNet- Empowering Researchers to Evaluate Futuristic Integrated Space and Terrestrial Networks",
+  "abstract": "Futuristic integrated space and terrestrial networks (ISTN) not only hold new opportunities for pervasive, low-latency Internet services, but also face new challenges caused by satellite dynamics on a global scale. It should be useful for researchers to run various experiments to systematically explore new problems in ISTNs. However, existing experimentation methods either attain realism but lack flexibility (e.g., live satellites), or achieve flexibility but lack realism (e.g., ISTN simulators). This paper presents StarryNet , a novel experimentation framework that enables researchers to conveniently build credible and flexible experimental network environments (ENE) mimicking satellite dynamics and network behaviors of large-scale ISTNs. StarryNet simultaneously achieves constellation-consistency, networked system realism and flexibility, by adopting a real-data-driven, lightweight-emulationaided approach to build a digital twin of physical ISTNs in the terrestrial virtual environment. Driven by public and real constellation-relevant information, we show StarryNet ’s acceptable fidelity and demonstrate its flexibility to support various ISTN experiments, such as evaluating different internetworking mechanisms for space-ground integration, and assessing the network resilience of futuristic ISTNs.",
+  "authors": [
+    "Zeqi Lai",
+    "Hewu Li",
+    "Yangtao Deng",
+    "Qian Wu",
+    "Jun Liu",
+    "Yuanjie Li",
+    "Jihao Li",
+    "Lixin Liu",
+    "Weisen Liu",
+    "Jianping Wu"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/lai-zeqi"
+}

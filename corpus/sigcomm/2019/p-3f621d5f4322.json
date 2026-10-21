@@ -1,0 +1,21 @@
+{
+  "id": "p-3f621d5f4322",
+  "title": "PicNIC- Predictable Virtualized NIC",
+  "abstract": "Network virtualization stacks are the linchpins of public clouds. A key goal is to provide performance isolation so that workloads on one Virtual Machine (VM) do not adversely impact the network experience of another VM. Using data from a major public cloud provider, we systematically characterize how performance isolation can break in current virtualization stacks and find a fundamental tradeoff between isolation and resource multiplexing for efficiency. In order to provide predictable performance, we propose a new system called PicNIC that shares resources efficiently in the common case while rapidly reacting to ensure isolation. PicNIC builds on three constructs to quickly detect isolation breakdown and to enforce it when necessary: CPU-fair weighted fair queues at receivers, receiver-driven congestion control for backpressure, and sender-side admission control with shaping. Based on an extensive evaluation, we show that this combination ensures isolation for VMs at sub-millisecond timescales with negligible overhead.",
+  "authors": [
+    "Praveen Kumar",
+    "Nandita Dukkipati",
+    "Nathan Lewis",
+    "Yi Cui",
+    "Yaogong Wang",
+    "Chonggang Li",
+    "Valas Valancius",
+    "Jake Adriaens",
+    "Steve Gribble",
+    "Nate Foster",
+    "Amin Vahdat"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2019,
+  "url": "https://dl.acm.org/doi/10.1145/3341302.3342093"
+}

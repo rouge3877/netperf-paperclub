@@ -1,0 +1,16 @@
+{
+  "id": "p-a0d85341cbaf",
+  "title": "Stable and Practical AS Relationship Inference with ProbLink",
+  "abstract": "Knowledge of the business relationships between Autonomous Systems (ASes) is essential to understanding the behavior of the Internet routing system. Despite significant progress in the development of relationship inference algorithms, the resulting inferences are impractical for many critical real-world applications, cannot offer adequate predictability in the configuration of routing policies, and suffer from inference oscillations. To achieve more practical and stable relationship inference, we first illuminate the root causes of the contradiction between these shortcomings and the near-perfect validation results for AS-Rank, the state-of-the-art relationship inference algorithm. Using a “naive” inference approach as a benchmark, we find that available validation datasets over-represent AS links with easier inference requirements. We identify which types of links are harder to infer and develop appropriate validation subsets to enable more representative evaluation. We then develop a probabilistic algorithm, ProbLink, to overcome the challenges in inferring hard links, such as nonvalley-free routing, limited visibility, and non-conventional peering practices. ProbLink reveals key AS-interconnection features derived from stochastically informative signals. Compared to AS-Rank, our approach reduces the error rate for all links by 1.6× and, importantly, by up to 6.1× for various types of hard links. We demonstrate the practical significance of our improvements by evaluating their impact on three applications. Compared to the current state-of-the-art, ProbLink increases the precision and recall of route leak detection by 4.1× and 3.4× respectively, reveals 27% more complex relationships, and increases the precision of predicting the impact of selective advertisements by 34%.",
+  "authors": [
+    "Yuchen Jin",
+    "Colin Scott",
+    "Amogh Dhamdhere",
+    "Vasileios Giotsas",
+    "Arvind Krishnamurthy",
+    "Scott Shenker"
+  ],
+  "conference": "NSDI",
+  "year": 2019,
+  "url": "https://www.usenix.org/conference/nsdi19/presentation/jin"
+}

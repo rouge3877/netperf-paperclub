@@ -1,0 +1,15 @@
+{
+  "id": "p-339b5f907d5e",
+  "title": "Fractal-Fault-Tolerant Shell-Script Distribution",
+  "abstract": "This paper presents Fractal , a new system that offers fault tolerant distributed shell script execution for unmodified scripts. Fractal first distinguishes recoverable regions from side-effectful ones, and augments them with additional runtime support aimed at fault recovery. It employs precise dependency and progress tracking at the subgraph level to offer sound and efficient fault recovery. It minimizes the number of upstream regions that are re-executed during recovery and ensures exactly-once semantics upon recovery for downstream regions. Evaluation on 4- and 30-node clusters indicates average fault-free speedups of (1) >9.6× over Bash, a single-node shell-interpreter baseline, (2) >5.5× over Hadoop Streaming, a MapReduce system that supports language-agnostic thirdparty components, and (3) 17% over D I S H , a state-of-the-art fault-intolerant shell-script distribution system—all while recovering 7.8–16.4× faster than Hadoop Streaming in cases of faults.",
+  "authors": [
+    "Zhicheng Huang",
+    "Ramiz Dundar",
+    "Yizheng Xie",
+    "Konstantinos Kallas",
+    "Nikos Vasilakis"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/huang"
+}

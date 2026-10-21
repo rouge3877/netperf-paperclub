@@ -1,0 +1,19 @@
+{
+  "id": "p-ddcb336bf0a7",
+  "title": "The Efficacy of the Connect America Fund in Addressing US Internet Access Inequities",
+  "abstract": "Residential fixed broadband internet access in the US remains inequitable, despite significant taxpayer investment. This paper evaluates the efficacy of the Connect America Fund (CAF), which subsidizes new broadband monopolies in underserved areas to provide internet access comparable to that in urban regions. CAF’s oversight relies heavily on self-reported data from internet service providers (ISPs). Unfortunately, the reliability of this self-reported data has always been open to question. We use the broadband-plan querying tool (BQT) to create a novel dataset that complements ISP-reported information with ISP-advertised broadband plan details from publicly accessible websites for 537k residential addresses across 15 states. Our analysis reveals significant discrepancies, with a serviceability rate of only 55.45%, indicating that a significant fraction of addresses certified as served are still unserved. Furthermore, we observe a compliance rate of only 33.03%, indicating that a significant fraction of served addresses receive download speeds that are non-compliant with the FCC’s 10 Mbps threshold for CAFserved addresses. Although we observe that CAF-served addresses occasionally receive higher download speeds than their monopoly-served neighbors, overall, the CAF program has largely failed to achieve its intended goal, leaving many targeted rural communities with inadequate or no broadband connectivity.",
+  "authors": [
+    "Haarika Manda",
+    "Varshika Srinivasavaradhan",
+    "Laasya Koduru",
+    "Kevin Zhang",
+    "Xuanhe Zhou",
+    "Udit Paul",
+    "Elizabeth Belding",
+    "Arpit Gupta",
+    "Tejas N. Narechania"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672272"
+}

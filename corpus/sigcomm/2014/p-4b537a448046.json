@@ -1,0 +1,16 @@
+{
+  "id": "p-4b537a448046",
+  "title": "A Global Name Service for a Highly Mobile Internetwork",
+  "abstract": "Mobile devices dominate the Internet today, however the Internet rooted in its tethered origins continues to provide poor infrastructure support for mobility. Our position is that in order to address this problem, a key challenge that must be addressed is the design of a massively scalable global name service that rapidly resolves identities to network locations under high mobility. Our primary contribution is the design, implementation, and evaluation of Auspice, a nextgeneration global name service that addresses this challenge. A key insight underlying Auspice is a demand-aware replica placement engine that intelligently replicates name records to provide low lookup latency, low update cost, and high availability. We have implemented a prototype of Auspice and compared it against several commercial managed DNS providers as well as state-of-the-art research alternatives, and shown that Auspice significantly outperforms both. We demonstrate proof-of-concept that Auspice can serve as a complete end-to-end mobility solution as well as enable novel context-based communication primitives that generalize nameor address-based communication in today’s Internet.",
+  "authors": [
+    "Abhigyan Sharma",
+    "Xiaozheng Tie",
+    "Hardeep Uppal",
+    "Arun Venkataramani",
+    "David Westbrook",
+    "Aditya Yadav"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2014,
+  "url": "https://dl.acm.org/doi/10.1145/2619239.2626331"
+}

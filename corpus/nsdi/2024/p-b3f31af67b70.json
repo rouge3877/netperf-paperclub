@@ -1,0 +1,19 @@
+{
+  "id": "p-b3f31af67b70",
+  "title": "AutoSketch-Automatic Sketch-Oriented Compiler for Query-driven Network Telemetry",
+  "abstract": "Recent network telemetry witnesses tremendous progress in two directions: query-driven telemetry that targets expressiveness as the primary goal, and sketch-based algorithms that address resource-accuracy trade-offs. In this paper, we propose AutoSketch that aims to integrate the advantages of both classes. In a nutshell, AutoSketch automatically compiles high-level operators into sketch instances that can be readily deployed with low resource usage and incur limited accuracy drop. However, there remains a gap between the expressiveness of high-level operators and the underlying realization of sketch algorithms. AutoSketch bridges this gap in three aspects. First, AutoSketch extends its interface derived from existing query-driven telemetry such that users can specify the desired telemetry accuracy. The specified accuracy intent will be utilized to guide the compiling procedure. Second, AutoSketch leverages various techniques, such as syntax analysis and performance estimation, to construct efficient sketch instances. Finally, AutoSketch automatically searches for the most suitable parameter configurations that fulfill the accuracy intent with minimum resource usage. Our experiments demonstrate that AutoSketch can achieve high expressiveness, high accuracy, and low resource usage compared to state-of-the-art telemetry solutions.",
+  "authors": [
+    "Haifeng Sun",
+    "Qun Huang",
+    "Jinbo Sun",
+    "Wei Wang",
+    "Jiaheng Li",
+    "Fuliang Li",
+    "Yungang Bao",
+    "Xin Yao",
+    "Gong Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/sun"
+}

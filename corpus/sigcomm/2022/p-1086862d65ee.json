@@ -1,0 +1,15 @@
+{
+  "id": "p-1086862d65ee",
+  "title": "M-Lab- User initiated Internet data for the research community",
+  "abstract": "Measurement Lab (M-Lab) is an open, distributed server platform on which researchers have deployed measurement tools. Its mission is to measure the Internet, save the data and make it universally accessible and useful. This paper serves as an update on the M- Lab platform 10+ years after its initial introduction to the research community [5]. Here, we detail the current state of the M-Lab distributed platform, highlights existing measurements/data available on the platform, and describes opportunities for further engagement between the networking research community and the platform.",
+  "authors": [
+    "Phillipa Gill",
+    "Christophe Diot",
+    "Lai Yi Ohlsen",
+    "Matt Mathis",
+    "Stephen Soltesz"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2022,
+  "url": "https://dl.acm.org/doi/10.1145/3523230.3523236"
+}

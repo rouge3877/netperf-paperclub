@@ -1,0 +1,16 @@
+{
+  "id": "p-ad279003068f",
+  "title": "Securing Public Cloud Networks with Efficient Role-based Micro-Segmentation",
+  "abstract": "Securing network traffic within data centers is a critical and daunting challenge due to the increasing complexity and scale of modern public clouds. Micro-segmentation offers a promising solution by implementing fine-grained, workloadspecific network security policies to mitigate potential attacks. However, the dynamic nature and large scale of deployments present significant obstacles in crafting precise security policies, limiting the practicality of this approach. To address these challenges, we introduce a novel system that efficiently processes vast volumes of network flow logs and effectively infers the roles of network endpoints. Our method integrates domain knowledge and communication patterns in a principled manner, facilitating the creation of micro-segmentation policies at a large scale. Evaluations with real-world deployment demonstrate that our solution significantly surpasses existing algorithms in role inference accuracy. We implement our solution as an end-to-end system and demonstrate that it is up to 21.5× more cost-efficient than Apache Flink, a widely used open-source stream processing system.",
+  "authors": [
+    "Sathiya Kumaran Mani",
+    "Kevin Hsieh",
+    "Santiago Segarra",
+    "Ranveer Chandra",
+    "Yajie Zhou",
+    "Srikanth Kandula"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/mani"
+}

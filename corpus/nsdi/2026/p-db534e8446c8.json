@@ -1,0 +1,16 @@
+{
+  "id": "p-db534e8446c8",
+  "title": "Cortex-Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching",
+  "abstract": "Large Language Model (LLM) agents tackle data-intensive tasks such as deep research and code generation. However, their effectiveness depends on frequent interactions with knowledge sources across remote clouds or regions. Such interactions can create non-trivial latency and cost bottlenecks. Existing caching solutions focus on exact-match queries, limiting their effectiveness for semantic knowledge reuse. To address this challenge, we introduce Cortex, a novel cross-region knowledge caching architecture for LLM agents. At its core are two abstractions: Semantic Element (SE) and Semantic Retrieval Index (Seri). A semantic element captures the semantic embedding representation of an LLM query together with performance-aware metadata such as latency, cost, and staticity. Seri then provides a two-stage retrieval pipeline: a vector similar index with semantic embedding for fast candidate selection and a lightweight LLM-powered semantic judge for precise validation. Atop these primitives, Cortex builds a new cache interface that includes a new semanticaware cache hit definition, a cost-efficient eviction policy, and proactive prefetching. To reduce overhead, Cortex co-locates the smaller LLM judge with the main LLM using adaptive scheduling and resource sharing. Our evaluation demonstrates that Cortex delivers substantial performance improvements without compromising correctness. On representative search workloads, Cortex achieves up to a 3.6× increase in throughput by maintaining cache hit rates of over 85% while preserving accuracy virtually identical to non-cached baselines. Cortex also improves throughput for coding tasks by 20%, showcasing its versatility across diverse agentic workloads.",
+  "authors": [
+    "Chaoyi Ruan",
+    "Chao Bi",
+    "Kaiwen Zheng",
+    "Ziji Shi",
+    "Xinyi Wan",
+    "Jialin Li"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/ruan-cortex"
+}

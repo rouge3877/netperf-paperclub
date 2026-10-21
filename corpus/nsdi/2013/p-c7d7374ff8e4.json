@@ -1,0 +1,13 @@
+{
+  "id": "p-c7d7374ff8e4",
+  "title": "MemC3: Compact and Concurrent MemCache with Dumber Caching and Smarter Hashing",
+  "abstract": "This paper presents a set of architecturally and workloadinspired algorithmic and engineering improvements to the popular Memcached system that substantially improve both its memory efficiency and throughput. These techniques—optimistic cuckoo hashing, a compact LRU-approximating eviction algorithm based upon CLOCK, and comprehensive implementation of optimistic locking—enable the resulting system to use 30% less memory for small key-value pairs, and serve up to 3x as many queries per second over the network. We have implemented these modifications in a system we call MemC3—Memcached with CLOCK and Concurrent Cuckoo hashing—but believe that they also apply more generally to many of today’s read-intensive, highly concurrent networked storage and caching systems.",
+  "authors": [
+    "Bin Fan",
+    "David G. Andersen",
+    "Michael Kaminsky"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/fan"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "p-01792db7a86e",
+  "title": "Polymorphic Radios: A New Design Paradigm for Ultra-Low Power Communication",
+  "abstract": "Duty-cycling has emerged as the predominant method for optimizing power consumption of low-power radios, particularly for sensors that transmit sporadically in small bursts. But duty-cycling is a poor fit for applications involving highrate sensor data from wearable sensors such as IMUs, microphones, and imagers that need to stream data to the cloud to execute sophisticated machine learning models. We argue that there is significant room to optimize lowpower radios if we can take advantage of channel dynamics in short-range settings. However, we face challenges in designing radios that are efficient at power levels between μWs and mWs to take advantage of periods of good signal strength and nimble to deal with highly dynamic channels resulting from body movements. To achieve this, we propose radio polymorphism, a radio architecture with tightly integrated passive and active components that allows us to turn high channel dynamics to our advantage. We leverage passive modes in myriad ways within the network stack, from minimizing data transfer and control overheads to improving rate selection and enabling channel-aware opportunistic transmission. We instantiate our design in a full hardwaresoftware prototype, Morpho, and demonstrate up to an order of improvement in efficiency across diverse scenarios and applications.",
+  "authors": [
+    "Mohammad Rostami",
+    "Jeremy Gummeson",
+    "Ali Kiaghadi",
+    "Deepak Ganesan"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2018,
+  "url": "https://dl.acm.org/doi/10.1145/3230543.3230571"
+}

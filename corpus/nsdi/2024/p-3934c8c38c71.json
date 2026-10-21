@@ -1,0 +1,15 @@
+{
+  "id": "p-3934c8c38c71",
+  "title": "Sequence Abstractions for Flexible, Line-Rate Network Monitoring",
+  "abstract": "We develop FLM, a high-level language that enables network operators to write programs that recognize and react to specific packet sequences. To be able to examine every packet, our compilation procedure can transform FLM programs into P4 code that can run on programmable switch ASICs. It first splits FLM programs into a state management component and a classical regular expression, then generates an efficient implementation of the regular expression using SMT-based program synthesis. Our experiments find that FLM can express 15 sequence monitoring tasks drawn from prior literature. Our compiler can convert all of these programs to run on switch hardware in way that fit within available pipeline stages and consume less than 15% additional header fields and instruction words when run alongside switch programs.",
+  "authors": [
+    "Andrew Johnson",
+    "Ryan Beckett",
+    "Xiaoqi Chen",
+    "Ratul Mahajan",
+    "David Walker"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/johnson"
+}

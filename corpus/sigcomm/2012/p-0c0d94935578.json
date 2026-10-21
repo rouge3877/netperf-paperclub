@@ -1,0 +1,11 @@
+{
+  "id": "p-0c0d94935578",
+  "title": "The Collateral Damage of Internet Censorship by DNS Injection",
+  "abstract": "Some ISPs and governments (most notably the Great Firewall of China) use DNS injection to block access to “unwanted” websites. The censorship tools inspect DNS queries near the ISP’s boundary routers for sensitive domain keywords and injecting forged DNS responses, blocking the users com. Unfortunately this causes large scale collateral damage, affecting communication beyond the censored networks when outside DNS traffic traverses censored links. In this paper, we analyze the causes of the collateral damages comprehensively and measure the Internet to identify the injecting activities and their effect. We find 39 ASes in China injecting forged replies even for transit DNS traffic, and 26% of 43,000 measured open resolvers outside China, distributed in 109 countries, may suffer some collateral damage. Different from previous work, we find that most collateral damage arises from resolvers querying TLD name servers who’s transit passes through China rather than effects due to root servers (F, I, J) located in China.",
+  "authors": [
+    "Anonymous"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2012,
+  "url": "https://dl.acm.org/doi/10.1145/2317307.2317311"
+}

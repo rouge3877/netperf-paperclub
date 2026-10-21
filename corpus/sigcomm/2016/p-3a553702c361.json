@@ -1,0 +1,16 @@
+{
+  "id": "p-3a553702c361",
+  "title": "CODA: Toward Automatically Identifying and Scheduling Coflows in the Dark",
+  "abstract": "Leveraging application-level requirements using coflows has recently been shown to improve application-level communication performance in data-parallel clusters. However, existing coflow-based solutions rely on modifying applications to extract coflows, making them inapplicable to many practical scenarios. In this paper, we present CODA, a first attempt at automatically identifying and scheduling coflows without any application modifications. We employ an incremental clustering algorithm to perform fast, application-transparent coflow identification and complement it by proposing an error-tolerant coflow scheduler to mitigate occasional identification errors. Testbed experiments and large-scale simulations with production workloads show that CODA can identify coflows with over 90% accuracy, and its scheduler is robust to inaccuracies, enabling communication stages to complete 2.4× (5.1×) faster on average (95-th percentile) compared to per-flow mechanisms. Overall, CODA’s performance is comparable to that of solutions requiring application modifications.",
+  "authors": [
+    "Hong Zhang",
+    "Li Chen",
+    "Bairen Yi",
+    "Kai Chen",
+    "Mosharaf Chowdhury",
+    "Yanhui Geng"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2016,
+  "url": "https://dl.acm.org/doi/10.1145/2934872.2934880"
+}

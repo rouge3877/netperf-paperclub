@@ -1,0 +1,24 @@
+{
+  "id": "p-a117c7616599",
+  "title": "Holmes-Localizing Irregularities in LLM Training with Mega-scale GPU Clusters",
+  "abstract": "Training Large Language Models (LLMs) on large-scale GPU clusters requires numerous iterations over several months. Existing works mainly focus on addressing failures that interrupt the iterative training process to improve the utilization of GPU clusters. However, our large-scale measurements over tens of thousands of GPUs show that the training process exhibits an unstable state with some irregular iterations taking even more than twice the time of a normal iteration. Surprisingly, we find that these irregular iterations greatly extend the time of LLM training, which is even more severe than the impact of failures. Meanwhile, the irregular phenomenon is silent, making it challenging to be accurately localized. In this paper, we propose a first-of-itskind system called Holmes, leveraging communication operators to accurately localize these irregularities in real-time. The core of Holmes’s approach is to employ an enhanced abnormal operator detection model and a novel communication operator graph to perform efficient irregularity localization. Furthermore, Holmes conducts cross-iteration analysis to improve localization accuracy. We evaluate Holmes using large-scale trace-driven simulations and a production-level prototype. Large-scale simulation results demonstrate that Holmes achieves irregularity localization accuracy of 97.21%. Production-level prototype evaluation results show Holmes can localize irregularity within 30.3 seconds, achieving a speedup of 6.52× as compared to traditional approaches.",
+  "authors": [
+    "Zhiyi Yao",
+    "Pengbo Hu",
+    "Congcong Miao",
+    "Xuya Jia",
+    "Zuning Liang",
+    "Yuedong Xu",
+    "Chunzhi He",
+    "Hao Lu",
+    "Mingzhuo Chen",
+    "Xiang Li",
+    "Zekun He",
+    "Yachen Wang",
+    "Xianneng Zou",
+    "Junchen Jiang"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/yao"
+}

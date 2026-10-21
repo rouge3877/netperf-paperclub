@@ -1,0 +1,18 @@
+{
+  "id": "p-e3a9a2abfb5f",
+  "title": "Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem",
+  "abstract": "Cloud operators utilize collective communication optimizers to enhance the efficiency of the single-tenant, centrally managed training clusters they manage. However, current optimizers struggle to scale for such use cases and often compromise solution quality for scalability. Our solution, TE-CCL, adopts a traffic-engineering-based approach to collective communication. Compared to a state-of-the-art optimizer, TACCL, TE-CCL produced schedules with 2× better performance on topologies TACCL supports (and its solver took a similar amount of time as TACCL’s heuristic-based approach). TE- CCL additionally scales to larger topologies than TACCL. On our GPU testbed, TE-CCL outperformed TACCL by 2.14× and RCCL by 3.18× in terms of algorithm bandwidth.",
+  "authors": [
+    "Xuting Liu",
+    "Behnaz Arzani",
+    "Siva Kesava Reddy Kakarla",
+    "Liangyu Zhao",
+    "Vincent Liu",
+    "Miguel Castro",
+    "Srikanth Kandula",
+    "Luke Marshall"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672249"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "p-af2e992e12ce",
+  "title": "Re-architecting Traffic Analysis with Neural Network Interface Cards",
+  "abstract": "We present an approach to improve the scalability of online machine learning-based network traffic analysis. We first make the case to replace widely-used supervised machine learning models for network traffic analysis with binary neural networks. We then introduce Neural Networks on the NIC (N3IC), a system that compiles binary neural network models into implementations that can be directly integrated in the data plane of SmartNICs. N3IC supports different hardware targets, and it generates data plane descriptions using both micro-C and P4 languages. We implement and evaluate our solution using two use cases related to traffic identification and to anomaly detection. In both cases, N3IC provides up to a 100x lower classification latency, and 1.5-7x higher throughput than state-of-the-art software-based machine learning classification systems. This is achieved by running the entire traffic analysis pipeline within the data plane of the SmartNIC, thereby completely freeing the system’s CPU from any related tasks, while forwarding traffic at line rate (40Gbps) on the target NICs. Encouraged by these results we finally present the design and FPGA-based prototype of a hardware primitive that adds binary neural network support to a NIC data plane. Our new primitive requires less than 1-2% of the logic and memory resources of a VirteX7 FPGA. We show through experimental evaluation that extending the NIC data plane enables more challenging use cases that require online traffic analysis to be performed in a few microseconds.",
+  "authors": [
+    "Giuseppe Siracusano",
+    "Salvator Galea",
+    "Davide Sanvito",
+    "Mohammad Malekzadeh",
+    "Gianni Antichi",
+    "Paolo Costa",
+    "Hamed Haddadi",
+    "Roberto Bifulco"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/siracusano"
+}

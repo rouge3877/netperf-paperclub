@@ -1,0 +1,23 @@
+{
+  "id": "p-9cb13fc87b78",
+  "title": "Scaling Memcache at Facebook",
+  "abstract": "Memcached is a well known, simple, inmemory caching solution. This paper describes how Facebook leverages memcached as a building block to construct and scale a distributed key-value store that supports the world’s largest social network. Our system handles billions of requests per second and holds trillions of items to deliver a rich experience for over a billion users around the world.",
+  "authors": [
+    "Rajesh Nishtala",
+    "Hans Fugal",
+    "Steven Grimm",
+    "Marc Kwiatkowski",
+    "Herman Lee",
+    "Harry C. Li",
+    "Ryan McElroy",
+    "Mike Paleczny",
+    "Daniel Peek",
+    "Paul Saab",
+    "David Stafford",
+    "Tony Tung",
+    "Venkateshwaran Venkataramani"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala"
+}

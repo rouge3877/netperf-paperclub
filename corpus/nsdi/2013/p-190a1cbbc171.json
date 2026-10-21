@@ -1,0 +1,14 @@
+{
+  "id": "p-190a1cbbc171",
+  "title": "Improving Availability in Distributed Systems with Failure Informers",
+  "abstract": "This paper addresses a core question in distributed systems: how should applications be notified of failures? When a distributed system acts on failure reports, the system’s correctness and availability depend on the granularity and semantics of those reports. The system’s availability also depends on coverage (failures are reported), accuracy (reports are justified), and timeliness (reports come quickly). This paper describes Pigeon, a failure reporting service designed to enable high availability in the applications that use it. Pigeon exposes a new abstraction, called a failure informer, which allows applications to take informed, application-specific recovery actions, and which encapsulates uncertainty, allowing applications to proceed safely in the presence of doubt. Pigeon also significantly improves over the previous state of the art in the three-way trade-off among coverage, accuracy, and timeliness.",
+  "authors": [
+    "Joshua B. Leners",
+    "Trinabh Gupta",
+    "Marcos K. Aguilera",
+    "Michael Walfish"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/leners"
+}

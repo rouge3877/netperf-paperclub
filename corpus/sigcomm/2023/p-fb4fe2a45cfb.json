@@ -1,0 +1,19 @@
+{
+  "id": "p-fb4fe2a45cfb",
+  "title": "Destination Unreachable- Characterizing Internet Outages and Shutdowns",
+  "abstract": "In this paper, we provide the first comprehensive longitudinal analysis of government-ordered Internet shutdowns and spontaneous outages (i.e., disruptions not ordered by the government). We describe the available tools, data sources and methods to identify and analyze Internet shutdowns. We then merge manually curated datasets on known government-ordered shutdowns and large-scale Internet outages, further augmenting them with data on real-world events, macroeconomic and sociopolitical indicators, and network operator statistics. Our analysis confirms previous findings on the economic and political profiles of countries with governmentordered shutdowns. Extending this analysis, we find that countries with national-scale spontaneous outages often have profiles similar to countries with shutdowns, differing from countries that experience neither. However, we find that government-ordered shutdowns are many more times likely to occur on days of mobilization, coinciding with elections, protests, and coups. Our study also characterizes the temporal characteristics of Internet shutdowns and finds that they differ significantly in terms of duration, recurrence interval, and start times when compared to spontaneous outages.",
+  "authors": [
+    "Zachary S. Bischof",
+    "Kennedy Pitcher",
+    "Esteban Carisimo",
+    "Amanda Meng",
+    "Rafael Bezerra Nunes",
+    "Ramakrishna Padmanabhan",
+    "Margaret E. Roberts",
+    "Alex C. Snoeren",
+    "Alberto Dainotti"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2023,
+  "url": "https://dl.acm.org/doi/10.1145/3603269.3604883"
+}

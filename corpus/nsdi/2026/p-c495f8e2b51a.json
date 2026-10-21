@@ -1,0 +1,18 @@
+{
+  "id": "p-c495f8e2b51a",
+  "title": "REAL-Emulating Control Plane at Simulator’s Cost",
+  "abstract": "Validating control plane behavior and ensuring policy compliance in modern, large-scale networks is a critical challenge. Simulation-based approaches offer low computational and memory costs, but their level of abstraction fails to capture vendor-specific device behaviors, limiting their accuracy for real-world validation. In contrast, control plane emulation provides high fidelity by using unmodified router containers that preserve these vendor-specific details, but its excessive computational and memory requirements make it impractical for large networks. In this paper, we present REAL, a lightweight runtime that emulates control planes using unmodified router containers but at the cost of simulation-based approaches. REAL achieves this by simulating a lightweight data plane to accelerate boot-up, employing a two-phase scheduling policy to minimize cache inefficiencies during convergence, and enabling iterative convergence to reduce peak memory usage by partitioning the network. Our evaluation shows that REAL emulates a 1,000-node network 3× faster than state-of-the-art simulation while preserving vendor-specific behaviors, and can scale to 4,500 nodes on four commodity servers by shaving 8.3× memory.",
+  "authors": [
+    "Ze Xia",
+    "Hao Li",
+    "Jinyu Fu",
+    "Xin Wan",
+    "Yihan Dang",
+    "Danfeng Shan",
+    "Li Chen",
+    "Peng Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/xia"
+}

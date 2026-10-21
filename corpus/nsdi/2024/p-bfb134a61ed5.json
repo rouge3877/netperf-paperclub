@@ -1,0 +1,19 @@
+{
+  "id": "p-bfb134a61ed5",
+  "title": "Catch Me If You Can-Laser Tethering with Highly Mobile Targets",
+  "abstract": "Conventional wisdom holds that laser-based systems cannot handle high mobility due to the strong directionality of laser light. We challenge this belief by presenting Lasertag, a generic framework that tightly integrates laser steering with optical tracking to maintain laser connectivity with high-velocity targets. Lasertag creates a constantly connected, laser-based tether between the Lasertag core unit and a remote target, irrespective of the target’s movement. Key elements of Lasertag include (1) a novel optical design that superimposes the optical paths of a steerable laser beam and image sensor, (2) a lightweight optical tracking mechanism for passive retroreflective markers, (3) an automated mapping method to translate scene points to laser steering commands, and (4) a predictive steering algorithm that overcomes limited image sensor frame rates and laser steering delays to quadruple the steering rate up to 151 Hz. Experiments with the Lasertag prototype demonstrate that, on average, Lasertag transmits a median 0.97 of laser energy with a median alignment offset of only 1.03 cm for mobile targets accelerating up to 49 m/s² , with speeds up to 6.5 m/s, and distances up to 6 m (≈ 47°/s). Additional experiments translate the above performance to a 10⁻⁸ median bit error rate across trials when transmitting a 1 Gbps, on-off keying signal. Lasertag paves the way for various laser applications (e.g., communication, sensing, power delivery) in mobile settings. A demonstration video of Lasertag is available at: mobilex.cs.columbia.edu/lasertag",
+  "authors": [
+    "Charles J. Carver",
+    "Hadleigh Schwartz",
+    "Qijia Shao",
+    "Nicholas Shade",
+    "Joseph Lazzaro",
+    "Xiaoxin Wang",
+    "Jifeng Liu",
+    "Eric Fossum",
+    "Xia Zhou"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/carver"
+}

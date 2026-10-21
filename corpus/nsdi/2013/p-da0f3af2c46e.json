@@ -1,0 +1,14 @@
+{
+  "id": "p-da0f3af2c46e",
+  "title": "Demystifying Page Load Performance with WProf",
+  "abstract": "Web page load time is a key performance metric that many techniques aim to reduce. Unfortunately, the complexity of modern Web pages makes it difficult to identify performance bottlenecks. We present WProf, a lightweight in-browser profiler that produces a detailed dependency graph of the activities that make up a page load. WProf is based on a model we developed to capture the constraints between network load, page parsing, JavaScript/CSS evaluation, and rendering activity in popular browsers. We combine WProf reports with critical path analysis to study the page load time of 350 Web pages under a variety of settings including the use of end-host caching, SPDY instead of HTTP, and the mod pagespeed server extension. We find that computation is a significant factor that makes up as much as 35% of the critical path, and that synchronous JavaScript plays a significant role in page load time by blocking HTML parsing. Caching reduces page load time, but the reduction is not proportional to the number of cached objects, because most object loads are not on the critical path. SPDY reduces page load time only for networks with high RTTs and mod pagespeed helps little on an average page.",
+  "authors": [
+    "Xiao Sophia Wang",
+    "Aruna Balasubramanian",
+    "Arvind Krishnamurthy",
+    "David Wetherall"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/wang_xiao"
+}

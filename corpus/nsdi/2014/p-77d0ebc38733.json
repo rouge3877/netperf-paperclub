@@ -1,0 +1,14 @@
+{
+  "id": "p-77d0ebc38733",
+  "title": "cTPM: A Cloud TPM for Cross-Device Trusted Applications",
+  "abstract": "Current Trusted Platform Modules (TPMs) are illsuited for cross-device scenarios in trusted mobile applications because they hinder the seamless sharing of data across multiple devices. This paper presents cTPM, an extension of the TPM’s design that adds an additional root key to the TPM and shares that root key with the cloud. As a result, the cloud can create and share TPM-protected keys and data across multiple devices owned by one user. Further, the additional key lets the cTPM allocate cloud-backed remote storage so that each TPM can benefit from a trusted real-time clock and highperformance, non-volatile storage. This paper shows that cTPM is practical, versatile, and easily applicable to trusted mobile applications. Our simple change to the TPM specification is viable because its fundamental concepts – a primary root key and offchip, NV storage – are already found in the current specification, TPM 2.0. By avoiding a clean-slate redesign, we sidestep the difficult challenge of re-verifying the security properties of a new TPM design. We demonstrate cTPM’s versatility with two case studies: extending Pasture with additional functionality, and re-implementing TrInc without the need for extra hardware.",
+  "authors": [
+    "Chen Chen",
+    "Himanshu Raj",
+    "Stefan Saroiu",
+    "Alec Wolman"
+  ],
+  "conference": "NSDI",
+  "year": 2014,
+  "url": "https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/chen"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "p-773250e2186f",
+  "title": "Scouts- Improving the Diagnosis Process Through Domain-customized Incident Routing",
+  "abstract": "Incident routing is critical for maintaining service level objectives in the cloud: the time-to-diagnosis can increase by 10× due to misroutings. Properly routing incidents is challenging because of the complexity of today’s data center (DC) applications and their dependencies. For instance, an application running on a VM might rely on a functioning host-server, remote-storage service, and virtual and physical network components. It is hard for any one team, rule-based system, or even machine learning solution to fully learn the complexity and solve the incident routing problem. We propose a different approach using per-team Scouts. Each teams’ Scout acts as its gate-keeper — it routes relevant incidents to the team and routes-away unrelated ones. We solve the problem through a collection of these Scouts. Our PhyNet Scout alone — currently deployed in production — reduces the time-to-mitigation of 65% of mis-routed incidents in our dataset.",
+  "authors": [
+    "Jiaqi Gao",
+    "Nofel Yaseen",
+    "Robert MacDavid",
+    "Felipe Vieira Frujeri",
+    "Vincent Liu",
+    "Ricardo Bianchini",
+    "Ramaswamy Aditya",
+    "Xiaohang Wang",
+    "Henry Lee",
+    "David Maltz",
+    "Minlan Yu",
+    "Behnaz Arzani"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2020,
+  "url": "https://dl.acm.org/doi/10.1145/3387514.3405867"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "p-307ab23a7d93",
+  "title": "CAPA-An Architecture For Operating Cluster Networks With High Availability",
+  "abstract": "Management operations are a major source of outages for networks. A number of best practices designed to reduce and mitigate such outages are well known, but their enforcement has been challenging, leaving the network vulnerable to inadvertent mistakes and gaps which repeatedly result in outages. We present our experiences with CAPA, Google’s “containment and prevention architecture” for regulating management operations on our cluster networking fleet. Our goal with CAPA is to limit the systems where strict adherence to best practices is required, so that availability of the network is not dependent on the good intentions of every engineer and operator. We enumerate the features of CAPA which we have found to be necessary to effectively enforce best practices within a thin “regulation“ layer. We evaluate CAPA based on case studies of outages prevented, counter-factual analysis of past incidents, and known limitations. Management-planerelated outages have substantially reduced both in frequency and severity, with a 82% reduction in cumulative duration of incidents normalized to fleet size over five years.",
+  "authors": [
+    "Bingzhe Liu",
+    "Colin Scott",
+    "Mukarram Tariq",
+    "Andrew Ferguson",
+    "Phillipa Gill",
+    "Richard Alimi",
+    "Omid Alipourfard",
+    "Deepak Arulkannan",
+    "Virginia Jean Beauregard",
+    "Patrick Conner‎",
+    "P. Brighten Godfrey",
+    "Xander Lin",
+    "Joon Ong",
+    "Mayur Patel",
+    "Amr Sabaa",
+    "Arjun Singh",
+    "Alex Smirnov",
+    "Manish Verma",
+    "Prerepa V Viswanadham",
+    "Amin Vahdat"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/liu-bingzhe"
+}

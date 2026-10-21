@@ -1,0 +1,16 @@
+{
+  "id": "p-f17735353191",
+  "title": "Offloading Distributed Applications onto SmartNICs using iPipe",
+  "abstract": "Emerging Multicore SoC SmartNICs, enclosing rich computing resources (e.g., a multicore processor, onboard DRAM, accelerators, programmable DMA engines), hold the potential to offload generic datacenter server tasks. However, it is unclear how to use a Smart- NIC efficiently and maximize the offloading benefits, especially for distributed applications. Towards this end, we characterize four commodity SmartNICs and summarize the offloading performance implications from four perspectives: traffic control, computing capability, onboard memory, and host communication. Based on our characterization, we build iPipe, an actor-based framework for offloading distributed applications onto SmartNICs. At the core of iPipe is a hybrid scheduler, combining FCFS and DRRbased processor sharing, which can tolerate tasks with variable execution costs and maximize NIC compute utilization. Using iPipe, we build a real-time data analytics engine, a distributed transaction system, and a replicated key-value store, and evaluate them on commodity SmartNICs. Our evaluations show that when processing 10/25Gbps of application bandwidth, NIC-side offloading can save up to 3.1/2.2 beefy Intel cores and lower application latencies by 23.0/28.0 μs.",
+  "authors": [
+    "Ming Liu",
+    "Tianyi Cui",
+    "Henry Schuh",
+    "Arvind Krishnamurthy",
+    "Simon Peter",
+    "Karan Gupta"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2019,
+  "url": "https://dl.acm.org/doi/10.1145/3341302.3342079"
+}

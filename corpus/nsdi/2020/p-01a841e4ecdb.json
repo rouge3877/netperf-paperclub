@@ -1,0 +1,17 @@
+{
+  "id": "p-01a841e4ecdb",
+  "title": "PrivateEye- Scalable and Privacy-Preserving Compromise Detection in the Cloud",
+  "abstract": "Today, it is difficult for operators to detect compromised VMs in their data centers (DCs). Despite their benefits, the compromise detection systems operators offer are mostly unused. Operators are faced with a dilemma: allow VMs to remain unprotected, or mandate all customers use the compromise detection systems they provide. Neither is appealing: unprotected VMs can be used to attack other VMs. Many customers would view a mandate to use these detection systems as unacceptable due to privacy and performance concerns. Data from a production cloud show their compromise detection systems protect less than 5% of VMs. PrivateEye is a scalable and privacy-preserving solution. It uses summaries of network traffic patterns obtained from the vSwitch, rather than installing binaries in customer VMs, introspection at the hypervisor, or packet captures. It addresses the challenge of protecting all VMs at DC-scale while preserving customer privacy and using low-signal data. We developed PrivateEye to meet the needs of production DCs. Evaluation on VMs of both internal and customer VM’s shows it has an area under the ROC curve – the graph showing the model’s true positive rate vs its false positive rate – of 0.96.",
+  "authors": [
+    "Behnaz Arzani",
+    "Selim Ciraci",
+    "Stefan Saroiu",
+    "Alec Wolman",
+    "Jack Stokes",
+    "Geoff Outhred",
+    "Lechao Diwu"
+  ],
+  "conference": "NSDI",
+  "year": 2020,
+  "url": "https://www.usenix.org/conference/nsdi20/presentation/arzani"
+}

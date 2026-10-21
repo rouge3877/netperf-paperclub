@@ -1,0 +1,20 @@
+{
+  "id": "p-7caf51591f5f",
+  "title": "Come Hell or Still Water-Alleviating Tail Latency in Cloud Block Store",
+  "abstract": "Maintaining low tail latency is crucial for cloud storage services. In A LIBABA C LOUD , our Elastic Block Storage (EBS), like many others, adopts layers of load balancing to avoid hot-spot I/Os, a dominant contributor to tail latency. However, in the field, EBS has still been suffering from tail latency spikes. Through extensive analysis of production workloads, we have identified the root cause: the workload bursts caused by a small group of Virtual Disks (VDs), which fundamentally influence the tail latency of the entire cluster. We hence propose a lightweight dual-bucket throttling mechanism to effectively mitigate the issue while maintaining fairness. In addition, we discover that, even under underloaded scenarios, the tail latency remains suboptimal due to the event-loop thread model. We propose a prioritybased scheduling mechanism to separate I/O-related tasks from I/O-unrelated ones. Our evaluation shows that the proposed mechanisms can reduce the tail latency by up to 97% in burst and 43% in underloaded scenarios. Our mechanisms have been deployed across dozens of clusters for more than three months, and have served hundreds of trillions of I/O requests. They reduce the P99999 tail latency of steady segments by 59.7% under burst scenarios and of all I/Os by 22% in underloaded scenarios.",
+  "authors": [
+    "Chaolei Hu",
+    "Kun Qian",
+    "Erci Xu",
+    "Yifan Shen",
+    "Haoran Zhang",
+    "Xue Li",
+    "Yuesheng Gu",
+    "Lingjun Zhu",
+    "Fengyuan Ren",
+    "Ennan Zhai"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/hu-chaolei"
+}

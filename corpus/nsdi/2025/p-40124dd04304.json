@@ -1,0 +1,18 @@
+{
+  "id": "p-40124dd04304",
+  "title": "Suppressing BGP Zombies with Route Status Transparency",
+  "abstract": "Withdrawal suppression has been a known weakness of BGP for over a decade. It has a significant detrimental impact on both the reliability and security of inter-domain routing on the Internet. This paper presents Route Status Transparency (RoST), the first design that efficiently and securely thwarts withdrawal suppression misconfigurations and attacks. RoST allows ASes to efficiently verify whether a route has been withdrawn; it is compatible with BGP as well as with BGP security enhancements. We use simulations on the Internet’s AS-level topology to evaluate the benefits from adopting RoST. We use an extensive real-world BGP announcements dataset to show that it is efficient in terms of storage, bandwidth, and computational requirements.",
+  "authors": [
+    "Yosef Edery Anahory",
+    "Jie Kong",
+    "Nicholas Scaglione",
+    "Justin Furuness",
+    "Hemi Leibowitz",
+    "Amir Herzberg",
+    "Bing Wang",
+    "Yossi Gilad"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/anahory"
+}

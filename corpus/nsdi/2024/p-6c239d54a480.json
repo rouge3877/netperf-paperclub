@@ -1,0 +1,17 @@
+{
+  "id": "p-6c239d54a480",
+  "title": "The Eternal Tussle-Exploring the Role of Centralization in IPFS",
+  "abstract": "Web centralization and consolidation has created potential single points of failure, e.g., in areas such as content hosting, name resolution, and certification. The \"Decentralized Web\", led by open-source software implementations, attempts to build decentralized alternatives. The InterPlanetary File System (IPFS) is part of this effort and attempts to provide a decentralized layer for object storage and retrieval. This comes with challenges, though: Decentralization can increase complexity, overhead, as well as compromise performance and scalability. As the core maintainers of IPFS, we have therefore begun to explore more hybrid approaches. This paper reports on our experiences building three centralized components within IPFS: (i) InterPlanetary Network Indexers, which provides an alternative centralized method for content indexing; (ii) Hydra Boosters, which are strategic DHT nodes that assist IPFS in content routing; and (iii) HTTP Gateways, which are a public access point for users to retrieve IPFShosted content. Through this approach, we trade-off the level of decentralization within IPFS in an attempt to gain certain benefits of centralization. We evaluate the performance of these components and demonstrate their ability to successfully address the challenges that IPFS faces.",
+  "authors": [
+    "Yiluo Wei",
+    "Dennis Trautwein",
+    "Yiannis Psaras",
+    "Ignacio Castro",
+    "Will Scott",
+    "Aravindh Raman",
+    "Gareth Tyson"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/wei"
+}

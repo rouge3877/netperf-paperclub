@@ -1,0 +1,21 @@
+{
+  "id": "p-b1ea47547f44",
+  "title": "NIER-Practical Neural-enhanced Low-bitrate Video Conferencing",
+  "abstract": "We present NIER, a video conferencing system that can adaptively maintain a low bitrate (e.g., 10–100 Kbps) with reasonable visual quality while being robust to packet losses. We use key-point-based deep image animation (DIA) as a key building block and address a series of networking and system challenges to make NIER practical. Our evaluations show that NIER significantly outperforms the baseline solutions.",
+  "authors": [
+    "Anlan Zhang",
+    "Yuming Hu",
+    "Chendong Wang",
+    "Yu Liu",
+    "Zejun Zhang",
+    "Haoyu Gong",
+    "Ahmad Hassan",
+    "Shichang Xu",
+    "Zhenhua Li",
+    "Bo Han",
+    "Feng Qian"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3750518"
+}

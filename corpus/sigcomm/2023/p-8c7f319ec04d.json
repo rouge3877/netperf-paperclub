@@ -1,0 +1,21 @@
+{
+  "id": "p-8c7f319ec04d",
+  "title": "ChameleMon- Shifting Measurement Attention as Network State Changes",
+  "abstract": "Network measurement is critical to many network applications. There are mainly two kinds of flow-level measurement tasks: 1) packet accumulation tasks and 2) packet loss tasks. In practice, the two kinds of tasks are often required at the same time, but existing works seldom handle both. In this paper, we design ChameleMon to support the two kinds of tasks simultaneously. The key design of ChameleMon is to shift measurement attention as network state changes, through two dimensions of dynamics: 1) dynamically allocating memory between the two kinds of tasks; 2) dynamically monitoring the flows of importance. To realize the key design, we propose a key technique, leveraging Fermat’s little theorem to devise a flexible data structure, namely FermatSketch. FermatSketch is dividable, additive, and subtractive, supporting the two kinds of tasks. We have implemented a ChameleMon prototype on a testbed with a Fat-tree topology. We conduct extensive experiments and the results show ChameleMon supports the two kinds of tasks with low memory/bandwidth overhead, and more importantly, it can automatically shift measurement attention as network state changes.",
+  "authors": [
+    "Kaicheng Yang",
+    "Yuhan Wu",
+    "Ruijie Miao",
+    "Tong Yang",
+    "Zirui Liu",
+    "Zicang Xu",
+    "Rui Qiu",
+    "Yikai Zhao",
+    "Hanglong Lv",
+    "Zhigang Ji",
+    "Gaogang Xie"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2023,
+  "url": "https://dl.acm.org/doi/10.1145/3603269.3604850"
+}

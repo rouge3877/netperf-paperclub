@@ -1,0 +1,19 @@
+{
+  "id": "p-c1fcb9d2ad99",
+  "title": "Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing",
+  "abstract": "We present Resilient Distributed Datasets (RDDs), a distributed memory abstraction that lets programmers perform in-memory computations on large clusters in a fault-tolerant manner. RDDs are motivated by two types of applications that current computing frameworks handle inefficiently: iterative algorithms and interactive data mining tools. In both cases, keeping data in memory can improve performance by an order of magnitude. To achieve fault tolerance efficiently, RDDs provide a restricted form of shared memory, based on coarsegrained transformations rather than fine-grained updates to shared state. However, we show that RDDs are expressive enough to capture a wide class of computations, including recent specialized programming models for iterative jobs, such as Pregel, and new applications that these models do not capture. We have implemented RDDs in a system called Spark, which we evaluate through a variety of user applications and benchmarks.",
+  "authors": [
+    "Matei Zaharia",
+    "Mosharaf Chowdhury",
+    "Tathagata Das",
+    "Ankur Dave",
+    "Justin Ma",
+    "Murphy McCauley",
+    "Michael J. Franklin",
+    "Scott Shenker",
+    "Ion Stoica"
+  ],
+  "conference": "NSDI",
+  "year": 2012,
+  "url": "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia"
+}

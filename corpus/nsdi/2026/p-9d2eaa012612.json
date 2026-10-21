@@ -1,0 +1,15 @@
+{
+  "id": "p-9d2eaa012612",
+  "title": "CacheCatalyst-Enhancing Web Caching for the Latency-Constrained Internet",
+  "abstract": "Caching is a fundamental technique for improving web performance, particularly by reducing page load time through the reuse of previously fetched resources. In this paper, we highlight the drawbacks of the current caching approach, especially in the context of high-speed networks where latency, rather than bandwidth, has become the main bottleneck for web performance. We discuss how the current design of web caching suffers from inefficiencies, particularly due to the latency involved in re-validation requests, which diminishes the potential benefits of caching. To address this inefficiency, we present CacheCatalyst , a novel solution that introduces a early cache validation procedure during the initial step of page loading. This updates the state of cached resources, enabling browsers to utilize unchanged cached content without unnecessary round trips. In addition, our approach enables an optimized form of Server Push that avoids the typical drawbacks of this mechanism. Our evaluations demonstrate that this method improves key web performance metrics by an average of 40%.",
+  "authors": [
+    "Mohammad Hosseini",
+    "Sina Darabi",
+    "Hannaneh B. Pasandi",
+    "Patrick Eugster",
+    "Mahmood Choopani"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/hosseini"
+}

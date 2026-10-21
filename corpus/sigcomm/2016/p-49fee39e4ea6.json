@@ -1,0 +1,17 @@
+{
+  "id": "p-49fee39e4ea6",
+  "title": "AC/DC TCP: Virtual Congestion Control Enforcement for Datacenter Networks",
+  "abstract": "Multi-tenant datacenters are successful because tenants can seamlessly port their applications and services to the cloud. Virtual Machine (VM) technology plays an integral role in this success by enabling a diverse set of software to be run on a unified underlying framework. This flexibility, however, comes at the cost of dealing with out-dated, inefficient, or misconfigured TCP stacks implemented in the VMs. This paper investigates if administrators can take control of a VM’s TCP congestion control algorithm without making changes to the VM or network hardware. We propose ACEDC TCP, a scheme that exerts fine-grained control over arbitrary tenant TCP stacks by enforcing per-flow congestion control in the virtual switch (vSwitch). Our scheme is light-weight, flexible, scalable and can police non-conforming flows. In our evaluation the computational overhead of ACEDC TCP is less than one percentage point and we show implementing an administrator-defined congestion control algorithm in the vSwitch (i.e., DCTCP) closely tracks its native performance, regardless of the VM’s TCP stack.",
+  "authors": [
+    "Keqiang He",
+    "Eric Rozner",
+    "Kanak Agarwal",
+    "Yu (Jason) Gu",
+    "Wes Felter",
+    "John Carter",
+    "Aditya Akella"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2016,
+  "url": "https://dl.acm.org/doi/10.1145/2934872.2934903"
+}

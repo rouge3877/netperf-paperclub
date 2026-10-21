@@ -1,0 +1,15 @@
+{
+  "id": "p-84f3cd3554ac",
+  "title": "Scaling IP Lookup to Large Databases using the CRAM Lens",
+  "abstract": "Wide-area scaling trends require new approaches to Internet Protocol (IP) lookup, enabled by modern networking chips such as Intel Tofino [35], AMD Pensando [2], and Nvidia BlueField [55], which provide substantial ternary content-addressable memory (TCAM) and static randomaccess memory (SRAM). However, designing and evaluating scalable algorithms for these chips is challenging due to hardware-level constraints. To address this, we introduce the CRAM (CAM+RAM) lens, a framework that combines a formal model for evaluating algorithms on modern network processors with a set of optimization idioms. We demonstrate the effectiveness of CRAM by designing and evaluating three new IP lookup schemes: RESAIL, BSIC, and M ASH U P . RE- SAIL enables Tofino-2 to scale to 2.25 million IPv4 prefixes— likely sufficient for the next decade—while a pure TCAM approach supports only 250k prefixes, just 27% of the current global IPv4 routing table. Similarly, BSIC scales to 390k IPv6 prefixes on Tofino-2, supporting 3.2 times as many prefixes as a pure TCAM implementation. In contrast, existing state-of-the-art algorithms, SAIL [83] for IPv4 and H I -BST [65] for IPv6, scale to considerably smaller sizes on Tofino-2.",
+  "authors": [
+    "Robert Chang",
+    "Pradeep Dogga",
+    "Andy Fingerhut",
+    "Victor Rios",
+    "George Varghese"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/chang"
+}

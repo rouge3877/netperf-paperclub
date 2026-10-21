@@ -1,0 +1,18 @@
+{
+  "id": "p-06b531c50c8f",
+  "title": "Gemel- Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge",
+  "abstract": "Video analytics pipelines have steadily shifted to edge deployments to reduce bandwidth overheads and privacy violations, but in doing so, face an ever-growing resource tension. Most notably, edge-box GPUs lack the memory needed to concurrently house the growing number of (increasingly complex) models for real-time inference. Unfortunately, existing solutions that rely on time/space sharing of GPU resources are insufficient as the required swapping delays result in unacceptable frame drops and accuracy loss. We present model merging, a new memory management technique that exploits architectural similarities between edge vision models by judiciously sharing their layers (including weights) to reduce workload memory costs and swapping delays. Our system, Gemel, efficiently integrates merging into existing pipelines by (1) leveraging several guiding observations about per-model memory usage and interlayer dependencies to quickly identify fruitful and accuracypreserving merging configurations, and (2) altering edge inference schedules to maximize merging benefits. Experiments across diverse workloads reveal that Gemel reduces memory usage by up to 60.7%, and improves overall accuracy by 8-39% relative to time or space sharing alone.",
+  "authors": [
+    "Arthi Padmanabhan",
+    "Neil Agarwal",
+    "Anand Iyer",
+    "Ganesh Ananthanarayanan",
+    "Yuanchao Shu",
+    "Nikolaos Karianakis",
+    "Guoqing Harry Xu",
+    "Ravi Netravali"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/padmanabhan"
+}

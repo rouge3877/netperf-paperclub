@@ -1,0 +1,18 @@
+{
+  "id": "p-58fd4c52c487",
+  "title": "Condor: Better Topologies through Declarative Design",
+  "abstract": "The design space for large, multipath datacenter networks is large and complex, and no one design fits all purposes. Network architects must trade off many criteria to design costeffective, reliable, and maintainable networks, and typically cannot explore much of the design space. We present Condor, our approach to enabling a rapid, efficient design cycle. Condor allows architects to express their requirements as constraints via a Topology Description Language (TDL), rather than having to directly specify network structures. Condor then uses constraint-based synthesis to rapidly generate candidate topologies, which can be analyzed against multiple criteria. We show that TDL supports concise descriptions of topologies such as fat-trees, BCube, and DCell; that we can generate known and novel variants of fat-trees with simple changes to a TDL file; and that we can synthesize large topologies in tens of seconds. We also show that Condor supports the daunting task of designing multi-phase network expansions that can be carried out on live networks.",
+  "authors": [
+    "Brandon Schlinker",
+    "Radhika Niranjan Mysore",
+    "Sean Smith",
+    "Jeffrey C. Mogul",
+    "Amin Vahdat",
+    "Minlan Yu",
+    "Ethan Katz-Bassett",
+    "Michael Rubin"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2015,
+  "url": "https://dl.acm.org/doi/10.1145/2829988.2787476"
+}

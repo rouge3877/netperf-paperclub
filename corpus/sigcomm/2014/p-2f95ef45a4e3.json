@@ -1,0 +1,14 @@
+{
+  "id": "p-2f95ef45a4e3",
+  "title": "Towards a Quantitative Comparison of the Cost-Benefit Trade-offs of Location-Independent Network Architectures",
+  "abstract": "This paper presents a quantitative methodology and results comparing different approaches for location-independent communication. Our approach is empirical and is based on real Internet topologies, routing tables from real routers, and a measured workload of the mobility of devices and content across network addresses today. We measure the extent of network mobility exhibited by mobile devices with a homebrewed Android app deployed on hundreds of smartphones, and measure the network mobility of Internet content from distributed vantage points. We combine this measured data with our quantitative methodology to analyze the different cost-benefit tradeoffs struck by location-independent network architectures with respect to routing update cost, path stretch, and forwarding table size. We find that more than 20% of users change over 10 IP addresses a day, suggesting that mobility is the norm rather than the exception, so intrinsic and efficient network support for mobility is critical. We also find that with purely name-based routing approaches, each event involving the mobility of a device or popular content may result in an update at up to 14% of Internet routers; but, the fraction of impacted routers is much smaller for the long tail of unpopular content. These results suggest that recent proposals for pure name-based networking may be suitable for highly aggregateable content that moves infrequently but may need to be augmented with addressing-assisted approaches to handle device mobility.",
+  "authors": [
+    "Zhaoyu Gao",
+    "Arun Venkataramani",
+    "James F. Kurose",
+    "Simon Heimlicher"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2014,
+  "url": "https://dl.acm.org/doi/10.1145/2619239.2626333"
+}

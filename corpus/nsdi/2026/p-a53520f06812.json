@@ -1,0 +1,16 @@
+{
+  "id": "p-a53520f06812",
+  "title": "Managing Congestion Control Heterogeneity on the Internet with Approximate Performance Isolation",
+  "abstract": "The Internet hosts a diverse mix of congestion control algorithms (CCAs) optimized for specific throughput-delay tradeoffs. However, traditional queuing disciplines and AQMs struggle to manage this heterogeneity and often lead to unfairness and suboptimal performance. In this paper, we explore isolation techniques that can allow competing CCAs to make their desired throughput-delay trade-offs independent of who they compete with. More specifically, we motivate Approximate Performance Isolation between competing flows by grouping flows with similar desired throughput-delay trade-offs in the same queue. We also present Santa, a new practical and scalable multi-queue AQM built on the principles of approximate performance isolation. Santa infers each flow’s throughput-delay preferences by comparing their buffer occupancy, and shuffles aggressive (\"naughty\") and passive (\"nice\") flows into appropriate queues over time. We prototype Santa on a programmable switch to demonstrate that it is practical, scalable, and can approximate the isolation benefits of Fair Queuing (FQ) with a handful of of queues.",
+  "authors": [
+    "Ayush Mishra",
+    "Archit Bhatnagar",
+    "Yixuan Zhang",
+    "Ben Leong",
+    "Ya Gao",
+    "Raj Joshi"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/mishra"
+}

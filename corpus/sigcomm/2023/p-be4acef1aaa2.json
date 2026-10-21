@@ -1,0 +1,17 @@
+{
+  "id": "p-be4acef1aaa2",
+  "title": "Who squats IPv4 Addresses-",
+  "abstract": "To mitigate IPv4 exhaustion, IPv6 provides expanded address space, and NAT allows a single public IPv4 address to suffice for many devices assigned private IPv4 address space. Even though NAT has greatly extended the shelf-life of IPv4, some networks need more private IPv4 space than what is officially allocated by IANA due to their size and/or network management practices. Some of these networks resort to using squat space, a term the network operations community uses for large public IPv4 address blocks allocated to organizations but historically never announced to the Internet. While squatting of IP addresses is an open secret, it introduces ethical, legal, and technical problems. In this work we examine billions of traceroutes to identify thousands of organizations squatting. We examine how they are using it and what happened when the US Department of Defense suddenly started announcing what had traditionally been squat space. In addition to shining light on a dirty secret of operational practices, our paper shows that squatting distorts common Internet measurement methodologies, which we argue have to be re-examined to account for squat space.",
+  "authors": [
+    "Loqman Salamatian",
+    "Todd Arnold",
+    "Ítalo Cunha",
+    "Jiangchen Zhu",
+    "Yunfan Zhang",
+    "Ethan Katz-Bassett",
+    "Matt Calder"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2023,
+  "url": "https://dl.acm.org/doi/10.1145/3594255.3594260"
+}

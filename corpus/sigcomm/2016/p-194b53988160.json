@@ -1,0 +1,15 @@
+{
+  "id": "p-194b53988160",
+  "title": "Taking the Blame Game out of Data Centers Operations with NetPoirot",
+  "abstract": "Today, root cause analysis of failures in data centers is mostly done through manual inspection. More often than not, customers blame the network as the culprit. However, other components of the system might have caused these failures. To troubleshoot, huge volumes of data are collected over the entire data center. Correlating such large volumes of diverse data collected from different vantage points is a daunting task even for the most skilled technicians. In this paper, we revisit the question: how much can you infer about a failure in the data center using TCP statistics collected at one of the endpoints? Using an agent that captures TCP statistics we devised a classification algorithm that identifies the root cause of failure using this information at a single endpoint. Using insights derived from this classification algorithm we identify dominant TCP metrics that indicate where/why problems occur in the network. We validate and test these methods using data that we collect over a period of six months in the Azure production cloud.",
+  "authors": [
+    "Behnaz Arzani",
+    "Selim Ciraci",
+    "Boon Thau Loo",
+    "Assaf Schuster",
+    "Geoff Outhred"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2016,
+  "url": "https://dl.acm.org/doi/10.1145/2934872.2934884"
+}

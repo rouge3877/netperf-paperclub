@@ -1,0 +1,14 @@
+{
+  "id": "p-ef558f286b8e",
+  "title": "V-edge: Fast Self-constructive Power Modeling of Smartphones Based on Battery Voltage Dynamics",
+  "abstract": "System power models are important for power management and optimization on smartphones. However, existing approaches for power modeling have several limitations. Some require external power meters, which is not convenient for people to use. Other approaches either rely on the battery current sensing capability, which is not available on many smartphones, or take a long time to generate the power model. To overcome these limitations, we propose a new way of generating power models from battery voltage dynamics, called V-edge. V-edge is selfconstructive and does not require current-sensing. Most importantly, it is fast in model building. Our implementation supports both component level power models and per-application energy accounting. Evaluation results using various benchmarks and applications show that the V-edge approach achieves high power modeling accuracy, and is two orders of magnitude faster than existing selfmodeling approaches requiring no current-sensing.",
+  "authors": [
+    "Fengyuan Xu",
+    "Yunxin Liu",
+    "Qun Li",
+    "Yongguang Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/xu_fengyuan"
+}

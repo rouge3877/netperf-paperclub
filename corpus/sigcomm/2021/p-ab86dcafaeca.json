@@ -1,0 +1,14 @@
+{
+  "id": "p-ab86dcafaeca",
+  "title": "Revisiting the Open vSwitch Dataplane Ten Years Later",
+  "abstract": "This paper shares our experience in supporting and running the Open vSwitch (OVS) software switch, as part of the NSX product for enterprise data center virtualization used by thousands of VMware customers. From its origin in 2009, OVS split its code between tightly coupled kernel and userspace components. This split was necessary at the time for performance, but it caused maintainability problems that persist today. In addition, in-kernel packet processing is now much slower than newer options (e.g. DPDK). To solve the problems caused by the user/kernel split, OVS must adopt a new architecture. We describe two possibilities that we explored, but did not adopt: one because it gives up compatibility with drivers and tools that are important to virtual data center operators, the other because it performs poorly. Instead, we endorse a third approach, based on a new Linux socket type called AF_XDP, which solves the maintainability problem in a compatible, performant way. The new code is already merged into the mainstream OVS repository. We include a thorough performance evaluation and a collection of lessons learned.",
+  "authors": [
+    "William Tu",
+    "Yi-Hung Wei",
+    "Gianni Antichi",
+    "Ben Pfaff"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2021,
+  "url": "https://dl.acm.org/doi/10.1145/3452296.3472914"
+}

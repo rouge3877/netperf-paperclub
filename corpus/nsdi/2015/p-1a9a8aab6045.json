@@ -1,0 +1,14 @@
+{
+  "id": "p-1a9a8aab6045",
+  "title": "Raising the Bar for Using GPUs in Software Packet Processing",
+  "abstract": "Numerous recent research efforts have explored the use of Graphics Processing Units (GPUs) as accelerators for software-based routing and packet handling applications, typically demonstrating throughput several times higher than using legacy code on the CPU alone. In this paper, we explore a new hypothesis about such designs: For many such applications, the benefits arise less from the GPU hardware itself as from the expression of the problem in a language such as CUDA or OpenCL that facilitates memory latency hiding and vectorization through massive concurrency. We demonstrate that in several cases, after applying a similar style of optimization to algorithm implementations, a CPU-only implementation is, in fact, more resource efficient than the version running on the GPU. To “raise the bar” for future uses of GPUs in packet processing applications, we present and evaluate a preliminary language/compiler-based framework called G-Opt that can accelerate CPU-based packet handling programs by automatically hiding memory access latency.",
+  "authors": [
+    "Anuj Kalia",
+    "Dong Zhou",
+    "Michael Kaminsky",
+    "David G. Andersen"
+  ],
+  "conference": "NSDI",
+  "year": 2015,
+  "url": "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/kalia"
+}

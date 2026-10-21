@@ -1,0 +1,13 @@
+{
+  "id": "p-d7d87699d9b8",
+  "title": "Concurrent OFDM Backscatter with a Single Commercial Receiver",
+  "abstract": "Concurrent OFDM backscatter is promising for enabling efficient connectivity of soaring ultra-low power IoT devices. However, the existing designs rely on frequency-domain division, suffering from short synchronization distance, poor interference robustness and incompatibility with commercial Wi-Fi receivers. We present C 2 Scatter, the first concurrent OFDM backscatter system that decodes the tags’ data in parallel with a single commercial OFDM Wi-Fi receiver. It is enabled by two key techniques. (1) A pulling-driven synchronization scheme on tags that achieves long-distance synchronization by exploiting the injection-pulling capacity rather than amplifying the received signal, thereby resolving the sensitivity-power trade-off in the prior works. (2) A lightweight delay-domain division scheme that deliberately introduces a unique time offset (TO) used as each tag’s signal characteristic to separate concurrent tags’ signals in the delay domain. The constructed delay-domain characteristics also tolerate frequencydomain distortion, enabling robust decoding with commercial Wi-Fi receivers. We prototype and test C 2 Scatter. Our design achieves 37dB higher sensitivity with 131.1× lower power consumption than the amplification-driven synchronization schemes, and is compatible with commercial 802.11n Wi-Fi NICs with the BER reduced by 179.1× and 75.6× at no cost of throughput compared with the SOTA NanoScatter and ConcurScatter, respectively.",
+  "authors": [
+    "Caihui Du",
+    "Jihong Yu",
+    "Rongrong Zhang"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2026,
+  "url": "https://dl.acm.org/doi/10.1145/3789240.3829127"
+}

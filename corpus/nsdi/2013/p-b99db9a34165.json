@@ -1,0 +1,13 @@
+{
+  "id": "p-b99db9a34165",
+  "title": "SloMo: Downclocking WiFi Communication",
+  "abstract": "As manufacturers continue to improve the energy efficiency of battery-powered wireless devices, WiFi has become one of—if not the—most significant power draws. Hence, modern devices fastidiously manage their radios, shifting into low-power listening or sleep states whenever possible. The fundamental limitation with this approach, however, is that the radio is incapable of transmitting or receiving unless it is fully powered. Unfortunately, applications found on today’s wireless devices often require frequent access to the channel. We observe, however, that many of these same applications have relatively low bandwidth requirements. Leveraging the inherent sparsity in Direct Sequence Spread Spectrum (DSSS) modulation, we propose a transceiver design based on compressive sensing that allows WiFi devices to operate their radios at lower clock rates when receiving and transmitting at low bit rates, thus consuming less power. We have implemented our 802.11b-based design in a software radio platform, and show that it seamlessly interacts with existing WiFi deployments. Our prototype remains fully functional when the clock rate is reduced by a factor of five, potentially reducing power consumption by over 30%.",
+  "authors": [
+    "Feng Lu",
+    "Geoffrey M. Voelker",
+    "Alex C. Snoeren"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/lu"
+}

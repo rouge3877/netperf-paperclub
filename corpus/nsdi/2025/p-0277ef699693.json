@@ -1,0 +1,18 @@
+{
+  "id": "p-0277ef699693",
+  "title": "Rajomon-Decentralized and Coordinated Overload Control for Latency-Sensitive Microservices",
+  "abstract": "Microservices are increasingly central for cloud applications due to their flexibility and support for rapid integration and deployment. However, applications often experience overload or sudden traffic surges that exceed service capacity, resulting in increased latency or service failures. Moreover, microservices are decentralized, interdependent, and multiplexed, exacerbating risks from overload. We present Rajomon , a market-based overload control system for large microservice graphs. Rajomon controls overload through distributed rate-limiting and load shedding. Clients attach tokens to requests and services charge a price for each API, dropping requests with insufficient tokens. Tokens and prices propagate through the entire call graph, piggybacking on requests and responses. Thus, Rajomon is the first decentralized, end-to-end overload control system. We implement and evaluate Rajomon on a setup of up to 140 cores and on a variety of applications from academia and industry. Experiments indicate Rajomon protects microservice goodput and tail latency from substantial demand spikes, even in the case of mixed request types and deeper service graphs. For high-load scenarios, Rajomon reduces tail latency by 78% and increases goodput by 45% when compared against state-of-the-art overload control for microservices.",
+  "authors": [
+    "Jiali Xing",
+    "Akis Giannoukos",
+    "Paul Loh",
+    "Shuyue Wang",
+    "Justin Qiu",
+    "Henri Maxime Demoulin",
+    "Konstantinos Kallas",
+    "Benjamin C. Lee"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/xing"
+}

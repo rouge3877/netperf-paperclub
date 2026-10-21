@@ -1,0 +1,14 @@
+{
+  "id": "p-2ac7dacaf077",
+  "title": "Homa: A Receiver-Driven Low-Latency Transport Protocol Using Network Priorities",
+  "abstract": "Homa is a new transport protocol for datacenter networks. It provides exceptionally low latency, especially for workloads with a high volume of very short messages, and it also supports large messages and high network utilization. Homa uses in-network priority queues to ensure low latency for short messages; priority allocation is managed dynamically by each receiver and integrated with a receiver-driven flow control mechanism. Homa also uses controlled overcommitment of receiver downlinks to ensure efficient bandwidth utilization at high load. Our implementation of Homa delivers 99th percentile round-trip times less than 15 μs for short messages on a 10 Gbps network running at 80% load. These latencies are almost 100x lower than the best published measurements of an implementation. In simulations, Homa’s latency is roughly equal to pFabric and significantly better than pHost, PIAS, and NDP for almost all message sizes and workloads. Homa can also sustain higher network loads than pFabric, pHost, or PIAS.",
+  "authors": [
+    "Behnam Montazeri",
+    "Yilong Li",
+    "Mohammad Alizadeh",
+    "John Ousterhout"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2018,
+  "url": "https://dl.acm.org/doi/10.1145/3230543.3230564"
+}

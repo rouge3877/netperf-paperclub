@@ -1,0 +1,14 @@
+{
+  "id": "p-84ea48b1e179",
+  "title": "SENSEI- Aligning Video Streaming Quality with Dynamic User Sensitivity",
+  "abstract": "This paper aims to improve video streaming by leveraging a simple observation—users are more sensitive to low quality in certain parts of a video than in others. For instance, rebuffering during key moments of a sports video (e.g., before a goal is scored) is more annoying than rebuffering during normal gameplay. Such content-dependent dynamic quality sensitivity, however, is rarely captured by current approaches, which predict QoE (quality-of-experience) using one-size-fitsall heuristics that are too simplistic to understand the nuances of diverse video content. The problem is that none of these approaches know the true dynamic quality sensitivity of a video they have never seen before. Therefore, instead of proposing yet another heuristic, we take a different approach: we run a separate crowdsourcing experiment for each video to derive the quality sensitivity of users at different parts of the video. Of course, the cost of doing this at scale can be prohibitive, but we show that careful experiment design combined with a suite of pruning techniques can make the cost negligible for content providers. For example with a budget of just $31.4/minute video, we can predict QoE 37.1% more accurately than recent QoE models. Our ability to accurately profile time-varying user sensitivity inspires a new approach to video streaming—dynamically aligning higher (lower) quality with higher (lower) sensitivity periods. We present a new video streaming system called S EN - SEI that profiles and incorporates dynamic quality sensitivity into existing quality adaptation algorithms. We apply SENSEI to two state-of-the-art adaptation algorithms, one rule-based and one based on deep reinforcement learning. SENSEI can take seemingly unusual actions, e.g., lowering quality even when bandwidth is sufficient to prepare for higher quality sensitivity in the near future. Compared to state-of-the-art approaches, SENSEI improves QoE by 15.1% or achieves the same QoE with 26.8% less bandwidth on average.",
+  "authors": [
+    "Xu Zhang",
+    "Yiyang Ou",
+    "Siddhartha Sen",
+    "Junchen Jiang"
+  ],
+  "conference": "NSDI",
+  "year": 2021,
+  "url": "https://www.usenix.org/conference/nsdi21/presentation/zhang-xu"
+}

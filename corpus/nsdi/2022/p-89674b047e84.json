@@ -1,0 +1,14 @@
+{
+  "id": "p-89674b047e84",
+  "title": "Donar- Anonymous VoIP over Tor",
+  "abstract": "We present Donar , a system enabling anonymous VoIP with good quality-of-experience (QoE) over Tor. No individual Tor link can match VoIP networking requirements. Donar bridges this gap by spreading VoIP traffic over several links. It combines active performance monitoring, dynamic link selection, adaptive traffic scheduling, and redundancy at no extra bandwidth cost. Donar enables high QoE: latency remains under 360 ms for 99% of VoIP packets during most (86%) 5-minute and 90-minute calls.",
+  "authors": [
+    "Yérom-David Bromberg",
+    "Quentin Dufour",
+    "Davide Frey",
+    "Etienne Rivière"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/bromberg"
+}

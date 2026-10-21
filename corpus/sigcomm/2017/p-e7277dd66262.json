@@ -1,0 +1,12 @@
+{
+  "id": "p-e7277dd66262",
+  "title": "Learning Networking by Reproducing Research Results",
+  "abstract": "In the past five years, the graduate networking course at Stanford has assigned over 200 students the task of reproducing results from over 40 networking papers. We began the project as a means of teaching both engineering rigor and critical thinking, qualities that are necessary for careers in networking research and industry. We have observed that reproducing research can simultaneously be a tool for education and a means for students to contribute to the networking community. Through this editorial we describe our project in reproducing network research and show through anecdotal evidence that this project is important for both the classroom and the networking community at large, and we hope to encourage other institutions to host similar class projects.",
+  "authors": [
+    "Lisa Yan",
+    "Nick McKeown"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2017,
+  "url": "https://dl.acm.org/doi/10.1145/3089262.3089266"
+}

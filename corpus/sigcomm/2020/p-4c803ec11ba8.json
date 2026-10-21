@@ -1,0 +1,17 @@
+{
+  "id": "p-4c803ec11ba8",
+  "title": "A Low Latency and Consistent Cellular Control Plane",
+  "abstract": "5G networks aim to provide ultra-low latency and higher reliability to support emerging and near real-time applications such as augmented and virtual reality, remote surgery, self-driving cars, and multi-player online gaming. This imposes new requirements on the design of cellular core networks. A key component of the cellular core is the control plane. Time to complete control plane operations (e.g. mobility handoff, service establishment) directly impacts the delay experienced by end-user applications. In this paper, we design Neutrino, a cellular control plane that provides users an abstraction of reliable access to cellular services while ensuring lower latency. Our testbed evaluations based on real cellular control traffic traces show that Neutrino provides an improvement in control procedure completion times by up to 3.1× without failures, and up to 5.6× under control plane failures, over existing cellular core proposals. We also show how these improvements translate into improving end-user application performance: for AR/VR applications and selfdriving cars, Neutrino performs up to 2.5× and up to 2.8× better, respectively, as compared to existing EPC.",
+  "authors": [
+    "Mukhtiar Ahmad",
+    "Syed Usman Jafri",
+    "Azam Ikram",
+    "Wasiq Noor Ahmad Qasmi",
+    "Muhammad Ali Nawazish",
+    "Zartash Afzal Uzmi",
+    "Zafar Ayyub Qazi"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2020,
+  "url": "https://dl.acm.org/doi/10.1145/3387514.3406218"
+}

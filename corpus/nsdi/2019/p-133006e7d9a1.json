@@ -1,0 +1,12 @@
+{
+  "id": "p-133006e7d9a1",
+  "title": "Size-aware Sharding For Improving Tail Latencies in In-memory Key-value Stores",
+  "abstract": "This paper introduces the concept of size-aware sharding to improve tail latencies for in-memory key-value stores, and describes its implementation in the Minos key-value store. Size-aware sharding distributes requests for keys to cores according to the size of the item associated with the key. In particular, requests for small and large items are sent to disjoint subsets of cores. Size-aware sharding improves tail latencies by avoiding that a request for a small item gets queued behind a request for a large item. Minos uses hardware dispatch for all requests for small items, which form the very large majority of all requests, to achieve high throughput, and achieves load balancing by adapting the number of cores handling requests for small and large items to their relative presence in the workload. We compare Minos to three state-of-the-art designs of inmemory KV stores. Compared to its closest competitor, Minos achieves a 99th percentile latency that is up to 20 times lower. Put differently, for a target 99th percentile latency equal to 10 times the mean service time, Minos achieves a throughput that is up to 7.4 times higher.",
+  "authors": [
+    "Diego Didona",
+    "Willy Zwaenepoel"
+  ],
+  "conference": "NSDI",
+  "year": 2019,
+  "url": "https://www.usenix.org/conference/nsdi19/presentation/didona"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "p-5fee16f69dee",
+  "title": "Runtime Programmable Switches",
+  "abstract": "Programming the network to add, remove, and modify functions has been a longstanding goal in our community. Unfortunately, in today’s programmable networks, the velocity of change is restricted by a practical yet fundamental barrier: reprogramming network devices is an intrusive change, requiring management operations such as draining and rerouting traffic from the target node, re-imaging the data plane, and redirecting traffic back to its original route. This project investigates design techniques to make future networks runtime programmable. FlexCore enables partial reconfiguration of switch data planes at runtime with minimum resource overheads, without service disruption, while processing packets with consistency guarantees. It involves design considerations in switch architectures, partial reconfiguration primitives, reconfiguration algorithms, as well as consistency guarantees. Our evaluation results demonstrate the feasibility and benefits of runtime programmable switches.",
+  "authors": [
+    "Jiarong Xing",
+    "Kuo-Feng Hsu",
+    "Matty Kadosh",
+    "Alan Lo",
+    "Yonatan Piasetzky",
+    "Arvind Krishnamurthy",
+    "Ang Chen"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/xing"
+}

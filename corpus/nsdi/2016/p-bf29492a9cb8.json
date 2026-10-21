@@ -1,0 +1,16 @@
+{
+  "id": "p-bf29492a9cb8",
+  "title": "Earp: Principled Storage, Sharing, and Protection for Mobile Apps",
+  "abstract": "Modern mobile apps need to store and share structured data, but the coarse-grained access-control mechanisms in existing mobile operating systems are inadequate to help apps express and enforce their protection requirements. We design, implement, and evaluate a prototype of Earp, a new mobile platform that uses the relational model as the unified OS-level abstraction for both storage and inter-app services. Earp provides apps with structureaware, OS-enforced access control, bringing order and protection to the Wild West of mobile data management.",
+  "authors": [
+    "Yuanzhong Xu",
+    "Tyler Hunt",
+    "Youngjin Kwon",
+    "Martin Georgiev",
+    "Vitaly Shmatikov",
+    "Emmett Witchel"
+  ],
+  "conference": "NSDI",
+  "year": 2016,
+  "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/xu"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "p-df72b831d19a",
+  "title": "Buffer-based End-to-end Request Event Monitoring in the Cloud",
+  "abstract": "Request latency is a crucial concern for modern cloud providers. Due to various causes in hosts and networks, requests can suffer from request latency anomalies (RLAs), which may violate the Service-Level Agreement for tenants. However, existing performance monitoring tools have incomplete coverage and inconsistent semantics for monitoring requests, resulting in the difficulty to accurately diagnose RLAs. This paper presents BufScope , a high-coverage request event monitoring system, which aims to capture most RLArelated events with consistent request-level semantics in the end-to-end datapath of request. BufScope models the datapath of request as a buffer chain and defines RLA-related events based on different properties of buffers, so as to end-to-end monitor the root causes of RLA. To achieve consistent semantics for captured events, BufScope designs a concise request-level semantic injection mechanism to make events captured in networks have the victim requests’ ID, and offloads the realization to SmartNICs for low overhead. We have implemented BufScope on commodity SmartNICs and programmable switches. Evaluation results show that BufScope can diagnose 95% RLAs with <0.07% network bandwidth overhead and <1% application throughput decline.",
+  "authors": [
+    "Kaihui Gao",
+    "Chen Sun",
+    "Shuai Wang",
+    "Dan Li",
+    "Yu Zhou",
+    "Hongqiang Harry Liu",
+    "Lingjun Zhu",
+    "Ming Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/gao-kaihui"
+}

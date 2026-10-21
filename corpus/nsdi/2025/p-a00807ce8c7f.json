@@ -1,0 +1,19 @@
+{
+  "id": "p-a00807ce8c7f",
+  "title": "State-Compute Replication-Parallelizing High-Speed Stateful Packet Processing",
+  "abstract": "With the slowdown of Moore’s law, CPU-oriented packet processing in software will be significantly outpaced by emerging line speeds of network interface cards (NICs). Single-core packet-processing throughput has saturated. We consider the problem of high-speed packet processing with multiple CPU cores. The key challenge is state—memory that multiple packets must read and update. The prevailing method to scale throughput with multiple cores involves state sharding, processing all packets that update the same state, e.g., flow, at the same core. However, given the skewed nature of realistic flow size distributions, this method is untenable, since total throughput is limited by single-core performance. This paper introduces state-compute replication, a principle to scale the throughput of a single stateful flow across multiple cores using replication. Our design leverages a packet history sequencer running on a NIC or top-of-the-rack switch to enable multiple cores to update state without explicit synchronization. Our experiments with realistic data center and wide-area Internet traces show that state-compute replication can scale total packet-processing throughput linearly with cores, independent of flow size distributions, across a range of realistic packet-processing programs.",
+  "authors": [
+    "Qiongwen Xu",
+    "Sebastiano Miano",
+    "Xiangyu Gao",
+    "Tao Wang",
+    "Adithya Murugadass",
+    "Songyuan Zhang",
+    "Anirudh Sivaraman",
+    "Gianni Antichi",
+    "Srinivas Narayana"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/xu-qiongwen"
+}

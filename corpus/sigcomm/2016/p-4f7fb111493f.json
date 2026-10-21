@@ -1,0 +1,18 @@
+{
+  "id": "p-4f7fb111493f",
+  "title": "CS2P: Improving Video Bitrate Selection and Adaptation with Data-Driven Throughput Prediction",
+  "abstract": "Bitrate adaptation is critical to ensure good quality-ofexperience (QoE) for Internet video. Several efforts have argued that accurate throughput prediction can dramatically improve the efficiency of (1) initial bitrate selection to lower startup delay and offer high initial resolution and (2) midstream bitrate adaptation for high QoE. However, prior efforts did not systematically quantify real-world throughput predictability or develop good prediction algorithms. To bridge this gap, this paper makes three contributions. First, we analyze the throughput characteristics in a dataset with 20M+ sessions. We find: (a) Sessions sharing similar key features (e.g., ISP, region) present similar initial throughput values and dynamic patterns; (b) There is a natural “stateful” behavior in throughput variability within a given session. Second, building on these insights, we develop CS2P, a throughput prediction system which uses a data-driven approach to learn (a) clusters of similar sessions, (b) an initial throughput predictor, and (c) a Hidden-Markov-Model based midstream predictor modeling the stateful evolution of throughput. Third, we develop a prototype system and show using trace-driven simulation and real-world experiments that: (1) CS2P outperforms existing prediction approaches by 40% and 50% in terms of the median prediction error for initial and midstream throughput and (2) CS2P achieves 3.2% improvement on overall QoE and 10.9% higher average bitrate over state-of-art Model Predictive Control (MPC) approach, which uses Harmonic Mean for throughput prediction.",
+  "authors": [
+    "Yi Sun",
+    "Xiaoqi Yin",
+    "Junchen Jiang",
+    "Vyas Sekar",
+    "Fuyuan Lin",
+    "Nanshu Wang",
+    "Tao Liu",
+    "Bruno Sinopoli"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2016,
+  "url": "https://dl.acm.org/doi/10.1145/2934872.2934898"
+}

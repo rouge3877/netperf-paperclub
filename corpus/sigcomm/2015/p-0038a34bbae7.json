@@ -1,0 +1,28 @@
+{
+  "id": "p-0038a34bbae7",
+  "title": "Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google’s Datacenter Network",
+  "abstract": "We present our approach for overcoming the cost, operational complexity, and limited scale endemic to datacenter networks a decade ago. Three themes unify the five generations of datacenter networks detailed in this paper. First, multi-stage Clos topologies built from commodity switch silicon can support cost-effective deployment of building-scale networks. Second, much of the general, but complex, decentralized network routing and management protocols supporting arbitrary deployment scenarios were overkill for single-operator, pre-planned datacenter networks. We built a centralized control mechanism based on a global configuration pushed to all datacenter switches. Third, modular hardware design coupled with simple, robust software allowed our design to also support inter-cluster and wide-area networks. Our datacenter networks run at dozens of sites across the planet, scaling in capacity by 100x over ten years to more than 1Pbps of bisection bandwidth.",
+  "authors": [
+    "Arjun Singh",
+    "Joon Ong",
+    "Amit Agarwal",
+    "Glen Anderson",
+    "Ashby Armistead",
+    "Roy Bannon",
+    "Seb Boving",
+    "Gaurav Desai",
+    "Bob Felderman",
+    "Paulie Germano",
+    "Anand Kanagala",
+    "Jeff Provost",
+    "Jason Simmons",
+    "Eiichi Tanda",
+    "Jim Wanderer",
+    "Urs Hölzle",
+    "Stephen Stuart",
+    "Amin Vahdat"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2015,
+  "url": "https://dl.acm.org/doi/10.1145/2829988.2787508"
+}

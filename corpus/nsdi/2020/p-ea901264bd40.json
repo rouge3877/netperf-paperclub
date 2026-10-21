@@ -1,0 +1,17 @@
+{
+  "id": "p-ea901264bd40",
+  "title": "A High-Speed Load-Balancer Design with Guaranteed Per-Connection-Consistency",
+  "abstract": "Large service providers use load balancers to dispatch millions of incoming connections per second towards thousands of servers. There are two basic yet critical requirements for a load balancer: uniform load distribution of the incoming connections across the servers and per-connection-consistency (PCC), i.e., the ability to map packets belonging to the same connection to the same server even in the presence of changes in the number of active servers and load balancers. Yet, meeting both these requirements at the same time has been an elusive goal. Today’s load balancers minimize PCC violations at the price of non-uniform load distribution. This paper presents C HEETAH , a load balancer that supports uniform load distribution and PCC while being scalable, memory efficient, resilient to clogging attacks, and fast at processing packets. The C HEETAH LB design guarantees PCC for any realizable server selection load balancing mechanism and can be deployed in both a stateless and stateful manner, depending on the operational needs. We implemented C HEETAH on both a software and a Tofino-based hardware switch. Our evaluation shows that a stateless version of C HEETAH guarantees PCC, has negligible packet processing overheads, and can support load balancing mechanisms that reduce the flow completion time by a factor of 2 − 3x.",
+  "authors": [
+    "Tom Barbette",
+    "Chen Tang",
+    "Haoran Yao",
+    "Dejan Kostić",
+    "Gerald Q. Maguire Jr.",
+    "Panagiotis Papadimitratos",
+    "Marco Chiesa"
+  ],
+  "conference": "NSDI",
+  "year": 2020,
+  "url": "https://www.usenix.org/conference/nsdi20/presentation/barbette"
+}

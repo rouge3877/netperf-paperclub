@@ -1,0 +1,19 @@
+{
+  "id": "p-f1de639243b8",
+  "title": "Learnings from Deploying Network QoS Alignment to Application Priorities for Storage Services",
+  "abstract": "To ensure that application network traffic is prioritized correctly within data center networks, it is critical to align the configuration of network QoS in packets to the intended priority of the application. These QoS configurations, typically encoded in the DSCP bits in the IP header, are interpreted by network switches and routers to determine the resources such as buffer space and scheduling priorities, for network traffic. Conceptually, it appears fairly straightforward to map the application priorities within data center networks to network QoS configurations, as long as the mapping is well defined. In this work, we describe our experience of aligning network QoS settings for intra-cluster storage traffic to application priorities on a per-RPC basis for a large data center network, with well-defined static mappings from priorities to QoS traffic classes. We describe some unexpected insights learned from the deployment experiences, e.g., downgrading traffic to use a lower QoS does not always imply worse network latency due to over-used QoS bands in the network. We also share some challenges encountered along the way to reach the goal of a fleet-wide deployment, including the concerns of potential performance regressions due to QoS downgrades. These lessons provide guidance on the use of a QoS-based scheduling strategy to meet service guarantees and can be deployed to networks of any scale.",
+  "authors": [
+    "Matthew Buckley",
+    "Parsa Pazhooheshy",
+    "Z. Morley Mao",
+    "Nandita Dukkipati",
+    "Hamid Hajabdolali Bazzaz",
+    "Priyaranjan Jha",
+    "Yingjie Bi",
+    "Steve Middlekauff",
+    "Yashar Ganjali"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/buckley"
+}

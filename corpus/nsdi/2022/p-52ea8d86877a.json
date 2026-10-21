@@ -1,0 +1,16 @@
+{
+  "id": "p-52ea8d86877a",
+  "title": "Elixir- A High-performance and Low-cost Approach to Managing Hardware-Software Hybrid Flow Tables Considering Flow Burstiness",
+  "abstract": "Hardware/software hybrid flow table is common in modern commodity network devices, such as NFV servers, smart NICs and SDN/OVS switches. The overall forwarding performance of the network device and the required CPU resources are considerably affected by the method of how to split the flow table between hardware and software. Previous works usually leverage the traffic skewness for flow table splitting, e.g. offloading top 10% largest flows to the hardware can save up to ∼90% CPU resources. However, the widely-existing bursty flows bring more challenges to flow table splitting. In particular, we need to identify the proper flows and proper timing to exchange the flows between hardware and software by considering flow burstiness, so as to maximize the overall performance with low overhead. In this paper we present Elixir, a high-performance and low-cost approach to managing hardware/software hybrid flow tables on commodity devices. The core idea of Elixir includes three parts, namely, combining sampling-based and counter-based mechanisms for flow rate measurement, separating the replacement of large flows and bursty flows, as well as decoupling the flow rate identification window and the flow replacement window. We have implemented Elixir prototypes on both Mellanox ConnectX-5 NIC and Barefoot Wedge100BF-32X/65X P4 Switch, with a software library on top of DPDK. Our experiments based on real-world data traces demonstrate that, compared with the state-of-the-art solutions, Elixir can save up to ∼50% software CPU resources while keeping the tail forwarding latency ∼97.6% lower.",
+  "authors": [
+    "Yanshu Wang",
+    "Dan Li",
+    "Yuanwei Lu",
+    "Jianping Wu",
+    "Hua Shao",
+    "Yutian Wang"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/wang-yanshu"
+}

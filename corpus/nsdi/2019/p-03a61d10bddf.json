@@ -1,0 +1,17 @@
+{
+  "id": "p-03a61d10bddf",
+  "title": "Slim- OS Kernel Support for a Low-Overhead Container Overlay Network",
+  "abstract": "Containers have become the de facto method for hosting large-scale distributed applications. Container overlay networks are essential to providing portability for containers, yet they impose significant overhead in terms of throughput, latency, and CPU utilization. The key problem is a reliance on packet transformation to implement network virtualization. As a result, each packet has to traverse the network stack twice in both the sender and the receiver’s host OS kernel. We have designed and implemented Slim, a lowoverhead container overlay network that implements network virtualization by manipulating connection-level metadata. Our solution maintains compatibility with today’s containerized applications. Evaluation results show that Slim improves the throughput of an in-memory key-value store by 71% while reducing the latency by 42%. Slim reduces the CPU utilization of the in-memory key-value store by 56%. Slim also reduces the CPU utilization of a web server by 22%-24%, a database server by 22%, and a stream processing framework by 10%.",
+  "authors": [
+    "Danyang Zhuo",
+    "Kaiyuan Zhang",
+    "Yibo Zhu",
+    "Hongqiang Harry Liu",
+    "Matthew Rockett",
+    "Arvind Krishnamurthy",
+    "Thomas Anderson"
+  ],
+  "conference": "NSDI",
+  "year": 2019,
+  "url": "https://www.usenix.org/conference/nsdi19/presentation/zhuo"
+}

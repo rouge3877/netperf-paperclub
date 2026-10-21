@@ -1,0 +1,17 @@
+{
+  "id": "p-2af4d89beb13",
+  "title": "Mosaic: Quantifying Privacy Leakage in Mobile Networks",
+  "abstract": "With the proliferation of online social networking (OSN) and mobile devices, preserving user privacy has become a great challenge. While prior studies have directly focused on OSN services, we call attention to the privacy leakage in mobile network data. This concern is motivated by two factors. First, the prevalence of OSN usage leaves identifiable digital footprints that can be traced back to users in the real-world. Second, the association between users and their mobile devices makes it easier to associate traffic to its owners. These pose a serious threat to user privacy as they enable an adversary to attribute significant portions of data traffic including the ones with NO identity leaks to network users’ true identities. To demonstrate its feasibility, we develop the Tessellation methodology. By applying Tessellation on traffic from a cellular service provider (CSP), we show that up to 50% of the traffic can be attributed to the names of users. In addition to revealing the user identity, the reconstructed profile, dubbed as “mosaic,” associates personal information such as political views, browsing habits, and favorite apps to the users. We conclude by discussing approaches for preventing and mitigating the alarming leakage of sensitive user information.",
+  "authors": [
+    "Ning Xia",
+    "Han Hee Song",
+    "Yong Liao",
+    "Marios Iliofotou",
+    "Antonio Nucci",
+    "Zhi-Li Zhang",
+    "Aleksandar Kuzmanovic"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2013,
+  "url": "https://dl.acm.org/doi/10.1145/2486001.2486008"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "p-59b9db044c0d",
+  "title": "SimAI-Unifying Architecture Design and Performance Tuning for Large-Scale Large Language Model Training with Scalability and Precision",
+  "abstract": "The large number of GPUs required for a single LLM training significantly hinders the validation of new designs, tunings, and optimizations, calling for the occurrence of efficient simulators. Existing simulators, however, only target a specific granularity of the entire training, intrinsically leading to imprecision. This paper presents SimAI, a unified simulator aiming at precisely and efficiently simulating the LLM training procedure at scale. Through selective and high-fidelity integration of the training frameworks, the kernel computation, and the collective communication library into the simulating procedure, SimAI achieves high precision in simulations. SimAI further conducts multi-thread acceleration and implements lock-free global context-sharing to accelerate the execution speed. The effectiveness of SimAI is validated by its performance results, which show an average of 98.1% alignment to real-world results under various test scenarios and affirm its robustness and adaptability from small-scale labs to large-scale industrial environments. SimAI delivers meaningful guidelines for new host designs and parameter settings, directly benefiting in-production LLM training. We also share experiences and lessons learned during the evolution of SimAI. SimAI is open sourced at https://github.com/aliyun/SimAI.",
+  "authors": [
+    "Xizheng Wang",
+    "Qingxu Li",
+    "Yichi Xu",
+    "Gang Lu",
+    "Dan Li",
+    "Li Chen",
+    "Heyang Zhou",
+    "Linkang Zheng",
+    "Sen Zhang",
+    "Yikai Zhu",
+    "Yang Liu",
+    "Pengcheng Zhang",
+    "Kun Qian",
+    "Kunling He",
+    "Jiaqi Gao",
+    "Ennan Zhai",
+    "Dennis Cai",
+    "Binzhang Fu"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/wang-xizheng-simai"
+}

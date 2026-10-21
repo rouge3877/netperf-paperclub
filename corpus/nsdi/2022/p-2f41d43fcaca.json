@@ -1,0 +1,15 @@
+{
+  "id": "p-2f41d43fcaca",
+  "title": "Closed-loop Network Performance Monitoring and Diagnosis with SpiderMon",
+  "abstract": "Performance monitoring and diagnosis are essential for data centers. The emergence of programmable switches has led to the development of a slew of monitoring systems, but most of them do not explicitly target posterior diagnosis. On one hand, “query-driven” monitoring systems must be pre-configured with a static query, but it is difficult to achieve high coverage because the right query for posterior diagnosis may not be known in advance. On the other hand, “blanket” monitoring systems have high coverage as they always collect telemetry data from all switches, but they collect excessive data. SpiderMon is a system that co-designs monitoring and posterior diagnosis in a closed loop to achieve low overhead and high coverage simultaneously, by leveraging “wait-for” relations to guide its operations. We evaluate SpiderMon in both Tofino hardware and BMv2 software switches and show that Spider- Mon diagnoses performance problems accurately and quickly with low overhead.",
+  "authors": [
+    "Weitao Wang",
+    "Xinyu Crystal Wu",
+    "Praveen Tammana",
+    "Ang Chen",
+    "T. S. Eugene Ng"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/wang-weitao-spidermon"
+}

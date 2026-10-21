@@ -1,0 +1,14 @@
+{
+  "id": "p-d92f83bbeae7",
+  "title": "Themis-Detecting Distributed Concurrency Bugs through RPC-Driven Race-Directed Test Generation and Fuzzing",
+  "abstract": "Distributed concurrency bugs occur when concurrent execution flows, at least one of which is triggered by inter-node communication such as remote procedure calls (RPCs), access the same shared variable or object in conflicting ways, causing incorrect behavior under certain interleavings. Existing work for detecting distributed concurrency bugs focuses on dynamic approaches, thus suffering from limited coverage. This paper proposes Themis, a novel approach that uses static analysis to detect potential races, applies LLM-based test generation, and employs directed fuzzing to refine input parameters for detecting distributed concurrency bugs. We have implemented a prototype of Themis and evaluated it on eight real-world distributed systems. Themis detects 198 new violations corresponding to 52 new bugs.",
+  "authors": [
+    "Hongchen Cao",
+    "Jingzhu He",
+    "Ting Dai",
+    "Guoliang Jin"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/cao"
+}

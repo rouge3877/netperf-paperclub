@@ -1,0 +1,31 @@
+{
+  "id": "p-e1d587926f69",
+  "title": "ZooRoute-Enhancing Cloud-Scale Network Reliability via Overlay Proactive Rerouting",
+  "abstract": "This paper presents ZooRoute, a tenant-transparent, fast failure recovery service that requires no modifications to physical devices. ZooRoute leverages the overlay layer and enables traffic flows to bypass failures by altering source ports (srcPorts) in packet headers during encapsulation. To enable deployment in large-scale cloud networks, ZooRoute proposes: 1) On-demand probing to efficiently monitor a vast number of hosts while minimizing telemetry costs. 2) Table compression to record the states of numerous paths with limited on-chip resources. 3) A device-sensing mechanism to prevent unnecessary reconnections in stateful forwarding. Deployed in Alibaba Cloud for 18 months, ZooRoute has significantly improved network reliability, reducing cumulative outage time by 92.71%.",
+  "authors": [
+    "Xiaoqing Sun",
+    "Xionglie Wei",
+    "Xing Li",
+    "Ju Zhang",
+    "Bowen Yang",
+    "Yi Wang",
+    "Ye Yang",
+    "Yu Qi",
+    "Le Yu",
+    "Chenhao Jia",
+    "Zhanlong Zhang",
+    "Xinyu Chen",
+    "Jianyuan Lu",
+    "Shize Zhang",
+    "Enge Song",
+    "Yang Song",
+    "Tian Pan",
+    "Rong Wen",
+    "Biao Lyu",
+    "Yang Xu",
+    "Shunmin Zhu"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3750483"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "p-e762e1e4e3ae",
+  "title": "LEOScope- Building a Global Testbed for Low-Earth Orbit Satellite Networks",
+  "abstract": "Low-Earth Orbit (LEO) satellite mega-constellations which offer broad coverage and low latencies offer a revolutionary new connectivity option. However, they also have complex orbital dynamics leading to continuous latency changes and frequent satellite handoffs. We are building a globally spanning testbed, LEOScope 1 , to quantify the performance opportunities and bottlenecks of such networks. This paper discusses the unique features we incorporated into LEOScope to adapt it to the dynamics of LEO networks and to enable experimentation on volunteer nodes. To demonstrate the broad utility of the testbed, we report Starlink performance across countries using LEOScope. Our primary aim is to describe the testbed and announce its availability to the SIGCOMM community for non-commercial research activities.",
+  "authors": [
+    "Saeed Fadaei",
+    "Shubham Tiwari",
+    "Aryan Taneja",
+    "Saksham Bhushan",
+    "Mohamed Kassem",
+    "Aravindh Raman",
+    "Debopam Bhattacherjee",
+    "Lili Qiu",
+    "Alan Woodward",
+    "Nishanth Sastry"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3750832.3750835"
+}

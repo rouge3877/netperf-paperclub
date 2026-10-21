@@ -1,0 +1,23 @@
+{
+  "id": "p-4807ec4749d3",
+  "title": "DDoS Detection at the Scale of One Hundred Tbps",
+  "abstract": "Defending against Distributed Denial-of-Service (DDoS) attacks is a critical priority for cloud providers, who must manage ever-growing volumes of both benign and malicious traffic. While state-of-the-art DDoS detection systems leverage programmable devices to process traffic at hundreds of Gbps to Tbps on a single machine, large-scale cloud providers often handle traffic at scales approaching 100 Tbps. This twoorders-of-magnitude difference necessitates distributed processing across multiple servers, where new challenges are present. Specifically, naive load-balancing strategies lead to imbalanced traffic distribution and severe performance bottlenecks, while function offloading to programmable devices must balance flexibility and adaptability. In this paper, we present Canopy, a scalable DDoS detection system designed to overcome these challenges. Canopy features a dynamic load-balancing mechanism that adapts to fluctuating traffic patterns, ensuring balanced distribution across detection servers despite the mix of mice and elephant flows. Additionally, it employs a traffic compression technique at the programmable switch to significantly reduce per-server workload. These innovations enable Canopy to scale to over 100 Tbps in real-world deployments. Successfully deployed in production, Canopy has demonstrated its effectiveness in mitigating large-scale DDoS attacks.",
+  "authors": [
+    "Yunming Xiao",
+    "Xijun Luo",
+    "Youliang Jiang",
+    "Aike Wang",
+    "Hu Chen",
+    "Zhibin Zhou",
+    "Heng Yu",
+    "Jiahao Cao",
+    "Yong Jiang",
+    "Jilong Wang",
+    "Mingwei Xu",
+    "Yan Chen",
+    "Congcong Miao"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/xiao"
+}

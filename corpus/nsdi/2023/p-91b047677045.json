@@ -1,0 +1,19 @@
+{
+  "id": "p-91b047677045",
+  "title": "Boomerang- Metadata-Private Messaging under Hardware Trust",
+  "abstract": "In end-to-end encrypted (E2EE) messaging systems, protecting communication metadata, such as who is communicating with whom, at what time, etc., remains a challenging problem. Existing designs mostly fall into the balancing act among security, performance, and trust assumptions: 1) designs with cryptographic security often use hefty operations, incurring performance roadblocks and expensive operational costs for large-scale deployment; 2) more performant systems often follow a weaker security guarantee, like differential privacy, and generally demand more trust from the involved servers. So far, there has been no dominant solution. In this paper, we take a different technical route from prior art, and propose Boomerang, an alternative metadata-private messaging system leveraging the readily available trust assumption on secure enclaves (as those emerging in the cloud). Through a number of carefully tailored oblivious techniques on message shuffling, workload distribution, and proactive patching of the communication pattern, Boomerang brings together low latency, horizontal scalability, and cryptographic security, without prohibitive extra cost. With 32 machines, Boomerang achieves 99th percentile latency of 7.76 seconds for 2²⁰ clients. We hope Boomerang offers attractive alternative options to the current landscape of metadata-private messaging designs.",
+  "authors": [
+    "Peipei Jiang",
+    "Qian Wang",
+    "Jianhao Cheng",
+    "Cong Wang",
+    "Lei Xu",
+    "Xinyu Wang",
+    "Yihao Wu",
+    "Xiaoyuan Li",
+    "Kui Ren"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/jiang"
+}

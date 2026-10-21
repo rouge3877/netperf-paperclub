@@ -1,0 +1,17 @@
+{
+  "id": "p-7510d45571d2",
+  "title": "Wallet-Confidential Serverless Computing",
+  "abstract": "Although serverless computing offers compelling cost and deployment simplicity advantages, a significant challenge remains in securely managing sensitive data as it flows through the network of ephemeral function executions in serverless computing environments within untrusted clouds. While Confidential Virtual Machines (CVMs) offer a promising secure execution environment, their integration with serverless architectures currently faces fundamental limitations in key areas: security, performance, and resource efficiency. We present Wallet, a lightweight confidential computing system for secure serverless deployments. By employing nested confidential execution and a decoupled guest OS within CVMs, Wallet runs each function in a minimal “trustlet”, significantly improving security through a reduced Trusted Computing Base (TCB). Furthermore, by leveraging a data-centric I/O architecture built upon a lightweight LibOS, Wallet optimizes network communication to address performance and resource efficiency challenges. Our evaluation shows that compared to CVM-based deployments,Wallet has a 4.3× smallerTCB,improves end-to-end latency (15–93%), achieves higher function density (up to 907×), and reduces inter-function communication (up to 27×) and function chaining latency (16.7-30.2×); thus, Wallet offers a practical system design for confidential serverless computing.",
+  "authors": [
+    "Patrick Sabanic",
+    "Masanori Misono",
+    "Teofil Bodea",
+    "Julian Pritzi",
+    "Michael Hackl",
+    "Dimitrios Stavrakakis",
+    "Pramod Bhatotia"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/sabanic"
+}

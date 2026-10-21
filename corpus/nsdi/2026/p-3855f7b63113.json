@@ -1,0 +1,13 @@
+{
+  "id": "p-3855f7b63113",
+  "title": "Making Logic a First-Class Citizen in Generative ML for Networking",
+  "abstract": "Generative ML models are increasingly popular in networking for tasks such as telemetry imputation, prediction, and synthetic trace generation. Despite their capabilities, they suffer from two shortcomings: (i) their output is often visibly violating well-known networking rules, which undermines their trustworthiness; and (ii) they are difficult to control, frequently requiring retraining even for minor changes. To address these limitations and unlock the benefits of generative models for networking, we propose a new paradigm for integrating explicit network knowledge, in the form of firstorder logic rules, into ML models used for networking tasks. Rules capture well-known relationships among observed signals, e.g., that increased latency precedes packet loss. While the idea is conceptually straightforward, its realization is challenging: networking knowledge is rarely formalized into rules, and naively injecting rules into ML models often hampers their effectiveness. This paper introduces N ET N OMOS , a multi-stage framework that (i) learns rules directly from data (e.g., measurements); (ii) filters them to select semantically meaningful ones; and (iii) enforces them through collaborative generation between an ML model and a Satisfiability Modulo Theories (SMT) solver. We show that N ET N OMOS learns diverse, meaningful rules from four real-world datasets and is 1.6–6.5× more scalable than DuoAI, a state-of-the-art (SOTA) rule-learning method. By enforcing these rules on a generic GPT-2 model, N ET - N OMOS achieves performance on par with or even surpassing specialized SOTA systems such as Zoom2Net and NetShare across three networking tasks: telemetry imputation, traffic forecasting, and synthetic data generation.",
+  "authors": [
+    "Hongyu Hè",
+    "Minhao Jin",
+    "Maria Apostolaki"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/he"
+}

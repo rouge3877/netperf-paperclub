@@ -1,0 +1,14 @@
+services:
+  paperclub:
+    build: .
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      APP_ORIGIN: http://127.0.0.1:3000
+      DATABASE_PATH: /app/var/paperclub.sqlite
+      REGISTRATION: invite
+    volumes:
+      - paperclub-data:/app/var
+    restart: unless-stopped
+volumes:
+  paperclub-data:

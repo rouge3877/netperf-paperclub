@@ -1,0 +1,17 @@
+{
+  "id": "p-5f6646120e71",
+  "title": "Enabling End-Host Network Functions",
+  "abstract": "Many network functions executed in modern datacenters, e.g., load balancing, application-level QoS, and congestion control, exhibit three common properties at the data plane: they need to access and modify state, to perform computations, and to access application semantics — this is critical since many network functions are best expressed in terms of application-level messages. In this paper, we argue that the end hosts are a natural enforcement point for these functions and we present Eden, an architecture for implementing network functions at end hosts with minimal network support. Eden comprises three components, a centralized controller, an enclave at each end host, and Eden-compliant applications called stages. To implement network functions, the controller configures stages to classify their data into messages and the enclaves to apply action functions based on a packet’s class. Our Eden prototype includes enclaves implemented both in the OS kernel and on programmable NICs. Through case studies, we show how application-level classification and the ability to run actual programs on the data-path allows Eden to efficiently support a broad range of network functions at the network’s edge.",
+  "authors": [
+    "Hitesh Ballani",
+    "Paolo Costa",
+    "Christos Gkantsidis",
+    "Matthew P. Grosvenor",
+    "Thomas Karagiannis",
+    "Lazaros Koromilas",
+    "Greg O'Shea"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2015,
+  "url": "https://dl.acm.org/doi/10.1145/2829988.2787493"
+}

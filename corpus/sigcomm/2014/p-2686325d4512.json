@@ -1,0 +1,13 @@
+{
+  "id": "p-2686325d4512",
+  "title": "Network Neutrality Inference",
+  "abstract": "When can we reason about the neutrality of a network based on external observations? We prove conditions under which it is possible to (a) detect neutrality violations and (b) localize them to specific links, based on external observations. Our insight is that, when we make external observations from different vantage points, these will most likely be inconsistent with each other if the network is not neutral. Where existing tomographic techniques try to form solvable systems of equations to infer network properties, we try to form unsolvable systems that reveal neutrality violations. We present an algorithm that relies on this idea to identify sets of nonneutral links based on external observations, and we show, through network emulation, that it achieves good accuracy for a variety of network conditions.",
+  "authors": [
+    "Zhiyong Zhang",
+    "Ovidiu Mara",
+    "Katerina Argyraki"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2014,
+  "url": "https://dl.acm.org/doi/10.1145/2619239.2626308"
+}

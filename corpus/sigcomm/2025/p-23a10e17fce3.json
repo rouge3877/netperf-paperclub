@@ -1,0 +1,14 @@
+{
+  "id": "p-23a10e17fce3",
+  "title": "Edge Caching as Differentiation",
+  "abstract": "Consider an end-user accessing two content providers, A and B, of the same type. If the end-user’s ISP prioritizes A-traffic over B-traffic, the end-user may experience A-content with significantly better quality, and the ISP is said to apply \"traffic differentiation.\" We observe that edge caching has a similar effect: if the end-user’s ISP hosts a cache that serves A-content with higher hit rate than Bcontent, the end-user may experience A-content with significantly better quality. Hence, we examine caching as differentiation: We consider 5 popular caching providers, measure the hit rates with which they serve different content, and use the measurements to quantify the impact of edge caching on end-user Quality of Experience (QoE). We present the—in our opinion—surprising QoE disparities that result from edge caching and discuss their implications.",
+  "authors": [
+    "Muhammad Abdullah",
+    "Mughees Ur Rehman",
+    "Pavlos Nikolopoulos",
+    "Katerina Argyraki"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3754350"
+}

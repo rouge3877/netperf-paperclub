@@ -1,0 +1,16 @@
+{
+  "id": "p-db1da7e4b3fa",
+  "title": "A High-Speed Stateful Packet Processing Approach for Tbps Programmable Switches",
+  "abstract": "High-speed ASIC switches hold great promise for offloading complex packet processing pipelines directly in the highspeed data-plane. Yet, a large variety of today’s packet processing pipelines, including stateful network functions and packet schedulers, require storing some (or all the) packets for short amount of times in a programmatic manner. Such a programmable buffer feature is missing on today’s high-speed ASIC switches. In this work, we present R IBOSOME , a system that extends programmable switches with external memory (to store packets) and external general-purpose packet processing devices such as CPUs or FPGAs (to perform stateful operations). As today’s packet processing devices are bottlenecked by their network interface speeds, R IBOSOME carefully transmits only the relevant bits to these devices. R IBOSOME leverages spare bandwidth from any directly connected servers to store the incoming payloads through RDMA. Our evaluation shows that R IBOSOME can process 300G of traffic through a stateful packet processing pipeline (e.g., firewall, load balancer, packet scheduler) by running the pipeline logic on a single server equipped with one 100G interface.",
+  "authors": [
+    "Mariano Scazzariello",
+    "Tommaso Caiazzi",
+    "Hamid Ghasemirahni",
+    "Tom Barbette",
+    "Dejan Kostić",
+    "Marco Chiesa"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/scazzariello"
+}

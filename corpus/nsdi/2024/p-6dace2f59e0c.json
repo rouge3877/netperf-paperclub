@@ -1,0 +1,23 @@
+{
+  "id": "p-6dace2f59e0c",
+  "title": "A High-Performance Design, Implementation, Deployment, and Evaluation of The Slim Fly Network",
+  "abstract": "Novel low-diameter network topologies such as Slim Fly (SF) offer significant cost and power advantages over the established Fat Tree, Clos, or Dragonfly. To spearhead the adoption of low-diameter networks, we design, implement, deploy, and evaluate the first real-world SF installation. We focus on deployment, management, and operational aspects of our test cluster with 200 servers and carefully analyze performance. We demonstrate techniques for simple cabling and cabling validation as well as a novel high-performance routing architecture for InfiniBand-based low-diameter topologies. Our real-world benchmarks show SF’s strong performance for many modern workloads such as deep neural network training, graph analytics, or linear algebra kernels. SF outperforms non-blocking Fat Trees in scalability while offering comparable or better performance and lower cost for large network sizes. Our work can facilitate deploying SF while the associated (open-source) routing architecture is fully portable and applicable to accelerate any low-diameter interconnect.",
+  "authors": [
+    "Nils Blach",
+    "Maciej Besta",
+    "Daniele De Sensi",
+    "Jens Domke",
+    "Hussein Harake",
+    "Shigang Li",
+    "Patrick Iff",
+    "Marek Konieczny",
+    "Kartik Lakhotia",
+    "Ales Kubicek",
+    "Marcel Ferrari",
+    "Fabrizio Petrini",
+    "Torsten Hoefler"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/blach"
+}

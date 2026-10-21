@@ -1,0 +1,15 @@
+{
+  "id": "p-c3f44621c060",
+  "title": "Enabling Silent Telemetry Data Transmission with InvisiFlow",
+  "abstract": "Network applications from traffic engineering to path tracing often rely on the ability to transmit fine-grained telemetry data from network devices to a set of collectors. Unfortunately, prior work has observed—and we validate—that existing transmission methods for such data can result in significant overhead to user traffic and/or loss of telemetry data, particularly when the network is heavily loaded. In this paper, we introduce InvisiFlow, a novel communication substrate to collect network telemetry data, silently. In contrast to previous systems that always push telemetry packets to collectors based on the shortest path, InvisiFlow dynamically seeks out spare network capacity by leveraging opportunistic sending and congestion gradients, thus minimizing both the loss rate of telemetry data and overheads on user traffic. In a FatTree topology, InvisiFlow can achieve near-zero loss rate even under high-load scenarios (around 33.8× lower loss compared to the state-of-the-art transmission methods used by systems like Everflow and Planck).",
+  "authors": [
+    "Yinda Zhang",
+    "Liangcheng Yu",
+    "Gianni Antichi",
+    "Ran Ben Basat",
+    "Vincent Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/zhang-yinda"
+}

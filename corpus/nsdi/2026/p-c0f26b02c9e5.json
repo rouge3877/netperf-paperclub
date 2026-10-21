@@ -1,0 +1,17 @@
+{
+  "id": "p-c0f26b02c9e5",
+  "title": "PlanetServe-A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving",
+  "abstract": "While significant progress has been made in research and development on open-source and cost-efficient large language models (LLMs), serving scalability remains a critical challenge, particularly for small organizations and individuals seeking to deploy and test their LLM innovations. Inspired by peer-to-peer networks that leverage decentralized overlay nodes to increase throughput and availability, we propose PlanetServe, an LLM serving overlay that harnesses computing resources from decentralized contributors. We identify four key research problems inherent to enabling such a decentralized infrastructure: 1) overlay network organization; 2) LLM communication privacy; 3) overlay forwarding for resource efficiency; and 4) verification of serving quality. This work presents the first systematic study of these fundamental problems in the context of decentralized LLM serving. Evaluation results from a prototype implemented on a set of decentralized nodes demonstrate that PlanetServe achieves a latency reduction of over 50% compared to the baseline design without overlay forwarding. Furthermore, the security features introduce minimal overhead to serving latency and throughput. We believe this work pioneers a new direction for democratizing and scaling future AI serving capabilities.",
+  "authors": [
+    "Fei Fang",
+    "Yifan Hua",
+    "Shengze Wang",
+    "Ruilin Zhou",
+    "Yi Liu",
+    "Chen Qian",
+    "Xiaoxue Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/fang"
+}

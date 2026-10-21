@@ -1,0 +1,17 @@
+{
+  "id": "p-6086fed4f11b",
+  "title": "Tracking the deployment of TLS 1.3 on the web- a story of experimentation and centralization",
+  "abstract": "Transport Layer Security (TLS) 1.3 is a redesign of the Web’s most important security protocol. It was standardized in August 2018 after a four year-long, unprecedented design process involving many cryptographers and industry stakeholders. We use the rare opportunity to track deployment, uptake, and use of a new mission-critical security protocol from the early design phase until well over a year after standardization. For a profound view, we combine and analyze data from active domain scans, passive monitoring of large networks, and a crowd-sourcing effort on Android devices. In contrast to TLS 1.2, where adoption took more than five years and was prompted by severe attacks on previous versions, TLS 1.3 is deployed surprisingly speedily and without security concerns calling for it. Just 15 months after standardization, it is used in about 20% of connections we observe. Deployment on popular domains is at 30% and at about 10% across the com/net/org top-level domains (TLDs). We show that the development and fast deployment of TLS 1.3 is best understood as a story of experimentation and centralization. Very few giant, global actors drive the development. We show that Cloudflare alone brings deployment to sizable numbers and describe how actors like Facebook and Google use their control over both client and server endpoints to experiment with the protocol and ultimately deploy it at scale. This story cannot be captured by a single dataset alone, highlighting the need for multi-perspective studies on Internet evolution.",
+  "authors": [
+    "Ralph Holz",
+    "Jens Hiller",
+    "Johanna Amann",
+    "Abbas Razaghpanah",
+    "Thomas Jost",
+    "Narseo Vallina-Rodriguez",
+    "Oliver Hohlfeld"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2021,
+  "url": "https://dl.acm.org/doi/10.1145/3411740.3411742"
+}

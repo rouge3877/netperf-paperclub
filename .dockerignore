@@ -1,0 +1,15 @@
+.git
+node_modules
+dist
+var
+reports
+.env
+.env.*
+.agents
+.codex
+.aws
+.wrangler
+.sites-runtime
+.next
+*.sqlite*
+*.log

@@ -1,0 +1,17 @@
+{
+  "id": "p-3afdb31529f4",
+  "title": "Robustness in the Salus Scalable Block Store",
+  "abstract": "This paper describes Salus, a block store that seeks to maximize simultaneously both scalability and robustness. Salus provides strong end-to-end correctness guarantees for read operations, strict ordering guarantees for write operations, and strong durability and availability guarantees despite a wide range of server failures (including memory corruptions, disk corruptions, firmware bugs, etc.). Such increased protection does not come at the cost of scalability or performance: indeed, Salus often actually outperforms HBase (the codebase from which Salus descends). For example, Salus’ active replication allows it to halve network bandwidth while increasing aggregate write throughput by a factor of 1.74 compared to HBase in a well-provisioned system.",
+  "authors": [
+    "Yang Wang",
+    "Manos Kapritsos",
+    "Zuocheng Ren",
+    "Prince Mahajan",
+    "Jeevitha Kirubanandam",
+    "Lorenzo Alvisi",
+    "Mike Dahlin"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/wang_yang"
+}

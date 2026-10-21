@@ -1,0 +1,24 @@
+{
+  "id": "p-018ce663a3d4",
+  "title": "InfiniteHBD-Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers",
+  "abstract": "Scaling Large Language Model (LLM) training relies on multidimensional parallelism, where High-Bandwidth Domains (HBDs) are critical for communication-intensive parallelism like Tensor Parallelism. However, existing HBD architectures face fundamental limitations in scalability, cost, and fault resiliency: switch-centric HBDs (e.g., NVL-72) incur prohibitive scaling costs, while GPUcentric HBDs (e.g., TPUv3/Dojo) suffer from severe fault propagation. Switch-GPU hybrid HBDs (e.g., TPUv4) take a middle-ground approach, but the fault explosion radius remains large. We propose InfiniteHBD, a transceiver-centric HBD architecture that integrates connectivity and dynamic switching at the transceiver level by embedding Optical Circuit Switching (OCS) within each transceiver. It enables reconfigurable point-to-multipoint communication and scalable variable-size ring topologies. Infinite- HBD achieves datacenter-scale scalability without cost explosion, fault isolation at the node level, and full bandwidth utilization for healthy GPUs. Key innovations include a Silicon Photonic-based OCS transceiver (OCSTrx), a reconfigurable k-hop ring topology, and an HBD-DCN orchestration algorithm. The evaluation demonstrates that InfiniteHBD reduces cost to 31% of NVL-72, achieves a near-zero GPU waste ratio (over 10x lower than NVL-72 and TPUv4), maintains near-zero cross-ToR traffic under 7% node fault ratio, and improves Model FLOPs Utilization by 3.37× compared to NVIDIA DGX (8 GPUs/node).",
+  "authors": [
+    "Chenchen Shou",
+    "Guyue Liu",
+    "Hao Nie",
+    "Huaiyu Meng",
+    "Yu Zhou",
+    "Yimin Jiang",
+    "Wenqing Lv",
+    "Yelong Xu",
+    "Yuanwei Lu",
+    "Zhang Chen",
+    "Yanbo Yu",
+    "Yichen Shen",
+    "Yibo Zhu",
+    "Daxin Jiang"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3750468"
+}

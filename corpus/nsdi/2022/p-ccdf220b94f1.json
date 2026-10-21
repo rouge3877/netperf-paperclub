@@ -1,0 +1,15 @@
+{
+  "id": "p-ccdf220b94f1",
+  "title": "DispersedLedger- High-Throughput Byzantine Consensus on Variable Bandwidth Networks",
+  "abstract": "The success of blockchains has sparked interest in largescale deployments of Byzantine fault tolerant (BFT) consensus protocols over wide area networks. A central feature of such networks is variable communication bandwidth across nodes and across time. We present DispersedLedger, an asynchronous BFT protocol that provides near-optimal throughput in the presence of such variable network bandwidth. The core idea of DispersedLedger is to enable nodes to propose, order, and agree on blocks of transactions without having to download their full content. By enabling nodes to agree on an ordered log of blocks, with a guarantee that each block is available within the network and unmalleable, DispersedLedger decouples bandwidth-intensive block downloads at different nodes, allowing each to make progress at its own pace. We build a full system prototype and evaluate it on real-world and emulated networks. Our results on a geo-distributed wide-area deployment across the Internet shows that DispersedLedger achieves 2× better throughput and 74% reduction in latency compared to HoneyBadger, the state-of-the-art asynchronous protocol.",
+  "authors": [
+    "Lei Yang",
+    "Seo Jin Park",
+    "Mohammad Alizadeh",
+    "Sreeram Kannan",
+    "David Tse"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/yang"
+}

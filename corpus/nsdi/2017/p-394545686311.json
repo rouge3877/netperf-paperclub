@@ -1,0 +1,13 @@
+{
+  "id": "p-394545686311",
+  "title": "Decibel: Isolation and Sharing in Disaggregated Rack-Scale Storage",
+  "abstract": "The performance characteristics of modern non-volatile storage devices have led to storage becoming a shared, rack-scale resource. System designers have an imperative to rethink existing storage abstractions in light of this development. This paper proposes a lightweight storage abstraction that encapsulates full-system hardware resources and focuses only on isolating and sharing storage devices across multiple, remote tenants. In support of this, it prototypes a shared-nothing runtime capable of managing hardware and scheduling this abstraction in a manner that avoids performance interference and preserves the performance of the storage devices for tenants.",
+  "authors": [
+    "Mihir Nanavati",
+    "Jake Wires",
+    "Andrew Warfield"
+  ],
+  "conference": "NSDI",
+  "year": 2017,
+  "url": "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/nanavati"
+}

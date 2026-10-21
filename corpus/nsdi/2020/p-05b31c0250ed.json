@@ -1,0 +1,16 @@
+{
+  "id": "p-05b31c0250ed",
+  "title": "Building An Elastic Query Engine on Disaggregated Storage",
+  "abstract": "We present operational experience running Snowflake, a cloudbased data warehousing system with SQL support similar to state-of-the-art databases. Snowflake design is motivated by three goals: (1) compute and storage elasticity; (2) support for multi-tenancy; and, (3) high performance. Over the last few years, Snowflake has grown to serve thousands of customers executing millions of queries on petabytes of data every day. This paper presents Snowflake design and implementation, along with a discussion on how recent changes in cloud infrastructure (emerging hardware, fine-grained billing, etc.) have altered the many assumptions that guided the design and optimization of Snowflake system. Using data collected from various components of our system during execution of 70 million queries over a 14 day period, our study both deepens the understanding of existing problems and highlights new research challenges along a multitude of dimensions including design of storage systems and high-performance query execution engines.",
+  "authors": [
+    "Midhul Vuppalapati",
+    "Justin Miron",
+    "Rachit Agarwal",
+    "Dan Truong",
+    "Ashish Motivala",
+    "Thierry Cruanes"
+  ],
+  "conference": "NSDI",
+  "year": 2020,
+  "url": "https://www.usenix.org/conference/nsdi20/presentation/vuppalapati"
+}

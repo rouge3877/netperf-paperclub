@@ -1,0 +1,18 @@
+{
+  "id": "p-25639c5a16d1",
+  "title": "NetBouncer- Active Device and Link Failure Localization in Data Center Networks",
+  "abstract": "The availability of data center services is jeopardized by various network incidents. One of the biggest challenges for network incident handling is to accurately localize the failures, among millions of servers and tens of thousands of network devices. In this paper, we propose NetBouncer, a failure localization system that leverages the IP-in-IP technique to actively probe paths in a data center network. NetBouncer provides a complete failure localization framework which is capable of detecting both device and link failures. It further introduces an algorithm for high accuracy link failure inference that is resilient to real-world data inconsistency by integrating both our troubleshooting domain knowledge and machine learning techniques. NetBouncer has been deployed in Microsoft Azure’s data centers for three years. And in practice, it produced no false positives and only a few false negatives so far.",
+  "authors": [
+    "Cheng Tan",
+    "Ze Jin",
+    "Chuanxiong Guo",
+    "Tianrong Zhang",
+    "Haitao Wu",
+    "Karl Deng",
+    "Dongming Bi",
+    "Dong Xiang"
+  ],
+  "conference": "NSDI",
+  "year": 2019,
+  "url": "https://www.usenix.org/conference/nsdi19/presentation/tan"
+}

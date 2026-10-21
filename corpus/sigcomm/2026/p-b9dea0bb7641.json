@@ -1,0 +1,24 @@
+{
+  "id": "p-b9dea0bb7641",
+  "title": "CommSAR-Enabling Bidirectional Communication in SAR Imaging Satellites via Shared Waveform",
+  "abstract": "Low Earth Orbit (LEO) Synthetic Aperture Radar (SAR) satellites conventionally rely on dedicated communication links, which impose prohibitive hardware, spectrum, and power overhead as satellite constellations scale. This paper presents CommSAR, a novel system that reuses existing SAR imaging waveforms to enable bidirectional communication without modifying satellite hardware or compromising imaging performance. For the downlink, data are embedded by modulating the starting frequency offset of the imaging waveform, preserving the waveform structure and imaging quality. For the uplink, we propose a compact, low-cost programmable metasurface to replace conventional large, expensive antennas, significantly lowering the barrier for dense ground station deployment. To handle extreme satellite dynamics, we employ an opposite-slope waveform as a pilot to compensate for mobility-induced effects. We implement a ground station prototype of CommSAR and validate its performance using an in-orbit commercial SAR satellite and a UAV SAR platform. Experimental results show that CommSAR preserves imaging performance without degradation while achieving downlink and uplink data rates of up to 105 kbps and 112 kbps, respectively, significantly outperforming the state of the art and demonstrating utility-grade performance.",
+  "authors": [
+    "Yimin Zhao",
+    "Zhenning Li",
+    "Hao Pan",
+    "Hua Li",
+    "Minhao Cui",
+    "Jie Xiong",
+    "Yihai Wei",
+    "Yang Liu",
+    "Haonan Zhao",
+    "Mohan Zhang",
+    "Weibo Wang",
+    "Guihai Chen",
+    "Kaiyu Liu",
+    "Linghe Kong"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2026,
+  "url": "https://dl.acm.org/doi/10.1145/3789240.3829144"
+}

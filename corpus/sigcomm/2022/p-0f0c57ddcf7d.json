@@ -1,0 +1,26 @@
+{
+  "id": "p-0f0c57ddcf7d",
+  "title": "Predictable vFabric on Informative Data Plane",
+  "abstract": "In multi-tenant data centers, each tenant desires reassuring predictability from the virtual network fabric – bandwidth guarantee, work conservation, and bounded tail latency. Achieving these goals simultaneously relies on rapid and precise traffic admission. However, the slow convergence (tens of milliseconds) of prior works can hardly satisfy the increasingly rigorous performance demand under dynamic traffic patterns. Further, state-of-the-art load balance schemes are all guarantee-agnostic and bring great risks on breaking bandwidth guarantee, which is overlooked in prior works. In this paper, we propose μFAB , a predictable virtual fabric solution which can (1) explicitly select proper paths for all flows and (2) converge to ideal bandwidth allocation at sub-millisecond timescales. The core idea of μFAB is to leverage the programmable data plane to build a fusion of an active edge (e.g., NIC) and an informative core (e.g., switch), where the core sends link status and tenant information to the edge via telemetry to help the latter make a timely and accurate decision on path selection and traffic admission. We fully implement μFAB with commodity SmartNICs and programmable switches. Evaluations show that μFAB can keep minimum bandwidth guarantee with high bandwidth utilization and near-optimal transmission latency in various network situations with limited probing bandwidth overhead. Application-level experiments, e.g., compute and storage scenarios, show that μFAB can improve QPS by 2.5× and cut tail latency by more than 21× compared to the alternatives.",
+  "authors": [
+    "Shuai Wang",
+    "Kaihui Gao",
+    "Kun Qian",
+    "Dan Li",
+    "Rui Miao",
+    "Bo Li",
+    "Yu Zhou",
+    "Ennan Zhai",
+    "Chen Sun",
+    "Jiaqi Gao",
+    "Dai Zhang",
+    "Binzhang Fu",
+    "Frank Kelly",
+    "Dennis Cai",
+    "Hongqiang Harry Liu",
+    "Ming Zhang"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2022,
+  "url": "https://dl.acm.org/doi/10.1145/3544216.3544241"
+}

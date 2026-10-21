@@ -1,0 +1,14 @@
+{
+  "id": "p-8464879d98ca",
+  "title": "Iceberg-Automated Verification of DNS Authoritative Engines via Just-in-Time Summarization",
+  "abstract": "As the core of DNS services, DNS authoritative engines are responsible for answering DNS queries with DNS responses, where any bugs may lead to severe consequences. While it is critical to ensure the correctness of the engine, existing solutions fail to deliver both correctness guarantees and low manual effort when applied to large and complex implementations in use. The state-of-the-art solution, DNS-V, relies on extra manual specifications for scaling verification, which still incurs a prohibitive cost. In this paper, we present Iceberg, an automated verification framework for DNS authoritative engines that holistically reduces manual effort. To achieve this, we propose just-intime (JIT) summarization, a refinement-proof approach that utilizes invariants from DNS zones to enable the use of automated summaries throughout verification, especially for domain-specific DNS operations. In addition, we employ a set of techniques to further scale automation, including symbolic regions, summary optimization, and stub function interposing. We apply Iceberg to four open-source DNS engines, identifying 12 new bugs while keeping manual effort low.",
+  "authors": [
+    "Yuxing Xiang",
+    "Rilin Huang",
+    "Naiqian Zheng",
+    "Xin Jin"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/xiang-iceberg"
+}

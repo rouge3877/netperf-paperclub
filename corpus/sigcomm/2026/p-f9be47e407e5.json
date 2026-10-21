@@ -1,0 +1,27 @@
+{
+  "id": "p-f9be47e407e5",
+  "title": "Gryphon-Scaling Hyperscale Multi-Tenant Gateways Beyond the Petabit-Era via DPU-Augmented Hierarchical Co-Offloading",
+  "abstract": "At ByteDance, cloud gateway clusters orchestrate petabit-scale aggregate traffic. Traditional ASIC-only gateways fail to meet these escalating demands due to severe on-chip resource constraints and limited programmable flexibility, while pure software solutions or alternatives like disaggregated SmartNICs struggle to match terabitscale line-rate throughput. To bridge this gap, we present Gryphon, a hyperscale cloud gateway built on a hybrid architecture that integrates DPUs directly into the switching ASIC’s forwarding path. This design resolves the fundamental tension between capacity and speed, expanding table scale by up to 1000× and augmenting programmability, while sustaining 1.6 Tbps line-rate throughput at a cost of only ∼8 μs in additional average latency. To manage this hardware heterogeneity, we introduce Hierarchical Co-Offloading (HLCO) in the data plane, achieving >99.9% fast path hit rate, while retaining software fallback for complex operations. In the control plane, we develop an abstraction layer (P4Bridge) that decouples hardware specifics from policy configuration. Gryphon has been operating at production scale for over a year, deployed on hundreds of nodes across multiple Availability Zones. We also share production measurements and operational experiences that serve as the first hyperscale-proven guidelines for next-generation DPU-augmented cloud gateways.",
+  "authors": [
+    "Yuemeng Xu",
+    "Haoran Chen",
+    "Jiarui Guo",
+    "Mingwei Cui",
+    "Qiuheng Yin",
+    "Cheng Dong",
+    "Peng He",
+    "Chenmin Sun",
+    "Yangyujia Wang",
+    "Daxiang Kang",
+    "Xian Wu",
+    "Yang Gao",
+    "Lirong Lai",
+    "Kai Wang",
+    "Zhuochen Fan",
+    "Tong Yang",
+    "Hongyu Wu"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2026,
+  "url": "https://dl.acm.org/doi/10.1145/3789240.3829119"
+}

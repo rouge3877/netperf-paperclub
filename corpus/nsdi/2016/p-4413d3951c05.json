@@ -1,0 +1,16 @@
+{
+  "id": "p-4413d3951c05",
+  "title": "Scalable and Private Media Consumption with Popcorn",
+  "abstract": "We describe the design, implementation, and evaluation of Popcorn, a media delivery system that hides clients’ consumption (even from the content distributor). Popcorn relies on a powerful cryptographic primitive: private information retrieval (PIR). With novel refinements that leverage the properties of PIR protocols and media streaming, Popcorn scales to the size of Netflix’s library (8000 movies) and respects current controls on media dissemination. The dollar cost to serve a media object in Popcorn is 3.87× that of a non-private system.",
+  "authors": [
+    "Trinabh Gupta",
+    "Natacha Crooks",
+    "Whitney Mulhern",
+    "Srinath Setty",
+    "Lorenzo Alvisi",
+    "Michael Walfish"
+  ],
+  "conference": "NSDI",
+  "year": 2016,
+  "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/gupta-trinabh"
+}

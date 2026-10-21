@@ -1,0 +1,13 @@
+{
+  "id": "p-246ffdc035e2",
+  "title": "Structured Comparative Analysis of Systems Logs to Diagnose Performance Problems",
+  "abstract": "Diagnosis and correction of performance issues in modern, large-scale distributed systems can be a daunting task, since a single developer is unlikely to be familiar with the entire system and it is hard to characterize the behavior of a software system without completely understanding its internal components. This paper describes D ISTALYZER , an automated tool to support developer investigation of performance issues in distributed systems. We aim to leverage the vast log data available from large scale systems, while reducing the level of knowledge required for a developer to use our tool. Specifically, given two sets of logs, one with good and one with bad performance, D ISTALYZER uses machine learning techniques to compare system behaviors extracted from the logs and automatically infer the strongest associations between system components and performance. The tool outputs a set of inter-related event occurrences and variable values that exhibit the largest divergence across the logs sets and most directly affect the overall performance of the system. These patterns are presented to the developer for inspection, to help them understand which system component(s) likely contain the root cause of the observed performance issue, thus alleviating the need for many human hours of manual inspection. We demonstrate the generality and effectiveness of D ISTALYZER on three real distributed systems by showing how it discovers and highlights the root cause of six performance issues across the systems. D ISTALYZER has broad applicability to other systems since it is dependent only on the logs for input, and not on the source code.",
+  "authors": [
+    "Karthik Nagaraj",
+    "Charles Killian",
+    "Jennifer Neville"
+  ],
+  "conference": "NSDI",
+  "year": 2012,
+  "url": "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/nagaraj"
+}

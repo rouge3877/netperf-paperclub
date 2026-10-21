@@ -1,0 +1,21 @@
+{
+  "id": "p-ff08feafcd47",
+  "title": "Measuring Congestion in High-Performance Datacenter Interconnects",
+  "abstract": "While it is widely acknowledged that network congestion in High Performance Computing (HPC) systems can significantly degrade application performance, there has been little to no quantification of congestion on credit-based interconnect networks. We present a methodology for detecting, extracting, and characterizing regions of congestion in networks. We have implemented the methodology in a deployable tool, Monet, which can provide such analysis and feedback at runtime. Using Monet, we characterize and diagnose congestion in the world’s largest 3D torus network of Blue Waters, a 13.3- petaflop supercomputer at the National Center for Supercomputing Applications. Our study deepens the understanding of production congestion at a scale that has never been evaluated before.",
+  "authors": [
+    "Saurabh Jha",
+    "Archit Patke",
+    "Jim Brandt",
+    "Ann Gentile",
+    "Benjamin Lim",
+    "Mike Showerman",
+    "Greg Bauer",
+    "Larry Kaplan",
+    "Zbigniew Kalbarczyk",
+    "William Kramer",
+    "Ravi Iyer"
+  ],
+  "conference": "NSDI",
+  "year": 2020,
+  "url": "https://www.usenix.org/conference/nsdi20/presentation/jha"
+}

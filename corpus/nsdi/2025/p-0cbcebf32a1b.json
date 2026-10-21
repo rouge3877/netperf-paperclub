@@ -1,0 +1,15 @@
+{
+  "id": "p-0cbcebf32a1b",
+  "title": "Shoal++-High Throughput DAG BFT Can Be Fast and Robust!",
+  "abstract": "Today’s practical partially synchronous Byzantine Fault Tolerant consensus protocols trade off low latency and high throughput. On the one end, traditional BFT protocols such as PBFT and its derivatives optimize for latency. They require, in fault-free executions, only 3 message delays to commit, the optimum for BFT consensus. However, this class of protocols typically relies on a single leader, hampering throughput scalability. On the other end, a new class of so-called DAG- BFT protocols demonstrates how to achieve highly scalable throughput by separating data dissemination from consensus, and using every replica as proposer. Unfortunately, existing DAG-BFT protocols pay a steep latency premium, requiring on average 10.5 message delays to commit transactions. This work aims to soften this tension, and proposes Shoal++, a novel DAG-based BFT consensus system that offers the throughput of DAGs while reducing end-to-end consensus commit latency to an average of 4.5 message delays. Our empirical findings are encouraging, showing that Shoal++ achieves throughput comparable to state-of-the-art DAG BFT solutions while reducing latency by up to 60%, even under less favorable network and failure conditions.",
+  "authors": [
+    "Balaji Arun",
+    "Zekun Li",
+    "Florian Suri-Payer",
+    "Sourav Das",
+    "Alexander Spiegelman"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/arun"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "p-418adb81dbfa",
+  "title": "Themis- Fair and Efficient GPU Cluster Scheduling",
+  "abstract": "Modern distributed machine learning (ML) training workloads benefit significantly from leveraging GPUs. However, significant contention ensues when multiple such workloads are run atop a shared cluster of GPUs. A key question is how to fairly apportion GPUs across workloads. We find that established cluster scheduling disciplines are a poor fit because of ML workloads’ unique attributes: ML jobs have long-running tasks that need to be gang-scheduled, and their performance is sensitive to tasks’ relative placement. We propose Themis , a new scheduling framework for ML training workloads. It’s GPU allocation policy enforces that ML workloads complete in a finish-time fair manner, a new notion we introduce. To capture placement sensitivity and ensure efficiency, Themis uses a two-level scheduling architecture where ML workloads bid on available resources that are offered in an auction run by a central arbiter. Our auction design allocates GPUs to winning bids by trading off fairness for efficiency in the short term, but ensuring finish-time fairness in the long term. Our evaluation on a production trace shows that Themis can improve fairness by more than 2.25X and is ~5% to 250% more cluster efficient in comparison to state-of-the-art schedulers.",
+  "authors": [
+    "Kshiteej Mahajan",
+    "Arjun Balasubramanian",
+    "Arjun Singhvi",
+    "Shivaram Venkataraman",
+    "Aditya Akella",
+    "Amar Phanishayee",
+    "Shuchi Chawla"
+  ],
+  "conference": "NSDI",
+  "year": 2020,
+  "url": "https://www.usenix.org/conference/nsdi20/presentation/mahajan"
+}

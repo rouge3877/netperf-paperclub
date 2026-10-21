@@ -1,0 +1,11 @@
+{
+  "id": "p-749306287e40",
+  "title": "The Packet Number Space Debate in Multipath QUIC",
+  "abstract": "With a standardization process that attracted much interest, QUIC can been seen as the next general-purpose transport protocol. Still, it does not provide true multipath support yet, missing some use cases that Multipath TCP addresses. To fill that gap, the IETF recently adopted a Multipath proposal merging several proposed designs. While it focuses on its core components, there still remains one major design issue: the amount of packet number spaces that should be used. This paper provides experimental results with two different Multipath QUIC implementations based on NS3 simulations to understand the impact of using one packet number space per path or a single packet number space for the whole connection. Our results show that using one packet number space per path makes Multipath QUIC more resilient to the receiver’s heuristics to acknowledge packets and detect duplicates.",
+  "authors": [
+    "Quentin De Coninck"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2023,
+  "url": "https://dl.acm.org/doi/10.1145/3561954.3561956"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "p-54a19f0c2e97",
+  "title": "Bridging Storage and Execution-A Semantic Virtual Bus for On-Demand Application Streaming",
+  "abstract": "Traditional application delivery requires full local installation, incurring persistent security risks from outdated versions, significant download delays. Despite advances in network throughput and latency, existing dynamic loading solutions such as Web applications and network filesystems like NFS suffer from performance degradation, functionality limitations, and intrusive application modifications. We introduce STREAMBUS , a transparent application streaming system that redefines the network as a semantic-aware virtual storage bus beneath the file system layer. Supporting deployment across diverse environments, including WiFidependent mobile devices, it addresses two key challenges: maintaining microsecond-level latency comparable to local storage and bridging the semantic gap between stateless remote storage and stateful execution. To achieve this, STREAMBUS combines a dual-mode transmission mechanism that synchronously serves requested blocks and asynchronously prefetches predicted blocks, with a thread-aware Markovchain model that captures fine-grained access patterns. Evaluation shows STREAMBUS delivers near-native performance across diverse networks. On desktops, it achieves 15–40% better per-page access latency than local NVMe in common cases. On mobile devices, it typically sustains startup overheads below 40% relative to local storage, even over variable Wi-Fi connectivity. Robustness experiments demonstrate stable performance under emulated network conditions with realistic delay patterns, supporting intra-city deployments.",
+  "authors": [
+    "Jun Lu",
+    "Jialin Li",
+    "Yaoxue Zhang",
+    "Ju Ren"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/lu-jun"
+}

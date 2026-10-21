@@ -1,0 +1,16 @@
+{
+  "id": "p-e4f65bfea20c",
+  "title": "Eywa-Automating Model-Based Testing using LLMs",
+  "abstract": "Model-based testing (MBT), whereby a model of the system under test is analyzed to generate high-coverage test cases, has been used to test protocol implementations. A key barrier to the use of MBT is the need for users to understand protocol RFCs in detail to create a compliant model. Our new approach to MBT uses LLMs to automatically build rich models of intended protocol behavior from knowledge embedded in Request for Comments documents (RFCs), blogs, and other natural language sources. Our approach addresses key challenges with using LLMs, including hallucinations and their inability to monolithically generate complex protocol models. We realize our approach through a novel protocol testing framework Eywa , and demonstrate its effectiveness through extensive case studies of DNS and BGP, and a smaller study of SMTP. Despite minimal user effort, applying Eywa enabled the discovery of 33 unique bugs across widely used DNS, BGP, and SMTP implementations, 16 of which were previously undiscovered despite extensive prior testing with manually crafted models.",
+  "authors": [
+    "Rajdeep Mondal",
+    "Rathin Singha",
+    "Todd Millstein",
+    "George Varghese",
+    "Ryan Beckett",
+    "Siva Kesava Reddy Kakarla"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/mondal"
+}

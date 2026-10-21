@@ -1,0 +1,13 @@
+{
+  "id": "p-2383593c5ebc",
+  "title": "A Layered Formal Methods Approach to Answering Queue-related Queries",
+  "abstract": "Queue dynamics introduce significant uncertainty in network management tasks such as debugging, performance monitoring, and analysis. Despite numerous queue-monitoring techniques, many networks today continue to collect only per-port packet counts (e.g., using SNMP). Although queue lengths are correlated with packet counts, deriving the precise correlation between them is very challenging since packet counts do not specify many quantities (e.g., packet arrival order) which affect queue lengths. This paper presents Q U ASI, a system that can answer many queue-related queries using only coarse-grained per-port packet counts. Q U ASI checks whether there exists a packet trace that is consistent with the packet counts and satisfies a query. To scale on large problem instances, Q U ASI relies on a layered approach and on a novel enqueue-rate abstraction, which is lossless for the class of queries that Q U ASI answers. The first layer employs a novel and efficient algorithm that generates a cover-set of abstract traces, constructs representative abstract traces from the cover-set, and efficiently checks each representative abstract trace by leveraging a known result on (0,1)-matrix existence. The first layer guarantees no false negatives: if the first layer says “No”, there is no packet trace consistent with the observed packet counts that makes the query true. If it says “Yes”, further verification is needed, which the second layer resolves using an SMT solver. As a result, Q U ASI has no false positives and no false negatives. Our evaluations show that Q U ASI is up to 10⁶× faster than state-of-the-art, and can answer non-trivial queries about queue metrics (e.g., queue length) using minute-granularity packet counts. Our work is the first step toward more practical formal performance analysis under given measurements.",
+  "authors": [
+    "Divya Raghunathan",
+    "Maria Apostolaki",
+    "Aarti Gupta"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/raghunathan"
+}

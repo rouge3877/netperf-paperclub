@@ -1,0 +1,15 @@
+{
+  "id": "p-4a5f6527876a",
+  "title": "Internet Inter-Domain Traffic",
+  "abstract": "In this paper, we examine changes in Internet inter-domain traffic demands and interconnection policies. We analyze more than 200 Exabytes of commercial Internet traffic over a two year period through the instrumentation of 110 large and geographically diverse cable operators, international transit backbones, regional networks and content providers. Our analysis shows significant changes in inter-AS traffic patterns and an evolution of provider peering strategies. Specifically, we find the majority of inter-domain traffic by volume now flows directly between large content providers, data center / CDNs and consumer networks. We also show significant changes in Internet application usage, including a global decline of P2P and a significant rise in video traffic. We conclude with estimates of the current size of the Internet by inter-domain traffic volume and rate of annualized inter-domain traffic growth.",
+  "authors": [
+    "Craig Labovitz",
+    "Scott Iekel-Johnson",
+    "Danny McPherson",
+    "Jon Oberheide",
+    "Farnam Jahanian"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2010,
+  "url": "https://dl.acm.org/doi/10.1145/1851182.1851194"
+}

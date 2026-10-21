@@ -1,0 +1,17 @@
+{
+  "id": "p-2fa277ca330b",
+  "title": "Can't Be Late-Optimizing Spot Instance Savings under Deadlines",
+  "abstract": "Cloud providers offer spot instances alongside on-demand instances to optimize resource utilization. While economically appealing, spot instances’ preemptible nature causes them ill-suited for deadline-sensitive jobs. To allow jobs to meet deadlines while leveraging spot instances, we propose a simple idea: use on-demand instances judiciously as a backup resource. However, due to the unpredictable spot instance availability, determining when to switch between spot and on-demand to minimize cost requires careful policy design. In this paper, we first provide an in-depth characterization of spot instances (e.g., availability, pricing, duration), and develop a basic theoretical model to examine the worst and average-case behaviors of baseline policies (e.g., greedy). The model serves as a foundation to motivate our design of a simple and effective policy, Uniform Progress, which is parameter-free and requires no assumptions on spot availability. Our empirical study, based on three-month-long real spot availability traces on AWS, demonstrates that it can (1) outperform the greedy policy by closing the gap to the optimal policy by 2× in both average and bad cases, and (2) further reduce the gap when limited future knowledge is given. These results hold in a variety of conditions ranging from loose to tight deadlines, low to high spot availability, and on single or multiple instances. By implementing this policy on top of SkyPilot, an intercloud broker system, we achieve 27%-84% cost savings across a variety of representative real-world workloads and deadlines. The spot availability traces are open-sourced for future research.",
+  "authors": [
+    "Zhanghao Wu",
+    "Wei-Lin Chiang",
+    "Ziming Mao",
+    "Zongheng Yang",
+    "Eric Friedman",
+    "Scott Shenker",
+    "Ion Stoica"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/wu-zhanghao"
+}

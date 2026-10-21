@@ -1,0 +1,16 @@
+{
+  "id": "p-a76e7fc689d7",
+  "title": "SplitScreen: Enabling Efficient, Distributed Malware Detection",
+  "abstract": "We present the design and implementation of a novel anti-malware system called SplitScreen. SplitScreen performs an additional screening step prior to the signature matching phase found in existing approaches. The screening step filters out most non-infected files (90%) and also identifies malware signatures that are not of interest (99%). The screening step significantly improves end-to-end performance because safe files are quickly identified and are not processed further, and malware files can subsequently be scanned using only the signatures that are necessary. Our approach naturally leads to a network-based anti-malware solution in which clients only receive signatures they needed, not every malware signature ever created as with current approaches. We have implemented SplitScreen as an extension to ClamAV [13], the most popular open source anti-malware software. For the current number of signatures, our implementation is 2× faster and requires 2× less memory than the original ClamAV. These gaps widen as the number of signatures grows.",
+  "authors": [
+    "Sang Kil Cha",
+    "Iulian Moraru",
+    "Jiyong Jang",
+    "John Truelove",
+    "David Brumley",
+    "David G. Andersen"
+  ],
+  "conference": "NSDI",
+  "year": 2010,
+  "url": "https://www.usenix.org/legacy/event/nsdi10/tech/full_papers/cha.pdf"
+}

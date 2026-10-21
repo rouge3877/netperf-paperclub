@@ -1,0 +1,17 @@
+{
+  "id": "p-7a750a962de9",
+  "title": "TIPSY- Predicting where traffic will ingress a WAN",
+  "abstract": "In addition to consumer workloads, public cloud providers host enterprise workloads such as video conferencing and AI+ML pipelines. Enterprise workloads can, at times, overwhelm the available ingress capacity on individual peering links. Traditional techniques to address this problem in the consumer setting do not always apply here, such as use of CDN caches in eyeball networks. Ingress congestion events necessitate shifting traffic to other peering links at short timescales. While content providers use such techniques in the egress direction, ingress is inherently a different and more challenging problem. Once a packet leaves an enterprise network, it is subject to opaque routing policies that influence the path to the cloud provider. We present TIPSY, a statistical-classification-based system for predicting the peering link through which a flow will enter a WAN. TIPSY’s predictions are used to safely operate a congestion mitigation system that injects BGP withdrawal messages to redirect traffic away from congested peering links. We train TIPSY on traffic data from the Azure WAN, and we demonstrate 76% accuracy in predicting through which 3 peering links (out of thousands) a flow will enter the network after BGP withdrawals.",
+  "authors": [
+    "Michael Markovitch",
+    "Sharad Agarwal",
+    "Rodrigo Fonseca",
+    "Ryan Beckett",
+    "Chuanji Zhang",
+    "Irena Atov",
+    "Somesh Chaturmohta"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2022,
+  "url": "https://dl.acm.org/doi/10.1145/3544216.3544234"
+}

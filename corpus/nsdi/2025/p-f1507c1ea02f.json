@@ -1,0 +1,14 @@
+{
+  "id": "p-f1507c1ea02f",
+  "title": "Runtime Protocol Refinement Checking for Distributed Protocol Implementations",
+  "abstract": "Despite significant progress in verifying protocols, services that implement distributed protocols (we refer to these as DPIs in what follows), e.g., Chubby or Etcd, can exhibit safety bugs in production deployments. These bugs are often introduced by programmers when converting protocol descriptions into code. This paper introduces Runtime Protocol Refinement Checking (RPRC), a runtime approach for detecting protocol implementation bugs in DPIs. RPRC systems observe a deployed DPI’s runtime behavior and notify operators when this behavior evidences a protocol implementation bug, allowing operators to mitigate the bugs impact and developers to fix the bug. We have developed an algorithm for RPRC and implemented it in a system called Ellsberg that targets DPIs that assume fail-stop failures and the asynchronous (or partially synchronous) model. Our goal when designing Ellsberg was to make no assumptions about how DPIs are implemented,and to avoid additional coordination or communication. Therefore, Ellsberg builds on the observation that in the absence of Byzantine failures, a protocol safety properties are maintained if all live DPI processes correctly implement the protocol. Thus,Ellsberg checks RPRC by comparing messages sent and received by each DPI process to those produced by a simulated execution of the protocol. We apply Ellsberg to three open source DPIs, Etcd, Zookeeper and Redis Raft, and show that we can detect previously reported protocol bugs in these DPIs.",
+  "authors": [
+    "Ding Ding",
+    "Zhanghan Wang",
+    "Jinyang Li",
+    "Aurojit Panda"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/ding"
+}

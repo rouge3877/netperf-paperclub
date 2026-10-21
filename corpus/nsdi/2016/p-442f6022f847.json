@@ -1,0 +1,14 @@
+{
+  "id": "p-442f6022f847",
+  "title": "Universal Packet Scheduling",
+  "abstract": "In this paper we address a seemingly simple question: Is there a universal packet scheduling algorithm? More precisely, we analyze (both theoretically and empirically) whether there is a single packet scheduling algorithm that, at a network-wide level, can perfectly match the results of any given scheduling algorithm. We find that in general the answer is “no”. However, we show theoretically that the classical Least Slack Time First (LSTF) scheduling algorithm comes closest to being universal and demonstrate empirically that LSTF can closely replay a wide range of scheduling algorithms. We then evaluate whether LSTF can be used in practice to meet various network-wide objectives by looking at popular performance metrics (such as average FCT, tail packet delays, and fairness); we find that LSTF performs comparable to the state-of-the-art for each of them. We also discuss how LSTF can be used in conjunction with active queue management schemes (such as CoDel and ECN) without changing the core of the network.",
+  "authors": [
+    "Radhika Mittal",
+    "Rachit Agarwal",
+    "Sylvia Ratnasamy",
+    "Scott Shenker"
+  ],
+  "conference": "NSDI",
+  "year": 2016,
+  "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/mittal"
+}

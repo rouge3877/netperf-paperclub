@@ -1,0 +1,20 @@
+{
+  "id": "p-a0dc9661cb04",
+  "title": "Enabling High Quality Real-Time Communications with Adaptive Frame-Rate",
+  "abstract": "Emerging high-quality real-time communication (RTC) applications stream ultra-high-definition (UHD) videos with a high frame rate (HFR). They use edge computing, which enables high bandwidth and low latency streaming. Our measurements, from the cloud gaming platform of one of the largest gaming companies, show that, in this setting, the queue at the client-side decoder is often the cause of high latency that hurts the user’s experience. We, therefore, propose an Adaptive Frame Rate (AFR) controller that helps achieve ultra-low latency by adaptively coordinating the frame rate with fluctuating network conditions and decoder capacity. AFR’s design addresses two key challenges: (1) queue measurements do not provide timely feedback for the control loop; and (2) multiple factors control the decoder queue, and different actions must be taken depending on why the queue accumulates. Both trace-driven simulations and large-scale deployments in the wild demonstrate that AFR can reduce the tail queuing delay by up to 7.4× and the stuttering events measured by end-to-end delay by 34% on average. AFR has been deployed in production in our cloud gaming service for over one year.",
+  "authors": [
+    "Zili Meng",
+    "Tingfeng Wang",
+    "Yixin Shen",
+    "Bo Wang",
+    "Mingwei Xu",
+    "Rui Han",
+    "Honghao Liu",
+    "Venkat Arun",
+    "Hongxin Hu",
+    "Xue Wei"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/meng"
+}

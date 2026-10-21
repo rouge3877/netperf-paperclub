@@ -1,0 +1,14 @@
+{
+  "id": "p-58a19c27f885",
+  "title": "Achieving Wire-Latency Storage Systems by Exploiting Hardware ACKs",
+  "abstract": "We present Juneberry, a low-latency communication framework for storage systems. Different from existing RPC frameworks, Juneberry provides a fast path for storage requests: they can be committed with a single round trip and server CPU bypass, thus delivering extremely low latency; the execution of these requests is performed asynchronously on the server CPU. Juneberry achieves it by relying on our proposed Ordered Queue abstraction, which exploits NICs’ hardware ACKs as commit signals of requests while ensuring linearizability of the whole system. Juneberry also supports durability by placing requests in persistent memory (PM). We implement Juneberry using commodity RDMA NICs and integrate it into two storage systems: Memcached (a widely used in-memory caching system) and PMemKV (a PM-based persistent key-value store). Evaluation shows that compared with RPC, Juneberry can significantly lower their latency under write-intensive workloads.",
+  "authors": [
+    "Qing Wang",
+    "Jiwu Shu",
+    "Jing Wang",
+    "Yuhao Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/wang-qing"
+}

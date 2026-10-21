@@ -1,0 +1,32 @@
+{
+  "id": "p-4dabb985d4bd",
+  "title": "Building Flexible, Low-Cost Wireless Access Networks With Magma",
+  "abstract": "Billions of people remain without Internet access due to availability or affordability of service. In this paper, we present Magma, an open and flexible system for building low-cost wireless access networks. Magma aims to connect users where operator economics are difficult due to issues such as low population density or income levels, while preserving features expected in cellular networks such as authentication and billing policies. To achieve this, and in contrast to traditional cellular networks, Magma adopts an approach that extensively leverages Internet design patterns, terminating access network-specific protocols at the edge and abstracting the access network from the core architecture. This decision allows Magma to refactor the wireless core using SDN (softwaredefined networking) principles and leverage other techniques from modern distributed systems. In doing so, Magma lowers cost and operational complexity for network operators while achieving resilience, scalability, and rich policy support.",
+  "authors": [
+    "Shaddi Hasan",
+    "Amar Padmanabhan",
+    "Bruce Davie",
+    "Jennifer Rexford",
+    "Ulas Kozat",
+    "Hunter Gatewood",
+    "Shruti Sanadhya",
+    "Nick Yurchenko",
+    "Tariq Al-Khasib",
+    "Oriol Batalla",
+    "Marie Bremner",
+    "Andrei Lee",
+    "Evgeniy Makeev",
+    "Scott Moeller",
+    "Alex Rodriguez",
+    "Pravin Shelar",
+    "Karthik Subraveti",
+    "Sudarshan Kandi",
+    "Alejandro Xoconostle",
+    "Praveen Kumar Ramakrishnan",
+    "Xiaochen Tian",
+    "Anoop Tomar"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/hasan"
+}

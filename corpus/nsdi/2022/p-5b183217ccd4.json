@@ -1,0 +1,22 @@
+{
+  "id": "p-5b183217ccd4",
+  "title": "Whisper- IoT in the TV White Space Spectrum",
+  "abstract": "The deployment of Internet of Things (IoT) networks has rapidly increased over recent years – to connect homes, cities, farms, and many other industries. Today, these networks rely on connectivity solutions, such as LoRaWAN, operating in the ISM bands. Our experience from deployments in multiple countries has shown that such networks are bottlenecked by range and bandwidth. Therefore, we propose a new connectivity solution operating in TV White Space (TVWS) spectrum, where narrowband devices configured for IoT can opportunistically transmit data, while protecting incumbents from receiving harmful interference. The lower frequency of operation extends the range by a factor of five over ISM bands. In less-densely populated area where larger swaths of such bandwidth are available, TVWS-based IoT networks can support many more devices simultaneously and larger transmission size per device. Our early experimental field work was incorporated into a petition to the US FCC, and further work influenced the subsequent regulations permitting the use of IoT devices in TVWS. We highlight the technical challenges and our solutions involved in deploying IoT devices in the shared spectrum and complying with the FCC rules.",
+  "authors": [
+    "Tusher Chakraborty",
+    "Heping Shi",
+    "Zerina Kapetanovic",
+    "Bodhi Priyantha",
+    "Deepak Vasisht",
+    "Binh Vu",
+    "Parag Pandit",
+    "Prasad Pillai",
+    "Yaswant Chabria",
+    "Andrew Nelson",
+    "Michael Daum",
+    "Ranveer Chandra"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/chakraborty"
+}

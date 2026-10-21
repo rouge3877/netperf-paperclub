@@ -1,0 +1,16 @@
+{
+  "id": "p-c92055d95007",
+  "title": "NUMFabric: Fast and Flexible Bandwidth Allocation in Datacenters",
+  "abstract": "We present NUMFabric, a novel transport design that provides flexible and fast bandwidth allocation control. NUM- Fabric is flexible: it enables operators to specify how bandwidth is allocated amongst contending flows to optimize for different service-level objectives such as weighted fairness, minimizing flow completion times, multipath resource pooling, prioritized bandwidth functions, etc. NUMFabric is also very fast: it converges to the specified allocation 2.3× faster than prior schemes. Underlying NUMFabric is a novel distributed algorithm for solving network utility maximization problems that exploits weighted fair queueing packet scheduling in the network to converge quickly. We evaluate NUMFabric using realistic datacenter topologies and highly dynamic workloads and show that it is able to provide flexibility and fast convergence in such stressful environments.",
+  "authors": [
+    "Kanthi Nagaraj",
+    "Dinesh Bharadia",
+    "Hongzi Mao",
+    "Sandeep Chinchali",
+    "Mohammad Alizadeh",
+    "Sachin Katti"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2016,
+  "url": "https://dl.acm.org/doi/10.1145/2934872.2934890"
+}

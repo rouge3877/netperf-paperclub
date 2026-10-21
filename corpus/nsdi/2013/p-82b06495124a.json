@@ -1,0 +1,14 @@
+{
+  "id": "p-82b06495124a",
+  "title": "Yank: Enabling Green Data Centers to Pull the Plug",
+  "abstract": "Balancing a data center’s reliability, cost, and carbon emissions is challenging. For instance, data centers designed for high availability require a continuous flow of power to keep servers powered on, and must limit their use of clean, but intermittent, renewable energy sources. In this paper, we present Yank, which uses a transient server abstraction to maintain server availability, while allowing data centers to “pull the plug” if power becomes unavailable. A transient server’s defining characteristic is that it may terminate anytime after a brief advance warning period. Yank exploits the advance warning—on the order of a few seconds—to provide high availability cheaply and efficiently at large scales by enabling each backup server to maintain “live” memory and disk snapshots for many transient VMs. We implement Yank inside of Xen. Our experiments show that a backup server can concurrently support up to 15 transient VMs with minimal performance degradation with advance warnings as small as 10 seconds, even when VMs run memory-intensive interactive web applications.",
+  "authors": [
+    "Rahul Singh",
+    "David Irwin",
+    "Prashant Shenoy",
+    "K.K. Ramakrishnan"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/singh"
+}

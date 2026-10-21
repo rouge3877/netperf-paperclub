@@ -1,0 +1,16 @@
+{
+  "id": "p-935890686ad1",
+  "title": "Realizing RotorNet-Toward Practical Microsecond Scale Optical Networking",
+  "abstract": "We describe our experience building and deploying a demandoblivious optically-switched network based on the RotorNet and Opera architectures. We detail the design, manufacture, deployment, and end-to-end operation of a 128-port optical rotor switch along with supporting NIC hardware and host software. Using this prototype, we assess yield, synchronization, and interoperability with commodity hardware and software at a scale of practical relevance. We provide the first real-world measurements of Linux TCP throughput and host-to-host latency in an operational RotorNet, achieving 98% of link rate with 99th-percentile ping times faster than commodity packet-switching hardware. In the process, we uncover unexpected challenges with link-level dropouts and devise a novel and flexible way to address them. Our deployment experience demonstrates the feasibility of our implementation approach and identifies opportunities for future exploration.",
+  "authors": [
+    "William M. Mellette",
+    "Alex Forencich",
+    "Rukshani Athapathu",
+    "Alex C. Snoeren",
+    "George Papen",
+    "George Porter"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672273"
+}

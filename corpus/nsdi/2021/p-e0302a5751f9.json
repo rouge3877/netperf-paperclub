@@ -1,0 +1,21 @@
+{
+  "id": "p-e0302a5751f9",
+  "title": "LightGuardian- A Full-Visibility, Lightweight, In-band Telemetry System Using Sketchlets",
+  "abstract": "Network traffic measurement is central to successful network operations, especially for today’s hyper-scale networks. Although existing works have made great contributions, they fail to achieve the following three criteria simultaneously: 1) full-visibility, which refers to the ability to acquire any desired per-hop flow-level information for all flows; 2) low overhead in terms of computation, memory, and bandwidth; and 3) robustness, meaning the system can survive partial network failures. We design LightGuardian to meet these three criteria. Our key innovation is a (small) constant-sized data structure, called sketchlet, which can be embedded in packet headers. Specifically, we design a novel SuMax sketch to accurately capture flow-level information. SuMax can be divided into sketchlets, which are carried in-band by passing packets to the end-hosts for aggregation, reconstruction, and analysis. We have fully implemented a LightGuardian prototype on a testbed with 10 programmable switches and 8 end-hosts in a FatTree topology, and conduct extensive experiments and evaluations. Experimental results show that LightGuardian can obtain per-flow per-hop flow-level information within 1.0 ∼ 1.5 seconds with consistently low overhead, using only 0.07% total bandwidth capacity of the network. We believe LightGuardian is the first system to collect perflow per-hop information for all flows in the network with negligible overhead.",
+  "authors": [
+    "Yikai Zhao",
+    "Kaicheng Yang",
+    "Zirui Liu",
+    "Tong Yang",
+    "Li Chen",
+    "Shiyi Liu",
+    "Naiqian Zheng",
+    "Ruixin Wang",
+    "Hanbo Wu",
+    "Yi Wang",
+    "Nicholas Zhang"
+  ],
+  "conference": "NSDI",
+  "year": 2021,
+  "url": "https://www.usenix.org/conference/nsdi21/presentation/zhao"
+}

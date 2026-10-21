@@ -1,0 +1,17 @@
+{
+  "id": "p-f622016630ab",
+  "title": "Ownership- A Distributed Futures System for Fine-Grained Tasks",
+  "abstract": "The distributed futures interface is an increasingly popular choice for building distributed applications that manipulate large amounts of data. Distributed futures are an extension of RPC that combines futures and distributed memory: a distributed future is a reference whose eventual value may be stored on a remote node. An application can then express distributed computation without having to specify when or where execution should occur and data should be moved. Recent distributed futures applications require the ability to execute fine-grained computations, i.e., tasks that run on the order of milliseconds. Compared to coarse-grained tasks, fine-grained tasks are difficult to execute with acceptable system overheads. In this paper, we present a distributed futures system for fine-grained tasks that provides fault tolerance without sacrificing performance. Our solution is based on a novel concept called ownership, which assigns each object a leader for system operations. We show that this decentralized architecture can achieve horizontal scaling, 1ms latency per task, and fast failure handling.",
+  "authors": [
+    "Stephanie Wang",
+    "Eric Liang",
+    "Edward Oakes",
+    "Ben Hindman",
+    "Frank Sifei Luan",
+    "Audrey Cheng",
+    "Ion Stoica"
+  ],
+  "conference": "NSDI",
+  "year": 2021,
+  "url": "https://www.usenix.org/conference/nsdi21/presentation/cheng"
+}

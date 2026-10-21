@@ -1,0 +1,15 @@
+{
+  "id": "p-bebdbcae74a4",
+  "title": "SyncWise-Error-Aware Time Synchronization for Reconfigurable Data Center Networks",
+  "abstract": "Time synchronization is critical for emerging reconfigurable data center networks (RDCNs) built on optical circuit switches (OCSes), where accurate identification of dynamic optical circuits is required for reliable data transmission. As circuit durations shrink to the microsecond and sub-microsecond range, sync accuracy demands become increasingly stringent. Yet, this problem has been largely overlooked, both practically and theoretically, with no general, easily integrable solutions or established accuracy limits. We present SyncWise, the first sync protocol customized for RD- CNs that closes these gaps. SyncWise formalizes the synchronization problem for RDCNs, models errors through an RDCN-specific analysis of error sources, and leverages this error model to guide the “wise” selection of optimal sync parents. SyncWise achieves provably optimal performance and is prototyped on a testbed with an OCS and Intel Tofino2 switches. Large-scale simulations demonstrate that SyncWise is the first protocol to attain sub-10 ns maximum sync error, ensuring reliable RDCN fabrics and outperforming the most accurate protocols in traditional DCNs by a large margin.",
+  "authors": [
+    "Yiming Lei",
+    "Jialong Li",
+    "Zhengqing Liu",
+    "Raj Joshi",
+    "Yiting Xia"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/lei-syncwise"
+}

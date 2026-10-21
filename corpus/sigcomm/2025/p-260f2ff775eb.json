@@ -1,0 +1,19 @@
+{
+  "id": "p-260f2ff775eb",
+  "title": "DistTrain-Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal Large Language Models",
+  "abstract": "Multimodal large language models (LLMs) empower LLMs to ingest inputs and generate outputs in multiple forms, such as text, image, and audio. However, the integration of multiple modalities introduces heterogeneity in both the model and training data, creating unique systems challenges. We propose DistTrain, a disaggregated training system for multimodal LLMs. DistTrain incorporates two novel disaggregation techniques to address model and data heterogeneity, respectively. The first is disaggregated model orchestration, which separates the training for modality encoder, LLM backbone, and modality generator. This allows the three components to adaptively and independently orchestrate their resources and parallelism configurations. The second is disaggregated data preprocessing, which decouples data preprocessing from training. This eliminates resource contention between preprocessing and training, and enables efficient data reordering to mitigate stragglers within and between microbatches caused by data heterogeneity. We evaluate DistTrain across different sizes of multimodal LLMs on a large-scale production cluster. The experimental results show that DistTrain achieves 54.7% Model FLOPs Utilization (MFU) when training a 72B multimodal LLM on 1172 GPUs and outperforms Megatron-LM by up to 2.2× on training throughput.",
+  "authors": [
+    "Zili Zhang",
+    "Yinmin Zhong",
+    "Yimin Jiang",
+    "Hanpeng Hu",
+    "Jianjian Sun",
+    "Zheng Ge",
+    "Yibo Zhu",
+    "Daxin Jiang",
+    "Xin Jin"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3750472"
+}

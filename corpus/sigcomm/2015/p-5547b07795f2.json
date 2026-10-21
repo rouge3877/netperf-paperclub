@@ -1,0 +1,12 @@
+{
+  "id": "p-5547b07795f2",
+  "title": "Spatiotemporal Traffic Matrix Synthesis",
+  "abstract": "Traffic matrices describe the volume of traffic between a set of sources and destinations within a network. These matrices are used in a variety of tasks in network planning and traffic engineering, such as the design of network topologies. Traffic matrices naturally possess complex spatiotemporal characteristics, but their proprietary nature means that little data about them is available publicly, and this situation is unlikely to change. Our goal is to develop techniques to synthesize traffic matrices for researchers who wish to test new network applications or protocols. The paucity of available data, and the desire to build a general framework for synthesis that could work in various settings requires a new look at this problem. We show how the principle of maximum entropy can be used to generate a wide variety of traffic matrices constrained by the needs of a particular task, and the available information, but otherwise avoiding hidden assumptions about the data. We demonstrate how the framework encompasses existing models and measurements, and we apply it in a simple case study to illustrate the value.",
+  "authors": [
+    "Paul Tune",
+    "Matthew Roughan"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2015,
+  "url": "https://dl.acm.org/doi/10.1145/2829988.2787471"
+}

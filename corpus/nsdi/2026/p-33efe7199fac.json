@@ -1,0 +1,17 @@
+{
+  "id": "p-33efe7199fac",
+  "title": "From Source to Solution-Tackling Packet Losses in Large-scale Cloud Gaming Systematically and Precisely",
+  "abstract": "Cloud gaming requires all video frames to be delivered before a stringent delay deadline to ensure seamless gaming experience. However, meeting this requirement is challenging due to packet losses, which greatly magnifies the frame delay. Various FEC-based loss recovery schemes were recently proposed to address the packet loss issue. However, the source of such packet losses remains unrevealed. Our production measurement results from Tencent START cloud gaming platform have shown that 66.5% of packet losses are caused by network infrastructure’s preferences against UDP and network congestion. Moreover, off-the-shelf video streaming systems like WebRTC could not detect retransmission loss efficiently. These issues completely nullified the performance gain of loss recovery schemes. To address this, we design and implement LADR, which combines loss avoidance, detection, and recovery to tackle packet losses. LADR incorporates the loss-based and delay-based congestion control algorithms and adopts RACK-TLP for loss avoidance and detection. Furthermore, LADR adopts an opportunistic FEC scheme to perform loss recovery. LADR has been rolled out at Tencent START cloud gaming platform, a large-scale cloud gaming provider, for one year. Production measurement results show that LADR only suffers from 0.049% packet loss rate (-59.8% vs. existing solutions) and delivers 99.87% of video frames within 100 milliseconds.",
+  "authors": [
+    "Jing Wang",
+    "Xiao Kong",
+    "Yunzhe Ni",
+    "Nian Wen",
+    "Jiaxing Zhang",
+    "Congcong Miao",
+    "Honghao Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-jing"
+}

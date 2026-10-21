@@ -1,0 +1,20 @@
+{
+  "id": "p-d86724d9047c",
+  "title": "Themis-Scheduling-Aware Buffer Management for HBM-Based Hybrid Buffers",
+  "abstract": "Packet buffers are critical for absorbing congestion and sustaining throughput in high-speed routers. As link rates escalate, on-chip SRAM alone can no longer provide suf- ficient capacity. To address this, modern routers widely adopt hybrid buffer architectures that augment limited onchip SRAM with large off-chip DRAM. Despite this architectural promise, existing hybrid Buffer Management (BM) schemes severely undermine router performance. They simply redirect packets that would otherwise be dropped into DRAM, which leads to priority inversion and head-of-line blocking: as packets buffered in DRAM age into the highestpriority packets, SRAM must stall until they are retrieved, wasting bandwidth and degrading throughput. Worse still, existing BM schemes ignore DRAM’s access characteristics, further constraining its limited bandwidth and reducing overall performance dramatically. We present Themis, a hybrid buffer management scheme that fully exploits SRAM’s high bandwidth and DRAM’s large capacity. Its core principle is scheduling-aware packet placement, which ensures packets with the earliest departure time are preferentially stored in SRAM to maximize its bandwidth utilization. To achieve this, Themis proactively migrates buffered packets between SRAM and DRAM, reserving SRAM space for imminent, high-priority traffic. Themis is compatible with diverse scheduling algorithms and supports dynamic changes to the scheduling policy. It also organizes DRAM storage according to scheduling order, mapping consecutively departing packets to contiguous addresses. This unlocks effective off-chip bandwidth and accelerates packet migration. Themis is hardware-friendly, and its FPGA and ASIC prototypes achieve low overhead and high frequency. Large-scale simulations show that Themis improves end-to-end performance by up to 2.6×.",
+  "authors": [
+    "Zhiyu Zhang",
+    "Minkun Xue",
+    "Kan Yu",
+    "Ruyi Yao",
+    "Shili Chen",
+    "Hao Mei",
+    "Zixuan Chen",
+    "Weiyi Chen",
+    "Yibo Fan",
+    "Yang Xu"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/zhang-zhiyu"
+}

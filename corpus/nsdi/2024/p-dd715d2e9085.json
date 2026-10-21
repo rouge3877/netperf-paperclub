@@ -1,0 +1,15 @@
+{
+  "id": "p-dd715d2e9085",
+  "title": "Orthcatter-High-throughput In-band OFDM Backscatter with Over-the-Air Code Division",
+  "abstract": "The existing ambient backscatter systems suffer from either more spectrum utilization or low throughput. we propose Orthcatter, the first in-band OFDM backscatter system that provides a higher throughput while consuming fewer spectrum resources. Our key innovation is the designed over-theair code division technique that enables the cancellation of the co-channel interferences, solving the core challenge of the in-band backscatter communication. Unlike the common code-division systems that generate orthogonal codewords locally, we construct the quasi-orthogonal backscatter codewords by swapping the subcarriers of each excitation OFDM symbol and concrete this design passively with a double side-band symbol construction method. Armed with these quasi-orthogonal codewords, we design a two-step interference cancellation scheme, significantly improving reliability. We prototype and test Orthcatter. The results show that Orthcatter can achieve throughput of 248kbps and a BER of 10⁻⁴ under OFDM WiFi exciter, improving by over 4.6× and 300× compared with the state-of-the-art in-band backscatter system. Our throughput and BER can even be 11kbps higher and 59× better than the prior side-band backscatter systems, and the exciter-to-tag communication range is 3× of prior OFDM backscatter systems.",
+  "authors": [
+    "Caihui Du",
+    "Jihong Yu",
+    "Rongrong Zhang",
+    "Ju Ren",
+    "Jianping An"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/du"
+}

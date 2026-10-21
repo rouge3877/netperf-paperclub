@@ -1,0 +1,14 @@
+{
+  "id": "p-869bf981a86f",
+  "title": "Split/Merge: System Support for Elastic Execution in Virtual Middleboxes",
+  "abstract": "Developing elastic applications should be easy. This paper takes a step toward the goal of generalizing elasticity by observing that a broadly deployed class of software— the network middlebox—is particularly well suited to dynamic scale. Middleboxes tend to achieve a clean separation between a small amount of per-flow network state and a large amount of complex application logic. We present a state-centric, systems-level abstraction for elastic middleboxes called Split/Merge. A virtual middlebox that has appropriately classified its state (e.g., perflow state) can be dynamically scaled out (or in) by a Split/Merge system, but remains ignorant of the number of replicas in the system. Per-flow state may be transparently split between many replicas or merged back into one, while the network ensures flows are routed to the correct replica. As a result, Split/Merge enables loadbalanced elasticity. We have implemented a Split/Merge system, called FreeFlow, and ported Bro, an open-source intrusion detection system, to run on it. In controlled experiments, FreeFlow enables a 25% reduction in maximum latency while eliminating hotspots during scale-out and a 50% quicker scale-in than standard approaches.",
+  "authors": [
+    "Shriram Rajagopalan",
+    "Dan Williams",
+    "Hani Jamjoom",
+    "Andrew Warﬁeld"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/rajagopalan"
+}

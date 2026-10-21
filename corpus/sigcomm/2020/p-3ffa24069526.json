@@ -1,0 +1,14 @@
+{
+  "id": "p-3ffa24069526",
+  "title": "Ultra-Wideband Underwater Backscatter via Piezoelectric Metamaterials",
+  "abstract": "We present the design, implementation, and evaluation of U 2 B, a technology that enables ultra-wideband backscatter in underwater environments. At the core of U 2 B’s design is a novel metamaterialinspired transducer for underwater backscatter, and algorithms that enable self-interference cancellation and FDMA-based medium access control. We fabricated U 2 B nodes and tested them in a river across different weather conditions, including snow and rain. Our empirical evaluation demonstrates that U 2 B can achieve throughputs up to 20 kbps, an operational range up to 62 m, and can scale to networks with more than 10 nodes. In comparison to the state-of-the-art system for underwater backscatter, our design achieves 5× more throughput and 6× more communication range. Moreover, our evaluation represents the first experimental validation of underwater backscatter in the wild.",
+  "authors": [
+    "Reza Ghaffarivardavagh",
+    "Sayed Saad Afzal",
+    "Osvy Rodriguez",
+    "Fadel Adib"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2020,
+  "url": "https://dl.acm.org/doi/10.1145/3387514.3405898"
+}

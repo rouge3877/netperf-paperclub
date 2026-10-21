@@ -1,0 +1,14 @@
+{
+  "id": "p-16220aac8ae4",
+  "title": "Count-Based Abstractions for Performance Verification of Contention Points",
+  "abstract": "Networking researchers and engineers spend much of their time trying to understand the performance of contention points – network components where multiple incoming packet streams share the same outgoing link(s). Recently, researchers have developed new logical models for analyzing such contention points, but unfortunately, such models are expensive: They do not scale well as buffer capacities increase beyond 10s of packets, making it difficult or impossible to reason about real-world systems faithfully. In this paper, we develop a suite of effective, new abstractions for reasoning about buffers and their performance characteristics. We also show how to architect a performance analysis framework for contention points in a modular way so it can take advantage of a range of abstractions that trade performance off against precision. We evaluate our abstractions against a collection of benchmarks and demonstrate their scaling benefits.",
+  "authors": [
+    "Amir Seyhani",
+    "Aarti Gupta",
+    "David Walker",
+    "Mina Tahmasbi Arashloo"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/seyhani"
+}

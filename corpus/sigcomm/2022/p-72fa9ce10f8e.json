@@ -1,0 +1,11 @@
+{
+  "id": "p-72fa9ce10f8e",
+  "title": "Programmable Multi-Dimensional Table Filters for Line Rate Network Functions",
+  "abstract": "The ability to filter entries in the data plane from a set or table of resources (e.g., network paths, servers, switch ports) based on multi-dimensional policies over stateful resource-specific metrics (e.g., filter paths with utilization < 0.6 and latency < 3us) is critical for several key network functions, such as performance-aware routing, resource-aware load balancing, network diagnosis, security and firewall. However, current generation of programmable switches do not support table-wide stateful filtering at line rate. We present Thanos, which augments the existing programmable switch pipeline with support for programmable multi-dimensional filtering over a set of resources. Thanos seamlessly integrates with multi-terabit programmable switch pipelines at nominal chip area overhead. Our evaluation, based on an FPGA prototype and a simulator, shows that policies expressed in Thanos can improve the performance of key network functions by up to 1.7× compared to state-of-the-art.",
+  "authors": [
+    "Vishal Shrivastav"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2022,
+  "url": "https://dl.acm.org/doi/10.1145/3544216.3544266"
+}

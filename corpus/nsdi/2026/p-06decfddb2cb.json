@@ -1,0 +1,26 @@
+{
+  "id": "p-06decfddb2cb",
+  "title": "SwiftEP-Accelerating MoE Inference with Buffer Fusion and TMA Offloading",
+  "abstract": "Large Language Models (LLMs) increasingly rely on Mixture-of-Experts (MoE) architectures to scale computation efficiently. Expert Parallelism (EP), which distributes experts across GPUs, introduces all-to-all communication overhead during the dispatch and combine phases, especially in the prefill stage, which dominates the inference performance. Existing communication libraries, such as DeepEP, suffer from excessive GPU SM utilization and underutilized interconnect bandwidth, limiting prefill performance. In this paper, we identify two root causes: redundant buffer copies and inefficient intra-server transfers over NVLink. To address these, we propose SwiftEP, an all-to-all communication library tailored for MoE prefill, combining buffer fusion and Tensor Memory Accelerator (TMA) offloading. Buffer fusion eliminates redundant staging copies, enabling true zero-copy communication, while TMA offloading maximizes NVLink utilization and supports efficient multicast/reduce operations. SwiftEP further incorporates RDMA scatter-gather lists, QP transmission parallelization, and CUDA IPC to handle dynamic token placement and inter-GPU memory access. Evaluation on 16- and 32-GPU clusters shows that SwiftEP achieves up to 119.7% higher algorithm bandwidth, reduces SM occupancy by up to 66.7%, and improves request serving capacity by 21.2% compared to DeepEP.",
+  "authors": [
+    "Xingyi Li",
+    "Yadong Liu",
+    "Xiaojie Huang",
+    "Yiran Zhang",
+    "Shuai Wang",
+    "Shangguang Wang",
+    "Zhehao Lin",
+    "Yinben Xia",
+    "Chang Yu",
+    "Qihang Liu",
+    "Xuan Zhang",
+    "Hao Lu",
+    "Xiang Li",
+    "Zekun He",
+    "Yachen Wang",
+    "Xianneng Zou"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/li-xingyi"
+}

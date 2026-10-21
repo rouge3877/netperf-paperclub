@@ -1,0 +1,18 @@
+{
+  "id": "p-cc98e0f6cddd",
+  "title": "OSA: An Optical Switching Architecture for Data Center Networks with Unprecedented Flexibility",
+  "abstract": "Data center networks (DCNs) form the backbone infrastructure of many large-scale enterprise applications as well as emerging cloud computing providers. This paper describes the design, implementation and evaluation of OSA, a novel Optical Switching Architecture for DCNs. Leveraging runtime reconfigurable optical devices, OSA dynamically changes its topology and link capacities, thereby achieving unprecedented flexibility to adapt to dynamic traffic patterns. Extensive analytical simulations using both real and synthetic traffic patterns demonstrate that OSA can deliver high bisection bandwidth (60%-100% of the non-blocking architecture). Implementation and evaluation of a small-scale functional prototype further demonstrate the feasibility of OSA.",
+  "authors": [
+    "Kai Chen",
+    "Ankit Singla",
+    "Atul Singh",
+    "Kishore Ramachandran",
+    "Lei Xu",
+    "Yueping Zhang",
+    "Xitao Wen",
+    "Yan Chen"
+  ],
+  "conference": "NSDI",
+  "year": 2012,
+  "url": "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/chen_kai"
+}

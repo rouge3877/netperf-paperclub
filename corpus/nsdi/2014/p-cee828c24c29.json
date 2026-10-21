@@ -1,0 +1,19 @@
+{
+  "id": "p-cee828c24c29",
+  "title": "Circuit Switching Under the Radar with REACToR",
+  "abstract": "The potential advantages of optics at high link speeds have led to significant interest in deploying optical switching technology in data-center networks. Initial efforts have focused on hybrid approaches that rely on millisecond-scale circuit switching in the core of the network, while maintaining the flexibility of electrical packet switching at the edge. Recent demonstrations of microsecond-scale optical circuit switches motivate considering circuit switching for more dynamic traffic such as that generated from a top-of-rack (ToR) switch. Based on these technology trends, we propose a prototype hybrid ToR, called REACToR, which utilizes a combination of packet switching and circuit switching to appear to end-hosts as a packet-switched ToR. In this paper, we describe a prototype REACToR control plane which synchronizes end host transmissions with end-to-end circuit assignments. This control plane can react to rapid, bursty changes in the traffic from end hosts on a time scale of 100s of microseconds, several orders of magnitude faster than previous hybrid approaches. Using the experimental data from a system of eight end hosts, we calibrate a hybrid network simulator and use this simulator to predict the performance of larger-scale hybrid networks.",
+  "authors": [
+    "He Liu",
+    "Feng Lu",
+    "Alex Forencich",
+    "Rishi Kapoor",
+    "Malveeka Tewari",
+    "Geoffrey M. Voelker",
+    "George Papen",
+    "Alex C. Snoeren",
+    "George Porter"
+  ],
+  "conference": "NSDI",
+  "year": 2014,
+  "url": "https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/liu_he"
+}

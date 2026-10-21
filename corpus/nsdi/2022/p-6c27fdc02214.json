@@ -1,0 +1,18 @@
+{
+  "id": "p-6c27fdc02214",
+  "title": "Optimizing Network Provisioning through Cooperation",
+  "abstract": "The rise of cloud-scale services has fueled a huge growth in inter-data center (DC) Wide-Area Network (WAN) traffic. As a result, cloud providers provision large amounts of WAN bandwidth at very high costs. However, the inter-DC traffic is often dominated by first-party applications, i.e., applications that are owned and operated by the same entity as the cloud provider. This creates a unique opportunity for the applications and the network to cooperate to optimize network provisioning (which we term as optimizing the “provisioning plane”), since the demands placed by dominant first-party applications often define the network. Such optimization is distinct from and goes beyond past work focused on the control and data planes (e.g., traffic engineering), in that it helps optimize the provisioning of network capacity and consequently helps reduce cost. In this paper, we show how cooperation between application and network can optimize network capacity based on knowledge of the application’s deadline coupled with network link failure statistics. Using data from a tier-1 cloud provider and a large enterprise collaboration service, we show that our techniques can potentially help provision significantly lower network capacity, with savings ranging from 30% to 45%.",
+  "authors": [
+    "Harsha Sharma",
+    "Parth Thakkar",
+    "Sagar Bharadwaj",
+    "Ranjita Bhagwan",
+    "Venkata N. Padmanabhan",
+    "Yogesh Bansal",
+    "Vijay Kumar",
+    "Kathleen Voelbel"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/sharma"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "p-9b3ae5c06463",
+  "title": "Dashlet- Taming Swipe Uncertainty for Robust Short Video Streaming",
+  "abstract": "Short video streaming applications have recently gained substantial traction, but the non-linear video presentation they afford swiping users fundamentally changes the problem of maximizing user quality of experience in the face of the vagaries of network throughput and user swipe timing. This paper describes the design and implementation of Dashlet, a system tailored for high quality of experience in short video streaming applications. With the insights we glean from an in-the-wild TikTok performance study and a user study focused on swipe patterns, Dashlet proposes a novel out-oforder video chunk pre-buffering mechanism that leverages a simple, non machine learning-based model of users’ swipe statistics to determine the pre-buffering order and bitrate. The net result is a system that outperforms TikTok by 28-101%, while also reducing by 30% the number of bytes wasted on downloaded video that is never watched.",
+  "authors": [
+    "Zhuqi Li",
+    "Yaxiong Xie",
+    "Ravi Netravali",
+    "Kyle Jamieson"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/li-zhuqi"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p-f2229f1734cf",
+  "title": "Composing Dataplane Programs with P4",
+  "abstract": "Dataplane languages like P4 enable flexible and efficient packetprocessing using domain-specific primitives such as programmable parsers and match-action tables. Unfortunately, P4 programs tend to be monolithic and tightly coupled to the hardware architecture, which makes it hard to write programs in a portable and modular way—e.g., by composing reusable libraries of standard protocols. To address this challenge, we present the design and implementation of a novel framework (μP4) comprising a lightweight logical architecture that abstracts away from the structure of the underlying hardware pipelines and naturally supports powerful forms of program composition. Using examples, we show how μP4 enables modular programming. We present a prototype of the μP4 compiler that generates code for multiple lower-level architectures, including Barefoot’s Tofino Native Architecture. We evaluate the overheads induced by our compiler on realistic examples.",
+  "authors": [
+    "Hardik Soni",
+    "Myriana Rifai",
+    "Praveen Kumar",
+    "Ryan Doenges",
+    "Nate Foster"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2020,
+  "url": "https://dl.acm.org/doi/10.1145/3387514.3405872"
+}

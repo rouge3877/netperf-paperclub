@@ -1,0 +1,16 @@
+{
+  "id": "p-cac77ee47f0e",
+  "title": "I Can’t Believe It’s Not Causal! Scalable Causal Consistency with No Slowdown Cascades",
+  "abstract": "We describe the design, implementation, and evaluation of Occult (Observable Causal Consistency Using Lossy Timestamps), the first scalable, geo-replicated data store that provides causal consistency to its clients without exposing the system to the possibility of slowdown cascades, a key obstacle to the deployment of causal consistency at scale. Occult supports read/write transactions under PC-PSI, a variant of Parallel Snapshot Isolation that contributes to Occult’s immunity to slowdown cascades by weakening how PSI replicates transactions committed at the same replica. While PSI insists that they all be totally ordered, PC-PSI simply requires total order Per Client session. Nonetheless, Occult guarantees that all transactions read from a causally consistent snapshot of the datastore without requiring any coordination in how transactions are asynchronously replicated.",
+  "authors": [
+    "Syed Akbar Mehdi",
+    "Cody Littley",
+    "Natacha Crooks",
+    "Lorenzo Alvisi",
+    "Nathan Bronson",
+    "Wyatt Lloyd"
+  ],
+  "conference": "NSDI",
+  "year": 2017,
+  "url": "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/mehdi"
+}

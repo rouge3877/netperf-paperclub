@@ -1,0 +1,28 @@
+{
+  "id": "p-4195767f4951",
+  "title": "Alibaba HPN-A Data Center Network for Large Language Model Training",
+  "abstract": "This paper presents HPN, Alibaba Cloud’s data center network for large language model (LLM) training. Due to the differences between LLMs and general cloud computing (e.g., in terms of traffic patterns and fault tolerance), traditional data center networks are not well-suited for LLM training. LLM training produces a small number of periodic, bursty flows (e.g., 400Gbps) on each host. This characteristic of LLM training predisposes Equal-Cost Multi-Path (ECMP) to hash polarization, causing issues such as uneven traffic distribution. HPN introduces a 2-tier, dual-plane architecture capable of interconnecting 15K GPUs within one Pod, typically accommodated by the traditional 3-tier Clos architecture. Such a new architecture design not only avoids hash polarization but also greatly reduces the search space for path selection. Another challenge in LLM training is that its requirement for GPUs to complete iterations in synchronization makes it more sensitive to singlepoint failure (typically occurring on ToR). HPN proposes a new dual-ToR design to replace the single-ToR in traditional data center networks. HPN has been deployed in our production for more than eight months. We share our experience in designing, and building HPN, as well as the operational lessons of HPN in production.",
+  "authors": [
+    "Kun Qian",
+    "Yongqing Xi",
+    "Jiamin Cao",
+    "Jiaqi Gao",
+    "Yichi Xu",
+    "Yu Guan",
+    "Binzhang Fu",
+    "Xuemei Shi",
+    "Fangbo Zhu",
+    "Rui Miao",
+    "Chao Wang",
+    "Peng Wang",
+    "Pengcheng Zhang",
+    "Xianlong Zeng",
+    "Eddie Ruan",
+    "Zhiping Yao",
+    "Ennan Zhai",
+    "Dennis Cai"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672265"
+}

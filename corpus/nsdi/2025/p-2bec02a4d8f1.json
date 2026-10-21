@@ -1,0 +1,15 @@
+{
+  "id": "p-2bec02a4d8f1",
+  "title": "One-Size-Fits-None-Understanding and Enhancing Slow-Fault Tolerance in Modern Distributed Systems",
+  "abstract": "Recent studies have shown that various hardware components exhibit fail-slow behavior at scale. However, the characteristics of distributed software’s tolerance of such slow faults remain ill-understood. This paper presents a comprehensive study that investigates the characteristics and current practices of slowfault tolerance in modern distributed software. We focus on the fundamentally nuanced nature of slow faults. We develop a testing pipeline to systematically introduce diverse slow faults, measure their impact under different workloads, and identify the patterns. Our study shows that even small changes can lead to dramatically different reactions. While some systems have added slow-fault handling mechanisms, they are mostly controlled by static thresholds, which can hardly accommodate the highly sensitive and dynamic characteristics. To address this gap, we design ADR, a lightweight library to use within system code and make fail-slow handling adaptive. Evaluation shows ADR significantly reduces the impact of slow faults.",
+  "authors": [
+    "Ruiming Lu",
+    "Yunchi Lu",
+    "Yuxuan Jiang",
+    "Guangtao Xue",
+    "Peng Huang"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/lu"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p-aea7b38f3789",
+  "title": "Palladium-A DPU-enabled Multi-Tenant Serverless Cloud over Zero-copy Multi-node RDMA Fabrics",
+  "abstract": "Serverless computing offers resource efficiency but suffers from a heavyweight data plane. We present Palladium, a DPU-offloaded serverless data plane enabling distributed zero-copy communication. Palladium uses two-sided RDMA and cross-processor shared memory to mitigate limitations of wimpy DPU cores. Its DPUenabled network engine (DNE) isolates RDMA resources and manages flows across tenants. By converting HTTP/TCP to RDMA at ingress, Palladium reduces protocol overhead on the critical path.",
+  "authors": [
+    "Shixiong Qi",
+    "Songyu Zhang",
+    "K. K. Ramakrishnan",
+    "Diman Zad Tootaghaj",
+    "Hardik Soni",
+    "Puneet Sharma"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3750494"
+}

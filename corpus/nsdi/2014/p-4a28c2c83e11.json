@@ -1,0 +1,17 @@
+{
+  "id": "p-4a28c2c83e11",
+  "title": "mTCP: a Highly Scalable User-level TCP Stack for Multicore Systems",
+  "abstract": "Scaling the performance of short TCP connections on multicore systems is fundamentally challenging. Although many proposals have attempted to address various shortcomings, inefficiency of the kernel implementation still persists. For example, even state-of-the-art designs spend 70% to 80% of CPU cycles in handling TCP connections in the kernel, leaving only small room for innovation in the user-level program. This work presents mTCP, a high-performance userlevel TCP stack for multicore systems. mTCP addresses the inefficiencies from the ground up—from packet I/O and TCP connection management to the application interface. In addition to adopting well-known techniques, our design (1) translates multiple expensive system calls into a single shared memory reference, (2) allows efficient flowlevel event aggregation, and (3) performs batched packet I/O for high I/O efficiency. Our evaluations on an 8-core machine showed that mTCP improves the performance of small message transactions by a factor of 25 compared to the latest Linux TCP stack and a factor of 3 compared to the best-performing research system known so far. It also improves the performance of various popular applications by 33% to 320% compared to those on the Linux stack.",
+  "authors": [
+    "EunYoung Jeong",
+    "Shinae Woo",
+    "Muhammad Jamshed",
+    "Haewon Jeong",
+    "Sunghwan Ihm",
+    "Dongsu Han",
+    "KyoungSoo Park"
+  ],
+  "conference": "NSDI",
+  "year": 2014,
+  "url": "https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/jeong"
+}

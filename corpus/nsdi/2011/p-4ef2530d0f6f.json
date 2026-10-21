@@ -1,0 +1,15 @@
+{
+  "id": "p-4ef2530d0f6f",
+  "title": "A Semantic Framework for Data Analysis in Networked Systems",
+  "abstract": "Effective analysis of raw data from networked systems requires bridging the semantic gap between the data and the user’s high-level understanding of the system. The raw data represents facts about the system state and analysis involves identifying a set of semantically relevant behaviors, which represent “interesting” relationships between these facts. Current analysis tools, such as wireshark and splunk, restrict analysis to the low-level of individual facts and provide limited constructs to aid users in bridging the semantic gap. Our objective is to enable semantic analysis at a level closer to the user’s understanding of the system or process. The key to our approach is the introduction of a logic-based formulation of high-level behavior abstractions as a sequence or a group of related facts. This allows treating behavior representations as fundamental analysis primitives, elevating analysis to a higher semantic-level of abstraction. In this paper, we propose a behavior-based semantic analysis framework which provides: (a) a formal language for modeling high-level assertions over networked systems data as behavior models, (b) an analysis engine for extracting instances of user-specified behavior models from raw data. Our approach emphasizes reuse, composibility and extensibility of abstractions. We demonstrate the effectiveness of our approach by applying it to five analyses tasks; modeling a hypothesis on traffic traces, modeling experiment behavior, modeling a security threat, modeling dynamic change and composing higher-level models. Finally, we discuss the performance of our framework in terms of behavior complexity and number of input records.",
+  "authors": [
+    "Arun Viswanathan",
+    "Alefiya Hussain",
+    "Jelena Mirkovic",
+    "Stephen Schwab",
+    "John Wroclawski"
+  ],
+  "conference": "NSDI",
+  "year": 2011,
+  "url": "https://www.usenix.org/legacy/event/nsdi11/tech/full_papers/Viswanathan.pdf"
+}

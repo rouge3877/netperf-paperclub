@@ -1,0 +1,13 @@
+{
+  "id": "p-80b3f97d424e",
+  "title": "tpprof- A Network Traffic Pattern Profiler",
+  "abstract": "When designing, understanding, or optimizing a computer network, it is often useful to identify and rank common patterns in its usage over time. Often referred to as a network traffic pattern, identifying the patterns in which the network spends most of its time can help ease network operators’ tasks considerably. Despite this, extracting traffic patterns from a network is, unfortunately, a difficult and highly manual process. In this paper, we introduce tpprof, a profiler for network traffic patterns. tpprof is built around two novel abstractions: (1) network states, which capture an approximate snapshot of network link utilization and (2) traffic pattern subsequences,which represent a finite-state automaton over a sequence of network states. Around these abstractions, we introduce novel techniques to extract these abstractions, a robust tool to analyze them, and a system for alerting operators of their presence in a running network.",
+  "authors": [
+    "Nofel Yaseen",
+    "John Sonchack",
+    "Vincent Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2020,
+  "url": "https://www.usenix.org/conference/nsdi20/presentation/yaseen"
+}

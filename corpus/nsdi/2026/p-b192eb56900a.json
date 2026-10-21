@@ -1,0 +1,17 @@
+{
+  "id": "p-b192eb56900a",
+  "title": "eXpressSFU-Toward Super-Scalable Video Conferencing with SmartNICs",
+  "abstract": "Video conferencing has emerged as a critical Internet application. Unlike video-on-demand services, high-quality video conferencing necessitates minimal latency, as media streams are generated, transmitted, processed, forwarded and received in real time. Our empirical analysis reveals that processing latency at the media server, particularly Selective Forwarding Units (SFUs), is the dominant barrier to scalability. Notably, cryptography, memory, and I/O operations account for approximately 79% of the media packet processing latency. In this paper, we introduce eXpressSFU, a re-architected video conferencing system designed to significantly enhance scalability for large-scale and high-quality video conferences. By decoupling the fast-control and data planes from the slowcontrol plane, eXpressSFU accelerates the media packet processing pipeline through the use of emerging network technologies, such as Smart Network Interface Cards (SmartNICs). Experimental results show that our system reduces packet processing latency by a factor of 8. This improvement allows it to support 3× more concurrent users while cutting computational power consumption by up to 60%.",
+  "authors": [
+    "Tuan Tran",
+    "S. M. H. Hosseini",
+    "Seyeon Kim",
+    "Kyunghan Lee",
+    "Nam Bui",
+    "Dirk Grunwald",
+    "Sangtae Ha"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/tran"
+}

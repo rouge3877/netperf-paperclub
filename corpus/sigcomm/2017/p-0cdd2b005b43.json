@@ -1,0 +1,14 @@
+{
+  "id": "p-0cdd2b005b43",
+  "title": "Vroom: Accelerating the Mobile Web with Server-Aided Dependency Resolution",
+  "abstract": "The existing slowness of the web on mobile devices frustrates users and hurts the revenue of website providers. Prior studies have attributed high page load times to dependencies within the page load process: network latency in fetching a resource delays its processing, which in turn delays when dependent resources can be discovered and fetched. To securely address the impact that these dependencies have on page load times, we present V ROOM , a rethink of how clients and servers interact to facilitate web page loads. Unlike existing solutions, which require clients to either trust proxy servers or discover all the resources on any page themselves, V ROOM ’s key characteristics are that clients fetch every resource directly from the domain that hosts it but web servers aid clients in discovering resources. Input from web servers decouples a client’s processing of resources from its fetching of resources, thereby enabling independent use of both the CPU and the network. As a result, V ROOM reduces the median page load time by more than 5 seconds across popular News and Sports sites. To enable these benefits, our contributions lie in making web servers capable of accurately aiding clients in resource discovery and judiciously scheduling a client’s receipt of resources.",
+  "authors": [
+    "Vaspol Ruamviboonsuk",
+    "Ravi Netravali",
+    "Muhammed Uluyol",
+    "Harsha V. Madhyastha"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2017,
+  "url": "https://dl.acm.org/doi/10.1145/3098822.3098851"
+}

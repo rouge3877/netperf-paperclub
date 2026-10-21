@@ -1,0 +1,13 @@
+{
+  "id": "p-1bba868d80c7",
+  "title": "Pilot Execution-Simulating Failure Recovery In Situ for Production Distributed Systems",
+  "abstract": "Modern distributed systems rely on failure recovery to ensure availability and correctness—ironically, recovery itself often introduces severe and irreversible failures. In this paper, we first study 75 real-world recovery failures to understand common pitfalls in the recovery mechanisms. We find that the challenges primarily arise from cross-component interactions, which are difficult to expose in traditional approaches. To address this gap, we introduce pilot execution, a new execution model that simulates dry-runs of recovery actions in production distributed systems to enable safe and predictable failure recovery. It enables systems and operators to observe recovery action effects before applying them, reducing the risk of cascading failures and unintended side effects. We realize pilot execution with Pilot , an analysis framework with a runtime library that makes pilot execution easy to adopt. We evaluate Pilot on five large-scale distributed systems and show that Pilot uncovers 17 out of 20 recovery failures with modest overhead. Our use of Pilot also exposes an unknown recovery bug in the latest version of HBase.",
+  "authors": [
+    "Zhenyu Li",
+    "Angting Cai",
+    "Chang Lou"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/li-zhenyu"
+}

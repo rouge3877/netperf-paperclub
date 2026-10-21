@@ -1,0 +1,17 @@
+{
+  "id": "p-13b6f1d14838",
+  "title": "Relational Network Verification",
+  "abstract": "Relational network verification is a new approach for validating network changes. In contrast to traditional network verification, which analyzes specifications for a single network snapshot, it analyzes specifications that capture similarities and differences between two network snapshots (e.g., pre- and post-change snapshots). Relational specifications are compact and precise because they focus on the flows and paths that change between snapshots and then simply mandate that all other network behaviors \"stay the same\", without enumerating them. To achieve similar guarantees, single-snapshot specifications would need to enumerate all flow and path behaviors that are not expected to change in order to enable checking that nothing has accidentally changed. Such specifications are proportional to network size, which makes them impractical to generate for many real-world networks. We demonstrate the value of relational reasoning by developing Rela, a high-level relational specification language and verification tool for network changes. Rela compiles input specifications and network snapshot representations to finite state automata, and it then verifies compliance by checking automaton equivalence. Our experiments using data from a global backbone with over 10³ routers find that Rela specifications need fewer than 10 terms for 93% of the complex, high-risk changes. Rela validates 80% of the changes within 20 minutes.",
+  "authors": [
+    "Xieyang Xu",
+    "Yifei Yuan",
+    "Zachary Kincaid",
+    "Arvind Krishnamurthy",
+    "Ratul Mahajan",
+    "David Walker",
+    "Ennan Zhai"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672238"
+}

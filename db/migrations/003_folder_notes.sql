@@ -1,0 +1,1 @@
+ALTER TABLE folder_items ADD COLUMN note TEXT NOT NULL DEFAULT '';

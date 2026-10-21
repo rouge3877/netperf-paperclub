@@ -1,0 +1,17 @@
+{
+  "id": "p-4562b23fc93b",
+  "title": "PrvTel-Lightweight Models for Private and Accurate Telemetry Data Retention",
+  "abstract": "Network operators rely on telemetry for performance and security analysis, but long-term retention at scale remains difficult due to privacy requirements, resource constraints, and the need for high-fidelity query answers. We present P RV - T EL , a framework for privacy-preserving telemetry retention. Instead of storing raw records, PrvTel learns a compact generative model using a domain-specialized variational autoencoder. It combines field-aware encodings for NetFlow and cloud telemetry with a correlation-aware objective to preserve cross-field dependencies. To enforce differential privacy (DP) without sacrificing utility, PrvTel injects structure-aware noise before training, rather than during gradient updates. We prove that PrvTel satisfies DP based on post-processing theorem. Across six real-world datasets and one synthetic workload, PrvTel improves query accuracy by up to 60% over prior DP-compliant generative baselines and reduces ownership cost by up to 50× compared to lossless retention.",
+  "authors": [
+    "Yajie Zhou",
+    "Fuheng Zhao",
+    "Eric Wang",
+    "Ayse K. Coskun",
+    "Divyakant Agrawal",
+    "Amr El Abbadi",
+    "Zaoxing Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/zhou-yajie"
+}

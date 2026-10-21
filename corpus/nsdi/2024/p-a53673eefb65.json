@@ -1,0 +1,16 @@
+{
+  "id": "p-a53673eefb65",
+  "title": "Harmonic-Hardware-assisted RDMA Performance Isolation for Public Clouds",
+  "abstract": "Performance isolation is essential for sharing resources in multi-tenant public clouds. Compared with traditional kernelbased networking, RDMA presents unique challenges especially because RDMA NIC’s complex microarchitecture resources are often hidden from users. Current RDMA isolation methods overlook these microarchitecture resources, leading to insufficient performance isolation. Consequently, a faulty/malicious tenant can exploit these microarchitecture resources to compromise well-behaved tenants’ network performance. In this paper, we introduce the first microarchitectureresource-aware RDMA performance isolation solution for public clouds, Harmonic. It consists of two key components designed to be conscious of the RDMA NIC’s microarchitectural resources: (1) a programmable intelligent PCIe switch (prototyped with FPGA) and (2) an RDMA-friendly rate limiter. At runtime, these two components allow us to accurately monitor and modulate the RDMA NIC resource usage per tenant. We evaluate Harmonic with a state-of-the-art RDMA performance isolation test suite (Husky) and a popular inmemory database application (Redis). We demonstrate that Harmonic can not only successfully pass Husky but also provide Redis with 1.4× higher throughput than the best alternative isolation solution.",
+  "authors": [
+    "Jiaqi Lou",
+    "Xinhao Kong",
+    "Jinghan Huang",
+    "Wei Bai",
+    "Nam Sung Kim",
+    "Danyang Zhuo"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/lou"
+}

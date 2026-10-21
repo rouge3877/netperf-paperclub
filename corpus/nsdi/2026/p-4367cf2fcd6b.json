@@ -1,0 +1,20 @@
+{
+  "id": "p-4367cf2fcd6b",
+  "title": "DistVS-Large-scale Vector Search with Compute-Memory Disaggregation",
+  "abstract": "Similarity-based vector search, also known as ANNS, underlies many important applications such as content search, recommender system, and retrieval-augmented generation (RAG). However, vector search has a high storage demand due to large datasets and incurs costly IOs for its fine-grained access to the vectors and index. We observe that a computememory disaggregation architecture can tackle these challenges and design the DistVS system with a three-tier storage layout. In particular, the compute servers keep the small but low-precision compressed vectors, a more capacious memory server stores larger high-precision compressed vectors along with the index, while the full-precision exact vectors are kept on SSDs. The idea is to progressively prune the vector accesses along the low-high-full precisions from the compute servers to the SSDs, aligning with the storage hierarchy of memory-network-disk with gradually larger capacity but higher IO cost. To effectively utilize the three vector previsions, we design an algorithm called PRESS to conduct vector search. To improve performance, DistVS incorporates system optimizations including asynchronous execution, RDMA IO batching, and decoupled re-ranking. We compare DistVS with state-of-the-art disk-based and distributed vector search systems and show that DistVS consistently outperforms them and usually improves their query throughput by over 40%.",
+  "authors": [
+    "Peiqi Yin",
+    "Xiao Yan",
+    "Shiyuan Deng",
+    "Hui Li",
+    "Yifan Zhu",
+    "Xiangyu Zhi",
+    "Jingqi Mao",
+    "Ran Xu",
+    "Wenliang Zhang",
+    "James Cheng"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/yin"
+}

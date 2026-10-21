@@ -1,0 +1,21 @@
+{
+  "id": "p-05bb793d4062",
+  "title": "NetPanel- Traffic Measurement of Exchange Online Service",
+  "abstract": "Global cloud applications are composed of thousands of components. These components are constantly generating large volumes of network traffic, which is a major cost of cloud applications. Identifying the traffic contributors is a critical step before reducing the traffic cost. However, this is challenging because the measurement has to be component-level, cost-effective, and under strict resource restrictions. In this paper, we introduce NetPanel, which is a traffic measurement platform for the Exchange Online (EXO) service of Microsoft. NetPanel fuses three data sources, namely IPFIX, Event Tracing for Windows (ETW), and application logs, to jointly measure the service traffic at the component level, where each component is owned by a service team. NetPanel uses several schemes to reduce the measurement overhead. NetPanel has been in operation for more than one year. It has been used to profile network traffic characteristics and traffic cost composition of EXO. With the insights obtained through NetPanel, we have saved millions of dollars in network resources. The overhead of running NetPanel is relatively small, which requires less than 1% CPU and disk I/O on production servers and less than 0.01% of EXO computation cores to process the data in our big-data platform.",
+  "authors": [
+    "Yu Chen",
+    "Liqun Li",
+    "Yu Kang",
+    "Boyang Zheng",
+    "Yehan Wang",
+    "More Zhou",
+    "Yuchao Dai",
+    "Zhenguo Yang",
+    "Brad Rutkowski",
+    "Jeff Mealiffe",
+    "Qingwei Lin"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/chen-yu"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p-2983a5f13876",
+  "title": "TopFull-An Adaptive Top-Down Overload Control for SLO-Oriented Microservices",
+  "abstract": "Microservice has become a de facto standard for building largescale cloud applications. Overload control is essential in preventing microservice failures and maintaining system performance under overloads. Although several approaches have been proposed, they are limited to mitigating the overload of individual microservices, lacking assessments of interdependent microservices and APIs. This paper presents TopFull, an adaptive overload control at entry for microservices that leverages global observations to maximize throughput that meets service level objectives (i.e., goodput). TopFull makes adaptive load control on a per-API basis, exercises parallel control on each independent subset of microservices, and applies RL-based rate controllers that adjust the admitted rates of the APIs at entry according to the severity of overload. Our experiments on various open-source benchmarks demonstrate that TopFull significantly increases goodput in overload scenarios, outperforming DAGOR by 1.82x and Breakwater by 2.26x. Furthermore, the Kubernetes autoscaler with TopFull serves up to 3.91x more requests under traffic surge and tolerates traffic spikes with up to 57% fewer resources than the standalone Kubernetes autoscaler.",
+  "authors": [
+    "Jinwoo Park",
+    "Jaehyeong Park",
+    "Youngmok Jung",
+    "Hwijoon Lim",
+    "Hyunho Yeo",
+    "Dongsu Han"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3651890.3672253"
+}

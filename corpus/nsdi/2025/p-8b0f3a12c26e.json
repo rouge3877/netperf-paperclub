@@ -1,0 +1,14 @@
+{
+  "id": "p-8b0f3a12c26e",
+  "title": "Making Serverless Pay-For-Use a Reality with Leopard",
+  "abstract": "Serverless computing has gained traction due to its eventdriven architecture and “pay for use” (PFU) billing model. However, our analysis reveals that current billing practices do not align with true resource consumption. This paper challenges the prevailing SLIM (static, linear, interactive-only model) assumptions that underpin existing billing models, demonstrating that current billing does not realize PFU for realistic workloads. We introduce the Nearly Pay-for-Use (NPFU) billing model, which accommodates varying CPU and memory demands, spot cores, and preemptible memory. We also introduce Leopard, an NPFU-based serverless platform that integrates billing awareness into several major subsystems: CPU scheduler, OOM killer, admission controller, and cluster scheduler. Experimental results indicate that Leopard benefits both providers and users, increasing throughput by more than 2x and enabling cost reductions.",
+  "authors": [
+    "Tingjia Cao",
+    "Andrea C. Arpaci-Dusseau",
+    "Remzi H. Arpaci-Dusseau",
+    "Tyler Caraza-Harter"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/cao"
+}

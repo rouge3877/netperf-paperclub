@@ -1,0 +1,14 @@
+{
+  "id": "p-0cf8ec350e5d",
+  "title": "A Primer on IPv4 Scarcity",
+  "abstract": "With the ongoing exhaustion of free address pools at the registries serving the global demand for IPv4 address space, scarcity has become reality. Networks in need of address space can no longer get more address allocations from their respective registries. In this work we frame the fundamentals of the IPv4 address exhaustion phenomena and connected issues. We elaborate on how the current ecosystem of IPv4 address space has evolved since the standardization of IPv4, leading to the rather complex and opaque scenario we face today. We outline the evolution in address space management as well as address space use patterns, identifying key factors of the scarcity issues. We characterize the possible solution space to overcome these issues and open the perspective of address blocks as virtual resources, which involves issues such as differentiation between address blocks, the need for resource certification, and issues arising when transferring address space between networks.",
+  "authors": [
+    "Philipp Richter",
+    "Mark Allman",
+    "Randy Bush",
+    "Vern Paxson"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2015,
+  "url": "https://dl.acm.org/doi/10.1145/2766330.2766335"
+}

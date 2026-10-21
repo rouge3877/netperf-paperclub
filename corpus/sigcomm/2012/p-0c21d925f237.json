@@ -1,0 +1,13 @@
+{
+  "id": "p-0c21d925f237",
+  "title": "Deadline-Aware Datacenter TCP (D 2 TCP)",
+  "abstract": "An important class of datacenter applications, called Online Data- Intensive (OLDI) applications, includes Web search, online retail, and advertisement. To achieve good user experience, OLDI applications operate under soft-real-time constraints (e.g., 300 ms latency) which imply deadlines for network communication within the applications. Further, OLDI applications typically employ tree-based algorithms which, in the common case, result in bursts of children-to-parent traffic with tight deadlines. Recent work on datacenter network protocols is either deadline-agnostic (DCTCP) or is deadline-aware (D 3 ) but suffers under bursts due to race conditions. Further, D 3 has the practical drawbacks of requiring changes to the switch hardware and not being able to coexist with legacy TCP. We propose Deadline-Aware Datacenter TCP (D 2 TCP), a novel transport protocol, which handles bursts, is deadline-aware, and is readily deployable. In designing D 2 TCP, we make two contributions: (1) D 2 TCP uses a distributed and reactive approach for bandwidth allocation which fundamentally enables D 2 TCP’s properties. (2) D 2 TCP employs a novel congestion avoidance algorithm, which uses ECN feedback and deadlines to modulate the congestion window via a gamma-correction function. Using a small-scale implementation and at-scale simulations, we show that D 2 TCP reduces the fraction of missed deadlines compared to DCTCP and D 3 by 75% and 50%, respectively.",
+  "authors": [
+    "Balajee Vamanan",
+    "Jahangir Hasan",
+    "T.N. Vijaykumar"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2012,
+  "url": "https://dl.acm.org/doi/10.1145/2377677.2377709"
+}

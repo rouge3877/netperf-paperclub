@@ -1,0 +1,17 @@
+{
+  "id": "p-0311c4dd8b8d",
+  "title": "Inside the Walled Garden: Deconstructing Facebook's Free Basics Program",
+  "abstract": "Free Basics is a Facebook initiative to provide zero-rated web services in developing countries. The program has grown rapidly to 60+ countries in the past two years [15]. But it has also seen strong opposition from Internet activists and has been banned in some countries like India [4, 12, 13, 23]. Facebook highlights the societal benefits of providing lowincome populations with free Internet access, while detractors point to concerns about privacy and network neutrality. In this paper, we provide the first independent analysis of such claims regarding the Free Basics service, using both the perspective of a Free Basics service provider and of web clients visiting the service via cellular phones providing access to Free Basics in Pakistan and South Africa. Specifically, with control of both endpoints, we not only provide a more detailed view of how the Free Basics service is architected [14], but also can isolate the likely causes of network performance impairments. Our analysis reveals that Free Basics services experience 4 to 12 times worse network performance than their paid counterparts. We isolate the root causes using factors such as network path inflation and throttling policies by Facebook and telecom service providers. The Free Basics service and its restrictions are designed with assumptions about users’ device capabilities (e.g., lack of JavaScript support). To evaluate such assumptions, we infer the types of mobile devices that generated 47K unique visitors to our Free Basics services between Sep 2016 and Jan 2017. We find that there are large numbers of requests from constrained WAP browsers, but also large fractions of high-capability mobile phones that send Free Basics requests. We discuss the implications of our observations, with the hope to aid more informed debates on such telecom policies.",
+  "authors": [
+    "Rijurekha Sen",
+    "Sohaib Ahmad",
+    "Amreesh Phokeer",
+    "Zaid Ahmed Farooq",
+    "Ihsan Ayyub Qazi",
+    "David Choffnes",
+    "Krishna P. Gummadi"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2018,
+  "url": "https://dl.acm.org/doi/10.1145/3155055.3155058"
+}

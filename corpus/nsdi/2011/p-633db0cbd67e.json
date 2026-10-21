@@ -1,0 +1,19 @@
+{
+  "id": "p-633db0cbd67e",
+  "title": "FATE and DESTINI : A Framework for Cloud Recovery Testing",
+  "abstract": "As the cloud era begins and failures become commonplace, failure recovery becomes a critical factor in the availability, reliability and performance of cloud services. Unfortunately, recovery problems still take place, causing downtimes, data loss, and many other problems. We propose a new testing framework for cloud recovery: F ATE (Failure Testing Service) and D ESTINI (Declarative Testing Specifications). With F ATE , recovery is systematically tested in the face of multiple failures. With D ESTINI , correct recovery is specified clearly, concisely, and precisely. We have integrated our framework to several cloud systems (e.g., HDFS [33]), explored over 40,000 failure scenarios, wrote 74 specifications, found 16 new bugs, and reproduced 51 old bugs.",
+  "authors": [
+    "Haryadi S. Gunawi",
+    "Thanh Do",
+    "Pallavi Joshi",
+    "Peter Alvaro",
+    "Joseph M. Hellerstein",
+    "Andrea C. Arpaci-Dusseau",
+    "Remzi H. Arpaci-Dusseau",
+    "Koushik Sen",
+    "Dhruba Borthakur"
+  ],
+  "conference": "NSDI",
+  "year": 2011,
+  "url": "https://www.usenix.org/legacy/event/nsdi11/tech/full_papers/Gunawi.pdf"
+}

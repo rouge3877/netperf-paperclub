@@ -1,0 +1,16 @@
+{
+  "id": "p-ad5cf008ed1a",
+  "title": "Rhea: Automatic Filtering for Unstructured Cloud Storage",
+  "abstract": "Unstructured storage and data processing using platforms such as MapReduce are increasingly popular for their simplicity, scalability, and flexibility. Using elastic cloud storage and computation makes them even more attractive. However cloud providers such as Amazon and Windows Azure separate their storage and compute resources even within the same data center. Transferring data from storage to compute thus uses core data center network bandwidth, which is scarce and oversubscribed. As the data is unstructured, the infrastructure cannot automatically apply selection, projection, or other filtering predicates at the storage layer. The problem is even worse if customers want to use compute resources on one provider but use data stored with other provider(s). The bottleneck is now the WAN link which impacts performance but also incurs egress bandwidth charges. This paper presents Rhea, a system to automatically generate and run storage-side data filters for unstructured and semi-structured data. It uses static analysis of application code to generate filters that are safe, stateless, side effect free, best effort, and transparent to both storage and compute layers. Filters never remove data that is used by the computation. Our evaluation shows that Rhea filters achieve a reduction in data transfer of 2x– 20,000x, which reduces job run times by up to 5x and dollar costs for cross-cloud computations by up to 13x.",
+  "authors": [
+    "Christos Gkantsidis",
+    "Dimitrios Vytiniotis",
+    "Orion Hodson",
+    "Dushyanth Narayanan",
+    "Florin Dinu",
+    "Antony Rowstron"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/gkantsidis"
+}

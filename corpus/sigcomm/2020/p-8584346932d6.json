@@ -1,0 +1,16 @@
+{
+  "id": "p-8584346932d6",
+  "title": "Securing Linux with a Faster and Scalable Iptables",
+  "abstract": "The sheer increase in network speed and the massive deployment of containerized applications in a Linux server has led to the consciousness that iptables, the current de-facto firewall in Linux, may not be able to cope with the current requirements particularly in terms of scalability in the number of rules. This paper presents an eBPF-based firewall, bpf-iptables, which emulates the iptables filtering semantic while guaranteeing higher throughput. We compare our implementation against the current version of iptables and other Linux firewalls, showing how it achieves a notable boost in terms of performance particularly when a high number of rules is involved. This result is achieved without requiring custom kernels or additional software frameworks (e.g., DPDK) that could not be allowed in some scenarios such as public data-centers.",
+  "authors": [
+    "Sebastiano Miano",
+    "Matteo Bertrone",
+    "Fulvio Risso",
+    "Mauricio Vásquez Bernal",
+    "Yunsong Lu",
+    "Jianwen Pi"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2020,
+  "url": "https://dl.acm.org/doi/10.1145/3371927.3371929"
+}

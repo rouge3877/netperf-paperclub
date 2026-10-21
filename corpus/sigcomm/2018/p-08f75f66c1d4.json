@@ -1,0 +1,13 @@
+{
+  "id": "p-08f75f66c1d4",
+  "title": "Trident: Towards a Unified SDN Programming Framework with Automatic Updates",
+  "abstract": "Software-defined networking (SDN) and network functions (NF) are two essential technologies that need to work together to achieve the goal of highly programmable networking. Unified SDN programming, which integrates states of network functions into SDN control plane programming, brings these two technologies together. In this paper, we conduct the first systematic study of unified SDN programming. We first show that integrating asynchronous, continuously changing states of network functions into SDN can introduce basic complexities. We then present Trident, a novel, unified SDN programming framework that introduces programming primitives including stream attributes, route algebra and live variables to remove these complexities. We demonstrate the expressiveness of Trident using realistic use cases and conduct an extensive evaluation of its efficiency.",
+  "authors": [
+    "Kai Gao",
+    "Taishi Nojima",
+    "Y. Richard Yang"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2018,
+  "url": "https://dl.acm.org/doi/10.1145/3230543.3230562"
+}

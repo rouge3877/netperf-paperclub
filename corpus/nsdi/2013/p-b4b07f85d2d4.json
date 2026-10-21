@@ -1,0 +1,15 @@
+{
+  "id": "p-b4b07f85d2d4",
+  "title": "Composing Software Defined Networks",
+  "abstract": "Managing a network requires support for multiple concurrent tasks, from routing and traffic monitoring, to access control and server load balancing. Software-Defined Networking (SDN) allows applications to realize these tasks directly, by installing packet-processing rules on switches. However, today’s SDN platforms provide limited support for creating modular applications. This paper introduces new abstractions for building applications out of multiple, independent modules that jointly manage network traffic. First, we define composition operators and a library of policies for forwarding and querying traffic. Our parallel composition operator allows multiple policies to operate on the same set of packets, while a novel sequential composition operator allows one policy to process packets after another. Second, we enable each policy to operate on an abstract topology that implicitly constrains what the module can see and do. Finally, we define a new abstract packet model that allows programmers to extend packets with virtual fields that may be used to associate packets with high-level meta-data. We realize these abstractions in Pyretic, an imperative, domain-specific language embedded in Python.",
+  "authors": [
+    "Christopher Monsanto",
+    "Joshua Reich",
+    "Nate Foster",
+    "Jennifer Rexford",
+    "David Walker"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/monsanto"
+}

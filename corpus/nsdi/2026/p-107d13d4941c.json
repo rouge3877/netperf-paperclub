@@ -1,0 +1,12 @@
+{
+  "id": "p-107d13d4941c",
+  "title": "The GOODPUT System-A Machine Learning-Driven Optimization Framework for Dynamic Spectrum Control in Heterogeneous WLANs",
+  "abstract": "Rapid proliferation of wireless devices is leading to spectrum scarcity, particularly in the unlicensed 2.4 GHz and 5 GHz bands. This paper describes a method to optimize goodput (useful communication throughput) in spectrum-constrained scenarios via access point (AP) channel assignments, channel bonding decisions, and wireless device (station) to AP mappings. Goodput demand prediction and real-time spectrum sensing are used to formulate goodput-maximizing mixedinteger linear programming (MILP) problem instances, which are optimally and efficiently solved to produce network configuration decisions. Our approach is compatible with existing IEEE 802.11 protocols (with primary emphasis on IEEE 802.11ax), commercial access points, modern wireless stations, and legacy infrastructures. A prototype of the system was evaluated and compared with the best existing solutions; it increases goodput by 17.1% relative to multi-AP loadbalancing, by 19.3% compared to a machine-learning-based AP selection, and by 47.9% relative to the static RSSI-based methods widely used in existing systems.",
+  "authors": [
+    "Yu Wang",
+    "Robert Dick"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-yu"
+}

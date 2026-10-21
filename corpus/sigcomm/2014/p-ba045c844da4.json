@@ -1,0 +1,17 @@
+{
+  "id": "p-ba045c844da4",
+  "title": "OpenNF: Enabling Innovation in Network Function Control",
+  "abstract": "Network functions virtualization (NFV) together with softwaredefined networking (SDN) has the potential to help operators satisfy tight service level agreements, accurately monitor and manipulate network traffic, and minimize operating expenses. However, in scenarios that require packet processing to be redistributed across a collection of network function (NF) instances, simultaneously achieving all three goals requires a framework that provides efficient, coordinated control of both internal NF state and network forwarding state. To this end, we design a control plane called OpenNF. We use carefully designed APIs and a clever combination of events and forwarding updates to address race conditions, bound overhead, and accommodate a variety of NFs. Our evaluation shows that OpenNF offers efficient state control without compromising flexibility, and requires modest additions to NFs.",
+  "authors": [
+    "Aaron Gember-Jacobson",
+    "Raajay Viswanathan",
+    "Chaithan Prakash",
+    "Robert Grandl",
+    "Junaid Khalid",
+    "Sourav Das",
+    "Aditya Akella"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2014,
+  "url": "https://dl.acm.org/doi/10.1145/2619239.2626313"
+}

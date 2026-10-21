@@ -1,0 +1,15 @@
+{
+  "id": "p-c5070c19ba12",
+  "title": "Harvesting Spare CPU Resources in Container Systems",
+  "abstract": "Platforms like Kubernetes are widely adopted for deploying latency-sensitive cloud services in containers, and CPU resources for these containers are over-provisioned to ensure low 99th percentile tail latency under peak load. At the same time, cloud services exhibit bursty traffic patterns resulting in CPU usage variability that creates opportunity to harvest ephemerally unused CPU cores to run latency-tolerant containers. However, existing resource controls do not allow latency-sensitive containers to share unused cores without compromising their low tail latency objectives. Prior research on performance isolation is inadequate for container systems because it requires modifying applications and system software, employs offline profiling, and does not account for interference from processing container networking interrupts. We present HarvestContainers, a system that protects latencysensitive containers from all sources of interference while harvesting their spare CPU cores to run latency-tolerant containers. Our solution dynamically determines the safe number of CPU cores to harvest and does not require rewriting applications or OS. We implement HarvestContainers integrated with Kubernetes and evaluate it experimentally. Our evaluation shows that latency-sensitive containers with microsecondscale service level objectives can share up to 75% of their unused CPU cores while maintaining tail latency within 4% of standalone operation.",
+  "authors": [
+    "Adam Hall",
+    "Anirudh Sarma",
+    "Esha Choukse",
+    "Umakishore Ramachandran",
+    "Sameh Elnikety"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/hall"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p-3973bb9ed7a9",
+  "title": "Traffic Engineering with Forward Fault Correction",
+  "abstract": "Network faults such as link failures and high switch configuration delays can cause heavy congestion and packet loss. Because it takes time for the traffic engineering systems to detect and react to such faults, these conditions can last long—even tens of seconds. We propose forward fault correction (FFC), a proactive approach for handling faults. FFC spreads network traffic such that freedom from congestion is guaranteed under arbitrary combinations of up to k faults. We show how FFC can be practically realized by compactly encoding the constraints that arise from this large number of possible faults and solving them efficiently using sorting networks. Experiments with data from real networks show that, with negligible loss in overall network throughput, FFC can reduce data loss by a factor of 7–130 in well-provisioned networks, and reduce the loss of high-priority traffic to almost zero in wellutilized networks.",
+  "authors": [
+    "Hongqiang Harry Liu",
+    "Srikanth Kandula",
+    "Ratul Mahajan",
+    "Ming Zhang",
+    "David Gelernter"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2014,
+  "url": "https://dl.acm.org/doi/10.1145/2619239.2626314"
+}

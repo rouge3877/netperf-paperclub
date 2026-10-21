@@ -1,0 +1,13 @@
+{
+  "id": "p-4aded3c2a147",
+  "title": "This Is a Local Domain- On Amassing Country-Code Top-Level Domains from Public Data",
+  "abstract": "Domain lists are a key ingredient for representative censuses of the Web. Unfortunately, such censuses typically lack a view on domains under country-code top-level domains (ccTLDs). This introduces unwanted bias: many countries have a rich local Web that remains hidden if their ccTLDs are not considered. The reason ccTLDs are rarely considered is that gaining access – if possible at all – is often laborious. To tackle this, we ask: what can we learn about ccTLDs from public sources? We extract domain names under ccTLDs from 6 years of public data from Certificate Transparency logs and Common Crawl. We compare this against ground truth for 19 ccTLDs for which we have the full DNS zone. We find that public data covers 43%-80% of these ccTLDs, and that coverage grows over time. By also comparing port scan data we then show that these public sources reveal a significant part of the Web presence under a ccTLD. We conclude that in the absence of full access to ccTLDs, domain names learned from public sources can be a good proxy when performing Web censuses.",
+  "authors": [
+    "Raffaele Sommese",
+    "Roland van Rijswijk-Deij",
+    "Mattijs Jonker"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3687234.3687236"
+}

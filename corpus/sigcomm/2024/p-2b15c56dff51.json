@@ -1,0 +1,18 @@
+{
+  "id": "p-2b15c56dff51",
+  "title": "Planter- Rapid Prototyping of In-Network Machine Learning Inference",
+  "abstract": "In-network machine learning inference provides high throughput and low latency. It is ideally located within the network, power efficient, and improves applications’ performance. Despite its advantages, the bar to in-network machine learning research is high, requiring significant expertise in programmable data planes, in addition to knowledge of machine learning and the application area. Existing solutions are mostly one-time efforts, hard to reproduce, change, or port across platforms. In this paper, we present Planter: a modular and efficient open-source framework for rapid prototyping of in-network machine learning models across a range of platforms and pipeline architectures. By identifying general mapping methodologies for machine learning algorithms, Planter introduces new machine learning mappings and improves existing ones. It provides users with several example use cases and supports different datasets, and was already extended by users to new fields and applications. Our evaluation shows that Planter improves machine learning performance compared with previous model-tailored works, while significantly reducing resource consumption and co-existing with network functionality. Planter-supported algorithms run at line rate on unmodified commodity hardware, providing billions of inference decisions per second.",
+  "authors": [
+    "Changgang Zheng",
+    "Mingyuan Zang",
+    "Xinpeng Hong",
+    "Liam Perreault",
+    "Riyad Bensoussane",
+    "Shay Vargaftik",
+    "Yaniv Ben-Itzhak",
+    "Noa Zilberman"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2024,
+  "url": "https://dl.acm.org/doi/10.1145/3687230.3687232"
+}

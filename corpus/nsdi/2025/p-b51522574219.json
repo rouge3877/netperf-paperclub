@@ -1,0 +1,15 @@
+{
+  "id": "p-b51522574219",
+  "title": "ClubHeap-A High-Speed and Scalable Priority Queue for Programmable Packet Scheduling",
+  "abstract": "While PIFO is a powerful priority queue abstraction to support programmable packet scheduling in network devices, the efficient implementation of PIFO faces multiple challenges in performance and scalability. The existing solutions all fall short of certain requirements. In this paper, we propose ClubHeap to address the problem. On the one hand, we develop a novel hardware-friendly heap data structure to support faster PIFO queue operations that can schedule a flow in every clock cycle, reaching the theoretical lower bound; on the other hand, the optimized hardware architecture reduces the circuit complexity and thus enables a higher clock frequency. The end result is the best scheduling performance in its class. Combined with its inherently better scalability and flexibility, ClubHeap is an ideal solution to be built in programmable switches and SmartNICs to support various scheduling algorithms. We build an FPGA-based hardware prototype and conduct a thorough evaluation by comparing ClubHeap with the other state-of-the-art solutions. ClubHeap also allows graceful trade-offs between throughput and resource consumption through parameter adjustments, making it adaptable on different target devices.",
+  "authors": [
+    "Zhikang Chen",
+    "Haoyu Song",
+    "Zhiyu Zhang",
+    "Yang Xu",
+    "Bin Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/chen-zhikang"
+}

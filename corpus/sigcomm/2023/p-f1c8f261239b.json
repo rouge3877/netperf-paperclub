@@ -1,0 +1,19 @@
+{
+  "id": "p-f1c8f261239b",
+  "title": "P4LRU- Towards An LRU Cache Entirely in Programmable Data Plane",
+  "abstract": "The data plane cache, a critical functionality found in numerous network devices, such as programmable switches, intelligent NICs, and DPUs, is often subject to limitations in its programmability and memory access capacity. As a result, the majority of existing data plane caches rely on simple and inefficient replacement policies. This paper is set to introduce LRU, a near-optimal replacement policy, into the programmable data plane. We first explore the reasons why the traditional implementation of LRU is not suitable for deployment on the data plane. Consequently, we propose P 4 LRU, a pipeline-optimized version of the LRU implementation. Building on P 4 LRU, we conceive three distinct in-network systems – LruTable, LruIndex, and LruMon, and successfully bring them to life on Tofino switches. Our thorough experimental trials establish that P 4 LRU provides a significant performance boost over existing data plane caches in these three systems. We have open-sourced the source codes for the three systems on GitHub [1].",
+  "authors": [
+    "Yikai Zhao",
+    "Wenrui Liu",
+    "Fenghao Dong",
+    "Tong Yang",
+    "Yuanpeng Li",
+    "Kaicheng Yang",
+    "Zirui Liu",
+    "Zhengyi Jia",
+    "Yongqiang Yang"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2023,
+  "url": "https://dl.acm.org/doi/10.1145/3603269.3604813"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "p-d99dd7ecf67a",
+  "title": "ServeGen-Workload Characterization and Generation of Large Language Model Serving in Production",
+  "abstract": "With the widespread adoption of Large Language Models (LLMs), serving LLM inference requests has become an increasingly important task, attracting active research advancements. Practical workloads play an essential role in this process: they are critical for motivating and benchmarking serving techniques and systems. However, the existing understanding of real-world LLM serving workloads is limited due to the lack of a comprehensive workload characterization. Prior analyses remain insufficient in scale and scope, thus failing to fully capture intricate workload characteristics. In this paper, we fill the gap with an in-depth characterization of LLM serving workloads collected from our worldwide cloud LLM serving service, covering not only language models but also emerging multimodal and reasoning models, unveiling important new findings in each case. Moreover, based on our findings, we propose ServeGen, a principled framework for generating realistic LLM serving workloads by composing them on a per-client basis. Practical use cases validate that ServeGen achieves more accurate performance benchmarking compared to naive workload generation, and reveals new design implications that could otherwise be overlooked. ServeGen is open-sourced at https://github.com/alibaba/ServeGen .",
+  "authors": [
+    "Yuxing Xiang",
+    "Xue Li",
+    "Kun Qian",
+    "Yan Zhang",
+    "Wenyuan Yu",
+    "Ennan Zhai",
+    "Xin Jin",
+    "Jingren Zhou"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/xiang-servegen"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "p-4fb615798d9b",
+  "title": "LIFEGUARD: Practical Repair of Persistent Route Failures",
+  "abstract": "The Internet was designed to always find a route if there is a policycompliant path. However, in many cases, connectivity is disrupted despite the existence of an underlying valid path. The research community has focused on short-term outages that occur during route convergence. There has been less progress on addressing avoidable long-lasting outages. Our measurements show that longlasting events contribute significantly to overall unavailability. To address these problems, we develop L IFEGUARD , a system for automatic failure localization and remediation. L IFEGUARD uses active measurements and a historical path atlas to locate faults, even in the presence of asymmetric paths and failures. Given the ability to locate faults, we argue that the Internet protocols should allow edge ISPs to steer traffic to them around failures, without requiring the involvement of the network causing the failure. Although the Internet does not explicitly support this functionality today, we show how to approximate it using carefully crafted BGP messages. L IFEGUARD employs a set of techniques to reroute around failures with low impact on working routes. Deploying L IFEGUARD on the Internet, we find that it can effectively route traffic around an AS without causing widespread disruption.",
+  "authors": [
+    "Ethan Katz-Bassett",
+    "Colin Scott",
+    "David R. Choffnes",
+    "Ítalo Cunha",
+    "Vytautas Valancius",
+    "Nick Feamster",
+    "Harsha V. Madhyastha",
+    "Thomas Anderson",
+    "Arvind Krishnamurthy"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2012,
+  "url": "https://dl.acm.org/doi/10.1145/2377677.2377756"
+}

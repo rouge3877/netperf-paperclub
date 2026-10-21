@@ -1,0 +1,27 @@
+{
+  "id": "p-57ae3e117211",
+  "title": "BURST-Seeking High-performance, Interoperability and Scalability in Soft-RDMA",
+  "abstract": "Modern data centers deploy heterogeneous server pods, including a mix of commercial RDMA NICs (RNICs), legacy Ethernet NICs, and custom in-house hardware. This diversity creates significant interoperability challenges, particularly for Non-RNIC-to-RNIC (NR2R) communication, a scenario driven by emerging disaggregated workloads like LLM inference, large-scale infrastructure upgrades, and the integration of novel network protocols. Due to strict hardware dependencies, RNICs discard packets from non-compliant packets, forcing a costly fallback to TCP/IP and limiting RDMA network scaling. Existing software RDMA solutions, RXE (SoftRoCE implementation in Linux kernel), suffer from prohibitive CPU overhead, making them unsuitable for high-speed networks. To address this, we present BURST, a high-performance, user-space software RDMA stack designed for high-speed networks. BURST operates as an independent process that maintains full compatibility with the standard RDMA Verbs API, allowing unmodified applications to run on Ethernet NICs. It integrates a lock-free DPDK data plane for line-rate packet processing, leverages Intel’s DSA for reducing CPU, and features a kernel-bypass connection manager to accelerate setup. Experimental results show that BURST achieves 98.7% line-rate bandwidth on 400G NICs, delivering a 3.2- 6.3x throughput improvement over kernel RXE. In production workloads, BURST accelerates LLM inference latency to 25.2% of TCP’s and increases connection setup speeds by 12x compared to native RDMA CM, demonstrating its benefits for unifying communication in heterogeneous environments.",
+  "authors": [
+    "Huijun Shen",
+    "Zelong Yue",
+    "Jian Yang",
+    "Zhuo Jiang",
+    "Lang An",
+    "Yulin Chen",
+    "Yong Zhang",
+    "Luochangqi Ding",
+    "Xiaolong Zhong",
+    "Zhihong Wang",
+    "Jie Ding",
+    "Hongyu Wu",
+    "Jianxi Ye",
+    "Xijin Yin",
+    "Xingyu Zhang",
+    "Xingyu Guo",
+    "Guo Chen"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/shen"
+}

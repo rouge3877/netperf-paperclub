@@ -1,0 +1,17 @@
+{
+  "id": "p-f3f16f2e191d",
+  "title": "Heuristic Analysis from Source Code via Symbolic-Guided Optimization",
+  "abstract": "Large-scale systems rely on heuristics to tackle NP-hard problems such as traffic engineering, virtual machine placement, and packet scheduling. While these heuristics are efficient, they can exhibit severe performance gaps under certain workloads, which leads to outages or costly over-provisioning. This risk has motivated tools that attempt to find inputs that cause worst-case underperformance. But, to use these tools in practice, heuristic developers need to rewrite heuristics as formal mathematical models—a process that is time-consuming, error-prone, and excludes many real-world algorithms. We introduce MetaEase, a practical general-domain analyzer that directly analyzes a heuristic’s source code and eliminates the need for formal modeling. MetaEase combines code-aware input generation with guided search to uncover worst-case scenarios efficiently, even for heuristics with randomness (e.g., various traffic engineering schemes) or non-convex behavior (e.g., bin packing for virtual machine placement). In most cases, across five problem domains, and eight heuristics, MetaEase matched or exceeded MetaOpt, a state-of-the-art optimization-based heuristic analyzer; in the remainder, it remained competitive and often ran faster. Against black-box optimization baselines, it won in 88% of settings and ranked in the top two otherwise. MetaEase analyzed Arrow [89], a recent networking heuristic that none of the state-of-the-art heuristic analyzers can analyze. We revealed previously unknown performance gaps in Arrow.",
+  "authors": [
+    "Pantea Karimi",
+    "Siva Kesava Reddy Kakarla",
+    "Ryan Beckett",
+    "Santiago Segarra",
+    "Pooria Namyar",
+    "Mohammad Alizadeh",
+    "Behnaz Arzani"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/karimi"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "p-c39aa685828c",
+  "title": "Wire Speed Name Lookup: A GPU-based Approach",
+  "abstract": "This paper studies the name lookup issue with longest prefix matching, which is widely used in URL filtering, content routing/switching, etc. Recently Content-Centric Networking (CCN) has been proposed as a clean slate future Internet architecture to naturally fit the contentcentric property of today’s Internet usage: instead of addressing end hosts, the Internet should operate based on the identity/name of contents. A core challenge and enabling technique in implementing CCN is exactly to perform name lookup for packet forwarding at wire speed. In CCN, routing tables can be orders of magnitude larger than current IP routing tables, and content names are much longer and more complex than IP addresses. In pursuit of conquering this challenge, we conduct an implementation-based case study on wire speed name lookup, exploiting GPU’s massive parallel processing power. Extensive experiments demonstrate that our GPU-based name lookup engine can achieve 63.52M searches per second lookup throughput on large-scale name tables containing millions of name entries with a strict constraint of no more than the telecommunication level 100 μ s per-packet lookup latency. Our solution can be applied to contexts beyond CCN, such as search engines, content filtering, and intrusion prevention/detection.",
+  "authors": [
+    "Yi Wang",
+    "Yuan Zu",
+    "Ting Zhang",
+    "Kunyang Peng",
+    "Qunfeng Dong",
+    "Bin Liu",
+    "Wei Meng",
+    "Huicheng Dai",
+    "Xin Tian",
+    "Zhonghu Xu",
+    "Hao Wu",
+    "Di Yang"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/wang_yi"
+}

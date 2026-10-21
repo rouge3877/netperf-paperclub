@@ -1,0 +1,14 @@
+{
+  "id": "p-97a7fcc47c50",
+  "title": "Towards Practical and Scalable Molecular Networks",
+  "abstract": "Molecular networks have the potential to enable bio-implants and biological nano-machines to communicate inside the human body. Molecular networks send and receive data between nodes by releasing molecules into the bloodstream. In this work, we explore how we can scale molecular networks from a single transmitter single receiver paradigm to multiple transmitters that can concurrently send data to a receiver. We identify unique challenges in enabling multiple access in molecular networks that prevent us from using standard multiple access protocols. These challenges include the lack of synchronization and feedback, the non-negativity of molecular signals, the extremely long tail of the molecular channel leading to high ISI (Inter-Symbol-Interference), and the limited types of molecules that can be used for communication. We present MoMA (Molecular Multiple Access), a protocol that enables a molecular network with multiple transmitters. We introduce packet detection, channel estimation, and encoding/decoding schemes that leverage the unique properties of molecular networks to address the above challenges. We evaluate MoMA on a synthetic experimental testbed and demonstrate that it can scale up to four transmitters while significantly outperforming the state-of-the-art.",
+  "authors": [
+    "Jiaming Wang",
+    "Sevda Öğüt",
+    "Haitham Al Hassanieh",
+    "Bhuvana Krishnaswamy"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2023,
+  "url": "https://dl.acm.org/doi/10.1145/3603269.3604881"
+}

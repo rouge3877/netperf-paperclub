@@ -1,0 +1,12 @@
+{
+  "id": "p-9c578394a340",
+  "title": "An Analysis of QUIC Connection Migration in the Wild",
+  "abstract": "As QUIC gains attention, more applications that leverage its capabilities are emerging. These include defenses against onpath IP tracking and traffic analysis. However, the deployment of the underlying required support for connection migration remains largely unexplored. This paper provides a comprehensive examination of the support of the QUIC connection migration mechanism over the Internet. We perform Internet-wide scans revealing that despite a rapid evolution in the deployment of QUIC on web servers, some of the most popular destinations do not support connection migration yet.",
+  "authors": [
+    "Aurélien Buchet",
+    "Cristel Pelsser"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3727063.3727066"
+}

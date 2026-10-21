@@ -1,0 +1,16 @@
+{
+  "id": "p-7c184757af65",
+  "title": "Harp-Improving VPC Network Availability via Efficient Failure Detection and Rerouting in Tencent Cloud",
+  "abstract": "We present Harp, a mechanism for efficient and robust failure detection and recovery for VPC networks. Unlike previous approaches, Harp does not rely on specific hardware features or transport protocols. Instead, Harp is a lightweight software implementation that identifies feasible physical paths between each pair of communicating hosts and monitors their health states. When network failures occur, Harp can swiftly switch influenced flows from a failed path to a healthy path within a short interval. Harp has been deployed in Tencent Cloud for more than two years and has proven its effectiveness in handling network failures. According to the results from production systems, Harp can significantly reduce the VPC network’s outage time by 78.71%-99.97% and essentially bypass failed paths on a sub-second timescale. We also share our experiences of how Harp efficiently detects and handles network failures when deployed in Tencent Cloud.",
+  "authors": [
+    "Jiayu Hu",
+    "Feng Jin",
+    "Xianping Zhou",
+    "Kai Zhang",
+    "Zhen Shen",
+    "Yongkang Luo"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/hu-jiayu"
+}

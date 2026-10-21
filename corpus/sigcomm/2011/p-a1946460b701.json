@@ -1,0 +1,14 @@
+{
+  "id": "p-a1946460b701",
+  "title": "Predicting and Tracking Internet Path Changes",
+  "abstract": "This paper investigates to what extent it is possible to use traceroute-style probing for accurately tracking Internet path changes. When the number of paths is large, the usual traceroute based approach misses many path changes because it probes all paths equally. Based on empirical observations, we argue that monitors can optimize probing according to the likelihood of path changes. We design a simple predictor of path changes using a nearestneighbor model. Although predicting path changes is not very accurate, we show that it can be used to improve probe targeting. Our path tracking method, called DTRACK , detects up to two times more path changes than traditional probing, with lower detection delay, as well as providing complete load-balancer information.",
+  "authors": [
+    "Italo Cunha",
+    "Renata Teixeira",
+    "Darryl Veitch",
+    "Christophe Diot"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2011,
+  "url": "https://dl.acm.org/doi/10.1145/2018436.2018451"
+}

@@ -1,0 +1,141 @@
+.auth-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+}
+.auth-intro {
+  background: var(--soft);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 55px 9vw 45px 7vw;
+  border-right: 1px solid var(--line);
+  min-height: 100vh;
+}
+.auth-intro .brand {
+  font-size: 36px;
+}
+.auth-intro h1 {
+  font-size: clamp(40px, 5vw, 70px);
+  margin: 22px 0 25px;
+  letter-spacing: -2px;
+  line-height: 1.08;
+}
+.auth-intro p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--muted);
+}
+.auth-foot {
+  font-size: 11px;
+  color: var(--muted);
+}
+.auth-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.auth-form {
+  width: 100%;
+  max-width: 370px;
+}
+.auth-form h2 {
+  font-size: 30px;
+  margin: 12px 0 14px;
+}
+.auth-form > p {
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+.auth-form form {
+  margin-top: 26px;
+}
+.auth-form .field {
+  margin-bottom: 20px;
+}
+.auth-toggle {
+  display: block;
+  margin: 18px auto;
+  font-size: 12px;
+}
+.oidc-box {
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.admin-page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.admin-toolbar,
+.admin-pagination {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.admin-toolbar .field {
+  width: min(100%, 400px);
+}
+.admin-users {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+.admin-users li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 140px 80px auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 0;
+}
+.admin-users li > div {
+  display: grid;
+  gap: 0.3rem;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 1000px) {
+  .auth-intro {
+    padding: 40px;
+  }
+  .auth-intro h1 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 700px) {
+  .auth-shell {
+    display: block;
+  }
+  .auth-intro {
+    min-height: 0;
+    padding: 25px 25px 30px;
+  }
+  .auth-intro .brand {
+    font-size: 30px;
+  }
+  .auth-intro > div {
+    margin-top: 30px;
+  }
+  .auth-intro h1 {
+    font-size: 40px;
+    margin: 12px 0;
+  }
+  .auth-intro p,
+  .auth-foot {
+    display: none;
+  }
+  .auth-panel {
+    padding: 30px 25px;
+  }
+  .auth-form {
+    max-width: 430px;
+  }
+  .admin-users li {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.75rem;
+  }
+  .admin-toolbar {
+    flex-wrap: wrap;
+  }
+}

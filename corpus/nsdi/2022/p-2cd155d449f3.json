@@ -1,0 +1,19 @@
+{
+  "id": "p-2cd155d449f3",
+  "title": "An edge-queued datagram service for all datacenter traffic",
+  "abstract": "Modern datacenters support a wide range of protocols and in-network switch enhancements aimed at improving performance. Unfortunately, the resulting protocols often do not coexist gracefully because they inevitably interact via queuing in the network. In this paper we describe EQDS, a new datagram service for datacenters that moves almost all of the queuing out of the core network and into the sending host. This enables it to support multiple (conflicting) higher layer protocols, while only sending packets into the network according to any receiver-driven credit scheme. EQDS can transparently speed up legacy TCP and RDMA stacks, and enables transport protocol evolution, while benefiting from future switch enhancements without needing to modify higher layer stacks. We show through simulation and multiple implementations that EQDS can reduce FCT of legacy TCP by 2x, improve the NVMeOF-RDMA throughput by 30%, and safely run TCP alongside RDMA on the same network.",
+  "authors": [
+    "Vladimir Olteanu",
+    "Haggai Eran",
+    "Dragos Dumitrescu",
+    "Adrian Popa",
+    "Cristi Baciu",
+    "Mark Silberstein",
+    "Georgios Nikolaidis",
+    "Mark Handley",
+    "Costin Raiciu"
+  ],
+  "conference": "NSDI",
+  "year": 2022,
+  "url": "https://www.usenix.org/conference/nsdi22/presentation/olteanu"
+}

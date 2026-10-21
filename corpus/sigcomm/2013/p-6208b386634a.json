@@ -1,0 +1,16 @@
+{
+  "id": "p-6208b386634a",
+  "title": "Ambient Backscatter: Wireless Communication Out of Thin Air",
+  "abstract": "We present the design of a communication system that enables two devices to communicate using ambient RF as the only source of power. Our approach leverages existing TV and cellular transmissions to eliminate the need for wires and batteries, thus enabling ubiquitous communication where devices can communicate among themselves at unprecedented scales and in locations that were previously inaccessible. To achieve this, we introduce ambient backscatter, a new communication primitive where devices communicate by backscattering ambient RF signals. Our design avoids the expensive process of generating radio waves; backscatter communication is orders of magnitude more power-efficient than traditional radio communication. Further, since it leverages the ambient RF signals that are already around us, it does not require a dedicated power infrastructure as in traditional backscatter communication. To show the feasibility of our design, we prototype ambient backscatter devices in hardware and achieve information rates of 1 kbps over distances of 2.5 feet and 1.5 feet, while operating outdoors and indoors respectively. We use our hardware prototype to implement proof-ofconcepts for two previously infeasible ubiquitous communication applications.",
+  "authors": [
+    "Vincent Liu",
+    "Aaron Parks",
+    "Vamsi Talla",
+    "Shyamnath Gollakota",
+    "David Wetherall",
+    "Joshua R. Smith"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2013,
+  "url": "https://dl.acm.org/doi/10.1145/2486001.2486015"
+}

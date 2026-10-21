@@ -1,0 +1,16 @@
+{
+  "id": "p-a9ef3f1eaca6",
+  "title": "Hamilton- A High-Performance Transaction Processor for Central Bank Digital Currencies",
+  "abstract": "Over 80% of central banks around the world are investigating central bank digital currency (CBDC), a digital form of central bank money that would be made available to the public for payments. We present Hamilton, a transaction processor for CBDC that provides high throughput, low latency, and fault tolerance, and that minimizes data stored in the transaction processor and provides flexibility for multiple types of programmability and a variety of roles for financial intermediaries. Hamilton does so by decoupling the steps of transaction validation so only the validating layer needs to see the details of a transaction, and by co-designing the transaction format with a simple version of a two-phase-commit protocol, which efficiently applies state updates in parallel. An evaluation shows Hamilton achieves 1.7M transactions per second in a geo-distributed setting.",
+  "authors": [
+    "James Lovejoy",
+    "Madars Virza",
+    "Cory Fields",
+    "Kevin Karwaski",
+    "Anders Brownworth",
+    "Neha Narula"
+  ],
+  "conference": "NSDI",
+  "year": 2023,
+  "url": "https://www.usenix.org/conference/nsdi23/presentation/lovejoy"
+}

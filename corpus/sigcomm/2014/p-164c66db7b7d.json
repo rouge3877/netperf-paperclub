@@ -1,0 +1,14 @@
+{
+  "id": "p-164c66db7b7d",
+  "title": "Calendaring for Wide Area Networks",
+  "abstract": "Datacenter WAN traffic consists of high priority transfers that have to be carried as soon as they arrive, alongside large transfers with preassigned deadlines on their completion. The ability to offer guarantees to large transfers is crucial for business needs and impacts overall cost-of-business. State-of-the-art traffic engineering solutions only consider the current time epoch or minimize maximum utilization and hence cannot provide pre-facto promises to long-lived transfers. We present Tempus, an online temporal planning scheme that appropriately packs long-running transfers across network paths and future timesteps, while leaving capacity slack for future changes. Tempus builds on a tailored approximate solution to a mixed packing-covering linear program, which is parallelizable and scales well in both running time and memory usage. Consequently, Tempus can quickly and effectively update the promised future flow allocation when new transfers arrive or unexpected changes happen. Our experiments on traces from a large production WAN show, Tempus can offer and keep promises to longlived transfers well in advance of their actual deadlines; the promise on minimal transfer size is comparable with an offline optimal solution and outperforms state-of-the-art solutions by 2-3X.",
+  "authors": [
+    "Srikanth Kandula",
+    "Ishai Menache",
+    "Roy Schwartz",
+    "Spandana Raj Babbula"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2014,
+  "url": "https://dl.acm.org/doi/10.1145/2619239.2626336"
+}

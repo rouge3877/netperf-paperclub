@@ -1,0 +1,14 @@
+{
+  "id": "p-3f3760789596",
+  "title": "KeepON-Supporting Deterministic Traffic on Standard NICs",
+  "abstract": "Networked mission-critical applications (e.g., avionics control and industrial automation) demand deterministic packet transmissions to meet stringent sensing and control timing requirements. While specialized infrastructures such as Time- Triggered Ethernet and Time-Sensitive Networking (TSN) ensure deterministic data delivery across switches, end devices still require specialized NICs (e.g., TSN NICs or NVIDIA Mellanox) to eliminate endpoint indeterminism. However, deploying such NICs at every endpoint is costly and hinders compatibility with legacy systems. To address this challenge, we propose KeepON, a novel software-based driver model that enables deterministic packet transmission on commodity NICs. The core idea is to continuously transmit fixed-size placeholder packets, establishing a predictable transmission pattern. Mission-critical packets are then precisely inserted into this stream by replacing placeholders at their scheduled transmission slots, ensuring timing accuracy. The placeholder packets are efficiently dropped at the first-hop switch, avoiding negative impacts on network performance. We prototype KeepON by modifying the standard NIC driver of a Raspberry Pi 1 , and integrate it into a real-world TSN testbed. Experimental results show that KeepON achieves up to 130× improvement in scheduling accuracy compared to the default driver, and 2.1× improvement over a hardware-based solution.",
+  "authors": [
+    "Chuanyu Xue",
+    "Tianyu Zhang",
+    "Andrew Loveless",
+    "Song Han"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/xue-chuanyu"
+}

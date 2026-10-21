@@ -1,0 +1,18 @@
+{
+  "id": "p-3088af8e20b8",
+  "title": "VEP-A Two-stage Verification Toolchain for Full eBPF Programmability",
+  "abstract": "Extended Berkeley Package Filter (eBPF) is a revolutionary technology that can safely and efficiently extend kernel capabilities. It has been widely used in networking, tracing, security, and more. However, existing eBPF verifiers impose strict constraints, often requiring repeated modifications to eBPF programs to pass verification. To enhance programmability, we introduce VEP, an annotation-guided eBPF program verification toolchain. VEP consists of three components: VEP-C, a verifier for annotated eBPF-C programs; VEP-compiler, a compiler targeting annotated eBPF bytecode; and VEP-eBPF, a lightweight bytecode-level proof checker. VEP allows users to verify the correctness of their programs with appropriate annotations, thus enabling full programmability. Our experimental results demonstrate that VEP addresses the limitations of existing verifiers, i.e. the Linux verifier and PREVAIL, and provides a more flexible and automated approach to kernel security.",
+  "authors": [
+    "Xiwei Wu",
+    "Yueyang Feng",
+    "Tianyi Huang",
+    "Xiaoyang Lu",
+    "Shengkai Lin",
+    "Lihan Xie",
+    "Shizhen Zhao",
+    "Qinxiang Cao"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/wu-xiwei"
+}

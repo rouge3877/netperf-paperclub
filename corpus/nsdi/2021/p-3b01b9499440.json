@@ -1,0 +1,12 @@
+{
+  "id": "p-3b01b9499440",
+  "title": "EarFisher- Detecting Wireless Eavesdroppers by Stimulating and Sensing Memory EMR",
+  "abstract": "Eavesdropping is a fundamental threat to the security and privacy of wireless networks. This paper presents EarFisher – the first system that can detect wireless eavesdroppers and differentiate them from legitimate receivers. EarFisher achieves this by stimulating wireless eavesdroppers using bait network traffic, and then capturing eavesdroppers’ responses by sensing and analyzing their memory EMRs. Extensive experiments show that EarFisher accurately detects wireless eavesdroppers even under poor signal conditions, and is resilient to the interference of system memory workloads, high volumes of normal network traffic, and the memory EMRs emitted by coexisting devices. We then further propose a method to detect eavesdropper’s countermeasure, which deliberately emits strong memory EMR to interfere with EarFisher’s detection.",
+  "authors": [
+    "Cheng Shen",
+    "Jun Huang"
+  ],
+  "conference": "NSDI",
+  "year": 2021,
+  "url": "https://www.usenix.org/conference/nsdi21/presentation/shen"
+}

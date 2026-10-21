@@ -1,0 +1,18 @@
+{
+  "id": "p-7e3621354580",
+  "title": "ResCCL-Resource-Efficient Scheduling for Collective Communication",
+  "abstract": "As distributed deep learning training (DLT) systems scale, collective communication has become a significant performance bottleneck. While current approaches optimize bandwidth utilization and task completion time, existing communication libraries (CCLs) backends fail to efficiently manage GPU resources during algorithm execution, limiting the performance of advanced algorithms. This paper proposes ResCCL, a novel CCL backend designed for Resource-Efficient Scheduling to address key limitations in current systems. ResCCL enhances execution efficiency by optimizing scheduling at the primitive level (e.g., send and recvReduceCopy), enabling flexible thread block (TB) allocation, and generating lightweight communication kernels to minimize runtime overhead. Our approach tackles the global scheduling problem, reduces idle TB resources, and enhances communication bandwidth. Evaluation results demonstrate that ResCCL achieves up to 2.5× improvement in bandwidth performance compared to both NCCL and MSCCL. It reduces SM resource overhead by 77.8% and increases TB utilization by 41.6% while running the same algorithms. In end-to-end DLT, ResCCL boosts Megatron’s throughput by up to 39%.",
+  "authors": [
+    "Tongrui Liu",
+    "Chenyang Hei",
+    "Fuliang Li",
+    "Chengxi Gao",
+    "Jiamin Cao",
+    "Tianshu Wang",
+    "Ennan Zhai",
+    "Xingwei Wang"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2025,
+  "url": "https://dl.acm.org/doi/10.1145/3718958.3750514"
+}

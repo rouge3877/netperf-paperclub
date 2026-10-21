@@ -1,0 +1,17 @@
+{
+  "id": "p-0d4835342713",
+  "title": "eTran-Extensible Kernel Transport with eBPF",
+  "abstract": "Evolving datacenters with diverse application demands are driving network transport designs. However, few have successfully landed in the widely-used kernel networking stack to benefit broader users, and they take multiple years. We present eTran, a system that makes kernel transport extensible to implement and customize diverse transport designs agilely. To achieve this, eTran leverages and extends eBPFbased techniques to customize the kernel to support complex transport functionalities safely. Meanwhile, eTran carefully absorbs user-space transport techniques for performance gain without sacrificing robust protection. We implement TCP (with DCTCP congestion control) and Homa under eTran, and achieve up to 4.8×/1.8× higher throughput with 3.7×/7.5× lower latency compared to existing kernel implementation.",
+  "authors": [
+    "Zhongjie Chen",
+    "Qingkai Meng",
+    "ChonLam Lao",
+    "Yifan Liu",
+    "Fengyuan Ren",
+    "Minlan Yu",
+    "Yang Zhou"
+  ],
+  "conference": "NSDI",
+  "year": 2025,
+  "url": "https://www.usenix.org/conference/nsdi25/presentation/chen-zhongjie"
+}

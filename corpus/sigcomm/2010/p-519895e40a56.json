@@ -1,0 +1,18 @@
+{
+  "id": "p-519895e40a56",
+  "title": "NetShield: Massive Semantics-based Vulnerability Signature Matching for High-speed Networks",
+  "abstract": "Accuracy and speed are the two most important metrics for Network Intrusion Detection/Prevention Systems (NIDS/NIPSes). Due to emerging polymorphic attacks and the fact that in many cases regular expressions (regexes) cannot capture the vulnerability conditions accurately, the accuracy of existing regex-based NIDS/NIPS systems has become a serious problem. In contrast, the recently-proposed vulnerability signatures [10, 29] (a.k.a. data patches) can exactly describe the vulnerability conditions and achieve better accuracy. However, how to efficiently apply vulnerability signatures to high speed NIDS/NIPS with a large ruleset remains an untouched but challenging issue. This paper presents the first systematic design of vulnerability signature based parsing and matching engine, NetShield, which achieves multi-gigabit throughput while offering much better accuracy. Particularly, we made the following contributions: (i) we proposed a candidate selection algorithm which efficiently matches thousands of vulnerability signatures simultaneously requiring a small amount of memory; (ii) we proposed an automatic lightweight parsing state machine achieving fast protocol parsing. Experimental results show that the core engine of Net- Shield achieves at least 1.9+Gbps signature matching throughput on a 3.8GHz single-core PC, and can scale-up to at least 11+Gbps under a 8-core machine for 794 HTTP vulnerability signatures. We release our prototype and sample signatures at www.nshield.org.",
+  "authors": [
+    "Zhichun Li",
+    "Gao Xia",
+    "Hongyu Gao",
+    "Yi Tang",
+    "Yan Chen",
+    "Bin Liu",
+    "Junchen Jiang",
+    "Yuezhou Lv"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2010,
+  "url": "https://dl.acm.org/doi/10.1145/1851182.1851216"
+}

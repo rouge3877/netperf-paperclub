@@ -1,0 +1,15 @@
+{
+  "id": "p-6b5ed5e2f957",
+  "title": "Paving the Way for NFV: Simplifying Middlebox Modifications Using StateAlyzr",
+  "abstract": "Important Network Functions Virtualization (NFV) scenarios such as ensuring middlebox fault tolerance or elasticity require redistribution of internal middlebox state. While many useful frameworks exist today for migrating/cloning internal state, they require modifications to middlebox code to identify needed state. This process is tedious and manual, hindering the adoption of such frameworks. We present a framework-independent system, StateAlyzr, that embodies novel algorithms adapted from program analysis to provably and automatically identify all state that must be migrated/cloned to ensure consistent middlebox output in the face of redistribution. We find that StateAlyzr reduces man-hours required for code modification by nearly 20×. We apply State- Alyzr to four open source middleboxes and find its algorithms to be highly precise. We find that a large amount of, but not all, live state matters toward packet processing in these middleboxes. StateAlyzr’s algorithms can reduce the amount of state that needs redistribution by 600–8000× compared to naive schemes.",
+  "authors": [
+    "Junaid Khalid",
+    "Aaron Gember-Jacobson",
+    "Roney Michael",
+    "Anubhavnidhi Abhashkumar",
+    "Aditya Akella"
+  ],
+  "conference": "NSDI",
+  "year": 2016,
+  "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/khalid"
+}

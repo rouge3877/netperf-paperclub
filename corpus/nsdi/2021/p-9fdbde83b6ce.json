@@ -1,0 +1,14 @@
+{
+  "id": "p-9fdbde83b6ce",
+  "title": "Debugging Transient Faults in Data Center Networks using Synchronized Network-wide Packet Histories",
+  "abstract": "Data center network faults are hard to debug due to their scale and complexity. With the prevalence of hard-to-reproduce transient faults, root-cause analysis of network faults is extremely difficult due to unavailability of historical data, and inability to correlate the distributed data across the network. Often, it is not possible to find the root cause using only switch-local information. To find the root cause of such transient faults, we need: 1) Visibility: fine-grained, packet-level and network-wide observability, 2) Retrospection: ability to get historical information before the fault occurs, and 3) Correlation: ability to correlate the information across the network. In this work, we present the design and implementation of SyNDB, a tool with the aforementioned capabilities to enable root cause analysis of network faults. We implement and evaluate SyNDB with realistic topologies using large scale simulation and programmable switches. Our evaluations show that SyNDB can capture and correlate packet records over sufficiently large time windows (∼4 ms), thus facilitating the root cause analysis of various network faults.",
+  "authors": [
+    "Pravein Govindan Kannan",
+    "Nishant Budhdev",
+    "Raj Joshi",
+    "Mun Choon Chan"
+  ],
+  "conference": "NSDI",
+  "year": 2021,
+  "url": "https://www.usenix.org/conference/nsdi21/presentation/kannan"
+}

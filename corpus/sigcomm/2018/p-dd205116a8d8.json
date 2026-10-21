@@ -1,0 +1,15 @@
+{
+  "id": "p-dd205116a8d8",
+  "title": "Leveraging Interconnections for Performance: The Serving Infrastructure of a Large CDN",
+  "abstract": "Today’s large content providers (CP) are busy building out their service infrastructures or łpeering edgesž to satisfy the insatiable demand for content created by an ever-expanding Internet edge. One component of these serving infrastructures that features prominently in this build-out is their connectivity fabric; i.e., the set of all Internet interconnections that content has to traverse en route from the CP’s various łdeploymentsž or łserving sitesž to end users. However, these connectivity fabrics have received little attention in the past and remain largely ill-understood. In this paper, we describe the results of an in-depth study of the connectivity fabric of Akamai. Our study reveals that Akamai’s connectivity fabric consists of some 6,100 different łexplicitž peerings (i.e., Akamai is one of the two involved peers) and about 28,500 different łimplicitž peerings (i.e., Akamai is neither of the two peers). Our work contributes to a better understanding of real-world serving infrastructures by providing an original account of implicit peerings and demonstrating the performance benefits that Akamai can reap from leveraging its rich connectivity fabric for serving its customers’ content to end users.",
+  "authors": [
+    "Florian Wohlfart",
+    "Nikolaos Chatzis",
+    "Caglar Dabanoglu",
+    "Georg Carle",
+    "Walter Willinger"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2018,
+  "url": "https://dl.acm.org/doi/10.1145/3230543.3230576"
+}

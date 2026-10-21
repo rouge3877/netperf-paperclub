@@ -1,0 +1,15 @@
+{
+  "id": "p-15abb6de6bc3",
+  "title": "Starfish-A Topology-Routing Co-Design for Small-Scale Data Centers",
+  "abstract": "Most data centers today operate at scales much smaller than hyperscalers, i.e., hosting only hundreds to a few thousand servers, yet their design has received disproportionately little attention in the literature. Leaf-spine is nearly ubiquitous in small-scale data centers, but presents a fundamental tradeoff: provisioning full non-blocking capacity is costly, while oversubscription reduces cost but under-serves bursty, skewed workloads. Recent expander-based designs could, in theory, offer better performance but face substantial deployment hurdles, including lacking a practical routing scheme. We introduce Starfish, a topology-routing co-design tailored to small-scale data centers, that delivers high performance, fault tolerance, and ease of deployment. Starfish’s topology, DRing, increases per-server egress capacity by spreading servers across all switches, reduces latency–even under failure scenarios–by exposing diverse near-shortest paths, and eases deployment by organizing switches into uniform blocks. Starfish’s routing leverages structural properties of DRing and effectively adapts to traffic patterns using standard hardware and protocols. Notably, Starfish’s routing also generalizes to expander-based topologies. Evaluation shows that Starfish supports 56% more traffic on average than leaf-spine built with the same equipment across real-world traces. This demonstrates that small-scale data centers today can realistically achieve higher performance with their existing equipment. Starfish’s routing also enables an expander-based design to support 52% more traffic on average than leaf-spine. More broadly, this work takes a first step towards a distinct design space for small-scale data centers.",
+  "authors": [
+    "Anchengcheng Zhou",
+    "Vipul Harsh",
+    "Sangeetha Abdu Jyothi",
+    "Maria Apostolaki",
+    "Brighten Godfrey"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/zhou-starfish"
+}

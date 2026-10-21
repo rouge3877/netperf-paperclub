@@ -1,0 +1,21 @@
+{
+  "id": "p-70e50ea491b1",
+  "title": "A large-scale deployment of DCTCP",
+  "abstract": "This paper describes the process and operational experiences of deploying the Data Center TCP (DCTCP) protocol in a large-scale data center network. In contrast to legacy congestion control protocols that rely on loss as the primary signal of congestion, DCTCP signals in-network congestion (based on queue occupancy) to senders and adjusts the sending rate proportional to the level of congestion. At the time of our deployment, this protocol was well-studied and fairly established with proven efficiency gains in other networks. As expected, we also observed improved performance, and notably decreased packet losses, compared to legacy protocols in our data centers. Perhaps unexpectedly, however, we faced numerous hurdles in rolling out DCTCP; we chronicle these unexpected challenges, ranging from its unfairness (to other classes of traffic) to implementation bugs. We close by discussing some of the open research questions and challenges.",
+  "authors": [
+    "Abhishek Dhamija",
+    "Balasubramanian Madhavan",
+    "Hechao Li",
+    "Jie Meng",
+    "Shrikrishna Khare",
+    "Madhavi Rao",
+    "Lawrence Brakmo",
+    "Neil Spring",
+    "Prashanth Kannan",
+    "Srikanth Sundaresan",
+    "Soudeh Ghorbani"
+  ],
+  "conference": "NSDI",
+  "year": 2024,
+  "url": "https://www.usenix.org/conference/nsdi24/presentation/dhamija"
+}

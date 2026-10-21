@@ -1,0 +1,21 @@
+{
+  "id": "p-7d2570c1005c",
+  "title": "CONGA: Distributed Congestion-Aware Load Balancing for Datacenters",
+  "abstract": "We present the design, implementation, and evaluation of CONGA, a network-based distributed congestion-aware load balancing mechanism for datacenters. CONGA exploits recent trends including the use of regular Clos topologies and overlays for network virtualization. It splits TCP flows into flowlets, estimates real-time congestion on fabric paths, and allocates flowlets to paths based on feedback from remote switches. This enables CONGA to efficiently balance load and seamlessly handle asymmetry, without requiring any TCP modifications. CONGA has been implemented in custom ASICs as part of a new datacenter fabric. In testbed experiments, CONGA has 5× better flow completion times than ECMP even with a single link failure and achieves 2–8× better throughput than MPTCP in Incast scenarios. Further, the Price of Anarchy for CONGA is provably small in Leaf-Spine topologies; hence CONGA is nearly as effective as a centralized scheduler while being able to react to congestion in microseconds. Our main thesis is that datacenter fabric load balancing is best done in the network, and requires global schemes such as CONGA to handle asymmetry.",
+  "authors": [
+    "Mohammad Alizadeh",
+    "Tom Edsall",
+    "Sarang Dharmapurikar",
+    "Ramanan Vaidyanathan",
+    "Kevin Chu",
+    "Andy Fingerhut",
+    "Vinh The Lam",
+    "Francis Matus",
+    "Rong Pan",
+    "Navindra Yadav",
+    "George Varghese"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2014,
+  "url": "https://dl.acm.org/doi/10.1145/2619239.2626316"
+}

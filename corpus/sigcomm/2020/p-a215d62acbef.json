@@ -1,0 +1,12 @@
+{
+  "id": "p-a215d62acbef",
+  "title": "Deprecating The TCP Macroscopic Model",
+  "abstract": "The TCP Macroscopic Model will be completely obsolete soon. It was a closed form performance model for Van Jacobson’s landmark congestion control algorithms presented at Sigcomm’88. Jacobson88 requires relatively large buffers to function as intended, while Moore’s law is making them uneconomical. BBR-TCP is a break from the past, unconstrained by many of the assumptions and principles defined in Jacobson88. It already out performs Reno and CUBIC TCP over large portions of the Internet, generally without creating queues of the sort needed by earlier congestion control algorithms. It offers the potential to scale better while using less queue buffer space than existing algorithms. Because BBR-TCP is built on an entirely new set of principles, it has the potential to deprecate many things, including the Macroscopic Model. New research will be required to lay a solid foundation for an Internet built on BBR.",
+  "authors": [
+    "Matt Mathis",
+    "Jamshid Mahdavi"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2020,
+  "url": "https://dl.acm.org/doi/10.1145/3371934.3371956"
+}

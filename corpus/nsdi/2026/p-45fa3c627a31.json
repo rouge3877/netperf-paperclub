@@ -1,0 +1,21 @@
+{
+  "id": "p-45fa3c627a31",
+  "title": "MirrorNet-High-fidelity and Scalable Network Emulation for Software-defined WAN",
+  "abstract": "Operating a large-scale WAN reliably is becoming increasingly challenging due to the surge in traffic volumes, and the growing complexity of both software and hardware. In this paper, we introduce MirrorNet, our production-grade emulation framework designed to mirror a software-based WAN. Unlike traditional emulators and simulators that access only a partial set of network information, MirrorNet functions as a comprehensive twin of the production network, encompassing the controller, data plane, and network traffic. Our key challenge lies in striking a balance between the requirements for a fine-grained and high-fidelity emulation, scalability, and resource efficiency. To address these, we have developed a multi-faceted approach: i) we employ an incremental storage and replay method to reconstruct the historical production network at a second-by-second level; ii) we propose a network update strategy that maintains consistent alignment between the emulation and production networks; and iii) we design a custom orchestrator capable of rapidly deploying one or more large-scale emulation networks, which can operate concurrently to expedite testing. MirrorNet has been deployed in TWAN for over 2 years and integral in our daily WAN management tasks, aiding in troubleshooting, parameter tuning, testing, and capacity assessment.",
+  "authors": [
+    "Congcong Miao",
+    "Yuejie Wang",
+    "Jianming Wang",
+    "Xuefeng Ji",
+    "Guozhi Shan",
+    "Sirui Li",
+    "Pan Fang",
+    "Yanke Zhang",
+    "Jialin Li",
+    "Xianneng Zou",
+    "Guyue Liu"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/miao"
+}

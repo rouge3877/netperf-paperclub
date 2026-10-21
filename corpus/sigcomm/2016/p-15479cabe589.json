@@ -1,0 +1,15 @@
+{
+  "id": "p-15479cabe589",
+  "title": "CrowdSurf: Empowering Transparency in the Web",
+  "abstract": "Individuals lack proper means to supervise the services they contact and the information they exchange when surfing the web. This security task has become challenging due to the complexity of the modern web, of the data delivering technology, and even to the adoption of encryption, which, while improving privacy, makes innetwork services ineffective. The implications are serious, from a person contacting undesired services or unwillingly exposing private information, to a company being unable to control the flow of its information to the outside world. To empower transparency and the capability of taking informed choices in the web, we propose C ROWD S URF , a system for comprehensive and collaborative auditing of data exchanged with Internet services. Similarly to crowdsourced efforts, we enable users to contribute in building awareness, supported by the semi-automatic analysis of data offered by a cloud-based system. The result is the creation of “suggestions” that individuals can transform in enforceable “rules” to customize their web browsing policy. C ROWD S URF provides the core infrastructure to let individuals and enterprises regain visibility and control on their web activity. Preliminary results obtained executing a prototype implementation demonstrate the feasibility and potential of C ROWD S URF .",
+  "authors": [
+    "Hassan Metwalley",
+    "Stefano Traverso",
+    "Marco Mellia",
+    "Stanislav Miskovic",
+    "Mario Baldi"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2016,
+  "url": "https://dl.acm.org/doi/10.1145/2831347.2831349"
+}

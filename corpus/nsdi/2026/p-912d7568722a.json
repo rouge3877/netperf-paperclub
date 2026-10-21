@@ -1,0 +1,22 @@
+{
+  "id": "p-912d7568722a",
+  "title": "Diagnosing and Repairing Distributed Routing Configurations Using Selective Symbolic Simulation",
+  "abstract": "Although substantial progress has been made in automatically verifying whether distributed routing configurations comply with certain intents, diagnosing and repairing configuration errors remains manual and time-consuming. To fill this gap, we propose S²Sim, a novel system for automatic routing configuration diagnosis and repair. Our key insight is that by deriving a set of contracts that guarantees an intent-compliant variant of the erroneous configuration, we can systematically check for all contract violations in the configuration via symbolic simulation to pinpoint and repair the errors. S²Sim also introduces a series of extensions to support complex configurations (e.g., ACL, route aggregation and multi-path routing), networks (e.g., underlay and overlay networks), and intents (e.g., k-link failure tolerance). We fully implement S²Sim and evaluate its performance using real configurations from two major providers and synthesized configurations composed from their real errors and real-world topologies with different scales O(10) to O(1000). Results show that S²Sim accurately and efficiently diagnoses and repairs real configuration errors (i.e., up to 20 seconds in real networks of O(100) nodes and up to 15 minutes in synthesized networks of O(1000) nodes).",
+  "authors": [
+    "Rulan Yang",
+    "Gao Han",
+    "Hanyang Shao",
+    "Xiaoqiang Zheng",
+    "Xing Fang",
+    "Ziyi Wang",
+    "Lizhao You",
+    "Ruiting Zhou",
+    "Linghe Kong",
+    "Ennan Zhai",
+    "Qiao Xiang",
+    "Jiwu Shu"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/yang"
+}

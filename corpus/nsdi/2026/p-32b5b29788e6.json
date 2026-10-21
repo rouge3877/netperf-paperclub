@@ -1,0 +1,26 @@
+{
+  "id": "p-32b5b29788e6",
+  "title": "Medley-Optimizing Midgress Bandwidth for Commercial Live Streaming CDNs",
+  "abstract": "The rapid expansion of live streaming services in recent years has introduced new cost challenges for Content Delivery Networks (CDNs). Unlike conventional Video on Demand (VoD) streaming, where CDNs can utilize the off-peak hours to preload video content on edge nodes, live streaming requires real-time delivery across CDN nodes before reaching end users, significantly increasing midgress bandwidth costs for service providers. Characteristics such as real-time content generation and consumption, strict requirements for service quality, and systems that need to scale with diverse resources to support the increase in large-scale users, make it difficult to optimize live-streaming midgress traffic with traditional DNS-based and redirection-based methods. At ByteDance, we have successfully implemented a substream-based CDN architecture to minimize midgress bandwidth for our commercial live streaming services. By dividing a video stream into multiple sub-streams and assigning each to a different edge node, the system can substantially reduce midgress traffic while adapting to the increasing scale of the system and live-stream users. We present Medley , a production-grade substream delivery system, and validate its efficacy through a large-scale, real-world deployment. Running on one of the largest live streaming platforms, Medley handled up to 0.85 million concurrent viewing requests per minute during peak hours. Our evaluations show that Medley reduces midgress costs by 76.83%, while maintaining consistent Quality of Experience (QoE).",
+  "authors": [
+    "Haiping Wang",
+    "Wanxin Shi",
+    "Sandesh Dhawaskar Sathyanarayana",
+    "Shu Shi",
+    "Feng Qian",
+    "Yinghao Yang",
+    "La Zuo",
+    "Hebin Yu",
+    "Ruixiao Zhang",
+    "Ruoshi Sun",
+    "Yajie Peng",
+    "Xiaofei Pang",
+    "Ruili Fang",
+    "Zhenpeng Zhu",
+    "Weiqi Chen",
+    "Yang Xu"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-haiping"
+}

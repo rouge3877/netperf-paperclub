@@ -1,0 +1,47 @@
+{
+  "name": "netperf-paperclub",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-hosted paper folders, reading and discussion",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "node tools/dev.mjs",
+    "build": "npm run corpus:check && npm run typecheck && node tools/build.mjs",
+    "init": "node --env-file-if-exists=.env tools/admin.ts init",
+    "start": "node --env-file-if-exists=.env dist/server/main.mjs",
+    "preview": "npm start",
+    "typecheck": "tsc --noEmit",
+    "corpus:check": "node tools/corpus.ts check",
+    "corpus:compare": "node tools/corpus.ts compare",
+    "topics:import": "node --env-file-if-exists=.env tools/admin.ts import-topics",
+    "admin": "node --env-file-if-exists=.env tools/admin.ts",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "verify": "npm run build && npm test && npm run test:e2e",
+    "audit": "npm audit --audit-level=low",
+    "format": "prettier --write src tools tests docs *.json *.ts *.md *.yaml",
+    "format:check": "prettier --check src tools tests docs *.json *.ts *.md *.yaml"
+  },
+  "dependencies": {
+    "openid-client": "6.8.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.56.0",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "esbuild": "0.28.2",
+    "prettier": "3.9.10",
+    "typescript": "5.9.3",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p-7532971171ba",
+  "title": "Pushing the Physical Limits of IoT Devices with Programmable Metasurfaces",
+  "abstract": "Small, low-cost IoT devices are typically equipped with only a single, low-quality antenna, significantly limiting communication range and link quality. In particular, these antennas are typically linearly polarized and therefore susceptible to polarization mismatch, which can easily cause 10 − 15 dB of link loss when communicating with such devices. In this work, we highlight this under-appreciated issue and propose the augmentation of IoT deployment environments with programmable, RF-sensitive surfaces made of metamaterials. Our smart metasurface mitigates polarization mismatch by rotating the polarization of signals that pass through or reflect from the surface. We integrate our metasurface into an IoT network as LLAMA, a Low-power Lattice of Actuated Metasurface Antennas, designed for the pervasively used 2.4 GHz ISM band. We optimize LLAMA’s metasurface design for both low transmission loss and low cost, to facilitate deployment at scale. We then build an end-to-end system that actuates the metasurface structure to optimize for link performance in real time. An empirical evaluation demonstrates gains in link power of up to 15 dB, and wireless capacity improvements of 100 and 180 Kbit/s/Hz in through-surface and surface-reflective scenarios, respectively, attributable to the polarization rotation properties of LLAMA’s metasurface.",
+  "authors": [
+    "Lili Chen",
+    "Wenjun Hu",
+    "Kyle Jamieson",
+    "Xiaojiang Chen",
+    "Dingyi Fang",
+    "Jeremy Gummeson"
+  ],
+  "conference": "NSDI",
+  "year": 2021,
+  "url": "https://www.usenix.org/conference/nsdi21/presentation/chen"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "p-90d7aa1555ba",
+  "title": "TeaVaR- Striking the Right Utilization-Availability Balance in WAN Traffic Engineering",
+  "abstract": "To keep up with the continuous growth in demand, cloud providers spend millions of dollars augmenting the capacity of their widearea backbones and devote significant effort to efficiently utilizing WAN capacity. A key challenge is striking a good balance between network utilization and availability, as these are inherently at odds; a highly utilized network might not be able to withstand unexpected traffic shifts resulting from link/node failures. We advocate a novel approach to this challenge that draws inspiration from financial risk theory: leverage empirical data to generate a probabilistic model of network failures and maximize bandwidth allocation to network users subject to an operator-specified availability target. Our approach enables network operators to strike the utilizationavailability balance that best suits their goals and operational reality. We present TeaVaR (Traffic Engineering Applying Value at Risk), a system that realizes this risk management approach to traffic engineering (TE). We compare TeaVaR to state-of-the-art TE solutions through extensive simulations across many network topologies, failure scenarios, and traffic patterns, including benchmarks extrapolated from Microsoft’s WAN. Our results show that with TeaVaR, operators can support up to twice as much throughput as state-of-the-art TE schemes, at the same level of availability.",
+  "authors": [
+    "Jeremy Bogle",
+    "Nikhil Bhatia",
+    "Manya Ghobadi",
+    "Ishai Menache",
+    "Nikolaj Bjørner",
+    "Asaf Valadarsky",
+    "Michael Schapira"
+  ],
+  "conference": "SIGCOMM",
+  "year": 2019,
+  "url": "https://dl.acm.org/doi/10.1145/3341302.3342069"
+}

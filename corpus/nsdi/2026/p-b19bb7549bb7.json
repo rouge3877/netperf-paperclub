@@ -1,0 +1,19 @@
+{
+  "id": "p-b19bb7549bb7",
+  "title": "Decoding RSSI Compression in RFID-Dynamic RCS Modeling and Tag-Intrinsic Power Metrics for Reliable Backscatter Networks",
+  "abstract": "Radio Frequency Identification (RFID) is a foundational element of modern IoT and backscatter networks, powering inventory, localization, and battery-free sensing at scale. In this paper, we uncover RSSI compression, a power-dependent bias in reader-measured RSSI, as a critical physical-layer problem that propagates upward in the network stack, degrading MAC-layer collision resolution, network-layer link estimation, and application-layer reliability. Through carefully designed experiments, we trace this distortion to dynamic tag Radar Cross Section (RCS) behavior and introduce two novel physical-layer metrics: Interrogation Threshold Power (ITP), a channel-specific metric for accurate link-quality estimation, and Backscatter Power Index (BPI), a tag-intrinsic, environment-agnostic signature. These metrics provide highfidelity signal information that higher layers can directly exploit for more robust collision detection, power control, localization and sensing tasks. Finally, an in-situ single-query method further reduces measurement overhead by 99.8%, while cutting channel-estimation error by 64.7%, delivering significant cross-layer performance gains in real-world backscatter networks.",
+  "authors": [
+    "Jia Liu",
+    "Yifei Ma",
+    "Xingyu Chen",
+    "Haipeng Dai",
+    "He Huang",
+    "Zihao Lin",
+    "Wei Zheng",
+    "Junzhao Du",
+    "Guihai Chen"
+  ],
+  "conference": "NSDI",
+  "year": 2026,
+  "url": "https://www.usenix.org/conference/nsdi26/presentation/liu-jia"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p-f2a59aba4578",
+  "title": "Be Fast, Cheap and in Control with SwitchKV",
+  "abstract": "SwitchKV is a new key-value store system design that combines high-performance cache nodes with resourceconstrained backend nodes to provide load balancing in the face of unpredictable workload skew. The cache nodes absorb the hottest queries so that no individual backend node is over-burdened. Compared with previous designs, SwitchKV exploits SDN techniques and deeply optimized switch hardware to enable efficient contentbased routing. Programmable network switches keep track of cached keys and route requests to the appropriate nodes at line speed, based on keys encoded in packet headers. A new hybrid caching strategy keeps cache and switch forwarding rules updated with low overhead and ensures that system load is always well-balanced under rapidly changing workloads. Our evaluation results demonstrate that SwitchKV can achieve up to 5× throughput and 3× latency improvements over traditional system designs.",
+  "authors": [
+    "Xiaozhou Li",
+    "Raghav Sethi",
+    "Michael Kaminsky",
+    "David G. Andersen",
+    "Michael J. Freedman"
+  ],
+  "conference": "NSDI",
+  "year": 2016,
+  "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/li-xiaozhou"
+}

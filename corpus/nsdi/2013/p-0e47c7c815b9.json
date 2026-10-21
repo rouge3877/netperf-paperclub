@@ -1,0 +1,13 @@
+{
+  "id": "p-0e47c7c815b9",
+  "title": "PinPoint: Localizing Interfering Radios",
+  "abstract": "This paper presents PinPoint, a technique for localizing rogue interfering radios that adhere to standard protocols in the inhospitable ISM band without any cooperation from the interfering radio. PinPoint is designed to be incrementally deployed on top of existing 802.11 WLAN infrastructure, and used by network administrators to identify and troubleshoot sources of interference which may be disrupting the network. PinPoint’s key contribution is a novel algorithm that accurately computes the line of sight angle of arrival (AoA) and cyclic signal strength indicator (CSSI) of the target interfering signal at all APs, even when the line of sight (LoS) component is buried by stronger multipath components, interference and noise. PinPoint leverages this algorithm to design an optimization technique, which can localize interfering radios and simultaneously identify the type of interference. Unlike several localization techniques which require extensive pre-deployment calibration (e.g. RF- Fingerprinting), PinPoint requires very little calibration by the network administrator, and uses a novel algorithm to self-initialize its bearings, even if the locations of some AP are initially unknown and are oriented randomly. We implement PinPoint on WARP software radios and deploy in an indoor testbed spanning an entire floor of our department. We compare PinPoint with the best known prior RSSI [8, 11] and MUSIC-AoA based approaches and show that PinPoint achieves a median localization error of 0.97 meters, which is around three times lower compared to the RSSI [8, 11] and MUSIC-AoA based approaches.",
+  "authors": [
+    "Kiran Joshi",
+    "Steven Hong",
+    "Sachin Katti"
+  ],
+  "conference": "NSDI",
+  "year": 2013,
+  "url": "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/joshi"
+}
